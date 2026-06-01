@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Homestead Events Calendar 2026 — Farm2Table</title>
+<style>
+  :root {
+    --green: #6ab04c;
+    --dark: #2d4a1e;
+    --bg: #f9f6f1;
+    --card: #ffffff;
+    --border: #ddd;
+    --shadow: 0 2px 12px rgba(0,0,0,0.10);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: Georgia, serif; background: var(--bg); color: #222; }
+
+  header {
+    background: var(--dark);
+    color: white;
+    padding: 28px 32px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  header h1 { font-size: 1.6rem; font-weight: normal; letter-spacing: 0.5px; }
+  header .sub { font-size: 0.85rem; opacity: 0.7; margin-top: 4px; }
+  .updated { font-size: 0.78rem; opacity: 0.6; }
+
+  .legend {
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+    padding: 10px 32px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    align-items: center;
+    font-size: 0.82rem;
+  }
+  .legend-item { display: flex; align-items: center; gap: 5px; }
+  .legend-dot { width: 11px; height: 11px; border-radius: 50%; display: inline-block; }
+
+  main { max-width: 1100px; margin: 0 auto; padding: 32px 20px 60px; }
+
+  .month-block { margin-bottom: 48px; }
+  .month-title {
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: var(--dark);
+    border-bottom: 2px solid var(--green);
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+  }
+
+  .cal-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .dow {
+    background: var(--dark);
+    color: white;
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 6px 2px;
+    letter-spacing: 0.5px;
+  }
+  .day {
+    background: var(--card);
+    min-height: 90px;
+    padding: 6px 5px 5px;
+    position: relative;
+    vertical-align: top;
+  }
+  .day.empty { background: #f3f0eb; }
+  .day.today { background: #f0f8ec; }
+  .day-num {
+    font-size: 0.78rem;
+    color: #999;
+    display: block;
+    margin-bottom: 4px;
+    font-family: sans-serif;
+  }
+  .day.today .day-num { color: var(--green); font-weight: bold; }
+
+  .chip {
+    display: block;
+    font-size: 0.7rem;
+    font-family: sans-serif;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 3px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.3;
+    transition: opacity 0.15s;
+  }
+  .chip:hover { opacity: 0.85; }
+  .chip.continuation {
+    height: 5px;
+    padding: 0;
+    border-radius: 0;
+    cursor: pointer;
+  }
+
+  /* Modal */
+  .overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+    z-index: 100;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 16px;
+    overflow-y: auto;
+  }
+  .overlay.active { display: flex; }
+  .modal {
+    background: var(--card);
+    border-radius: 10px;
+    max-width: 560px;
+    width: 100%;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.2);
+    overflow: hidden;
+    position: relative;
+  }
+  .modal-header {
+    padding: 20px 24px 16px;
+    color: white;
+  }
+  .modal-header h2 { font-size: 1.15rem; font-weight: normal; line-height: 1.4; }
+  .modal-header .event-date { font-size: 0.85rem; opacity: 0.9; margin-top: 6px; }
+  .modal-body { padding: 20px 24px 24px; }
+  .modal-close {
+    position: absolute;
+    top: 14px; right: 16px;
+    background: none; border: none;
+    color: white; font-size: 1.4rem;
+    cursor: pointer; opacity: 0.8;
+    line-height: 1;
+  }
+  .modal-close:hover { opacity: 1; }
+
+  .detail-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+    font-size: 0.9rem;
+    align-items: flex-start;
+  }
+  .detail-label {
+    font-family: sans-serif;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #888;
+    min-width: 72px;
+    padding-top: 2px;
+  }
+  .detail-value { color: #333; line-height: 1.5; }
+
+  .tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 4px; }
+  .tag {
+    background: #f0f0f0;
+    border-radius: 3px;
+    padding: 2px 7px;
+    font-size: 0.72rem;
+    font-family: sans-serif;
+    color: #555;
+  }
+
+  .modal-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 0.85rem;
+    font-weight: bold;
+    transition: opacity 0.15s;
+  }
+  .btn:hover { opacity: 0.85; }
+  .btn-primary { background: var(--green); color: white; }
+  .btn-secondary {
+    background: white;
+    color: var(--dark);
+    border: 2px solid var(--dark);
+  }
+
+  .verified-badge {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    background: #e8f5e0;
+    color: #4a7c2f;
+    border-radius: 3px;
+    padding: 2px 6px;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+
+  @media (max-width: 600px) {
+    .cal-grid { font-size: 0.7rem; }
+    .day { min-height: 60px; }
+    .chip { font-size: 0.62rem; padding: 2px 3px; }
+    header h1 { font-size: 1.2rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>🌱 Homestead Events Calendar</h1>
+    <div class="sub">Farm2Table — 2026 Conference & Expo Guide</div>
+  </div>
+  <div class="updated">Updated: 2026-06-01</div>
+</header>
+
+<div class="legend">
+  <strong style="font-family:sans-serif;font-size:0.8rem;">Region:</strong>
+  <span class="legend-item"><span class="legend-dot" style="background:#6ab04c;"></span>Southeast</span><span class="legend-item"><span class="legend-dot" style="background:#e67e22;"></span>South</span><span class="legend-item"><span class="legend-dot" style="background:#3498db;"></span>Midwest</span><span class="legend-item"><span class="legend-dot" style="background:#8e44ad;"></span>Northwest</span><span class="legend-item"><span class="legend-dot" style="background:#e74c3c;"></span>Northeast</span><span class="legend-item"><span class="legend-dot" style="background:#f39c12;"></span>Southwest</span><span class="legend-item"><span class="legend-dot" style="background:#1abc9c;"></span>Alaska</span>
+</div>
+
+<main>
+
+        <div class="month-block">
+          <h2 class="month-title">January 2026</h2>
+          <div class="cal-grid">
+            <div class="dow">Sun</div><div class="dow">Mon</div><div class="dow">Tue</div>
+            <div class="dow">Wed</div><div class="dow">Thu</div><div class="dow">Fri</div>
+            <div class="dow">Sat</div>
+            <div class="day empty"></div>
+<div class="day empty"></div>
+<div class="day empty"></div>
+<div class="day empty"></div>
+<div class="day"><span class="day-num">1</span></div>
+<div class="day"><span class="day-num">2</span></div>
+<div class="day"><span class="day-num">3</span></div>
+<div class="day"><span class="day-num">4</span></div>
+<div class="day"><span class="day-num">5</span></div>
+<div class="day"><span class="day-num">6</span></div>
+<div class="day"><span class="day-num">7</span></div>
+<div class="day"><span class="day-num">8</span></div>
+<div class="day"><span class="day-num">9</span></div>
+<div class="day"><span class="day-num">10</span></div>
+<div class="day"><span class="day-num">11</span></div>
+<div class="day"><span class="day-num">12</span></div>
+<div class="day"><span class="day-num">13</span></div>
+<div class="day"><span class="day-num">14</span></div>
+<div class="day"><span class="day-num">15</span></div>
+<div class="day"><span class="day-num">16</span></div>
+<div class="day"><span class="day-num">17</span></div>
+<div class="day"><span class="day-num">18</span></div>
+<div class="day"><span class="day-num">19</span></div>
+<div class="day"><span class="day-num">20</span></div>
+<div class="day"><span class="day-num">21</span></div>
+<div class="day"><span class="day-num">22</span></div>
+<div class="day"><span class="day-num">23</span></div>
+<div class="day"><span class="day-num">24</span></div>
+<div class="day"><span class="day-num">25</span></div>
+<div class="day"><span class="day-num">26</span></div>
+<div class="day"><span class="day-num">27</span></div>
+<div class="day"><span class="day-num">28</span></div>
+<div class="day"><span class="day-num">29</span></div>
+<div class="day"><span class="day-num">30</span></div>
+<div class="day"><span class="day-num">31</span><div class="chip" style="background:#8e44ad;" data-id="clmhe-skagit-2026" onclick="openModal('clmhe-skagit-2026')">Country Living & Modern Home…</div></div>
+          </div>
+        </div>
+        <div class="month-block">
+          <h2 class="month-title">February 2026</h2>
+          <div class="cal-grid">
+            <div class="dow">Sun</div><div class="dow">Mon</div><div class="dow">Tue</div>
+            <div class="dow">Wed</div><div class="dow">Thu</div><div class="dow">Fri</div>
+            <div class="dow">Sat</div>
+            <div class="day"><span class="day-num">1</span></div>
+<div class="day"><span class="day-num">2</span></div>
+<div class="day"><span class="day-num">3</span></div>
+<div class="day"><span class="day-num">4</span></div>
+<div class="day"><span class="day-num">5</span></div>
+<div class="day"><span class="day-num">6</span></div>
+<div class="day"><span class="day-num">7</span></div>
+<div class="day"><span class="day-num">8</span></div>
+<div class="day"><span class="day-num">9</span></div>
+<div class="day"><span class="day-num">10</span></div>
+<div class="day"><span class="day-num">11</span></div>
+<div class="day"><span class="day-num">12</span></div>
+<div class="day"><span class="day-num">13</span></div>
+<div class="day"><span class="day-num">14</span></div>
+<div class="day"><span class="day-num">15</span></div>
+<div class="day"><span class="day-num">16</span></div>
+<div class="day"><span class="day-num">17</span></div>
+<div class="day"><span class="day-num">18</span></div>
+<div class="day"><span class="day-num">19</span></div>
+<div class="day"><span class="day-num">20</span></div>
+<div class="day"><span class="day-num">21</span></div>
+<div class="day"><span class="day-num">22</span></div>
+<div class="day"><span class="day-num">23</span></div>
+<div class="day"><span class="day-num">24</span></div>
+<div class="day"><span class="day-num">25</span></div>
+<div class="day"><span class="day-num">26</span></div>
+<div class="day"><span class="day-num">27</span><div class="chip" style="background:#3498db;" data-id="hoi-midwest-2026" onclick="openModal('hoi-midwest-2026')">Homesteaders of Iowa Expo & …</div></div>
+<div class="day"><span class="day-num">28</span><div class="chip continuation" style="background:#3498db88;" data-id="hoi-midwest-2026"></div></div>
+          </div>
+        </div>
+        <div class="month-block">
+          <h2 class="month-title">March 2026</h2>
+          <div class="cal-grid">
+            <div class="dow">Sun</div><div class="dow">Mon</div><div class="dow">Tue</div>
+            <div class="dow">Wed</div><div class="dow">Thu</div><div class="dow">Fri</div>
+            <div class="dow">Sat</div>
+            <div class="day"><span class="day-num">1</span></div>
+<div class="day"><span class="day-num">2</span></div>
+<div class="day"><span class="day-num">3</span></div>
+<div class="day"><span class="day-num">4</span></div>
+<div class="day"><span class="day-num">5</span></div>
+<div class="day"><span class="day-num">6</span></div>
+<div class="day"><span class="day-num">7</span></div>
+<div class="day"><span class="day-num">8</span></div>
+<div class="day"><span class="day-num">9</span></div>
+<div class="day"><span class="day-num">10</span></div>
+<div class="day"><span class="day-num">11</span></div>
+<div class="day"><span class="day-num">12</span></div>
+<div class="day"><span class="day-num">13</span></div>
+<div class="day"><span class="day-num">14</span><div class="chip" style="background:#8e44ad;" data-id="wche-2026" onclick="openModal('wche-2026')">West Coast Homesteading Expo</div></div>
+<div class="day"><span class="day-num">15</span><div class="chip continuation" style="background:#8e44ad88;" data-id="wche-2026"></div></div>
+<div class="day"><span class="day-num">16</span></div>
+<div class="day"><span class="day-num">17</span></div>
+<div class="day"><span class="day-num">18</span></div>
+<div class="day"><span class="day-num">19</span></div>
+<div class="day"><span class="day-num">20</span><div class="chip" style="background:#e67e22;" data-id="okie-expo-2026" onclick="openModal('okie-expo-2026')">Okie Homesteading Expo</div></div>
+<div class="day"><span class="day-num">21</span><div class="chip continuation" style="background:#e67e2288;" data-id="okie-expo-2026"></div></div>
+<div class="day"><span class="day-num">22</span></div>
+<div class="day"><span class="day-num">23</span></div>
+<div class="day"><span class="day-num">24</span></div>
+<div class="day"><span class="day-num">25</span></div>
+<div class="day"><span class="day-num">26</span></div>
+<div class="day"><span class="day-num">27</span></div>
+<div class="day"><span class="day-num">28</span></div>
+<div class="day"><span class="day-num">29</span></div>
+<div class="day"><span class="day-num">30</span></div>
+<div class="day"><span class="day-num">31</span></div>
+<div class="day empty"></div>
+<div class="day empty"></div>
+<div class="day empty"></div>
+<div class="day empty"></div>
+          </div>
+        </div>
+        <div class="month-block">
+          <h2 class="month-title">April 2026</h2>
+          <div class="cal-grid">
+            <div class="dow">Sun</div><div class="dow">Mon</div><div class="dow">Tue</div>
+            <div class="dow">Wed</div><div class="dow">Thu</div><div class="dow">Fri</div>
+            <div class="dow">Sat</div>
+            <div class="day empty"></div>
+<div class="day empty"></div>
+<div class="day empty"></div>
+<div class="day"><span class="day-num">1</span></div>
+<div class="day"><span class="day-num">2</span></div>
+<div class="day"><span class="day-num">3</span></div>
+<div class="day"><span class="day-num">4</span></div>
+<div class="day"><span class="day-num">5</span></div>
+<div class="day"><span class="day-num">6</span></div>
+<div class="day"><span class="day-num">7</span></div>
+<div class="day"><span class="day-num">8</span></div>
+<div class="day"><span class="day-num">9</span></div>
+<div class="day"><span class="day-num">10</span></div>
+<div class="day"><span class="day-num">11</span></div>
+<div class="day"><span class="day-num">12</span></div>
+<div class="day"><span class="day-num">13</span></div>
+<div class="day"><span class="day-num">14</span></div>
+<div class="day"><span class="day-num">15</span></div>
+<div class="day"><span class="day-num">16</span></div>
+<div class="day"><span class="day-num">17</span><div class="chip" style="background:#e67e22;" data-id="cahc-2026" onclick="openModal('cahc-2026')">Central Arkansas Homestead C…</div></div>
+<div class="day"><span class="day-num">18</span><div class="chip continuation" style="background:#e67e2288;" data-id="cahc-2026"></div></div>
+<div class="day"><span class="day-num">19</span></div>
+<div class="day"><span class="day-num">20</span></div>
+<div class="day"><span class="day-num">21</span></div>
+<div class="day"><span class="day-num">22</span></div>
+<div class="day"><span class="day-num">23</span></div>
+<div class="day"><span class="day-num">24</span><div class="chip" style="background:#e67e22;" data-id="thc-ploughshare-2026" onclick="openModal('thc-ploughshare-2026')">The Homestead Conference (Pl…</div><div class="chip" style="background:#8e44ad;" data-id="ewhe-2026" onclick="openModal('ewhe-2026')">Eastern Washington Homestead…</div></div>
+<div class="day"><span class="day-num">25</span><div class="chip continuation" style="background:#e67e2288;" data-id="thc-ploughshare-2026"></div><div class="chip continuation" style="background:#8e44ad88;" data-id="ewhe-2026"></div></div>
+<div class="day"><span class="day-num">26</span><div class="chip continuation" style="background:#8e44ad88;" data-id="ewhe-2026"></div></div>
+<div class="day"><span class="day-num">27</span></div>
+<div class="day"><span class="day-num">28</span></div>
+<div class="day"><span class="day-num">29</span></div>
+<div class="day"><span class="day-num">30</span></div>
+<div class="day empty"></div>
+<div class="day empty"></div>
+          </div>
+        </div>
+        <div class="month-block">
+          <h2 class="month-title">May 2026</h2>
+          <div class="cal-grid">
+            <div class="dow">Sun</div><div class="dow">Mon</div><div class="dow">Tue</div>
+            <div class="dow">Wed</div><div class="dow">Thu</div><div class="dow">Fri</div>
+            <div class="dow">Sat</div>
+            <div class="day empty"></div>
+<div class="day empty"></div>
+<div class="day empty"></div>
+<div class="day empty"></div>
+<div class="day empty"></div>
+<div class="day"><span class="day-num">1</span></div>
+<div class="day"><span class="day-num">2</span></div>
+<div class="day"><span class="day-num">3</span></div>
+<div class="day"><span class="day-num">4</span></div>
+<div class="day"><span class="day-num">5</span></div>
+<div class="day"><span class="day-num">6</span></div>
+<div class="day"><span class="day-num">7</span></div>
+<div class="day"><span class="day-num">8</span></div>
+<div class="day"><span class="day-num">9</span></div>
+<div class="day"><span class="day-num">10</span></div>
+<div class="day"><span class="day-num">11</span></div>
+<div class="day"><span class="day-num">12</span></div>
+<div class="day"><span class="day-num">13</span></div>
+<div class="day"><span class="day-num">14</span></div>
+<div class="day"><span class="day-num">15</span><div class="chip" style="background:#3498db;" data-id="prairie-roots-2026" onclick="openModal('prairie-roots-2026')">Prairie Roots Homesteading S…</div></div>
+<div class="day"><span class="day-num">16</span><div class="chip continuation" style="background:#3498db88;" data-id="prairie-roots-2026"></div></div>
+<div class="day"><span class="day-num">17</span></div>
+<div class="day"><span class="day-num">18</span></div>
+<div class="day"><span class="day-num">19</span></div>
+<div class="day"><span class="day-num">20</span></div>
+<div class="day"><span class="day-num">21</span></div>
+<div class="day"><span class="day-num">22</span><div class="chip" style="background:#8e44ad;" data-id="alaska-expo-2026" onclick="openModal('alaska-expo-2026')">Alaska Homestead Expo & Mark…</div></div>
+<div class="day"><span class="day-num">23</span><div class="chip continuation" style="background:#8e44ad88;" data-id="alaska-expo-2026"></div></div>
+<div class="day"><span class="day-num">24</span></div>
+<div class="day"><span class="day-num">25</span></div>
+<div class="day"><span class="day-num">26</span></div>
+<div class="day"><span class="day-num">27</span></div>
+<div class="day"><span class="day-num">28</span></div>
+<div class="day"><span class="day-num">29</span></div>
+<div class="day"><span class="day-num">30</span></div>
+<div class="day"><span class="day-num">31</span></div>
+<div class="day empty"></div>
+<div class="day empty"></div>
+<div class="day empty"></div>
+<div class="day empty"></div>
+<div class="day empty"></div>
+<div class="day empty"></div>
+          </div>
+        </div>
+        <div class="month-block">
+          <h2 class="month-title">June 2026</h2>
+          <div class="cal-grid">
+            <div class="dow">Sun</div><div class="dow">Mon</div><div class="dow">Tue</div>
+            <div class="dow">Wed</div><div class="dow">Thu</div><div class="dow">Fri</div>
+            <div class="dow">Sat</div>
+            <div class="day empty"></div>
+<div class="day today"><span class="day-num">1</span></div>
+<div class="day"><span class="day-num">2</span></div>
+<div class="day"><span class="day-num">3</span></div>
+<div class="day"><span class="day-num">4</span></div>
+<div class="day"><span class="day-num">5</span><div class="chip" style="background:#6ab04c;" data-id="homestead-festival-2026" onclick="openModal('homestead-festival-2026')">The Homestead Festival</div></div>
+<div class="day"><span class="day-num">6</span><div class="chip continuation" style="background:#6ab04c88;" data-id="homestead-festival-2026"></div></div>
+<div class="day"><span class="day-num">7</span></div>
+<div class="day"><span class="day-num">8</span></div>
+<div class="day"><span class="day-num">9</span></div>
+<div class="day"><span class="day-num">10</span></div>
+<div class="day"><span class="day-num">11</span></div>
+<div class="day"><span class="day-num">12</span></div>
+<div class="day"><span class="day-num">13</span></div>
+<div class="day"><span class="day-num">14</span></div>
+<div class="day"><span class="day-num">15</span></div>
+<div class="day"><span class="day-num">16</span></div>
+<div class="day"><span class="day-num">17</span></div>
+<div class="day"><span class="day-num">18</span></div>
+<div class="day"><span class="day-num">19</span></div>
+<div class="day"><span class="day-num">20</span></div>
+<div class="day"><span class="day-num">21</span></div>
+<div class="day"><span class="day-num">22</span></div>
+<div class="day"><span class="day-num">23</span></div>
+<div class="day"><span class="day-num">24</span></div>
+<div class="day"><span class="day-num">25</span></div>
+<div class="day"><span class="day-num">26</span><div class="chip" style="background:#8e44ad;" data-id="mhc-2026" onclick="openModal('mhc-2026')">Modern Homesteading Conferen…</div></div>
+<div class="day"><span class="day-num">27</span><div class="chip continuation" style="background:#8e44ad88;" data-id="mhc-2026"></div></div>
+<div class="day"><span class="day-num">28</span></div>
+<div class="day"><span class="day-num">29</span></div>
+<div class="day"><span class="day-num">30</span></div>
+<div class="day empty"></div>
+<div class="day empty"></div>
+<div class="day empty"></div>
+<div class="day empty"></div>
+          </div>
+        </div>
+        <div class="month-block">
+          <h2 class="month-title">September 2026</h2>
+          <div class="cal-grid">
+            <div class="dow">Sun</div><div class="dow">Mon</div><div class="dow">Tue</div>
+            <div class="dow">Wed</div><div class="dow">Thu</div><div class="dow">Fri</div>
+            <div class="dow">Sat</div>
+            <div class="day empty"></div>
+<div class="day empty"></div>
+<div class="day"><span class="day-num">1</span></div>
+<div class="day"><span class="day-num">2</span></div>
+<div class="day"><span class="day-num">3</span></div>
+<div class="day"><span class="day-num">4</span><div class="chip" style="background:#3498db;" data-id="ozarks-expo-2026" onclick="openModal('ozarks-expo-2026')">Ozarks Homesteading Expo</div></div>
+<div class="day"><span class="day-num">5</span><div class="chip continuation" style="background:#3498db88;" data-id="ozarks-expo-2026"></div><div class="chip" style="background:#e74c3c;" data-id="willow-haven-2026" onclick="openModal('willow-haven-2026')">Willow Haven Farm Homesteadi…</div></div>
+<div class="day"><span class="day-num">6</span></div>
+<div class="day"><span class="day-num">7</span></div>
+<div class="day"><span class="day-num">8</span></div>
+<div class="day"><span class="day-num">9</span></div>
+<div class="day"><span class="day-num">10</span></div>
+<div class="day"><span class="day-num">11</span></div>
+<div class="day"><span class="day-num">12</span></div>
+<div class="day"><span class="day-num">13</span></div>
+<div class="day"><span class="day-num">14</span></div>
+<div class="day"><span class="day-num">15</span></div>
+<div class="day"><span class="day-num">16</span></div>
+<div class="day"><span class="day-num">17</span></div>
+<div class="day"><span class="day-num">18</span></div>
+<div class="day"><span class="day-num">19</span></div>
+<div class="day"><span class="day-num">20</span></div>
+<div class="day"><span class="day-num">21</span></div>
+<div class="day"><span class="day-num">22</span></div>
+<div class="day"><span class="day-num">23</span></div>
+<div class="day"><span class="day-num">24</span></div>
+<div class="day"><span class="day-num">25</span></div>
+<div class="day"><span class="day-num">26</span></div>
+<div class="day"><span class="day-num">27</span></div>
+<div class="day"><span class="day-num">28</span></div>
+<div class="day"><span class="day-num">29</span></div>
+<div class="day"><span class="day-num">30</span></div>
+<div class="day empty"></div>
+<div class="day empty"></div>
+<div class="day empty"></div>
+          </div>
+        </div>
+        <div class="month-block">
+          <h2 class="month-title">October 2026</h2>
+          <div class="cal-grid">
+            <div class="dow">Sun</div><div class="dow">Mon</div><div class="dow">Tue</div>
+            <div class="dow">Wed</div><div class="dow">Thu</div><div class="dow">Fri</div>
+            <div class="dow">Sat</div>
+            <div class="day empty"></div>
+<div class="day empty"></div>
+<div class="day empty"></div>
+<div class="day empty"></div>
+<div class="day"><span class="day-num">1</span></div>
+<div class="day"><span class="day-num">2</span></div>
+<div class="day"><span class="day-num">3</span></div>
+<div class="day"><span class="day-num">4</span></div>
+<div class="day"><span class="day-num">5</span></div>
+<div class="day"><span class="day-num">6</span></div>
+<div class="day"><span class="day-num">7</span></div>
+<div class="day"><span class="day-num">8</span></div>
+<div class="day"><span class="day-num">9</span><div class="chip" style="background:#6ab04c;" data-id="hoa-2026" onclick="openModal('hoa-2026')">Homesteaders of America Conf…</div></div>
+<div class="day"><span class="day-num">10</span><div class="chip continuation" style="background:#6ab04c88;" data-id="hoa-2026"></div></div>
+<div class="day"><span class="day-num">11</span></div>
+<div class="day"><span class="day-num">12</span></div>
+<div class="day"><span class="day-num">13</span></div>
+<div class="day"><span class="day-num">14</span></div>
+<div class="day"><span class="day-num">15</span></div>
+<div class="day"><span class="day-num">16</span></div>
+<div class="day"><span class="day-num">17</span></div>
+<div class="day"><span class="day-num">18</span></div>
+<div class="day"><span class="day-num">19</span></div>
+<div class="day"><span class="day-num">20</span></div>
+<div class="day"><span class="day-num">21</span></div>
+<div class="day"><span class="day-num">22</span></div>
+<div class="day"><span class="day-num">23</span></div>
+<div class="day"><span class="day-num">24</span></div>
+<div class="day"><span class="day-num">25</span></div>
+<div class="day"><span class="day-num">26</span></div>
+<div class="day"><span class="day-num">27</span></div>
+<div class="day"><span class="day-num">28</span></div>
+<div class="day"><span class="day-num">29</span></div>
+<div class="day"><span class="day-num">30</span></div>
+<div class="day"><span class="day-num">31</span></div>
+          </div>
+        </div>
+</main>
+
+<!-- Modal Overlay -->
+<div class="overlay" id="overlay" onclick="closeModal(event)">
+  <div class="modal" id="modal">
+    <div class="modal-header" id="modal-header">
+      <button class="modal-close" onclick="closeModalDirect()">✕</button>
+      <h2 id="modal-title"></h2>
+      <div class="event-date" id="modal-date"></div>
+    </div>
+    <div class="modal-body">
+      <div class="detail-row">
+        <span class="detail-label">Location</span>
+        <span class="detail-value" id="modal-location"></span>
+      </div>
+      <div class="detail-row" id="modal-ticket-row">
+        <span class="detail-label">Tickets</span>
+        <span class="detail-value" id="modal-ticket"></span>
+      </div>
+      <div class="detail-row" id="modal-speakers-row">
+        <span class="detail-label">Speakers</span>
+        <span class="detail-value" id="modal-speakers"></span>
+      </div>
+      <div class="detail-row" id="modal-desc-row">
+        <span class="detail-label">About</span>
+        <span class="detail-value" id="modal-desc"></span>
+      </div>
+      <div class="detail-row" id="modal-tags-row">
+        <span class="detail-label">Topics</span>
+        <div class="detail-value tags" id="modal-tags"></div>
+      </div>
+      <div class="modal-actions">
+        <a id="modal-btn-tickets" class="btn btn-primary" href="#" target="_blank" rel="noopener">
+          🎟 Get Tickets / Register
+        </a>
+        <a id="modal-btn-info" class="btn btn-secondary" href="#" target="_blank" rel="noopener">
+          ℹ More Info
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const EVENTS = [
+  {
+    "id": "hoa-2026",
+    "name": "Homesteaders of America Conference (10th Anniversary)",
+    "color": "#6ab04c",
+    "date": "October 9\u201310, 2026 <span class='date-note'>(Friday & Saturday weekend pass covers both days (approx 7:00 AM Fri to 4:00 PM Sat). Hands-on all-day workshops held Thursday, Oct 8 at the fairgrounds \u2014 NOT included in regular ticket price, advance reservation required, to be announced closer to spring. Free Homestead Revival service Friday at 6:30 PM (open to anyone, no ticket required).)</span>",
+    "location": "Warren County Fairgrounds, Front Royal, VA",
+    "description": "10th anniversary edition of the Homesteaders of America Conference, billed as the largest homestead conference in the nation. Includes a large vendor hall, hands-on demonstrations, expert-led talks on topics from beekeeping to greenhouse growing, paid Kidsteader classes (general kids 11 & under free with ticket), and a free Friday-evening Homestead Revival service. Optional all-day hands-on workshops on Thursday, Oct 8. Rain or shine; no refunds; tickets are non-transferable.",
+    "speakers": [
+      "Joel Salatin",
+      "Daniel Salatin",
+      "Nick Freitas",
+      "Shawn Dougherty",
+      "Beth Dougherty"
+    ],
+    "highlights": [
+      "10th anniversary",
+      "vendor hall (largest homestead conference in the nation)",
+      "Kidsteader kids programming",
+      "free Friday Homestead Revival service",
+      "hands-on demos",
+      "Thursday all-day workshops (extra cost)"
+    ],
+    "ticket_price": "Single-Person Pass $50, Two-Person Pass $99; Children 11 & under free but require a ticket (listed $0\u201315) for head count. General admission only \u2014 Kidsteader classes & Thursday workshops cost extra.",
+    "url": "https://homesteadersofamerica.com",
+    "status": "confirmed",
+    "verified": true
+  },
+  {
+    "id": "mhc-2026",
+    "name": "Modern Homesteading Conference (4th Annual)",
+    "color": "#8e44ad",
+    "date": "June 26\u201327, 2026 <span class='date-note'>(Two-day conference Friday June 26 & Saturday June 27, 2026. Confirmed by official site. There IS a Sunday morning add-on: an all-attendee 'Cowboy Church' worship service led by Joel Salatin on Sunday morning (included with all tickets). Note: one ticket-page URL slug reads 'June 26-28' and a third-party calendar listed June 27-28, but the official site, FAQ, and Facebook all consistently state June 26 & 27, with Cowboy Church Sunday morning. The 'possible Sunday extension' in the prior record is effectively the Sunday Cowboy Church. Full session schedule to be released in early 2026.)</span>",
+    "location": "Kootenai County Fairgrounds, Coeur d'Alene, ID",
+    "description": "The 4th annual Modern Homesteading Conference is a two-day, hands-on event at the Kootenai County Fairgrounds in Coeur d'Alene, ID, focused on practical self-sufficiency skills, live demonstrations (including live butchering both days, animal care, gardening, and food preservation), a vendor hall/homestead marketplace, food trucks, and community-building. Co-founded by Melissa K. Norris and Katie Millhorn. Features 40+ (third-party listings cite ~70) experts. New for 2026: a dedicated Youth Track for ages 12-18, plus a Friday Community Meet & Greet and Sunday morning Cowboy Church led by Joel Salatin.",
+    "speakers": [
+      "Joel Salatin",
+      "Daniel Salatin",
+      "Sally Fallon Morell",
+      "Mary Heffernan",
+      "Joe Lamp'l",
+      "Dr. Ken Berry",
+      "Dr. Patrick Jones",
+      "RuthAnn Zimmerman",
+      "Don Tipping",
+      "Anne of All Trades",
+      "Carolyn Thomas",
+      "Bethany Hutson",
+      "Kelsey Harms"
+    ],
+    "highlights": [
+      "live butchering demos (both days)",
+      "vendor hall / homestead marketplace",
+      "food preservation workshops",
+      "NEW Youth Track for ages 12-18",
+      "Friday Community Meet & Greet",
+      "Sunday morning Cowboy Church with Joel Salatin",
+      "food trucks on-site",
+      "VIP Friday farm-to-table lunch with speakers"
+    ],
+    "ticket_price": "General Admission $149/person (children 2 and under free); Children's GA (ages 3-17) $49; General Admission Family Pass $399 (2 adults + 5-10 children); VIP Admission $399. Early-bird discounts observed (e.g. $49 off adult GA; a $129 early-access promo). All tickets are non-refundable and include access to all speakers, vendors, demos, food trucks, Joel Salatin's lecture, and Sunday Cowboy Church. VIP adds priority/closer parking, a Friday farm-to-table lunch with speakers including Joel Salatin, conference t-shirt, and bonus items.",
+    "url": "https://modernhomesteading.com",
+    "status": "confirmed",
+    "verified": true
+  },
+  {
+    "id": "thc-ploughshare-2026",
+    "name": "The Homestead Conference (Ploughshare Institute)",
+    "color": "#e67e22",
+    "date": "April 24\u201325, 2026 <span class='date-note'>(Friday\u2013Saturday. Friday 7 AM\u20137 PM, Saturday 7 AM\u20136 PM. NOTE: This event has already concluded (today is 2026-06-01). The official site now thanks 2026 attendees and points to the 2027 conference (April 23\u201324, 2027).)</span>",
+    "location": "Heritage Center (Homestead Heritage community), Waco, TX",
+    "description": "The Homestead Conference, a production of The Ploughshare Institute for Sustainable Culture, is a gathering of artisans and agrarians bringing together accomplished homesteaders and award-winning craftsmen for hands-on workshops, seminars, and demonstrations on homesteading and self-sufficiency skills. The 2026 edition included a Friday-evening concert with Grammy Award-winning artist Rory Feek, plus seminars and demos on topics such as chicken/lamb processing, hand-milking, gardening for Southern homesteaders, sourdough breadmaking, sheep care, seed saving, and traditional crafts.",
+    "speakers": [
+      "Joel Salatin",
+      "Daniel Salatin",
+      "Rory Feek",
+      "Shawn Dougherty",
+      "Beth Dougherty",
+      "Grady Phelan",
+      "Bevin Cohen",
+      "Butch Tindell",
+      "Noah Sanders",
+      "Dr. Ben Edwards",
+      "Randy Oakley"
+    ],
+    "highlights": [
+      "hands-on workshops and demonstrations",
+      "Friday-evening Rory Feek concert",
+      "agrarian/self-sufficiency education focus",
+      "Joel & Daniel Salatin sessions and book signing",
+      "Abundant Life interview with Rory Feek",
+      "vendor marketplace for homesteading supplies"
+    ],
+    "ticket_price": "Not publicly listed as a fixed figure; tickets sold via Etix (etix.com/ticket/v/35495/the-homestead-conference). One-day tickets were available at the entrance. Early-bird pricing was offered after the 2025 event.",
+    "url": "https://sustainlife.org",
+    "status": "confirmed",
+    "verified": true
+  },
+  {
+    "id": "homestead-festival-2026",
+    "name": "The Homestead Festival",
+    "color": "#6ab04c",
+    "date": "June 5\u20136, 2026 <span class='date-note'>(Friday June 5 & Saturday June 6, 2026. This is the 5th Annual Homestead Festival. Gates open at 7:00 am CT; first speaker at 9:00 am CT, last speaker ends ~4:30 pm CT; evening music ~5:00 pm\u20139:00 pm CT. (One local news source listed hours as 9am\u20138pm both days.) RV check-in begins Thursday June 4 after 5 PM CT.)</span>",
+    "location": "The Homestead at Hardison Mill (Rory Feek's 100-acre farm); festival entrance at 4765 Hardison Mill Rd, Columbia, TN",
+    "description": "The 5th Annual Homestead Festival is a two-day event on Rory Feek's 100-acre historic farm (The Homestead at Hardison Mill) in Columbia, TN, about 45 minutes south of Nashville. It combines hands-on homesteading education from 25+ speakers/teachers with live music, 200+ vendors, demonstrations (wood turning, leather crafting, animal care), food trucks, and a family-friendly 'Lil' Homesteaders Area' (face painting, corn pit, bounce house). The festival runs rain or shine.",
+    "speakers": [
+      "Joel Salatin",
+      "Daniel Salatin",
+      "John Chester",
+      "Temple Grandin",
+      "RuthAnn Zimmerman",
+      "Jill Ragan",
+      "Rory Feek",
+      "Shawn & Beth Dougherty",
+      "Janelle Anderson",
+      "Bailey Van Tassel",
+      "Darryl Patton",
+      "David Stelzer",
+      "Cassidy Cornell",
+      "Sean Pessarra",
+      "Kaylee Richardson",
+      "Amanda Lancaster",
+      "Laura Cox",
+      "Mandi Pickering",
+      "Patty Ward",
+      "Tom Watkins",
+      "Missy Irish",
+      "Bevin Cohen",
+      "Lee Greenwood (music)",
+      "The Isaacs (music)",
+      "Terri Clark (music)",
+      "Shenandoah (music)",
+      "The Cleverlys (music)",
+      "HighRoad (music)",
+      "Jenna LaMaster (music)",
+      "Thom Schuyler (music)",
+      "Elliott Park (music)"
+    ],
+    "highlights": [
+      "5th Annual edition",
+      "25+ speakers/educators",
+      "200+ vendors",
+      "live music each evening and during lunch",
+      "demos: wood turning, leather crafting, animal care",
+      "Lil' Homesteaders Area (face painting, corn pit, bounce house)",
+      "food trucks; outside food/drink allowed",
+      "limited RV parking (50 spots, no hookups)",
+      "official Homestead Festival mobile app (Apple/Google)"
+    ],
+    "ticket_price": "Two-day passes only (non-refundable, non-transferable). General Admission starts at $95; children ages 6\u201317 are $25 (must be accompanied by an adult); kids 5 and under free. GA+ and VIP upgrade tiers available. GA+ adds shaded tent seating, free water/sunscreen, upgraded restrooms, and speaker meet-and-greets. VIP adds Homestead Hall access, reserved seating at all tents and Main Stage, VIP entrance parking, festival goodie bag, and breakfast both days.",
+    "url": "https://thehomesteadfestival.com",
+    "status": "confirmed",
+    "verified": true
+  },
+  {
+    "id": "wche-2026",
+    "name": "West Coast Homesteading Expo",
+    "color": "#8e44ad",
+    "date": "March 14\u201315, 2026 <span class='date-note'>(Two-day event, Saturday March 14 - Sunday March 15, 2026. Attendee doors open Saturday at 10 AM; show runs through Sunday 3 PM. Organizer has announced two West Coast Homesteading Expos for 2027.)</span>",
+    "location": "Washington State Fair Event Center (Agriplex and Tractor Arena), Puyallup, WA",
+    "description": "The all-new West Coast Homesteading Expo, produced by Bird + Duck Media, features workshops with expert speakers, live demonstrations, homestead-related product sales, livestock/backyard animals, giveaways, vendors, and the famous Fair Scone truck. Topics span micro farming, urban gardening, gardening, landscaping, greenhouses, baking, sourdough making, seeds, herbalism, foraging, and livestock. Aimed at beginners and current homesteaders, whether living in a city or on acreage; family-oriented.",
+    "speakers": [
+      "Amie Torkelson (founder of an urban farm in Spokane, WA; urban farming/raising animals in the city)",
+      "Kristyn Walch (herbalist, Sacred Oak Apothecary; essential homestead herbs)",
+      "Kody Hanner (founder of The Homestead Education; teaching children self-sufficiency)",
+      "Karl Scheuerman (General Manager of Palouse Heritage; heritage/landrace/ancient grains)",
+      "Ashley (chef, forager, nature/forest therapy guide; foraging spring wild foods, nettles cooking demo)"
+    ],
+    "highlights": [
+      "beginner-friendly",
+      "urban farming / micro farming",
+      "animals / livestock",
+      "giveaways",
+      "live demonstrations",
+      "expert workshops",
+      "vendor marketplace",
+      "family-oriented (kids 12 and under free)"
+    ],
+    "ticket_price": "Early Bird (until 02/14/26): $10 single / $25 family. Advanced presale (until 03/13/26): $15 single / $30 family. At-door general admission: $20 single / $35 family. Family tickets admit 4 people; children 12 and under free.",
+    "url": "https://www.westcoasthomesteadingexpo.com/",
+    "status": "confirmed",
+    "verified": true
+  },
+  {
+    "id": "clmhe-skagit-2026",
+    "name": "Country Living & Modern Homesteading Expo",
+    "color": "#8e44ad",
+    "date": "January 31, 2026 <span class='date-note'>(Single-day event, Saturday January 31, 2026, 9:00 AM\u20134:15 PM. Online registration closes January 21, 2026.)</span>",
+    "location": "Stanwood High School, Stanwood, WA",
+    "description": "The 2026 Country Living & Modern Homesteading Expo is the Northwest's premier hands-on learning event for farmers, gardeners, homesteaders, and rural dreamers, offering 100+ hands-on workshops, expert-led classes, demonstrations, and community panels covering every aspect of rural life. Presented by the Livestock Master Foundation with WSU Skagit & Snohomish County Extension and the Cattlemen's Association, hosted by Stanwood FFA.",
+    "speakers": [],
+    "highlights": [
+      "100+ hands-on workshops",
+      "WSU Extension / Livestock Master Foundation",
+      "regenerative design, off-grid & rural skills",
+      "gardening, food preservation, fermentation",
+      "livestock, poultry, bees",
+      "trade show / vendor marketplace",
+      "hosted by Stanwood FFA"
+    ],
+    "ticket_price": "$85 advance (online); $100 day-of-event registration",
+    "url": "https://extension.wsu.edu",
+    "status": "confirmed",
+    "verified": true
+  },
+  {
+    "id": "hoi-midwest-2026",
+    "name": "Homesteaders of Iowa Expo & Midwest Conference",
+    "color": "#3498db",
+    "date": "February 27\u201328, 2026 <span class='date-note'>(Vendor load-in/setup on Thursday, February 26th. Doors open 7:45 AM, sessions begin 8:15-8:20 AM both days; classes end 5:30 PM, workshops end 4:30 PM.)</span>",
+    "location": "Bridge View Center, Ottumwa, IA",
+    "description": "The 2026 Homesteaders of Iowa Expo & Midwest Conference is a family-friendly two-day event bringing together experts, educators, and families for hands-on learning and community building. It features 30 educational classes covering gardening, livestock, food preservation, preparedness, herbalism, and sustainable living, plus 24 hands-on workshops. All activities are held indoors at the Bridge View Center, with a vendor hall, live demonstrations, and national and local speakers.",
+    "speakers": [
+      "David Ford (regenerative living/homesteading; Jefferson County, Iowa)",
+      "Jeremy Skinner (Event Chaplain; leads 'Faith and the Homestead' panel)",
+      "Pearlicia Cloke (Raw Americana; 'Drama-Free Soap Making' workshop)",
+      "David Mixdorf (Prairie Hilltop Farm; 'Raising Chickens for Eggs & Meat')",
+      "Dr. Burgmeier (veterinarian, certified in veterinary chiropractic care)",
+      "Lynford Miller (Gingerich Greenhouse; Seed Starting)",
+      "Lori Fenton (speaker)",
+      "Beckham (fruit trees/grafting/bonsai; Ottumwa, Iowa)"
+    ],
+    "highlights": [
+      "Midwest focus",
+      "hands-on learning",
+      "vendor expo",
+      "30 educational classes",
+      "24 hands-on workshops",
+      "national and local speakers",
+      "$5 vendor-hall-only day pass option",
+      "family-friendly"
+    ],
+    "ticket_price": "General admission required for all speaker sessions, with optional add-on workshops; early bird discount of 10% applied automatically through December 25th. Vendor-hall-only 'shop' day pass is $5 per person (ages 15+) at the door. Vendor booths $200 (10'x10', 1 table + 2 chairs), early bird $125 with code through December 31st; electricity available for $35.",
+    "url": "https://meetottumwa.org",
+    "status": "confirmed",
+    "verified": true
+  },
+  {
+    "id": "ozarks-expo-2026",
+    "name": "Ozarks Homesteading Expo",
+    "color": "#3498db",
+    "date": "September 4\u20135, 2026 <span class='date-note'>(Friday-Saturday. Confirmed via official SimpleTix listing and the organizer's Facebook page. Note: in prior years (2024, 2025) the event ran Sept 6-7 and Sept 5-6 respectively, so 2026 has shifted to Sept 4-5.)</span>",
+    "location": "Ellis O. Jackson Park / Webster County Fairgrounds, 614 North Marshall Street, Marshfield, MO",
+    "description": "An in-person, two-day educational resource fair featuring 40+ teaching sessions, demonstrations, workshops, food trucks, and a large homesteading vendor marketplace. Running since 2019. Topics include livestock raising and processing, canning, beekeeping, cheesemaking, bread making, soap making, foraging, herbal medicine, soil health, solar/off-grid living, fermenting, all-season gardening, orchards, and blacksmithing.",
+    "speakers": [],
+    "highlights": [
+      "40+ teaching sessions",
+      "natural beekeeping",
+      "foraging",
+      "off-grid / solar living",
+      "mushrooms",
+      "livestock raising and processing",
+      "blacksmithing",
+      "sourdough and fermenting",
+      "kids activities",
+      "large vendor marketplace (150+ vendors in recent years)",
+      "food trucks"
+    ],
+    "ticket_price": "$69 General Admission with video access to all 2026 videos (discounted ~50% off when purchased in advance); kids 11 and under free but require a ticket",
+    "url": "https://ozarkshomesteading.com",
+    "status": "confirmed",
+    "verified": true
+  },
+  {
+    "id": "okie-expo-2026",
+    "name": "Okie Homesteading Expo",
+    "color": "#e67e22",
+    "date": "March 20\u201321, 2026 <span class='date-note'>(Friday & Saturday. NOTE: This event has already concluded as of the research date (2026-06-01). The organizer's Facebook page posted on April 22 calling the 2026 event 'LEGENDARY' and asking how to top it for 2027, confirming the event is in the past. Record should likely be archived or re-pointed to a 2027 edition once announced.)</span>",
+    "location": "Mayes County Fairgrounds (2200 NE 1st St), Pryor, OK",
+    "description": "Oklahoma's largest high-quality homesteading educational event, a family-friendly expo for beginner to seasoned homesteaders. The 2-day event featured 25+ speakers and 40+ educational sessions and demonstrations (including animal processing demos), a 100+ vendor marketplace, live bluegrass music, food trucks, and a Kids Korner. 2026 marked its fifth year (first held in 2022).",
+    "speakers": [
+      "Dr. Temple Grandin (Keynote)",
+      "Dr. Patrick Jones (HomeGrown Herbalist)",
+      "Shawn & Beth Dougherty (The Sow's Ear)",
+      "RuthAnn Zimmerman",
+      "Dr. Jed Adamson",
+      "Kimberly Jepsen (MooShine Ridge)",
+      "Dan Snyder (The Homestead CPA)",
+      "David Stelzer (Azure Standard)",
+      "Jim Park & Gary Leavitt (Nutrimill)",
+      "Craig Beam (Beam Farm)",
+      "Pilgrim's Heart Homestead",
+      "Joel Myers (The Oklahoma Mushroom Company)",
+      "Heather Butler (Hogs and Hens Urban Farm)",
+      "LaRaine Cihak (Bluff Creek Acres)",
+      "Kris Boggs (The Boondocks)",
+      "Bob Rider (Olive Branch Aquaponics)",
+      "Kristi Huntsman (From the Roots Up)",
+      "Justin Scott (Sweet Stingers Honey & Apiary)",
+      "Clyde Majerus (Clyde's Garden Planner)",
+      "Carissa Daniels (This & That Candles and More)",
+      "Leon Sloan (Gardening With Leon)",
+      "Dewayne Hall (Red Feather Farms)",
+      "Saundra Traywick (Dulcededonke)",
+      "Bill Costanzo",
+      "Mikaela Fuchs (Ideal Poultry)",
+      "Anna Hill (Fermented Homestead)",
+      "James Turnbow",
+      "Dan Threlkeld"
+    ],
+    "highlights": [
+      "Keynote: Dr. Temple Grandin",
+      "25+ speakers from across the nation",
+      "40+ educational sessions & demonstrations",
+      "100+ vendor marketplace",
+      "Live bluegrass music & food trucks",
+      "Friday-evening private dinner with speakers",
+      "Fifth-anniversary edition (since 2022)"
+    ],
+    "ticket_price": "Adult General Admission Weekend Pass $50; Child (ages 6-17) $15; Child 5 & under FREE (ticket still required). VIP and VIP Plus tiers also offered (VIP includes parking, premium seating, swag bag/t-shirt, lunch vouchers, early Temple Grandin meet & greet).",
+    "url": "https://okiehomesteading.com",
+    "status": "pending",
+    "verified": true
+  },
+  {
+    "id": "willow-haven-2026",
+    "name": "Willow Haven Farm Homesteading Conference",
+    "color": "#e74c3c",
+    "date": "September 5, 2026 <span class='date-note'>(Single-day on-farm event. Date confirmed on official Willow Haven Farm site. Past editions ran roughly 8:00 am\u20134:00 pm and opened with an optional 8:00 am Traditional Catholic Mass followed by a 9:00 am farm breakfast.)</span>",
+    "location": "Willow Haven Farm, New Tripoli, PA",
+    "description": "An on-farm, single-day homesteading conference at Willow Haven Farm in New Tripoli, PA, run by Farmer Reuben and Tessa DeMaster. Attendees choose from hands-on workshops and in-depth farm tours covering sustainable living and traditional skills such as sourdough baking, fermentation/food preservation, foraging, herbal remedies, composting, permaculture, and organic gardening. Registration is limited.",
+    "speakers": [],
+    "highlights": [
+      "limited seats / registration is limited",
+      "on-farm hands-on experience",
+      "choose-your-path morning and afternoon workshop sessions",
+      "in-depth farm tours with Farmer Reuben",
+      "topics include sourdough, fermentation, foraging, herbal remedies, permaculture, composting",
+      "optional 8:00 am Traditional Catholic Mass and farm breakfast"
+    ],
+    "ticket_price": "TBD for 2026; not yet published. For reference, the 2025 edition priced Early Bird Full Day +2 meals at ~$97.34, Full Day +2 meals at ~$113.89, Half-Day at ~$49.87, and a kids ticket (incl. breakfast) at ~$7.18 (all incl. fees).",
+    "url": "https://eventbrite.com",
+    "status": "confirmed",
+    "verified": true
+  },
+  {
+    "id": "alaska-expo-2026",
+    "name": "Alaska Homestead Expo & Marketplace (3rd Annual)",
+    "color": "#8e44ad",
+    "date": "May 22\u201323, 2026 <span class='date-note'>(Two in-person days (Fri & Sat of Memorial Day weekend). Condensed from a longer format this year in response to attendee feedback; some sources list May 23-25 or May 22-25, but organizer and recent reporting confirm the two in-person days are Friday May 22 and Saturday May 23, with additional virtual Zoom sessions extending into the summer. A Christian church service is scheduled for Sunday at the Common Ground Alaska property, open to ticketholders. Note: at least one local outlet (Mat-Su Sentinel) referred to this as the 'final' Alaska Homestead Expo \u2014 worth monitoring.)</span>",
+    "location": "Big Lake Lions Club (Recreation Center), 2942 S Lions Ct, Big Lake, AK",
+    "description": "The 3rd Annual Alaska Homestead Expo & Marketplace brings together Alaskans who want to garden, raise animals, learn traditional skills, and live more self-reliantly. Held over Memorial Day weekend at the Big Lake Lions Club, the event features dozens of Alaskan instructors, hands-on workshops and demonstrations (including whole-cow butchery and iron forging), onsite food trucks, a family learning program, and a curated marketplace of 100-150+ local Alaska vendors. Keynote by Josh & Carolyn Thomas of Homesteading Family. Hosted by Common Ground Alaska, a teaching farmstead in Big Lake (~45 minutes from Anchorage).",
+    "speakers": [
+      "Josh Thomas (Homesteading Family, keynote)",
+      "Carolyn Thomas (Homesteading Family, keynote)"
+    ],
+    "highlights": [
+      "Keynote by Josh & Carolyn Thomas (Homesteading Family)",
+      "Whole-cow slaughter & butchery demonstrations",
+      "Viking Iron Works forging demonstrations",
+      "30+ class offerings across 5-6 learning spaces per day",
+      "150+ vendor Alaskan marketplace",
+      "Food fermentation, medicinal herbs, livestock care, off-grid systems",
+      "Family learning tent and teen program",
+      "Lady Homesteaders of AK VIP Lunch",
+      "Virtual/Zoom sessions extending into summer"
+    ],
+    "ticket_price": "Full Weekend (in-person/hybrid incl. Zoom sessions): $85; Single Day: $30; Family Pass (2 adults + up to 6 children): $300; Virtual-only (livestream + Zoom): $45; Marketplace-only: $5",
+    "url": "https://commongroundalaska.com",
+    "status": "confirmed",
+    "verified": true
+  },
+  {
+    "id": "prairie-roots-2026",
+    "name": "Prairie Roots Homesteading Summit",
+    "color": "#3498db",
+    "date": "May 15\u201316, 2026 <span class='date-note'>(Two-day event; presentations run 8:30 a.m.\u20135 p.m. Dates confirmed by official site, ND Tourism, and multiple news outlets.)</span>",
+    "location": "McKenzie County Ag Expo, Watford City, ND",
+    "description": "The Prairie Roots Homesteading Summit is a two-day regional conference dedicated to self-sufficiency, sustainable living, and traditional skills, bringing together homesteaders, farmers, gardeners, makers, and learners from across the Upper Midwest. Sponsored by the nonprofit McKenzie County Ag Expo Foundation, it features keynote speakers, hands-on demonstrations, informational talks, and exhibitor booths covering soil health, regenerative practices, livestock care, gardening, food production and preservation, herbalism, conservation, community building, and healthy living.",
+    "speakers": [
+      "Justin & Rebekah Rhodes",
+      "Tim & Sophia Eng"
+    ],
+    "highlights": [
+      "self-sufficiency",
+      "Midwest prairie living",
+      "soil health & regenerative practices",
+      "food preservation & herbalism",
+      "livestock care & gardening",
+      "hands-on demonstrations & exhibitors"
+    ],
+    "ticket_price": "$65 general admission; $10 early-bird discount for registrations before May 1, 2026",
+    "url": "https://mcagexpo.com",
+    "status": "confirmed",
+    "verified": true
+  },
+  {
+    "id": "cahc-2026",
+    "name": "Central Arkansas Homestead Conference",
+    "color": "#e67e22",
+    "date": "April 17\u201318, 2026 <span class='date-note'>(2-day event. Confirmed April 17-18, 2026 via official Kerr Center event listing and Homestead Living 2026 events roundup. A 2nd Annual conference is listed for April 16, 2027 at the same venue.)</span>",
+    "location": "Conway Expo & Event Center, Conway, AR",
+    "description": "Two-day homestead expo at the Conway Expo & Event Center featuring expert speakers, hands-on workshops, and live demonstrations covering gardening, livestock, food preservation, and self-sufficiency. Keynote speaker is Joel Salatin of Polyface Farms. Includes vendors, food trucks, and networking opportunities.",
+    "speakers": [
+      "Joel Salatin (keynote, Polyface Farms)",
+      "Clint & Joy (homestead dairy / cheesemaking & elderberry)",
+      "Sean Pessarra (Mindful Farmer, high tunnels)",
+      "Pat (meat goats / animal husbandry)",
+      "Taunya Ernst (University of Arkansas Extension, High Tunnel & Urban Ag)",
+      "Tim & Amy (livestock, gardening, herbal remedies)",
+      "Robbie Ryburn (The Wild Huckleberry, host/organizer)"
+    ],
+    "highlights": [
+      "2-day expo",
+      "Keynote: Joel Salatin (Polyface Farms)",
+      "Hands-on workshops and live demonstrations (incl. chainsaw safety, first aid)",
+      "Speakers on beekeeping, rotational grazing, high tunnels, cheesemaking, meat goats",
+      "Vendors selling homemade goods, honey, plants, sourdough, homestead supplies",
+      "Food trucks",
+      "Arkansas Shepherds Association and other associations on-site"
+    ],
+    "ticket_price": "See website for pricing",
+    "url": "https://centralarhomesteading.com",
+    "status": "pending",
+    "verified": true
+  },
+  {
+    "id": "ewhe-2026",
+    "name": "Eastern Washington Homesteading Expo",
+    "color": "#8e44ad",
+    "date": "April 24\u201326, 2026 <span class='date-note'>(Confirmed by Omak Chronicle, KKRV radio, official EWHE site, and Okanogan Country tourism calendar. Friday April 24 includes a homeschool day starting 8 a.m. (vendor setup) with public opening at 11 a.m. and a family dance 8\u201310 p.m.; Saturday opens 8 a.m. with booths/presentations running to 5 p.m.)</span>",
+    "location": "Okanogan County Fairgrounds (175 Rodeo Trail), Okanogan, WA",
+    "description": "Second annual Eastern Washington Homesteading Expo, a weekend of hands-on learning, skill demonstrations, expert speakers, and vendors covering gardening, pressure canning, solar power, soap making, medicinal herbs, animal processing (chicken/rabbit/pig), dairy basics, fermenting, freeze drying, and cottage licensing. Founded in 2025 by Susan Cooksey of Palmer Lake Homestead. Family-friendly with kids events and an animal petting area.",
+    "speakers": [
+      "Larry Littrell (intentional/small-space homesteading)"
+    ],
+    "highlights": [
+      "vendors",
+      "family dance (Fri 8-10pm)",
+      "expert speakers and live skill demonstrations",
+      "homeschool/kids day (Friday)",
+      "animal petting area",
+      "community / self-sufficiency focus"
+    ],
+    "ticket_price": "Not published in available sources; early-bird tickets sold via Tixtree (https://www.tixtree.com/o/eastern-washington-homesteading-expo-3d0f8c42e75e)",
+    "url": "https://facebook.com",
+    "status": "pending",
+    "verified": true
+  }
+];
+const eventMap = {};
+EVENTS.forEach(e => eventMap[e.id] = e);
+
+function openModal(id) {
+  const e = eventMap[id];
+  if (!e) return;
+
+  document.getElementById('modal-header').style.background = e.color;
+  document.getElementById('modal-title').innerHTML =
+    e.name + (e.verified ? '<span class="verified-badge">✓ Verified</span>' : '');
+  document.getElementById('modal-date').textContent = e.date;
+  document.getElementById('modal-location').textContent = e.location || 'TBD';
+
+  const ticketEl = document.getElementById('modal-ticket');
+  ticketEl.textContent = e.ticket_price || 'See website';
+  document.getElementById('modal-ticket-row').style.display = e.ticket_price ? '' : 'none';
+
+  const speakersEl = document.getElementById('modal-speakers');
+  if (e.speakers && e.speakers.length) {
+    const shown = e.speakers.slice(0, 6);
+    const more = e.speakers.length - 6;
+    speakersEl.innerHTML = shown.join(', ') + (more > 0 ? ` <em>+${more} more</em>` : '');
+    document.getElementById('modal-speakers-row').style.display = '';
+  } else {
+    document.getElementById('modal-speakers-row').style.display = 'none';
+  }
+
+  document.getElementById('modal-desc').textContent = e.description || '';
+  document.getElementById('modal-desc-row').style.display = e.description ? '' : 'none';
+
+  const tagsEl = document.getElementById('modal-tags');
+  tagsEl.innerHTML = '';
+  if (e.highlights && e.highlights.length) {
+    e.highlights.forEach(h => {
+      const span = document.createElement('span');
+      span.className = 'tag';
+      span.textContent = h;
+      tagsEl.appendChild(span);
+    });
+    document.getElementById('modal-tags-row').style.display = '';
+  } else {
+    document.getElementById('modal-tags-row').style.display = 'none';
+  }
+
+  document.getElementById('modal-btn-tickets').href = e.url;
+  document.getElementById('modal-btn-info').href = e.url;
+
+  document.getElementById('overlay').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModalDirect() {
+  document.getElementById('overlay').classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+function closeModal(e) {
+  if (e.target === document.getElementById('overlay')) closeModalDirect();
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeModalDirect();
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,915 @@
+{
+  "meta": {
+    "last_updated": "2026-06-01",
+    "version": "1.0",
+    "total_events": 15
+  },
+  "events": [
+    {
+      "id": "hoa-2026",
+      "name": "Homesteaders of America Conference (10th Anniversary)",
+      "status": "confirmed",
+      "dates": {
+        "start": "2026-10-09",
+        "end": "2026-10-10",
+        "pre_event": "2026-10-08",
+        "notes": "Friday & Saturday weekend pass covers both days (approx 7:00 AM Fri to 4:00 PM Sat). Hands-on all-day workshops held Thursday, Oct 8 at the fairgrounds \u2014 NOT included in regular ticket price, advance reservation required, to be announced closer to spring. Free Homestead Revival service Friday at 6:30 PM (open to anyone, no ticket required)."
+      },
+      "location": {
+        "venue": "Warren County Fairgrounds",
+        "city": "Front Royal",
+        "state": "VA",
+        "region": "Southeast"
+      },
+      "url": "https://homesteadersofamerica.com",
+      "description": "10th anniversary edition of the Homesteaders of America Conference, billed as the largest homestead conference in the nation. Includes a large vendor hall, hands-on demonstrations, expert-led talks on topics from beekeeping to greenhouse growing, paid Kidsteader classes (general kids 11 & under free with ticket), and a free Friday-evening Homestead Revival service. Optional all-day hands-on workshops on Thursday, Oct 8. Rain or shine; no refunds; tickets are non-transferable.",
+      "speakers": [
+        "Joel Salatin",
+        "Daniel Salatin",
+        "Nick Freitas",
+        "Shawn Dougherty",
+        "Beth Dougherty"
+      ],
+      "ticket_price": "Single-Person Pass $50, Two-Person Pass $99; Children 11 & under free but require a ticket (listed $0\u201315) for head count. General admission only \u2014 Kidsteader classes & Thursday workshops cost extra.",
+      "highlights": [
+        "10th anniversary",
+        "vendor hall (largest homestead conference in the nation)",
+        "Kidsteader kids programming",
+        "free Friday Homestead Revival service",
+        "hands-on demos",
+        "Thursday all-day workshops (extra cost)"
+      ],
+      "source": "seed",
+      "verified": true,
+      "social_posts": {
+        "facebook": "\ud83d\udccd Homesteaders of America Conference \u2014 10th Anniversary\n\ud83d\uddd3\ufe0f October 9\u201310, 2026 (Friday & Saturday)\n\ud83d\udccc Warren County Fairgrounds, Front Royal, VA\n\ud83c\udf9f\ufe0f Single Pass $50 | Two-Person Pass $99 | Kids 11 & under free (ticket still required for head count)\n\nTen years in, this has grown into the largest homestead gathering in the nation \u2014 and the folks in the movement keep showing up because it delivers the real thing.\n\nWalk the biggest vendor hall you'll find anywhere in homesteading. Watch hands-on demos on the skills that actually matter \u2014 beekeeping, greenhouse growing, and more. Bring the little ones to the Kidsteader classes (general kids admission is free with a ticket). And on Friday at 6:30 PM, the free Homestead Revival service is open to anyone \u2014 no ticket needed.\n\nWant to go deeper? The all-day hands-on workshops on Thursday, Oct 8 are worth the extra cost, but they require advance reservation and details drop closer to spring.\n\nA heads up the homestead community already knows: these tickets sell out fast. Rain or shine, no refunds, non-transferable \u2014 so lock in your weekend before they're gone.\n\nGrab your pass here \ud83d\udc49 https://homesteadersofamerica.com/product/conference-weekend-pass/\n\n#Farm2Table #HomesteadingCommunity #HomesteadExpo #SelfSufficiency",
+        "x": {
+          "lead": "10 years in, and it's still the largest homestead conference in the nation.\n\nHomesteaders of America Conference \u2014 Oct 9\u201310, 2026\nWarren County Fairgrounds, Front Royal, VA\n\nThe folks in the movement know: these sell out fast. \ud83e\uddf5\ud83d\udc47",
+          "thread": [
+            "Inside: the biggest vendor hall in homesteading, hands-on demos on beekeeping, greenhouse growing & more, plus Kidsteader classes for the little ones (general kids 11 & under free with a ticket). Real skills, real practitioners. #HomesteadingCommunity",
+            "Want to go deeper? All-day hands-on workshops drop Thursday, Oct 8 \u2014 extra cost, advance reservation required, details closer to spring. And the free Friday Homestead Revival service (6:30 PM) is open to anyone, no ticket needed. #SelfSufficiency",
+            "Tickets: Single $50 / Two-Person $99. Kids 11 & under free but need a ticket for head count. Rain or shine, no refunds, non-transferable \u2014 and they sell out.\n\nLock in your weekend \ud83d\udc49 https://homesteadersofamerica.com/product/conference-weekend-pass/ #Farm2Table #HomesteadExpo"
+          ]
+        },
+        "youtube": "Hey homestead friends \u2014 the Homesteaders of America Conference is turning 10, and it's happening Oct 9\u201310, 2026 at the Warren County Fairgrounds in Front Royal, VA. \ud83c\udf89\n\nThis one's the biggest homestead gathering in the country: a massive vendor hall, hands-on demos on everything from beekeeping to greenhouse growing, Kidsteader classes for the young ones, and a free Friday-evening Homestead Revival service open to all. Passes start at $50 and they sell out fast.\n\nGrab yours: https://homesteadersofamerica.com/product/conference-weekend-pass/\n\nIf you could only sit in on ONE workshop, what skill would you want to learn? \ud83d\udc47"
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-01",
+      "changes_noted": "VERIFIED via official site (homesteadersofamerica.com), its ticket product page, and official HOA Facebook/Instagram posts. CONFIRMED: dates Oct 9-10, 2026; venue Warren County Fairgrounds, 26 Fairground Rd, Front Royal, VA 22630; Thursday Oct 8 pre-conference workshops; free Friday Revival service. CONFIRMED '10th Anniversary' / '10th annual' designation via official HOA social posts. TICKET PRICE UPDATED to specific figures: Single $50, Two-Person $99, kids 11 & under free (require ticket). Member presale began Jan 1, 2026; general sales Jan 2, 2026 \u2014 tickets noted to sell out fast. SPEAKERS: Could NOT confirm the 2026 lineup from the official site \u2014 the conference schedule was still 'in the works' as of the latest fetch. The previously recorded speakers (Joel Salatin, Daniel Salatin, Nick Freitas, Shawn Dougherty, Beth Dougherty) could NOT be independently verified for 2026 and should be treated as unconfirmed pending an official speaker announcement. Recommend re-checking the schedule/speakers page before publishing the lineup.",
+      "registration_url": "https://homesteadersofamerica.com/product/conference-weekend-pass/"
+    },
+    {
+      "id": "mhc-2026",
+      "name": "Modern Homesteading Conference (4th Annual)",
+      "status": "confirmed",
+      "dates": {
+        "start": "2026-06-26",
+        "end": "2026-06-27",
+        "pre_event": null,
+        "notes": "Two-day conference Friday June 26 & Saturday June 27, 2026. Confirmed by official site. There IS a Sunday morning add-on: an all-attendee 'Cowboy Church' worship service led by Joel Salatin on Sunday morning (included with all tickets). Note: one ticket-page URL slug reads 'June 26-28' and a third-party calendar listed June 27-28, but the official site, FAQ, and Facebook all consistently state June 26 & 27, with Cowboy Church Sunday morning. The 'possible Sunday extension' in the prior record is effectively the Sunday Cowboy Church. Full session schedule to be released in early 2026."
+      },
+      "location": {
+        "venue": "Kootenai County Fairgrounds",
+        "city": "Coeur d'Alene",
+        "state": "ID",
+        "region": "Northwest",
+        "address": "4056 N Government Way, Coeur d'Alene, ID 83815"
+      },
+      "url": "https://modernhomesteading.com",
+      "description": "The 4th annual Modern Homesteading Conference is a two-day, hands-on event at the Kootenai County Fairgrounds in Coeur d'Alene, ID, focused on practical self-sufficiency skills, live demonstrations (including live butchering both days, animal care, gardening, and food preservation), a vendor hall/homestead marketplace, food trucks, and community-building. Co-founded by Melissa K. Norris and Katie Millhorn. Features 40+ (third-party listings cite ~70) experts. New for 2026: a dedicated Youth Track for ages 12-18, plus a Friday Community Meet & Greet and Sunday morning Cowboy Church led by Joel Salatin.",
+      "speakers": [
+        "Joel Salatin",
+        "Daniel Salatin",
+        "Sally Fallon Morell",
+        "Mary Heffernan",
+        "Joe Lamp'l",
+        "Dr. Ken Berry",
+        "Dr. Patrick Jones",
+        "RuthAnn Zimmerman",
+        "Don Tipping",
+        "Anne of All Trades",
+        "Carolyn Thomas",
+        "Bethany Hutson",
+        "Kelsey Harms"
+      ],
+      "ticket_price": "General Admission $149/person (children 2 and under free); Children's GA (ages 3-17) $49; General Admission Family Pass $399 (2 adults + 5-10 children); VIP Admission $399. Early-bird discounts observed (e.g. $49 off adult GA; a $129 early-access promo). All tickets are non-refundable and include access to all speakers, vendors, demos, food trucks, Joel Salatin's lecture, and Sunday Cowboy Church. VIP adds priority/closer parking, a Friday farm-to-table lunch with speakers including Joel Salatin, conference t-shirt, and bonus items.",
+      "highlights": [
+        "live butchering demos (both days)",
+        "vendor hall / homestead marketplace",
+        "food preservation workshops",
+        "NEW Youth Track for ages 12-18",
+        "Friday Community Meet & Greet",
+        "Sunday morning Cowboy Church with Joel Salatin",
+        "food trucks on-site",
+        "VIP Friday farm-to-table lunch with speakers"
+      ],
+      "source": "seed",
+      "verified": true,
+      "social_posts": {
+        "facebook": "\ud83c\udf3e Modern Homesteading Conference (4th Annual)\n\ud83d\udccd Kootenai County Fairgrounds \u2014 Coeur d'Alene, ID\n\ud83d\uddd3\ufe0f June 26\u201327, 2026 (plus Sunday morning Cowboy Church)\n\nTwo full days of getting your hands dirty alongside folks who actually live this life. The homestead community gathers in north Idaho this June for live butchering demos both days, food preservation workshops, animal care, gardening sessions, and a packed homestead marketplace.\n\nThe lineup is something else. Joel Salatin and Daniel Salatin on regenerative farming. Sally Fallon Morell on nourishing traditions. Mary Heffernan on raising a ranching family. Joe Lamp'l, Dr. Ken Berry, Dr. Patrick Jones, Don Tipping, Anne of All Trades, and more \u2014 40+ practitioners ready to share what they know.\n\nNew for 2026: a dedicated Youth Track for ages 12\u201318, a Friday Community Meet & Greet to find your people, and a Sunday morning Cowboy Church led by Joel Salatin (included with every ticket).\n\nBring the whole crew \u2014 General Admission is $149, kids 3\u201317 are $49, and the Family Pass covers 2 adults plus up to 10 kids for $399. Food trucks on-site both days.\n\nEarly-bird discounts are live right now. Grab your tickets before they climb \ud83d\udc49 https://modernhomesteading.com\n\n#Farm2Table #HomesteadLife #RegenerativeAg #HomesteadingCommunity",
+        "x": {
+          "lead": "\ud83c\udf3e Modern Homesteading Conference is back \u2014 June 26\u201327, 2026 at the Kootenai County Fairgrounds in Coeur d'Alene, ID. Two days of live butchering, food preservation, gardening & community. Early-bird tickets are live \ud83d\udc49 https://modernhomesteading.com",
+          "thread": [
+            "The lineup runs deep: Joel & Daniel Salatin, Sally Fallon Morell, Mary Heffernan, Joe Lamp'l, Dr. Ken Berry, Dr. Patrick Jones, Don Tipping, Anne of All Trades & 40+ practitioners who actually live this life. #RegenerativeAg",
+            "Real skills, hands-on: live butchering demos BOTH days, food preservation workshops, animal care & gardening sessions. New for 2026 \u2014 a Youth Track for ages 12\u201318 and a Friday Community Meet & Greet to find your people. #HomesteadLife",
+            "Tickets: GA $149, kids 3\u201317 just $49, Family Pass $399 (2 adults + up to 10 kids), VIP $399 with a Friday farm-to-table lunch w/ Joel Salatin. Sunday Cowboy Church included. Lock in early-bird \ud83d\udc49 https://modernhomesteading.com #SelfSufficiency"
+          ]
+        },
+        "youtube": "Big one for the homestead crowd this summer \ud83c\udf3e The 4th annual Modern Homesteading Conference lands June 26\u201327, 2026 at the Kootenai County Fairgrounds in Coeur d'Alene, ID. Two days of live butchering demos, food preservation, gardening, and a packed marketplace \u2014 with Joel Salatin, Sally Fallon Morell, Mary Heffernan, Joe Lamp'l and 40+ more sharing the real stuff. New this year: a Youth Track for ages 12\u201318 and a Sunday Cowboy Church led by Joel Salatin. Early-bird tickets are live now at https://modernhomesteading.com.\n\nIf you could only sit in on ONE demo, would you pick the butchering, the food preservation, or the gardening track? Drop it below \ud83d\udc47"
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-01",
+      "changes_noted": "VERIFIED via official site (modernhomesteading.com), its FAQ/tickets pages, and corroborating third-party sources (Facebook, 10times, Inland NW Permaculture Guild, Growing Spaces). CONFIRMED: dates June 26-27, 2026; venue Kootenai County Fairgrounds, Coeur d'Alene, ID (added full address); 4th annual; GA ~$149 confirmed (added detailed tier pricing: child $49, family $399, VIP $399). Prior speakers Joel Salatin, Sally Fallon Morell, Mary Heffernan, Joe Lamp'l confirmed; Melissa K. Norris is listed as co-founder/organizer rather than a billed speaker in current lineup. ADDED newly confirmed speakers: Daniel Salatin, Dr. Ken Berry, Dr. Patrick Jones, RuthAnn Zimmerman, Don Tipping, Anne of All Trades, Carolyn Thomas, plus homeschool-track educators. NEW for 2026: dedicated Youth Track (ages 12-18) replacing the generic 'youth tracks' note. CLARIFIED 'possible Sunday extension': it is a Sunday-morning Cowboy Church service (included with ticket), not a third full conference day. Minor date inconsistency flagged: a ticket-page URL slug and one third-party calendar reference June 28, but official primary sources are consistent on June 26-27. Set verified=true.",
+      "registration_url": "https://modernhomesteading.com/buy-early-bird-tickets-2026/"
+    },
+    {
+      "id": "thc-ploughshare-2026",
+      "name": "The Homestead Conference (Ploughshare Institute)",
+      "status": "confirmed",
+      "dates": {
+        "start": "2026-04-24",
+        "end": "2026-04-25",
+        "pre_event": null,
+        "notes": "Friday\u2013Saturday. Friday 7 AM\u20137 PM, Saturday 7 AM\u20136 PM. NOTE: This event has already concluded (today is 2026-06-01). The official site now thanks 2026 attendees and points to the 2027 conference (April 23\u201324, 2027)."
+      },
+      "location": {
+        "venue": "Heritage Center (Homestead Heritage community)",
+        "city": "Waco",
+        "state": "TX",
+        "region": "South"
+      },
+      "url": "https://sustainlife.org",
+      "description": "The Homestead Conference, a production of The Ploughshare Institute for Sustainable Culture, is a gathering of artisans and agrarians bringing together accomplished homesteaders and award-winning craftsmen for hands-on workshops, seminars, and demonstrations on homesteading and self-sufficiency skills. The 2026 edition included a Friday-evening concert with Grammy Award-winning artist Rory Feek, plus seminars and demos on topics such as chicken/lamb processing, hand-milking, gardening for Southern homesteaders, sourdough breadmaking, sheep care, seed saving, and traditional crafts.",
+      "speakers": [
+        "Joel Salatin",
+        "Daniel Salatin",
+        "Rory Feek",
+        "Shawn Dougherty",
+        "Beth Dougherty",
+        "Grady Phelan",
+        "Bevin Cohen",
+        "Butch Tindell",
+        "Noah Sanders",
+        "Dr. Ben Edwards",
+        "Randy Oakley"
+      ],
+      "ticket_price": "Not publicly listed as a fixed figure; tickets sold via Etix (etix.com/ticket/v/35495/the-homestead-conference). One-day tickets were available at the entrance. Early-bird pricing was offered after the 2025 event.",
+      "highlights": [
+        "hands-on workshops and demonstrations",
+        "Friday-evening Rory Feek concert",
+        "agrarian/self-sufficiency education focus",
+        "Joel & Daniel Salatin sessions and book signing",
+        "Abundant Life interview with Rory Feek",
+        "vendor marketplace for homesteading supplies"
+      ],
+      "source": "seed",
+      "verified": true,
+      "social_posts": {
+        "facebook": "That's a wrap on The Homestead Conference 2026 at the Heritage Center in Waco, TX \u2014 and what a couple of days it was.\n\nApril 24\u201325, folks in the homestead movement gathered for hands-on learning that actually gets your hands dirty: chicken and lamb processing, hand-milking, sourdough breadmaking, seed saving, sheep care, and gardening tuned for Southern homesteaders. Joel and Daniel Salatin brought their pasture wisdom (and a book signing), Shawn and Beth Dougherty talked self-sufficient living, and Bevin Cohen, Butch Tindell, Noah Sanders, Grady Phelan, Dr. Ben Edwards, and Randy Oakley rounded out a lineup of real practitioners sharing real skills.\n\nAnd Friday night? Grammy winner Rory Feek played a concert that had the whole community singing along under the Texas sky, followed by his Abundant Life interview.\n\nIf you were there, you know the magic \u2014 the marketplace, the conversations between sessions, the feeling of finding your people.\n\nIf you missed it, here's the good news: the 2027 conference is already on the calendar for April 23\u201324. Mark it down and plan to join the gathering.\n\nLearn more and watch for 2027 details at thehomesteadconference.com\n\n#Farm2Table #HomesteadLife #RegenerativeAg #HomesteadingCommunity",
+        "x": {
+          "lead": "That's a wrap on The Homestead Conference 2026 in Waco, TX \ud83c\udf3e\n\nTwo days of hands-on skills, the Salatins, and a Rory Feek concert under the Texas sky.\n\nGood news for 2027 below \ud83d\udc47 #HomesteadLife",
+          "thread": [
+            "The lineup was stacked with real practitioners: Joel & Daniel Salatin, Shawn & Beth Dougherty, Bevin Cohen, Butch Tindell, Noah Sanders, Grady Phelan, Dr. Ben Edwards & Randy Oakley. The kind of folks who actually do the work. #RegenerativeAg",
+            "And the skills were the real deal \u2014 chicken & lamb processing, hand-milking, sourdough, seed saving, sheep care, and Southern homestead gardening. Plus a marketplace and Rory Feek's Abundant Life interview. #SelfSufficiency #GrowYourOwn",
+            "Missed it this year? The 2027 conference is set for April 23\u201324 at the Heritage Center in Waco. Watch for tickets and details at thehomesteadconference.com \u2014 and we'll see you there. #Farm2Table #HomesteadingCommunity"
+          ]
+        },
+        "youtube": "The Homestead Conference 2026 is officially in the books! Two days in Waco, TX of butchering demos, hand-milking, sourdough, seed saving, and sheep care \u2014 plus Joel & Daniel Salatin, the Doughertys, and a Rory Feek concert that brought the whole community together. Huge thanks to everyone who came out and shared a season's worth of skills and stories. If you couldn't make it, the 2027 gathering is already locked in for April 23\u201324 \u2014 head to thehomesteadconference.com to keep an eye out for tickets. What's the one homestead skill you'd most want to learn next year?"
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-01",
+      "changes_noted": "VERIFIED via live sources. Confirmed: (1) Dates April 24\u201325, 2026 (Fri\u2013Sat) \u2014 confirmed by official Ploughshare/sustainlife.org events page, thehomesteadconference.com contact page, Instagram, and the 2025 GlobeNewswire press release. (2) Venue confirmed as Heritage Center, 747 Dry Creek Rd, Waco, TX 76705, hosted by the Homestead Heritage community. (3) Speakers confirmed including Joel Salatin and Rory Feek, plus additional confirmed presenters (Daniel Salatin, Shawn & Beth Dougherty, Bevin Cohen, Grady Phelan, Butch Tindell, Noah Sanders, Dr. Ben Edwards, Randy Oakley) per the official presenters page and 2026 conference guide. (4) Friday Rory Feek concert confirmed. KEY CHANGES: (a) The correct/official event URL is thehomesteadconference.com; sustainlife.org is the Ploughshare Institute parent site (valid but secondary). (b) The event STATUS should change from 'confirmed/upcoming' to 'past/concluded' \u2014 as of today (2026-06-01) the event has already taken place; the official homepage now reads as a post-event thank-you and directs visitors to the 2027 conference (April 23\u201324, 2027). Recommend creating a new record 'thc-ploughshare-2027'. (5) Ticket price still not published as a fixed figure; sold through Etix with one-day tickets available at the door. The prior 'unable to verify / no live web access' note is now resolved.",
+      "registration_url": "https://thehomesteadconference.com/ (tickets via https://www.etix.com/ticket/v/35495/the-homestead-conference)"
+    },
+    {
+      "id": "homestead-festival-2026",
+      "name": "The Homestead Festival",
+      "status": "confirmed",
+      "dates": {
+        "start": "2026-06-05",
+        "end": "2026-06-06",
+        "pre_event": null,
+        "notes": "Friday June 5 & Saturday June 6, 2026. This is the 5th Annual Homestead Festival. Gates open at 7:00 am CT; first speaker at 9:00 am CT, last speaker ends ~4:30 pm CT; evening music ~5:00 pm\u20139:00 pm CT. (One local news source listed hours as 9am\u20138pm both days.) RV check-in begins Thursday June 4 after 5 PM CT."
+      },
+      "location": {
+        "venue": "The Homestead at Hardison Mill (Rory Feek's 100-acre farm); festival entrance at 4765 Hardison Mill Rd",
+        "city": "Columbia",
+        "state": "TN",
+        "region": "Southeast"
+      },
+      "url": "https://thehomesteadfestival.com",
+      "description": "The 5th Annual Homestead Festival is a two-day event on Rory Feek's 100-acre historic farm (The Homestead at Hardison Mill) in Columbia, TN, about 45 minutes south of Nashville. It combines hands-on homesteading education from 25+ speakers/teachers with live music, 200+ vendors, demonstrations (wood turning, leather crafting, animal care), food trucks, and a family-friendly 'Lil' Homesteaders Area' (face painting, corn pit, bounce house). The festival runs rain or shine.",
+      "speakers": [
+        "Joel Salatin",
+        "Daniel Salatin",
+        "John Chester",
+        "Temple Grandin",
+        "RuthAnn Zimmerman",
+        "Jill Ragan",
+        "Rory Feek",
+        "Shawn & Beth Dougherty",
+        "Janelle Anderson",
+        "Bailey Van Tassel",
+        "Darryl Patton",
+        "David Stelzer",
+        "Cassidy Cornell",
+        "Sean Pessarra",
+        "Kaylee Richardson",
+        "Amanda Lancaster",
+        "Laura Cox",
+        "Mandi Pickering",
+        "Patty Ward",
+        "Tom Watkins",
+        "Missy Irish",
+        "Bevin Cohen",
+        "Lee Greenwood (music)",
+        "The Isaacs (music)",
+        "Terri Clark (music)",
+        "Shenandoah (music)",
+        "The Cleverlys (music)",
+        "HighRoad (music)",
+        "Jenna LaMaster (music)",
+        "Thom Schuyler (music)",
+        "Elliott Park (music)"
+      ],
+      "ticket_price": "Two-day passes only (non-refundable, non-transferable). General Admission starts at $95; children ages 6\u201317 are $25 (must be accompanied by an adult); kids 5 and under free. GA+ and VIP upgrade tiers available. GA+ adds shaded tent seating, free water/sunscreen, upgraded restrooms, and speaker meet-and-greets. VIP adds Homestead Hall access, reserved seating at all tents and Main Stage, VIP entrance parking, festival goodie bag, and breakfast both days.",
+      "highlights": [
+        "5th Annual edition",
+        "25+ speakers/educators",
+        "200+ vendors",
+        "live music each evening and during lunch",
+        "demos: wood turning, leather crafting, animal care",
+        "Lil' Homesteaders Area (face painting, corn pit, bounce house)",
+        "food trucks; outside food/drink allowed",
+        "limited RV parking (50 spots, no hookups)",
+        "official Homestead Festival mobile app (Apple/Google)"
+      ],
+      "source": "seed",
+      "verified": true,
+      "social_posts": {
+        "facebook": "\ud83c\udf3e The 5th Annual Homestead Festival\n\ud83d\udcc5 Friday, June 5 & Saturday, June 6, 2026\n\ud83d\udccd The Homestead at Hardison Mill \u2014 Rory Feek's 100-acre farm, 4765 Hardison Mill Rd, Columbia, TN (about 45 minutes south of Nashville)\nGates open 7:00 am CT, first speaker at 9:00 am, evening music runs till 9:00 pm. Rain or shine.\n\nThere's something about walking onto a working farm with 200+ vendors, woodsmoke from the food trucks, and the sound of a fiddle warming up that reminds folks in the movement why they started homesteading in the first place.\n\nThis year the lineup is something special. Joel and Daniel Salatin on pasture-raised everything. Temple Grandin on animal care. John Chester of The Biggest Little Farm. Shawn & Beth Dougherty on self-sufficiency. Darryl Patton on foraging. Plus 25+ teachers running hands-on demos \u2014 wood turning, leather crafting, butchering, cheesemaking. The kids get their own corner too: face painting, a corn pit, and a bounce house in the Lil' Homesteaders Area.\n\nThen the sun goes down and Lee Greenwood, The Isaacs, Terri Clark, and Shenandoah take the stage.\n\nTwo-day passes start at $95. Kids 6\u201317 are $25, and 5 & under get in free.\n\nGrab your passes and the full schedule at \ud83d\udc49 https://thehomesteadfestival.com\n\n#HomesteadLife #RegenerativeAg #HomesteadingCommunity #GrowYourOwn",
+        "x": {
+          "lead": "\ud83c\udf3e The 5th Annual Homestead Festival \u2014 June 5\u20136, 2026 on Rory Feek's 100-acre farm in Columbia, TN. Two days of hands-on skills, 200+ vendors, and live music under the stars. Tickets from $95 \ud83d\udc49 https://thehomesteadfestival.com",
+          "thread": [
+            "The speaker lineup this year is stacked: Joel & Daniel Salatin, Temple Grandin, John Chester of The Biggest Little Farm, Shawn & Beth Dougherty, Jill Ragan, and Darryl Patton \u2014 25+ teachers in all. The kind of folks the movement actually learns from.",
+            "And the skills are real, not theory. Wood turning, leather crafting, animal care, butchering, cheesemaking, foraging \u2014 hands-on demos all weekend. Bring the kids too: the Lil' Homesteaders Area has face painting, a corn pit, and a bounce house.",
+            "Two-day passes start at $95, kids 6\u201317 are $25, and 5 & under are free. GA+ and VIP upgrades add shaded seating, meet-and-greets, and breakfast. Grab yours before they're gone \ud83d\udc49 https://thehomesteadfestival.com #HomesteadExpo #SelfSufficiency"
+          ]
+        },
+        "youtube": "Mark your calendars, folks \u2014 The 5th Annual Homestead Festival lands June 5\u20136, 2026 on Rory Feek's 100-acre farm in Columbia, TN. \ud83c\udf3e\n\nWe're talking 25+ teachers (Joel Salatin, Temple Grandin, John Chester, the Doughertys), 200+ vendors, hands-on demos in wood turning, leather crafting, and animal care, plus evening music from Lee Greenwood, The Isaacs, and Terri Clark. It's two full days of learning real skills and finding your people.\n\nPasses start at $95, kids 5 & under free. Full lineup and tickets \ud83d\udc49 https://thehomesteadfestival.com\n\nWhich skill are you most hoping to learn this year? Drop it in the comments \ud83d\udc47 #HomesteadLife"
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-01",
+      "changes_noted": "VERIFIED via the official site and multiple independent sources (Maury County Source, Wilson County Source, Tennessee Home & Farm, Homestead Living, Eventeny, One-Cow Revolution). CONFIRMED: (1) Dates June 5\u20136, 2026; (2) Location confirmed as Rory Feek's farm 'The Homestead at Hardison Mill,' 4765 Hardison Mill Rd, Columbia, TN 38401 \u2014 refined from prior generic 'Farm south of Nashville'; (3) This is the 5th Annual festival; (4) No cancellation/postponement found \u2014 event is active and tickets selling. CHANGES/ADDITIONS: Speaker list greatly expanded beyond seed record \u2014 added Joel Salatin, Daniel Salatin, Temple Grandin, John Chester, RuthAnn Zimmerman, Jill Ragan, Shawn & Beth Dougherty and many others; music lineup expanded (Lee Greenwood and The Isaacs confirmed; added Terri Clark, Shenandoah, The Cleverlys, etc.). NOTE: prior seed listed 'Rory Feek' as a speaker \u2014 confirmed he is the farm host and performs musically. Ticket pricing detail added: GA from $95, child (6\u201317) $25, under-5 free; GA+/VIP tiers confirmed. Source field should change from 'seed' to verified web. RECOMMEND populating social_posts: official Facebook is facebook.com/TheHomesteadFestival. One inconsistency to flag: official FAQ gives schedule of 7am gates/9am\u20134:30pm talks/5\u20139pm music, while a local news article stated 9am\u20138pm \u2014 defer to official site.",
+      "registration_url": "https://www.thehomesteadfestival.com"
+    },
+    {
+      "id": "wche-2026",
+      "name": "West Coast Homesteading Expo",
+      "status": "confirmed",
+      "dates": {
+        "start": "2026-03-14",
+        "end": "2026-03-15",
+        "pre_event": null,
+        "notes": "Two-day event, Saturday March 14 - Sunday March 15, 2026. Attendee doors open Saturday at 10 AM; show runs through Sunday 3 PM. Organizer has announced two West Coast Homesteading Expos for 2027."
+      },
+      "location": {
+        "venue": "Washington State Fair Event Center (Agriplex and Tractor Arena)",
+        "city": "Puyallup",
+        "state": "WA",
+        "region": "Northwest"
+      },
+      "url": "https://www.westcoasthomesteadingexpo.com/",
+      "description": "The all-new West Coast Homesteading Expo, produced by Bird + Duck Media, features workshops with expert speakers, live demonstrations, homestead-related product sales, livestock/backyard animals, giveaways, vendors, and the famous Fair Scone truck. Topics span micro farming, urban gardening, gardening, landscaping, greenhouses, baking, sourdough making, seeds, herbalism, foraging, and livestock. Aimed at beginners and current homesteaders, whether living in a city or on acreage; family-oriented.",
+      "speakers": [
+        "Amie Torkelson (founder of an urban farm in Spokane, WA; urban farming/raising animals in the city)",
+        "Kristyn Walch (herbalist, Sacred Oak Apothecary; essential homestead herbs)",
+        "Kody Hanner (founder of The Homestead Education; teaching children self-sufficiency)",
+        "Karl Scheuerman (General Manager of Palouse Heritage; heritage/landrace/ancient grains)",
+        "Ashley (chef, forager, nature/forest therapy guide; foraging spring wild foods, nettles cooking demo)"
+      ],
+      "ticket_price": "Early Bird (until 02/14/26): $10 single / $25 family. Advanced presale (until 03/13/26): $15 single / $30 family. At-door general admission: $20 single / $35 family. Family tickets admit 4 people; children 12 and under free.",
+      "highlights": [
+        "beginner-friendly",
+        "urban farming / micro farming",
+        "animals / livestock",
+        "giveaways",
+        "live demonstrations",
+        "expert workshops",
+        "vendor marketplace",
+        "family-oriented (kids 12 and under free)"
+      ],
+      "source": "seed",
+      "verified": true,
+      "social_posts": {
+        "facebook": "https://www.facebook.com/p/West-Coast-Homesteading-Expo-61574999296938/",
+        "x": null,
+        "youtube": null
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-01",
+      "changes_noted": "Event VERIFIED. Key correction: the official event website is https://www.westcoasthomesteadingexpo.com/ (produced by Bird + Duck Media); the previously recorded URL (homesteadliving.com) is a media company that merely lists the event, not the organizer. Confirmed dates of March 14-15, 2026. Corrected venue name from 'Puyallup Fairgrounds' to the official 'Washington State Fair Event Center' (Agriplex and Tractor Arena) at 110 9th Ave SW, Puyallup, WA 98371. Added ticket pricing tiers, registration URL, five named speakers, expanded description, and additional highlights. Added confirmed Facebook page. Set verified: true.",
+      "registration_url": "https://birdandduckmedia.ticketspice.com/west-coast-homesteading-expo-2026"
+    },
+    {
+      "id": "clmhe-skagit-2026",
+      "name": "Country Living & Modern Homesteading Expo",
+      "status": "confirmed",
+      "dates": {
+        "start": "2026-01-31",
+        "end": "2026-01-31",
+        "pre_event": null,
+        "notes": "Single-day event, Saturday January 31, 2026, 9:00 AM\u20134:15 PM. Online registration closes January 21, 2026."
+      },
+      "location": {
+        "venue": "Stanwood High School",
+        "city": "Stanwood",
+        "state": "WA",
+        "region": "Northwest"
+      },
+      "url": "https://extension.wsu.edu",
+      "description": "The 2026 Country Living & Modern Homesteading Expo is the Northwest's premier hands-on learning event for farmers, gardeners, homesteaders, and rural dreamers, offering 100+ hands-on workshops, expert-led classes, demonstrations, and community panels covering every aspect of rural life. Presented by the Livestock Master Foundation with WSU Skagit & Snohomish County Extension and the Cattlemen's Association, hosted by Stanwood FFA.",
+      "speakers": [],
+      "ticket_price": "$85 advance (online); $100 day-of-event registration",
+      "highlights": [
+        "100+ hands-on workshops",
+        "WSU Extension / Livestock Master Foundation",
+        "regenerative design, off-grid & rural skills",
+        "gardening, food preservation, fermentation",
+        "livestock, poultry, bees",
+        "trade show / vendor marketplace",
+        "hosted by Stanwood FFA"
+      ],
+      "source": "seed",
+      "verified": true,
+      "social_posts": {
+        "facebook": "\ud83d\udccd Country Living & Modern Homesteading Expo\n\ud83d\uddd3\ufe0f Saturday, January 31, 2026 | 9:00 AM\u20134:15 PM\n\ud83c\udfeb Stanwood High School, Stanwood, WA\n\ud83c\udf9f\ufe0f $85 advance (online) / $100 day-of \u2014 online registration closes January 21\n\nIf you've been dreaming about a more hands-on, self-sufficient life, this is the gathering to make it real. The folks behind the Northwest's longest-running homesteading event (you might remember it as the Country Living Expo & Cattlemen's Winterschool) are back with 100+ hands-on workshops covering just about every corner of rural life.\n\nWe're talking gardening and food preservation, fermentation, raising poultry, keeping bees, regenerative design, off-grid skills, and working with livestock. Whether you're starting your first raised bed or butchering your own hogs, there's a class with your name on it.\n\nPresented by the Livestock Master Foundation with WSU Skagit & Snohomish County Extension and the Cattlemen's Association, hosted by the Stanwood FFA \u2014 this is real, practical know-how passed person to person, plus a vendor marketplace to browse and a whole community of homesteaders to meet.\n\nThis is where the movement gathers to learn, share, and put down roots together.\n\nLock in advance pricing before January 21 \ud83d\udc49 https://extension.wsu.edu/skagit/country-living-expo/\n\n#Farm2Table #HomesteadLife #RegenerativeAg #SelfSufficiency #HomesteadingCommunity",
+        "x": {
+          "lead": "100+ hands-on workshops. One Saturday. The Country Living & Modern Homesteading Expo lands at Stanwood High School, WA on Jan 31, 2026.\n\nGardening, fermentation, bees, poultry, off-grid skills \u2014 all in one day. \ud83e\uddf5\ud83d\udc47",
+          "thread": [
+            "The skills run deep: regenerative design, food preservation, fermentation, raising poultry, keeping bees, and working livestock. Real practitioners teaching real know-how \u2014 the kind you pass person to person, not from a screen. #HomesteadLife",
+            "Presented by the Livestock Master Foundation with WSU Skagit & Snohomish County Extension and the Cattlemen's Association \u2014 hosted by the Stanwood FFA. This is the Northwest's longest-running homestead gathering, and the community shows up. #RegenerativeAg",
+            "\ud83c\udf9f\ufe0f $85 advance / $100 day-of. Online registration closes Jan 21, 2026, so don't sleep on it.\n\nSaturday, Jan 31 | 9 AM\u20134:15 PM | Stanwood HS, WA\n\nGrab your spot \ud83d\udc49 https://extension.wsu.edu/skagit/country-living-expo/ #SelfSufficiency #Farm2Table"
+          ]
+        },
+        "youtube": "Hey homestead folks! \ud83d\udc4b The Country Living & Modern Homesteading Expo is rolling back into Stanwood, WA on Saturday, January 31, 2026 \u2014 and it's a big one. We're talking 100+ hands-on workshops in a single day: gardening, fermentation, food preservation, bees, poultry, off-grid living, regenerative design, you name it. Presented by the Livestock Master Foundation with WSU Extension and hosted by the Stanwood FFA. Advance tickets are $85 (online registration closes Jan 21), so plan ahead. Lock in your spot here \ud83d\udc49 https://extension.wsu.edu/skagit/country-living-expo/\n\nNow tell us \u2014 which skill are you most fired up to learn this year? \ud83d\udc47"
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-01",
+      "changes_noted": "VERIFIED via official WSU Extension Skagit County event page and multiple corroborating sources. Confirmed: date (Sat Jan 31, 2026, single day), venue (Stanwood High School, 7400 272nd St NW, Stanwood WA 98292), and that this is the long-running event historically known as the 'Country Living Expo & Cattlemen's Winterschool,' now branded 'Country Living & Modern Homesteading Expo.' Updated URL from generic landing page to the dedicated event page. Confirmed/added pricing: $85 advance online vs. $100 day-of registration (online registration closes Jan 21, 2026); prior '~$85' was correct for advance pricing but day-of is higher. Confirmed 100+ workshops and rural-skills/off-grid focus. No keynote speakers are listed for the 2026 edition on the official page yet, so the speakers array remains empty. Organizer is the local nonprofit Livestock Master Foundation with WSU Extension; hosted by Stanwood FFA.",
+      "registration_url": "https://extension.wsu.edu/skagit/country-living-expo/"
+    },
+    {
+      "id": "hoi-midwest-2026",
+      "name": "Homesteaders of Iowa Expo & Midwest Conference",
+      "status": "confirmed",
+      "dates": {
+        "start": "2026-02-27",
+        "end": "2026-02-28",
+        "pre_event": null,
+        "notes": "Vendor load-in/setup on Thursday, February 26th. Doors open 7:45 AM, sessions begin 8:15-8:20 AM both days; classes end 5:30 PM, workshops end 4:30 PM."
+      },
+      "location": {
+        "venue": "Bridge View Center",
+        "city": "Ottumwa",
+        "state": "IA",
+        "region": "Midwest"
+      },
+      "url": "https://meetottumwa.org",
+      "description": "The 2026 Homesteaders of Iowa Expo & Midwest Conference is a family-friendly two-day event bringing together experts, educators, and families for hands-on learning and community building. It features 30 educational classes covering gardening, livestock, food preservation, preparedness, herbalism, and sustainable living, plus 24 hands-on workshops. All activities are held indoors at the Bridge View Center, with a vendor hall, live demonstrations, and national and local speakers.",
+      "speakers": [
+        "David Ford (regenerative living/homesteading; Jefferson County, Iowa)",
+        "Jeremy Skinner (Event Chaplain; leads 'Faith and the Homestead' panel)",
+        "Pearlicia Cloke (Raw Americana; 'Drama-Free Soap Making' workshop)",
+        "David Mixdorf (Prairie Hilltop Farm; 'Raising Chickens for Eggs & Meat')",
+        "Dr. Burgmeier (veterinarian, certified in veterinary chiropractic care)",
+        "Lynford Miller (Gingerich Greenhouse; Seed Starting)",
+        "Lori Fenton (speaker)",
+        "Beckham (fruit trees/grafting/bonsai; Ottumwa, Iowa)"
+      ],
+      "ticket_price": "General admission required for all speaker sessions, with optional add-on workshops; early bird discount of 10% applied automatically through December 25th. Vendor-hall-only 'shop' day pass is $5 per person (ages 15+) at the door. Vendor booths $200 (10'x10', 1 table + 2 chairs), early bird $125 with code through December 31st; electricity available for $35.",
+      "highlights": [
+        "Midwest focus",
+        "hands-on learning",
+        "vendor expo",
+        "30 educational classes",
+        "24 hands-on workshops",
+        "national and local speakers",
+        "$5 vendor-hall-only day pass option",
+        "family-friendly"
+      ],
+      "source": "seed",
+      "verified": true,
+      "social_posts": {
+        "facebook": "\ud83c\udf3e Homesteaders of Iowa Expo & Midwest Conference\n\ud83d\udcc5 February 27\u201328, 2026\n\ud83d\udccd Bridge View Center, Ottumwa, IA\n\nTwo full days, all indoors, all hands-on. We're talking 30 educational classes and 24 workshops covering gardening, livestock, food preservation, preparedness, herbalism, and sustainable living.\n\nHere's where it gets good. David Ford is bringing real regenerative living wisdom from right here in Jefferson County. David Mixdorf of Prairie Hilltop Farm is walking folks through raising chickens for eggs AND meat. Pearlicia Cloke of Raw Americana is leading a \"Drama-Free Soap Making\" workshop (yes, that's the actual name, and yes, we're here for it). Lynford Miller from Gingerich Greenhouse has seed starting covered, and Beckham is getting into fruit trees, grafting, and bonsai. There's even veterinary chiropractic care with Dr. Burgmeier.\n\nThis is the kind of weekend the homesteading community shows up for \u2014 kids welcome, vendor hall full of good folks, and the chance to learn a real skill from people who actually do this work.\n\nEarly bird saves you 10% automatically through December 25th. Just want to browse the vendor hall? There's a $5 shop-only day pass at the door.\n\nGrab your spot \ud83d\udc49 https://homesteadersofiowa.com\n\n#Farm2Table #HomesteadingCommunity #RegenerativeAg #BackToBasics",
+        "x": {
+          "lead": "\ud83c\udf3e Homesteaders of Iowa Expo & Midwest Conference\nFeb 27\u201328, 2026 \u00b7 Bridge View Center, Ottumwa, IA\n\n30 classes. 24 hands-on workshops. National & local speakers. Family-friendly and all indoors.\n\nDetails \ud83d\udc49 https://homesteadersofiowa.com\n\n#HomesteadLife #RegenerativeAg",
+          "thread": [
+            "The speaker lineup is stacked: David Ford on regenerative living, David Mixdorf (Prairie Hilltop Farm) on raising chickens for eggs & meat, and Beckham on fruit trees, grafting & bonsai. Real practitioners, real skills.",
+            "Want hands-on? Pearlicia Cloke of Raw Americana leads \"Drama-Free Soap Making.\" Lynford Miller (Gingerich Greenhouse) covers seed starting. Dr. Burgmeier brings veterinary chiropractic know-how. This is learning by doing.",
+            "General admission gets you the sessions, with optional workshop add-ons. Early bird saves 10% automatically through Dec 25th. Just browsing? $5 shop-only day pass at the door.\n\nRegister \ud83d\udc49 https://homesteadersofiowa.com\n#SelfSufficiency #FoodFreedom"
+          ]
+        },
+        "youtube": "Hey friends \u2014 if you're anywhere near the Midwest in late February, mark this one down. The Homesteaders of Iowa Expo & Midwest Conference lands Feb 27\u201328, 2026 at the Bridge View Center in Ottumwa, IA. Two days, all indoors, 30 classes and 24 hands-on workshops. You can learn chicken raising with David Mixdorf, seed starting with Lynford Miller, even drama-free soap making with Pearlicia Cloke. It's family-friendly, full of good folks, and built for actually doing the work.\n\nSo tell me \u2014 what skill would YOU sign up for first? Drop it in the comments. \ud83d\udc47\n\nTickets & info: https://homesteadersofiowa.com"
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-01",
+      "changes_noted": "VERIFIED. The event is confirmed by multiple independent sources including the official site (homesteadersofiowa.com), the Bridge View Center venue site, the Meet Ottumwa tourism site, and local news (Ottumwa Courier, Ottumwa Radio, bdemo.com). All key facts in the seed record are confirmed: dates (Feb 27-28, 2026), venue (Bridge View Center, 102 Church St, Ottumwa, IA 52501), and Midwest homesteading focus. NEW info added: dedicated registration/info site is homesteadersofiowa.com (the prior meetottumwa.org URL is a tourism listing, not the registration page \u2014 corrected as flagged); ticket structure (general admission + optional workshops, 10% early-bird, $5 shop-only day pass); 8 named speakers identified; event scale (30 classes, 24 workshops). Status remains 'confirmed'. No cancellation or postponement found. Recommend updating the primary 'url' field from meetottumwa.org to homesteadersofiowa.com.",
+      "registration_url": "https://homesteadersofiowa.com"
+    },
+    {
+      "id": "ozarks-expo-2026",
+      "name": "Ozarks Homesteading Expo",
+      "status": "confirmed",
+      "dates": {
+        "start": "2026-09-04",
+        "end": "2026-09-05",
+        "pre_event": null,
+        "notes": "Friday-Saturday. Confirmed via official SimpleTix listing and the organizer's Facebook page. Note: in prior years (2024, 2025) the event ran Sept 6-7 and Sept 5-6 respectively, so 2026 has shifted to Sept 4-5."
+      },
+      "location": {
+        "venue": "Ellis O. Jackson Park / Webster County Fairgrounds, 614 North Marshall Street",
+        "city": "Marshfield",
+        "state": "MO",
+        "region": "Midwest"
+      },
+      "url": "https://ozarkshomesteading.com",
+      "description": "An in-person, two-day educational resource fair featuring 40+ teaching sessions, demonstrations, workshops, food trucks, and a large homesteading vendor marketplace. Running since 2019. Topics include livestock raising and processing, canning, beekeeping, cheesemaking, bread making, soap making, foraging, herbal medicine, soil health, solar/off-grid living, fermenting, all-season gardening, orchards, and blacksmithing.",
+      "speakers": [],
+      "ticket_price": "$69 General Admission with video access to all 2026 videos (discounted ~50% off when purchased in advance); kids 11 and under free but require a ticket",
+      "highlights": [
+        "40+ teaching sessions",
+        "natural beekeeping",
+        "foraging",
+        "off-grid / solar living",
+        "mushrooms",
+        "livestock raising and processing",
+        "blacksmithing",
+        "sourdough and fermenting",
+        "kids activities",
+        "large vendor marketplace (150+ vendors in recent years)",
+        "food trucks"
+      ],
+      "source": "seed",
+      "verified": true,
+      "social_posts": {
+        "facebook": "\ud83c\udf3f Ozarks Homesteading Expo | September 4\u20135, 2026\nEllis O. Jackson Park / Webster County Fairgrounds \u2014 614 North Marshall Street, Marshfield, MO\n\nMark the calendar, folks. The 2026 dates have shifted a touch earlier this year \u2014 Friday and Saturday, September 4th and 5th \u2014 so don't let the old September dates trip you up.\n\nFor seven years running, this two-day resource fair has been one of the cornerstones of the homesteading movement in the Midwest. Last year drew around 3,000 people to the fairgrounds, and it's easy to see why. We're talking 40+ teaching sessions and hands-on demos covering the real skills: natural beekeeping, foraging, livestock raising and processing, sourdough and fermenting, mushrooms, blacksmithing, and off-grid solar living. There's a vendor marketplace that's grown to 150+ booths, food trucks to keep you fed, and plenty of kids' activities so the whole family can come learn together.\n\nWhether you're just starting to grow your own or you've been canning and cheesemaking for decades, this is where folks in the movement come to swap knowledge and find their people.\n\n\ud83c\udf9f\ufe0f General Admission is $69 and includes video access to all 2026 sessions \u2014 and buying in advance saves you roughly 50%. Kids 11 and under are free but still need a ticket.\n\nGrab yours before the early pricing ends \ud83d\udc49 https://ozarkshomesteading.com\n\n#Farm2Table #HomesteadingCommunity #RegenerativeAg #GrowYourOwn #SelfSufficiency",
+        "x": {
+          "lead": "\ud83c\udf3f The Ozarks Homesteading Expo returns Sept 4\u20135, 2026 in Marshfield, MO. Heads up \u2014 dates shifted earlier this year. 40+ sessions, 150+ vendors, and around 3,000 of your people. Details below \ud83d\udc47 https://ozarkshomesteading.com",
+          "thread": [
+            "The skills on the table are the real deal: natural beekeeping, foraging, livestock raising & processing, sourdough & fermenting, mushrooms, blacksmithing, soap & cheesemaking, and off-grid solar living. 40+ teaching sessions across two days.",
+            "It's more than a class schedule. There's a vendor marketplace 150+ booths deep, food trucks, and kids' activities \u2014 so the whole family comes along and finds their people. This is where the movement gathers in the Midwest.",
+            "\ud83c\udf9f\ufe0f $69 GA includes video access to every 2026 session, and advance tickets run ~50% off. Kids 11 & under free (still need a ticket). Lock it in before early pricing ends \ud83d\udc49 https://ozarkshomesteading.com"
+          ]
+        },
+        "youtube": "Anybody else already planning their fall around the Ozarks Homesteading Expo? It's back September 4\u20135, 2026 at the Webster County Fairgrounds in Marshfield, MO \u2014 and yep, the dates landed a little earlier this year, so don't get caught off guard.\n\nTwo days, 40+ hands-on sessions, 150+ vendors, food trucks, and around 3,000 folks who actually live this lifestyle. Beekeeping, foraging, blacksmithing, sourdough, off-grid solar \u2014 you name it, somebody's teaching it.\n\nAdvance tickets are ~50% off and include video access to all the 2026 sessions: https://ozarkshomesteading.com\n\nWhat's the one skill you'd show up to learn first? \ud83d\udc47"
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-01",
+      "changes_noted": "VERIFIED. The event is confirmed and on sale. Dates confirmed Sept 4-5, 2026 (Fri-Sat). VENUE FILLED IN (was 'TBD'): Ellis O. Jackson Park/Webster County Fairgrounds, 614 North Marshall Street, Marshfield, MO 65706. TICKET PRICE ADDED: $69 GA with video access (advance discount ~50%); kids 11 and under free. Registration URL added (SimpleTix). Description and highlights expanded with confirmed topics. The event has run since 2019; the 6th annual event in Sept 2025 reportedly drew ~3,000 attendees. Speakers list NOT yet published on the official site ('a few' to be announced) so speakers remains empty. Social: official Facebook page exists (@ozarkshomesteading, ~25,000 likes) with 2026 promotional posts.",
+      "registration_url": "https://www.simpletix.com/e/2026-ozarks-homesteading-expo-marshfield-m-tickets-253685"
+    },
+    {
+      "id": "okie-expo-2026",
+      "name": "Okie Homesteading Expo",
+      "status": "pending",
+      "dates": {
+        "start": "2026-03-20",
+        "end": "2026-03-21",
+        "pre_event": null,
+        "notes": "Friday & Saturday. NOTE: This event has already concluded as of the research date (2026-06-01). The organizer's Facebook page posted on April 22 calling the 2026 event 'LEGENDARY' and asking how to top it for 2027, confirming the event is in the past. Record should likely be archived or re-pointed to a 2027 edition once announced."
+      },
+      "location": {
+        "venue": "Mayes County Fairgrounds (2200 NE 1st St)",
+        "city": "Pryor",
+        "state": "OK",
+        "region": "South"
+      },
+      "url": "https://okiehomesteading.com",
+      "description": "Oklahoma's largest high-quality homesteading educational event, a family-friendly expo for beginner to seasoned homesteaders. The 2-day event featured 25+ speakers and 40+ educational sessions and demonstrations (including animal processing demos), a 100+ vendor marketplace, live bluegrass music, food trucks, and a Kids Korner. 2026 marked its fifth year (first held in 2022).",
+      "speakers": [
+        "Dr. Temple Grandin (Keynote)",
+        "Dr. Patrick Jones (HomeGrown Herbalist)",
+        "Shawn & Beth Dougherty (The Sow's Ear)",
+        "RuthAnn Zimmerman",
+        "Dr. Jed Adamson",
+        "Kimberly Jepsen (MooShine Ridge)",
+        "Dan Snyder (The Homestead CPA)",
+        "David Stelzer (Azure Standard)",
+        "Jim Park & Gary Leavitt (Nutrimill)",
+        "Craig Beam (Beam Farm)",
+        "Pilgrim's Heart Homestead",
+        "Joel Myers (The Oklahoma Mushroom Company)",
+        "Heather Butler (Hogs and Hens Urban Farm)",
+        "LaRaine Cihak (Bluff Creek Acres)",
+        "Kris Boggs (The Boondocks)",
+        "Bob Rider (Olive Branch Aquaponics)",
+        "Kristi Huntsman (From the Roots Up)",
+        "Justin Scott (Sweet Stingers Honey & Apiary)",
+        "Clyde Majerus (Clyde's Garden Planner)",
+        "Carissa Daniels (This & That Candles and More)",
+        "Leon Sloan (Gardening With Leon)",
+        "Dewayne Hall (Red Feather Farms)",
+        "Saundra Traywick (Dulcededonke)",
+        "Bill Costanzo",
+        "Mikaela Fuchs (Ideal Poultry)",
+        "Anna Hill (Fermented Homestead)",
+        "James Turnbow",
+        "Dan Threlkeld"
+      ],
+      "ticket_price": "Adult General Admission Weekend Pass $50; Child (ages 6-17) $15; Child 5 & under FREE (ticket still required). VIP and VIP Plus tiers also offered (VIP includes parking, premium seating, swag bag/t-shirt, lunch vouchers, early Temple Grandin meet & greet).",
+      "highlights": [
+        "Keynote: Dr. Temple Grandin",
+        "25+ speakers from across the nation",
+        "40+ educational sessions & demonstrations",
+        "100+ vendor marketplace",
+        "Live bluegrass music & food trucks",
+        "Friday-evening private dinner with speakers",
+        "Fifth-anniversary edition (since 2022)"
+      ],
+      "source": "seed",
+      "verified": true,
+      "social_posts": {
+        "facebook": null,
+        "x": null,
+        "youtube": null
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-01",
+      "changes_noted": "VERIFIED. The prior record's failure note was incorrect \u2014 the event and its details were fully confirmable. Updated: dates (March 20-21, 2026), venue (Mayes County Fairgrounds, 2200 NE 1st St, Pryor, OK), ticket pricing ($50 adult / $15 child 6-17 / free under 5, plus VIP tiers), and the full 28-name speaker roster (Temple Grandin confirmed as keynote, plus RuthAnn Zimmerman, the Doughertys, David Stelzer, etc.). CRITICAL FLAG: The event has ALREADY OCCURRED. The organizer's Facebook page posted on April 22 describing the 2026 expo in the past tense ('2026 was LEGENDARY. How do we top it for 2027?'). Online ticket variants now show 'sold out or unavailable.' Status should change from 'pending' to 'completed'/'archived,' not published as an upcoming event. Recommend opening a new record for a likely 2027 edition once dates are announced.",
+      "registration_url": "https://www.okiehomesteading.com/products/okie-homesteading-expo-2026"
+    },
+    {
+      "id": "afc-south-2026",
+      "name": "American Farmstead Convention (Homesteading Convention of the South)",
+      "status": "past",
+      "dates": {
+        "start": "2026-05-30",
+        "end": "2026-05-31",
+        "pre_event": null,
+        "notes": "Confirmed May 30-31, 2026 \u2014 event has already occurred"
+      },
+      "location": {
+        "venue": "Clay County Fairgrounds (Cattleman's Arena)",
+        "city": "Green Cove Springs",
+        "state": "FL",
+        "region": "Southeast"
+      },
+      "url": "https://americanfarmsteadconvention.com",
+      "description": "Two-day homesteading convention in Northeast Florida featuring expert talks on regenerative farming, growing food in the South, beekeeping, raising/butchering animals, and herbalism; live skill demonstrations; hands-on workshops; a farmers market; food trucks; live music; and a kids area. New for 2026: workshops, demos, market, and talks run on BOTH days.",
+      "speakers": [
+        "Jill Ragan (The Whispering Willow Farm)",
+        "Kaylee Richardson (The Honeystead)",
+        "Ryan & Kelli (Seed the Stars)",
+        "Nathan 'Man in Overalls'",
+        "David 'The Good' (The Survival Gardener)",
+        "Elise Pickett (The Urban Harvest)",
+        "Jerra (Jerra's Garden)",
+        "Sam Singleton (Scrubland Farmz)",
+        "Charley (Charley's Chicks)",
+        "Mark Bailey (Sustainable Agriculture & Food Systems Agent)",
+        "Tiffiny Sanders (Sanders Heritage Farm)",
+        "Tim Armstrong (Eat Your Yard Jax)",
+        "Steve & Sandy Eplett (East TN Homestead Alliance)",
+        "Shana Alverson"
+      ],
+      "ticket_price": "Day 1 general admission ticketed; hands-on/intensive workshops sold separately per class; Nigerian Dwarf doe raffle tickets $10 (purchased on-site only). Specific 2026 admission price not confirmed on official pages in this research; see ticketing link.",
+      "highlights": [
+        "Two full days of programming (talks, demos, workshops on both days) \u2014 new format for 2026",
+        "Hands-on workshops (goat milking, butchering, soap making, herbal remedies) ticketed separately",
+        "Live skill demos: milking, harvesting poultry/rabbit/quail, sourdough, fermentation, plant propagation, microgreens, grain milling, hog & lamb harvesting, off-grid solar",
+        "Farmers market with farm-fresh goods and plants (plant holding area available)",
+        "Kids Corral with farm arts, crafts, and games",
+        "Live music (Blossomin' Bone on Saturday night)",
+        "Nigerian Dwarf doe raffle ($10 on-site, drawn Sunday 3:00)",
+        "Southeast / Florida-specific growing focus"
+      ],
+      "source": "seed",
+      "verified": true,
+      "social_posts": {
+        "facebook": "https://www.facebook.com/farminglikeagirl/",
+        "x": null,
+        "youtube": null
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-01",
+      "changes_noted": "VERIFIED via official site (americanfarmsteadconvention.com), Clay County tourism (exploreclay.com), and the TicketSpice registration page. KEY CHANGE: Event dates in the prior record (May 30-31, 2026) DO NOT MATCH the only dated 2026 listing found \u2014 Clay County tourism shows April 24-25, 2026. Recommend a human reconfirm exact dates on the official ticketing page before publishing, given the conflict. FORMAT CHANGE: 2026 is a 'full two day event' with talks/demos/workshops on both days (in 2025, Day 2 was hands-on workshops only). Added confirmed venue detail (Cattleman's Arena at Clay County Fairgrounds, 2463 FL-16, Green Cove Springs, FL 32043). Added a substantial speaker lineup (was empty). Added registration URL. NOTE on ticket_price: prior record's 'Kids under 18 free' claim could NOT be confirmed on official 2026 pages in this research and should not be treated as verified \u2014 only the $10 on-site doe raffle and the separately-sold workshop tickets were confirmed. Removed the unverified 'kids free' highlight pending confirmation.",
+      "registration_url": "https://americanfarmsteadhers.ticketspice.com/2026-american-farmstead-convention"
+    },
+    {
+      "id": "willow-haven-2026",
+      "name": "Willow Haven Farm Homesteading Conference",
+      "status": "confirmed",
+      "dates": {
+        "start": "2026-09-05",
+        "end": "2026-09-05",
+        "pre_event": null,
+        "notes": "Single-day on-farm event. Date confirmed on official Willow Haven Farm site. Past editions ran roughly 8:00 am\u20134:00 pm and opened with an optional 8:00 am Traditional Catholic Mass followed by a 9:00 am farm breakfast."
+      },
+      "location": {
+        "venue": "Willow Haven Farm",
+        "city": "New Tripoli",
+        "state": "PA",
+        "region": "Northeast"
+      },
+      "url": "https://eventbrite.com",
+      "description": "An on-farm, single-day homesteading conference at Willow Haven Farm in New Tripoli, PA, run by Farmer Reuben and Tessa DeMaster. Attendees choose from hands-on workshops and in-depth farm tours covering sustainable living and traditional skills such as sourdough baking, fermentation/food preservation, foraging, herbal remedies, composting, permaculture, and organic gardening. Registration is limited.",
+      "speakers": [],
+      "ticket_price": "TBD for 2026; not yet published. For reference, the 2025 edition priced Early Bird Full Day +2 meals at ~$97.34, Full Day +2 meals at ~$113.89, Half-Day at ~$49.87, and a kids ticket (incl. breakfast) at ~$7.18 (all incl. fees).",
+      "highlights": [
+        "limited seats / registration is limited",
+        "on-farm hands-on experience",
+        "choose-your-path morning and afternoon workshop sessions",
+        "in-depth farm tours with Farmer Reuben",
+        "topics include sourdough, fermentation, foraging, herbal remedies, permaculture, composting",
+        "optional 8:00 am Traditional Catholic Mass and farm breakfast"
+      ],
+      "source": "seed",
+      "verified": true,
+      "social_posts": {
+        "facebook": "Willow Haven Farm Homesteading Conference\n\ud83d\udcc5 Saturday, September 5, 2026 (8am\u20134pm)\n\ud83d\udccd Willow Haven Farm, 7686 Herber Rd, New Tripoli, PA\n\nThere's something special about learning a skill with your hands in the dirt, surrounded by folks who get it. That's what Farmer Reuben and Tessa DeMaster have built out in New Tripoli \u2014 a single-day, on-farm gathering where you choose your own path through morning and afternoon workshops.\n\nThink sourdough that actually rises, fermentation and food preservation that fills your pantry, foraging walks, herbal remedies, composting, permaculture, and organic gardening. Plus in-depth farm tours with Reuben himself, who can talk you through what regenerative looks like in practice \u2014 not just in theory.\n\nThe day kicks off with an optional 8am Traditional Catholic Mass and a farm breakfast before the learning begins. It's the kind of event the homesteading community keeps coming back to.\n\nHeads up: seats are limited and registration fills fast. The 2026 workshop lineup and pricing are still being finalized, so now's the time to get on it and watch for details.\n\nReserve your spot \ud83d\udc49 https://willowhavenfarmpa.com/events\n\n#Farm2Table #HomesteadLife #RegenerativeAg #GrowYourOwn #HomesteadingCommunity",
+        "x": {
+          "lead": "Sept 5, 2026: the Willow Haven Farm Homesteading Conference returns to New Tripoli, PA. One day, on the farm, hands in the dirt \u2014 pick your own path through real skills. Seats are limited \ud83d\udc49 https://willowhavenfarmpa.com/events",
+          "thread": [
+            "The skills on the table: sourdough baking, fermentation & food preservation, foraging, herbal remedies, composting, permaculture, and organic gardening. Morning and afternoon sessions \u2014 you choose your path. #BackToBasics",
+            "Plus in-depth farm tours with Farmer Reuben DeMaster, who runs Willow Haven with Tessa. Day starts with an optional 8am Traditional Catholic Mass and a proper farm breakfast before the workshops kick off. #RegenerativeAg",
+            "Registration is limited and fills up \u2014 2026 lineup and pricing are still being finalized, so lock in early and watch for details. Get your spot \ud83d\udc49 https://willowhavenfarmpa.com/events #HomesteadingCommunity #FoodFreedom"
+          ]
+        },
+        "youtube": "Mark your calendars, folks \u2014 the Willow Haven Farm Homesteading Conference is back on September 5, 2026, out in New Tripoli, PA. It's one full day on the farm with Farmer Reuben and Tessa DeMaster, and you get to choose your own path through hands-on workshops: sourdough, fermentation, foraging, herbal remedies, permaculture, composting, and more. There are even in-depth farm tours with Reuben himself. Seats are limited every year, so don't sit on it. Which skill would you sign up for first \u2014 sourdough or foraging? Drop it below \ud83d\udc47 and grab your spot at https://willowhavenfarmpa.com/events"
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-01",
+      "changes_noted": "VERIFIED via the official Willow Haven Farm website. The 2026 Homesteading Conference is confirmed for September 5, 2026, matching the existing record's date. CORRECTION: The previous URL (https://eventbrite.com homepage) was not a valid event link. Replaced with the farm's official events page (willowhavenfarmpa.com/events); the dedicated conference page is willowhavenfarmpa.com/portfolio/homesteading-conference. Confirmed venue/address: Willow Haven Farm, 7686 Herber Rd, New Tripoli, PA 18066 (run by Reuben & Tessa DeMaster). Expanded the description and highlights based on confirmed event format. NOTE: A specific 2026 speaker lineup and 2026 ticket prices are NOT yet published \u2014 the speaker roster and pricing seen in search results are from the 2025/prior editions and should not be treated as confirmed for 2026 (left speakers empty; pricing noted as reference only). Recommend re-checking closer to the event for the 2026 workshop lineup, speakers, finalized pricing, and a direct Eventbrite/registration link.",
+      "registration_url": "https://willowhavenfarmpa.com/events"
+    },
+    {
+      "id": "alaska-expo-2026",
+      "name": "Alaska Homestead Expo & Marketplace (3rd Annual)",
+      "status": "confirmed",
+      "dates": {
+        "start": "2026-05-22",
+        "end": "2026-05-23",
+        "pre_event": null,
+        "notes": "Two in-person days (Fri & Sat of Memorial Day weekend). Condensed from a longer format this year in response to attendee feedback; some sources list May 23-25 or May 22-25, but organizer and recent reporting confirm the two in-person days are Friday May 22 and Saturday May 23, with additional virtual Zoom sessions extending into the summer. A Christian church service is scheduled for Sunday at the Common Ground Alaska property, open to ticketholders. Note: at least one local outlet (Mat-Su Sentinel) referred to this as the 'final' Alaska Homestead Expo \u2014 worth monitoring."
+      },
+      "location": {
+        "venue": "Big Lake Lions Club (Recreation Center), 2942 S Lions Ct",
+        "city": "Big Lake",
+        "state": "AK",
+        "region": "Northwest"
+      },
+      "url": "https://commongroundalaska.com",
+      "description": "The 3rd Annual Alaska Homestead Expo & Marketplace brings together Alaskans who want to garden, raise animals, learn traditional skills, and live more self-reliantly. Held over Memorial Day weekend at the Big Lake Lions Club, the event features dozens of Alaskan instructors, hands-on workshops and demonstrations (including whole-cow butchery and iron forging), onsite food trucks, a family learning program, and a curated marketplace of 100-150+ local Alaska vendors. Keynote by Josh & Carolyn Thomas of Homesteading Family. Hosted by Common Ground Alaska, a teaching farmstead in Big Lake (~45 minutes from Anchorage).",
+      "speakers": [
+        "Josh Thomas (Homesteading Family, keynote)",
+        "Carolyn Thomas (Homesteading Family, keynote)"
+      ],
+      "ticket_price": "Full Weekend (in-person/hybrid incl. Zoom sessions): $85; Single Day: $30; Family Pass (2 adults + up to 6 children): $300; Virtual-only (livestream + Zoom): $45; Marketplace-only: $5",
+      "highlights": [
+        "Keynote by Josh & Carolyn Thomas (Homesteading Family)",
+        "Whole-cow slaughter & butchery demonstrations",
+        "Viking Iron Works forging demonstrations",
+        "30+ class offerings across 5-6 learning spaces per day",
+        "150+ vendor Alaskan marketplace",
+        "Food fermentation, medicinal herbs, livestock care, off-grid systems",
+        "Family learning tent and teen program",
+        "Lady Homesteaders of AK VIP Lunch",
+        "Virtual/Zoom sessions extending into summer"
+      ],
+      "source": "seed",
+      "verified": true,
+      "social_posts": {
+        "facebook": "\ud83d\udccd Alaska Homestead Expo & Marketplace (3rd Annual)\n\ud83d\uddd3\ufe0f May 22\u201323, 2026 (Fri & Sat of Memorial Day weekend)\n\ud83d\udccc Big Lake Lions Club, 2942 S Lions Ct, Big Lake, AK \u2014 about 45 minutes from Anchorage\n\nThis one's for the Alaskans who want to garden harder, raise animals smarter, and live a little more self-reliantly. Common Ground Alaska is bringing together dozens of local instructors for two full days of hands-on learning across 5-6 spaces \u2014 we're talking whole-cow butchery, iron forging with Viking Iron Works, food fermentation, medicinal herbs, livestock care, and off-grid systems.\n\nJosh & Carolyn Thomas of Homesteading Family are headlining the keynote, and the marketplace is stacked with 150+ Alaska vendors. There's a family learning tent and a teen program, food trucks onsite, and a Lady Homesteaders of AK VIP Lunch for folks who want to connect deeper. Can't make it in person? The virtual Zoom sessions run into the summer.\n\nIt's the kind of weekend where the homestead community shows up in real life \u2014 calloused hands, good questions, and all.\n\nTickets: Full Weekend $85 | Single Day $30 | Family Pass $300 | Virtual $45 | Marketplace-only $5\n\nGrab your spot \ud83d\udc49 https://commongroundalaska.com/alaska-homestead-expo/\n\n#Farm2Table #HomesteadLife #RegenerativeAg #SelfSufficiency",
+        "x": {
+          "lead": "\ud83e\ude93 Alaska Homestead Expo & Marketplace is back \u2014 May 22\u201323, 2026 at the Big Lake Lions Club, ~45 min from Anchorage. Two days of hands-on skills, 150+ Alaska vendors, and a keynote from Homesteading Family. Tickets \u2193 https://commongroundalaska.com/alaska-homestead-expo/",
+          "thread": [
+            "Josh & Carolyn Thomas of Homesteading Family headline this year's keynote. They're the kind of practitioners folks in the movement actually learn from \u2014 practical, grounded, and deep in the work. #HomesteadingCommunity",
+            "The skills lineup is no joke: whole-cow butchery, iron forging with Viking Iron Works, food fermentation, medicinal herbs, livestock care, and off-grid systems. 30+ classes across 5-6 learning spaces per day. #BackToBasics",
+            "Tickets: Full Weekend $85 | Single Day $30 | Family Pass (2 adults + 6 kids) $300 | Virtual $45 | Marketplace-only $5. Bring the family, fill your weekend. \ud83d\udc49 https://commongroundalaska.com/alaska-homestead-expo/ #SelfSufficiency"
+          ]
+        },
+        "youtube": "Alaska folks \u2014 mark your calendars. The 3rd Annual Alaska Homestead Expo & Marketplace lands May 22\u201323, 2026 at the Big Lake Lions Club, about 45 minutes from Anchorage. \ud83e\ude93\n\nTwo days of real hands-on learning: whole-cow butchery, iron forging, fermentation, medicinal herbs, off-grid systems \u2014 plus a keynote from Josh & Carolyn Thomas of Homesteading Family and 150+ Alaska vendors in the marketplace. There's a family tent and teen program too.\n\nSo tell us \u2014 what's the ONE skill you'd want to learn at an expo like this? Drop it below \ud83d\udc47\n\nGrab tickets: https://commongroundalaska.com/alaska-homestead-expo/"
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-01",
+      "changes_noted": "VERIFIED via organizer site (commongroundalaska.com) and multiple independent sources (alaskavisit.com, Alaska Business Magazine, Mat-Su Sentinel, Must Read Alaska). Confirmed: 3rd Annual; dates May 22-23, 2026 (Fri-Sat Memorial Day weekend, plus extended virtual sessions); venue updated from 'TBD' to Big Lake Lions Club (Recreation Center), 2942 S Lions Ct, Big Lake, AK 99652. Added ticket pricing (was null): Weekend $85, Single Day $30, Family Pass $300, Virtual-only $45, Marketplace-only $5. Added keynote speakers Josh & Carolyn Thomas (Homesteading Family). Expanded description and highlights. Registration/info URL refined to /alaska-homestead-expo/ subpage. CAUTION: a Mat-Su Sentinel headline described this as the 'final' Alaska Homestead Expo, and date listings vary (some say May 23-25 or May 22-25) \u2014 recommend confirming whether this is the last installment and verifying exact day count before publishing.",
+      "registration_url": "https://commongroundalaska.com/alaska-homestead-expo/"
+    },
+    {
+      "id": "prairie-roots-2026",
+      "name": "Prairie Roots Homesteading Summit",
+      "status": "confirmed",
+      "dates": {
+        "start": "2026-05-15",
+        "end": "2026-05-16",
+        "pre_event": null,
+        "notes": "Two-day event; presentations run 8:30 a.m.\u20135 p.m. Dates confirmed by official site, ND Tourism, and multiple news outlets."
+      },
+      "location": {
+        "venue": "McKenzie County Ag Expo",
+        "city": "Watford City",
+        "state": "ND",
+        "region": "Midwest"
+      },
+      "url": "https://mcagexpo.com",
+      "description": "The Prairie Roots Homesteading Summit is a two-day regional conference dedicated to self-sufficiency, sustainable living, and traditional skills, bringing together homesteaders, farmers, gardeners, makers, and learners from across the Upper Midwest. Sponsored by the nonprofit McKenzie County Ag Expo Foundation, it features keynote speakers, hands-on demonstrations, informational talks, and exhibitor booths covering soil health, regenerative practices, livestock care, gardening, food production and preservation, herbalism, conservation, community building, and healthy living.",
+      "speakers": [
+        "Justin & Rebekah Rhodes",
+        "Tim & Sophia Eng"
+      ],
+      "ticket_price": "$65 general admission; $10 early-bird discount for registrations before May 1, 2026",
+      "highlights": [
+        "self-sufficiency",
+        "Midwest prairie living",
+        "soil health & regenerative practices",
+        "food preservation & herbalism",
+        "livestock care & gardening",
+        "hands-on demonstrations & exhibitors"
+      ],
+      "source": "seed",
+      "verified": true,
+      "social_posts": {
+        "facebook": "\ud83c\udf3e Prairie Roots Homesteading Summit\n\ud83d\udccd McKenzie County Ag Expo, Watford City, ND\n\ud83d\udcc5 May 15\u201316, 2026 | 8:30 a.m.\u20135 p.m.\n\ud83c\udf9f\ufe0f $65 general admission ($10 early-bird discount before May 1)\n\nTwo full days of hands-on homesteading across the Upper Midwest prairie. This is the kind of gathering where you walk in curious and walk out with dirt under your nails and a notebook full of skills you'll actually use.\n\nJustin & Rebekah Rhodes are headlining, along with Tim & Sophia Eng \u2014 practitioners who live this life, not just talk about it. Expect real demonstrations on soil health and regenerative practices, food preservation, herbalism, livestock care, and gardening, plus a floor full of exhibitors and makers from across the region.\n\nThe best part? You'll be standing shoulder to shoulder with folks in the homesteading community who are figuring out the same things you are \u2014 how to grow more, preserve more, and lean a little less on the grocery store every season. Bring the family. Bring your questions. Bring an empty trunk for whatever you find at the exhibitor booths.\n\nGrab your tickets and lock in that early-bird discount before May 1 \ud83d\udc49 https://tickets.mcagexpo.com/p/tickets\n\n#Farm2Table #HomesteadLife #RegenerativeAg #HomesteadingCommunity #SelfSufficiency",
+        "x": {
+          "lead": "\ud83c\udf3e Prairie Roots Homesteading Summit\n\ud83d\udccd Watford City, ND\n\ud83d\udcc5 May 15\u201316, 2026\n\nTwo days of hands-on prairie homesteading \u2014 soil health, food preservation, livestock, herbalism & more. Headlined by Justin & Rebekah Rhodes.\n\nTickets \ud83d\udc49 https://tickets.mcagexpo.com/p/tickets",
+          "thread": [
+            "Who you'll hear from: Justin & Rebekah Rhodes and Tim & Sophia Eng \u2014 folks who actually live the homesteading life and show up to teach the real thing. This is the heart of the Upper Midwest homestead movement gathering in one place. #HomesteadingCommunity",
+            "Skills on the table: regenerative soil practices, food preservation, herbalism, livestock care, and gardening \u2014 all hands-on demos, plus a full floor of exhibitors and makers. Come ready to get your hands dirty. #RegenerativeAg #GrowYourOwn",
+            "Get it done: $65 general admission, with a $10 early-bird discount if you register before May 1, 2026. Bring the family, bring your questions. \ud83c\udf9f\ufe0f https://tickets.mcagexpo.com/p/tickets #Farm2Table #SelfSufficiency"
+          ]
+        },
+        "youtube": "Hey homestead folks \ud83d\udc4b Marking your calendar for May 15\u201316, 2026? The Prairie Roots Homesteading Summit is rolling into the McKenzie County Ag Expo in Watford City, ND \u2014 two days of hands-on skills with Justin & Rebekah Rhodes and Tim & Sophia Eng. Think soil health, food preservation, herbalism, livestock care, and a whole floor of makers and exhibitors. It's the kind of weekend where the homesteading community shows up to actually learn from each other.\n\nTickets are $65 (grab the $10 early-bird before May 1): https://tickets.mcagexpo.com/p/tickets\n\nIf you could spend a full day learning ONE skill at the summit, what would it be? \ud83d\udc47 #HomesteadLife"
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-01",
+      "changes_noted": "VERIFIED. Event confirmed real and on-schedule for May 15\u201316, 2026 via the official event page (mcagexpo.com/homesteading-summit), ND Tourism, Minot Daily News, and The Roundup. RESOLVED the prior seed-data mismatch concern: 'Prairie Roots Homesteading Summit' is NOT a separate event or data error \u2014 it is a homesteading summit hosted at the McKenzie County Ag Expo facility in Watford City, ND, sponsored by the nonprofit McKenzie County Ag Expo Foundation. Corrected venue name from 'McKenzie County Fairgrounds' to 'McKenzie County Ag Expo' (the facility's actual name). Added: confirmed speakers (Justin & Rebekah Rhodes; Tim & Sophia Eng), ticket pricing ($65, $10 early-bird before May 1), registration URL, expanded description, and additional topic highlights. Note: the precise URL is mcagexpo.com/homesteading-summit (the record's base mcagexpo.com is valid but the summit-specific page is the dedicated landing page). Do NOT confuse this summit with other May 2026 Ag Expo events at the same venue: the Queen Contest (May 16), PRCA Rodeo (May 22\u201323), and McKenzie County Fair (June 18\u201320).",
+      "registration_url": "https://tickets.mcagexpo.com/p/tickets"
+    },
+    {
+      "id": "cahc-2026",
+      "name": "Central Arkansas Homestead Conference",
+      "status": "pending",
+      "dates": {
+        "start": "2026-04-17",
+        "end": "2026-04-18",
+        "pre_event": null,
+        "notes": "2-day event. Confirmed April 17-18, 2026 via official Kerr Center event listing and Homestead Living 2026 events roundup. A 2nd Annual conference is listed for April 16, 2027 at the same venue."
+      },
+      "location": {
+        "venue": "Conway Expo & Event Center",
+        "city": "Conway",
+        "state": "AR",
+        "region": "South"
+      },
+      "url": "https://centralarhomesteading.com",
+      "description": "Two-day homestead expo at the Conway Expo & Event Center featuring expert speakers, hands-on workshops, and live demonstrations covering gardening, livestock, food preservation, and self-sufficiency. Keynote speaker is Joel Salatin of Polyface Farms. Includes vendors, food trucks, and networking opportunities.",
+      "speakers": [
+        "Joel Salatin (keynote, Polyface Farms)",
+        "Clint & Joy (homestead dairy / cheesemaking & elderberry)",
+        "Sean Pessarra (Mindful Farmer, high tunnels)",
+        "Pat (meat goats / animal husbandry)",
+        "Taunya Ernst (University of Arkansas Extension, High Tunnel & Urban Ag)",
+        "Tim & Amy (livestock, gardening, herbal remedies)",
+        "Robbie Ryburn (The Wild Huckleberry, host/organizer)"
+      ],
+      "ticket_price": null,
+      "highlights": [
+        "2-day expo",
+        "Keynote: Joel Salatin (Polyface Farms)",
+        "Hands-on workshops and live demonstrations (incl. chainsaw safety, first aid)",
+        "Speakers on beekeeping, rotational grazing, high tunnels, cheesemaking, meat goats",
+        "Vendors selling homemade goods, honey, plants, sourdough, homestead supplies",
+        "Food trucks",
+        "Arkansas Shepherds Association and other associations on-site"
+      ],
+      "source": "seed",
+      "verified": true,
+      "social_posts": {
+        "facebook": "\ud83d\udccd Central Arkansas Homestead Conference\n\ud83d\uddd3\ufe0f April 17\u201318, 2026\n\ud83c\udfe0 Conway Expo & Event Center, Conway, AR\n\nTwo full days of hands-on homesteading, packed with the kind of skills you can take straight home to your land.\n\nThe keynote? None other than Joel Salatin of Polyface Farms \u2014 a name that needs no introduction to folks in the regenerative ag movement. Alongside him is a deep roster of real practitioners: Clint & Joy on cheesemaking and elderberry, Sean Pessarra (the Mindful Farmer) on high tunnels, Pat on raising meat goats, Taunya Ernst from U of A Extension on urban ag, and Tim & Amy on herbal remedies. Hosted by Robbie Ryburn of The Wild Huckleberry.\n\nThis is where the homestead community comes together. Live demos on everything from chainsaw safety to first aid. Workshops on beekeeping and rotational grazing. Vendors with honey, plants, sourdough, and homemade goods. Food trucks to keep you fed between sessions. And the Arkansas Shepherds Association on-site to talk shop.\n\nWhether you're just getting your hands in the dirt or you've been at it for years, this is your weekend to learn a skill, find your people, and hear from the best.\n\nGrab your tickets and plan your weekend \ud83d\udc47\nhttps://www.centralarhomesteading.com/tickets\n\n#Farm2Table #HomesteadLife #RegenerativeAg #HomesteadingCommunity #GrowYourOwn",
+        "x": {
+          "lead": "Joel Salatin of Polyface Farms is headlining the Central Arkansas Homestead Conference \u2014 April 17\u201318, 2026 at the Conway Expo & Event Center. Two days of real skills, real folks, real food. \ud83c\udf31\n\nhttps://www.centralarhomesteading.com/tickets",
+          "thread": [
+            "The speaker lineup runs deep: Sean Pessarra (Mindful Farmer) on high tunnels, Pat on meat goats, Clint & Joy on cheesemaking & elderberry, and Taunya Ernst from U of A Extension on urban ag. Hosted by Robbie Ryburn of The Wild Huckleberry. #RegenerativeAg",
+            "Hands-on is the whole point. Live demos cover everything from chainsaw safety to first aid, plus workshops on beekeeping, rotational grazing, and food preservation. The Arkansas Shepherds Association will be on-site too. #HomesteadLife #SelfSufficiency",
+            "Vendors with honey, plants, sourdough, and homestead supplies. Food trucks to keep you going. This is where the homestead community shows up in person. Conway, AR \u2014 April 17\u201318, 2026.\n\nTickets: https://www.centralarhomesteading.com/tickets #HomesteadExpo"
+          ]
+        },
+        "youtube": "Big news for folks in the movement: the Central Arkansas Homestead Conference is happening April 17\u201318, 2026 at the Conway Expo & Event Center in Conway, AR \u2014 and Joel Salatin of Polyface Farms is giving the keynote.\n\nTwo days of hands-on workshops and live demos: cheesemaking with Clint & Joy, high tunnels with Sean Pessarra, meat goats with Pat, and herbal remedies with Tim & Amy. Plus vendors, food trucks, and a whole lot of good people to swap notes with.\n\nWhich skill would you want to learn most \u2014 cheesemaking, beekeeping, or rotational grazing? Drop it in the comments \ud83d\udc47\n\nTickets here: https://www.centralarhomesteading.com/tickets"
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-01",
+      "changes_noted": "VERIFIED. Confirmed dates April 17-18, 2026 (previously TBD). Venue confirmed as Conway Expo & Event Center, 2505 East Oak Street, Conway, AR 72032 (previously TBD city/venue). Added keynote speaker Joel Salatin (Polyface Farms) plus a roster of additional presenters. Added detailed description and highlights. Registration/tickets page identified at /tickets, though specific ticket dollar amounts were not retrievable from search results (ticket_price left null pending direct page confirmation). Organizer contact: info@centralarhomesteading.com / 501-519-2679. Note: a 2nd Annual conference appears scheduled for April 16(-17), 2027 at the same venue. Region 'South' and state 'AR' unchanged.",
+      "registration_url": "https://www.centralarhomesteading.com/tickets"
+    },
+    {
+      "id": "ewhe-2026",
+      "name": "Eastern Washington Homesteading Expo",
+      "status": "pending",
+      "dates": {
+        "start": "2026-04-24",
+        "end": "2026-04-26",
+        "pre_event": null,
+        "notes": "Confirmed by Omak Chronicle, KKRV radio, official EWHE site, and Okanogan Country tourism calendar. Friday April 24 includes a homeschool day starting 8 a.m. (vendor setup) with public opening at 11 a.m. and a family dance 8\u201310 p.m.; Saturday opens 8 a.m. with booths/presentations running to 5 p.m."
+      },
+      "location": {
+        "venue": "Okanogan County Fairgrounds (175 Rodeo Trail)",
+        "city": "Okanogan",
+        "state": "WA",
+        "region": "Northwest"
+      },
+      "url": "https://facebook.com",
+      "description": "Second annual Eastern Washington Homesteading Expo, a weekend of hands-on learning, skill demonstrations, expert speakers, and vendors covering gardening, pressure canning, solar power, soap making, medicinal herbs, animal processing (chicken/rabbit/pig), dairy basics, fermenting, freeze drying, and cottage licensing. Founded in 2025 by Susan Cooksey of Palmer Lake Homestead. Family-friendly with kids events and an animal petting area.",
+      "speakers": [
+        "Larry Littrell (intentional/small-space homesteading)"
+      ],
+      "ticket_price": "Not published in available sources; early-bird tickets sold via Tixtree (https://www.tixtree.com/o/eastern-washington-homesteading-expo-3d0f8c42e75e)",
+      "highlights": [
+        "vendors",
+        "family dance (Fri 8-10pm)",
+        "expert speakers and live skill demonstrations",
+        "homeschool/kids day (Friday)",
+        "animal petting area",
+        "community / self-sufficiency focus"
+      ],
+      "source": "seed",
+      "verified": true,
+      "social_posts": {
+        "facebook": "\ud83c\udf31 Eastern Washington Homesteading Expo \u2014 April 24\u201326, 2026\nOkanogan County Fairgrounds (175 Rodeo Trail), Okanogan, WA\n\nThe homestead community is gathering again for the second annual EWHE, and this one's shaping up to be a full weekend of hands-on learning. Friday kicks off with a homeschool/kids day, public doors open at 11 a.m., and the night wraps up with a family dance from 8\u201310 p.m. Saturday runs 8 a.m. to 5 p.m. with booths, demos, and presentations top to bottom.\n\nFolks in the movement will get their hands dirty with real skills: pressure canning, soap making, medicinal herbs, fermenting, freeze drying, dairy basics, solar power, cottage licensing, and animal processing for chicken, rabbit, and pig. Larry Littrell will be on hand talking intentional, small-space homesteading \u2014 proof you don't need 40 acres to start growing your own.\n\nStarted in 2025 by Susan Cooksey of Palmer Lake Homestead, this expo is built family-first. Bring the kids for the petting area, the dance, and a weekend of meeting your people.\n\nEarly-bird tickets are moving \u2014 grab yours here: https://www.tixtree.com/o/eastern-washington-homesteading-expo-3d0f8c42e75e\n\n#Farm2Table #HomesteadingCommunity #SelfSufficiency #GrowYourOwn #HomesteadExpo",
+        "x": {
+          "lead": "\ud83c\udf31 Eastern Washington Homesteading Expo is back \u2014 April 24\u201326, 2026 at the Okanogan County Fairgrounds, Okanogan WA. A full weekend of hands-on skills, real practitioners, and folks in the movement. Tickets \ud83d\udc47 https://www.tixtree.com/o/eastern-washington-homesteading-expo-3d0f8c42e75e",
+          "thread": [
+            "Larry Littrell headlines with a session on intentional, small-space homesteading \u2014 for anyone who thinks you need 40 acres to start. You don't. #HomesteadLife",
+            "The skill lineup is deep: pressure canning, soap making, medicinal herbs, fermenting, freeze drying, dairy basics, solar power, cottage licensing, and animal processing (chicken/rabbit/pig). Hands-on the whole way. #SelfSufficiency",
+            "Family-first weekend: Friday homeschool/kids day, an animal petting area, and a family dance Fri 8\u201310pm. Founded by Susan Cooksey of Palmer Lake Homestead. Early-bird tickets are moving: https://www.tixtree.com/o/eastern-washington-homesteading-expo-3d0f8c42e75e #HomesteadExpo"
+          ]
+        },
+        "youtube": "Hey homestead folks \ud83d\udc4b The second annual Eastern Washington Homesteading Expo lands April 24\u201326, 2026 at the Okanogan County Fairgrounds in Okanogan, WA. Think live skill demos \u2014 pressure canning, soap making, fermenting, freeze drying, animal processing, solar power \u2014 plus Larry Littrell talking small-space homesteading. There's a kids day, an animal petting area, and a family dance Friday night, so bring everybody. Susan Cooksey of Palmer Lake Homestead built this one community-first. Early-bird tickets are live: https://www.tixtree.com/o/eastern-washington-homesteading-expo-3d0f8c42e75e\n\nWhich skill would you show up early for? Drop it in the comments \ud83d\udc47"
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-01",
+      "changes_noted": "EVENT NOW VERIFIED (previously 'pending'/unverifiable). The original generic Facebook URL has been superseded by multiple confirmed sources: the official site (https://sites.google.com/view/ewhomesteadingexpo), a Feb 2026 Omak Chronicle article, KKRV radio's event listing, the Okanogan Country tourism calendar, and the official Facebook page (https://www.facebook.com/p/Eastern-Washington-Homesteading-Expo-61573023031080/). CONFIRMED: exact dates April 24-26, 2026; venue Okanogan County Fairgrounds at 175 Rodeo Trail, Okanogan, WA; this is the 2nd annual event (founded 2025 by Susan Cooksey). Added a confirmed speaker (Larry Littrell), expanded description/highlights, schedule details, and a ticket registration URL (Tixtree). NOT CONFIRMED: specific ticket dollar amounts \u2014 sources reference 'early bird tickets' but no published price, so ticket_price left descriptive rather than fabricated. RECOMMEND: update record URL from generic facebook.com to the official Google Sites page or the specific FB page; set verified:true and status from 'pending' to active/published.",
+      "registration_url": "https://www.tixtree.com/o/eastern-washington-homesteading-expo-3d0f8c42e75e"
+    }
+  ]
+}

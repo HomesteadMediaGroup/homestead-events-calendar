@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-02",
+    "last_updated": "2026-06-03",
     "version": "1.0",
     "total_events": 31
   },
@@ -349,7 +349,7 @@
         "state": "WA",
         "region": "Northwest"
       },
-      "url": "https://extension.wsu.edu",
+      "url": "https://www.facebook.com/CountryLivingExpo/",
       "description": "The 2026 Country Living & Modern Homesteading Expo is the Northwest's premier hands-on learning event for farmers, gardeners, homesteaders, and rural dreamers, offering 100+ hands-on workshops, expert-led classes, demonstrations, and community panels covering every aspect of rural life. Presented by the Livestock Master Foundation with WSU Skagit & Snohomish County Extension and the Cattlemen's Association, hosted by Stanwood FFA. Registration includes lunch (historically a prime rib lunch) and breakfast items at no extra cost.",
       "speakers": [],
       "ticket_price": "$85 advance (online); $100 day-of-event registration",
@@ -383,7 +383,7 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-01",
+      "last_researched": "2026-06-03",
       "changes_noted": "RE-VERIFIED via official WSU Extension Skagit County pages (both the main country-living-expo landing page and the dedicated event page) plus multiple corroborating sources (Snohomish & Skagit Conservation Districts, South Whidbey Tilth, Island & San Juan County WSU Extension, 10times). CONFIRMED unchanged: date (Sat Jan 31, 2026, single day, 9:00 AM\u20134:15 PM), venue (Stanwood High School, 7400 272nd St NW, Stanwood WA 98292), pricing ($85 advance online / $100 day-of, online registration closes Jan 21, 2026), 100+ workshops, organizers (Livestock Master Foundation with WSU Skagit & Snohomish County Extension and the Cattlemen's Association), and Stanwood FFA hosting. NEW/ADDED: (1) Registration includes lunch (historically a prime rib lunch) and breakfast items at no cost \u2014 not previously noted. (2) Returning Chicken & Duck Egg Weigh Off sponsored by Conway Feed. (3) Confirmed sample 2026 session topics on official page: regenerative design, fermentation/quick pickling, lavender, clematis, seed saving, backyard poultry disease management, mastitis/dairy animal health, hay selection, sheep keeping, growing tea in western WA, blueberries. NO keynote speakers listed \u2014 the event uses a multi-track format with numerous individual workshop instructors, so speakers array remains empty. NOTE: a dedicated event-detail page exists at extension.wsu.edu/skagit/event/country-living-modern-homesteading-expo/, but the primary public-facing registration/landing page remains extension.wsu.edu/skagit/country-living-expo/. NOT cancelled or postponed. NOTE: the supplied URL 'https://extension.wsu.edu' is a generic WSU Extension landing page, not the event page; recommend keeping the specific registration_url.",
       "registration_url": "https://extension.wsu.edu/skagit/country-living-expo/"
     },

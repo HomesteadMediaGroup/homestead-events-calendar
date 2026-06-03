@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-01",
+    "last_updated": "2026-06-02",
     "version": "1.0",
-    "total_events": 15
+    "total_events": 31
   },
   "events": [
     {
@@ -144,7 +144,7 @@
         "state": "TX",
         "region": "South"
       },
-      "url": "https://sustainlife.org",
+      "url": "https://thehomesteadconference.com/",
       "description": "The Homestead Conference, a production of The Ploughshare Institute for Sustainable Culture, is a gathering of artisans and agrarians bringing together accomplished homesteaders and award-winning craftsmen to present education for people seeking to sustain their families and communities from the land. The conference pairs presenters (with hundreds of years of combined homesteading/farming experience) and award-winning craftsmen with vendors of homesteading supplies and equipment, fostering local food, craft, and a land-based economy. The 2026 edition (its second annual, after a ~2,000-attendee inaugural 2025) featured hands-on workshops, seminars and demonstrations on topics such as chicken/lamb processing, beekeeping, livestock guardian dogs, soil blocks/compost, garden creation, pottery and traditional crafts, plus a Friday-evening concert with Rory Feek.",
       "speakers": [
         "Joel Salatin",
@@ -187,7 +187,7 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-01",
+      "last_researched": "2026-06-02",
       "changes_noted": "VERIFIED via live official sources. (1) STATUS CHANGE \u2014 the event is now CONCLUDED. The official site no longer markets 2026 as upcoming; the homepage now thanks 2026 attendees and points to the 2027 conference. (2) 2027 dates confirmed as April 23\u201324, 2027 (Waco, TX) via the official Facebook page; 2027 tickets are on sale now. Recommend creating record 'thc-ploughshare-2027'. (3) URL: thehomesteadconference.com is the correct/primary event URL; sustainlife.org is the Ploughshare Institute parent site (valid but secondary). (4) Confirmed dates April 24\u201325, 2026 (Fri\u2013Sat), times Friday 7 AM\u20137 PM / Saturday 7 AM\u20136 PM, via sustainlife.org events page and contact page. (5) Venue confirmed: Heritage Center, 747 Dry Creek Rd, Waco, TX 76705, hosted by the Homestead Heritage community. (6) Speakers confirmed (Joel & Daniel Salatin, Rory Feek, Shawn & Beth Dougherty, Bevin Cohen, Butch Tindell, Noah Sanders, Grady Phelan, Dr. Ben Edwards, Randy Oakley) via presenters page and 2026 conference guide. (7) Ticket price not published as a fixed figure for 2026; sold through Etix with one-day tickets at the door. Added historical reference that the 2025 inaugural was $99 adults / $19 children 3\u201317.",
       "registration_url": "https://thehomesteadconference.com/ (tickets via https://www.etix.com/ticket/v/35495/the-homestead-conference)"
     },
@@ -403,7 +403,7 @@
         "state": "IA",
         "region": "Midwest"
       },
-      "url": "https://meetottumwa.org",
+      "url": "https://homesteadersofiowa.com/",
       "description": "The 2026 Homesteaders of Iowa Expo & Midwest Conference is a family-friendly two-day event bringing together experts, educators, and families for hands-on learning and community building. It features 30 educational classes covering gardening, livestock, food preservation, preparedness, herbalism, and sustainable living, plus 24 hands-on workshops. All activities are held indoors at the Bridge View Center, with a vendor hall, live demonstrations, and national and local speakers.",
       "speakers": [
         "David Ford (regenerative living/homesteading; Jefferson County, Iowa)",
@@ -445,7 +445,7 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-01",
+      "last_researched": "2026-06-02",
       "changes_noted": "VERIFIED. The event is confirmed by multiple independent sources including the official site (homesteadersofiowa.com), the Bridge View Center venue site, the Meet Ottumwa tourism site, and local news (Ottumwa Courier, Ottumwa Radio, bdemo.com). All key facts in the seed record are confirmed: dates (Feb 27-28, 2026), venue (Bridge View Center, 102 Church St, Ottumwa, IA 52501), and Midwest homesteading focus. NEW info added: dedicated registration/info site is homesteadersofiowa.com (the prior meetottumwa.org URL is a tourism listing, not the registration page \u2014 corrected as flagged); ticket structure (general admission + optional workshops, 10% early-bird, $5 shop-only day pass); 8 named speakers identified; event scale (30 classes, 24 workshops). Status remains 'confirmed'. No cancellation or postponement found. Recommend updating the primary 'url' field from meetottumwa.org to homesteadersofiowa.com.",
       "registration_url": "https://homesteadersofiowa.com"
     },
@@ -502,9 +502,10 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-01",
+      "last_researched": "2026-06-02",
       "changes_noted": "VERIFIED & RE-CONFIRMED. Dates remain Sept 4-5, 2026 (Fri-Sat) per official SimpleTix listing, ozarkshomesteading.com, and an independent 2026 events roundup. Venue and location unchanged. TICKET PRICING EXPANDED \u2014 record previously listed only the $69 GA+video tier; SimpleTix now shows a full tier structure: GA $50 (no video), GA+video $69 (~50%+ advance discount), VIP $249, and Kids VIP $199. Video access is expected within 60 days after the event and one code is issued per household. DESCRIPTION/HIGHLIGHTS updated with additional confirmed 2026 topics from the official 2026 Expo page (hog butchering, chicken processing, meat rabbits, livestock guardian dogs, natural building from clay & straw, rocket mass heaters, clay pizza ovens, high tunnels, homeschooling). Vendor count corrected: official 2026 page states 'more than 160 vendors' last year (record had said 150+). SPEAKERS STILL NOT PUBLISHED for 2026 \u2014 official 2026 page only teases 'here are just a few' with no names yet; the speaker bios on the site (Joel Salatin, Uncle Mud, the Moody family, etc.) belong to the 2025 event and are NOT confirmed for 2026, so the speakers array remains empty pending an official 2026 announcement. Official Facebook page (@ozarkshomesteading) confirmed with ~25,289 likes and active Sept 4-5, 2026 promotional posts.",
-      "registration_url": "https://www.simpletix.com/e/2026-ozarks-homesteading-expo-marshfield-m-tickets-253685"
+      "registration_url": "https://www.simpletix.com/e/2026-ozarks-homesteading-expo-marshfield-m-tickets-253685",
+      "ticket_url": "https://www.simpletix.com/e/2026-ozarks-homesteading-expo-marshfield-m-tickets-253685"
     },
     {
       "id": "okie-expo-2026",
@@ -645,7 +646,7 @@
         "state": "PA",
         "region": "Northeast"
       },
-      "url": "https://eventbrite.com",
+      "url": "https://willowhavenfarmpa.com/portfolio/homesteading-conference",
       "description": "An on-farm, single-day homesteading conference at Willow Haven Farm in New Tripoli, PA, run by Farmer Reuben and Tessa DeMaster. Attendees choose from hands-on workshops and in-depth farm tours covering sustainable living and traditional skills such as sourdough baking, fermentation/food preservation, foraging, herbal remedies, composting, permaculture, and organic gardening. Registration is limited.",
       "speakers": [],
       "ticket_price": "TBD for 2026; not yet published. For reference, the 2025 edition priced Early Bird Full Day +2 meals at ~$97.34, Full Day +2 meals at ~$113.89, Half-Day at ~$49.87, and a kids ticket (incl. breakfast) at ~$7.18 (all incl. fees).",
@@ -676,9 +677,10 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-01",
+      "last_researched": "2026-06-02",
       "changes_noted": "VERIFIED via the official Willow Haven Farm website. The 2026 Homesteading Conference is confirmed for September 5, 2026, matching the existing record's date. CORRECTION: The previous URL (https://eventbrite.com homepage) was not a valid event link. Replaced with the farm's official events page (willowhavenfarmpa.com/events); the dedicated conference page is willowhavenfarmpa.com/portfolio/homesteading-conference. Confirmed venue/address: Willow Haven Farm, 7686 Herber Rd, New Tripoli, PA 18066 (run by Reuben & Tessa DeMaster). Expanded the description and highlights based on confirmed event format. NOTE: A specific 2026 speaker lineup and 2026 ticket prices are NOT yet published \u2014 the speaker roster and pricing seen in search results are from the 2025/prior editions and should not be treated as confirmed for 2026 (left speakers empty; pricing noted as reference only). Recommend re-checking closer to the event for the 2026 workshop lineup, speakers, finalized pricing, and a direct Eventbrite/registration link.",
-      "registration_url": "https://willowhavenfarmpa.com/events"
+      "registration_url": "https://willowhavenfarmpa.com/events",
+      "ticket_url": "https://www.eventbrite.com/e/homesteading-conference-on-the-farm-2026-tickets-1633143398869"
     },
     {
       "id": "alaska-expo-2026",
@@ -686,9 +688,9 @@
       "status": "confirmed",
       "dates": {
         "start": "2026-05-22",
-        "end": "2026-05-23",
+        "end": "2026-05-25",
         "pre_event": null,
-        "notes": "Two in-person days (Fri & Sat of Memorial Day weekend). Condensed from a longer format this year in response to attendee feedback; some sources list May 23-25 or May 22-25, but organizer and recent reporting confirm the two in-person days are Friday May 22 and Saturday May 23, with additional virtual Zoom sessions extending into the summer. A Christian church service is scheduled for Sunday at the Common Ground Alaska property, open to ticketholders. Note: at least one local outlet (Mat-Su Sentinel) referred to this as the 'final' Alaska Homestead Expo \u2014 worth monitoring."
+        "notes": "Friday\u2013Monday, Memorial Weekend \u2014 expanded to 4 full days in 2026"
       },
       "location": {
         "venue": "Big Lake Lions Club (Recreation Center), 2942 S Lions Ct",
@@ -696,23 +698,21 @@
         "state": "AK",
         "region": "Northwest"
       },
-      "url": "https://commongroundalaska.com",
-      "description": "The 3rd Annual Alaska Homestead Expo & Marketplace brings together Alaskans who want to garden, raise animals, learn traditional skills, and live more self-reliantly. Held over Memorial Day weekend at the Big Lake Lions Club, the event features dozens of Alaskan instructors, hands-on workshops and demonstrations (including whole-cow butchery and iron forging), onsite food trucks, a family learning program, and a curated marketplace of 100-150+ local Alaska vendors. Keynote by Josh & Carolyn Thomas of Homesteading Family. Hosted by Common Ground Alaska, a teaching farmstead in Big Lake (~45 minutes from Anchorage).",
+      "url": "https://commongroundalaska.com/event/2026-spring-alaska-homestead-expo/",
+      "description": "3rd annual Alaska Homestead Expo & Marketplace. Four-day Memorial Weekend event offering shopping, classes, demonstrations, social time, and connecting with like-minded Alaskans. Organized by Common Ground Alaska.",
       "speakers": [
         "Josh Thomas (Homesteading Family, keynote)",
         "Carolyn Thomas (Homesteading Family, keynote)"
       ],
-      "ticket_price": "Full Weekend (in-person/hybrid incl. Zoom sessions): $85; Single Day: $30; Family Pass (2 adults + up to 6 children): $300; Virtual-only (livestream + Zoom): $45; Marketplace-only: $5",
+      "ticket_price": "Early bird pricing \u2014 register via Tixtree",
       "highlights": [
-        "Keynote by Josh & Carolyn Thomas (Homesteading Family)",
-        "Whole-cow slaughter & butchery demonstrations",
-        "Viking Iron Works forging demonstrations",
-        "30+ class offerings across 5-6 learning spaces per day",
-        "150+ vendor Alaskan marketplace",
-        "Food fermentation, medicinal herbs, livestock care, off-grid systems",
-        "Family learning tent and teen program",
-        "Lady Homesteaders of AK VIP Lunch",
-        "Virtual/Zoom sessions extending into summer"
+        "3rd annual",
+        "4-day Memorial Weekend",
+        "classes & demos",
+        "marketplace shopping",
+        "community connection",
+        "Alaskan homesteading",
+        "social events"
       ],
       "source": "seed",
       "verified": true,
@@ -733,9 +733,10 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-01",
+      "last_researched": "2026-06-02",
       "changes_noted": "VERIFIED via organizer site (commongroundalaska.com) and multiple independent sources (alaskavisit.com, Alaska Business Magazine, Mat-Su Sentinel, Must Read Alaska). Confirmed: 3rd Annual; dates May 22-23, 2026 (Fri-Sat Memorial Day weekend, plus extended virtual sessions); venue updated from 'TBD' to Big Lake Lions Club (Recreation Center), 2942 S Lions Ct, Big Lake, AK 99652. Added ticket pricing (was null): Weekend $85, Single Day $30, Family Pass $300, Virtual-only $45, Marketplace-only $5. Added keynote speakers Josh & Carolyn Thomas (Homesteading Family). Expanded description and highlights. Registration/info URL refined to /alaska-homestead-expo/ subpage. CAUTION: a Mat-Su Sentinel headline described this as the 'final' Alaska Homestead Expo, and date listings vary (some say May 23-25 or May 22-25) \u2014 recommend confirming whether this is the last installment and verifying exact day count before publishing.",
-      "registration_url": "https://commongroundalaska.com/alaska-homestead-expo/"
+      "registration_url": "https://commongroundalaska.com/alaska-homestead-expo/",
+      "ticket_url": "https://www.tixtree.com/e/2026-spring-alaska-homestead-expo-ad3e099b48b4"
     },
     {
       "id": "prairie-roots-2026",
@@ -753,20 +754,25 @@
         "state": "ND",
         "region": "Midwest"
       },
-      "url": "https://mcagexpo.com",
-      "description": "The Prairie Roots Homesteading Summit is a two-day regional conference dedicated to self-sufficiency, sustainable living, and traditional skills, connecting homesteaders, farmers, gardeners, and makers from across the Upper Midwest. Sponsored by the nonprofit McKenzie County Ag Expo Foundation, it is tailored to the unique needs of the Midwest's prairie climate and features keynote speakers, hands-on demonstrations, informational talks, and exhibitor booths covering soil health, regenerative practices, livestock care, gardening, food production and preservation, herbalism, conservation, community building, and healthy living. Headline speakers include homesteading YouTube creators Justin & Rebekah Rhodes and Tim & Sophia Eng, hosts of the Call to Farms podcast.",
+      "url": "https://www.mcagexpo.com/homesteading-summit",
+      "description": "Two-day gathering focused on sustainable living education. Mission: inspire, educate, and connect people through the exchange of knowledge and skills in self-sufficiency. Covers food production, soil health, traditional skills, hands-on demos, and networking. RV camping available on-site.",
       "speakers": [
-        "Justin & Rebekah Rhodes",
-        "Tim & Sophia Eng"
+        "Justin Rhodes",
+        "Rebekah Rhodes",
+        "Tim Eng",
+        "Sophia Eng"
       ],
-      "ticket_price": "$65 general admission; $10 early-bird discount for registrations before May 1, 2026",
+      "ticket_price": "Tickets on sale \u2014 see tickets.mcagexpo.com",
       "highlights": [
-        "self-sufficiency",
-        "Midwest prairie living",
-        "soil health & regenerative practices",
-        "food preservation & herbalism",
-        "livestock care & gardening",
-        "hands-on demonstrations & exhibitors"
+        "Justin & Rebekah Rhodes",
+        "regenerative farming",
+        "food production",
+        "soil health",
+        "traditional skills",
+        "hands-on demos",
+        "exhibitor booths",
+        "RV camping on-site",
+        "networking"
       ],
       "source": "seed",
       "verified": true,
@@ -787,9 +793,10 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-01",
+      "last_researched": "2026-06-02",
       "changes_noted": "RE-VERIFIED on 2026-06-01. All record details confirmed accurate and unchanged. Event is real and remains on-schedule for May 15-16, 2026, 8:30 a.m.-5 p.m. at the McKenzie County Ag Expo, Watford City, ND. Confirmed by the official event page (mcagexpo.com/homesteading-summit and mcagexpo.com/events), ND Tourism, The Roundup (April 2026), and Minot Daily News (May 2026). NO cancellation or postponement found. Speakers (Justin & Rebekah Rhodes; Tim & Sophia Eng), ticket pricing ($65 general; $10 early-bird before May 1), 8:30am-5pm presentation times, and registration URL (tickets.mcagexpo.com/p/tickets) all independently re-confirmed. Sponsored by the nonprofit McKenzie County Ag Expo Foundation; managed by committee (Daniel Stenberg, Ryan Odenbach, Rebekah Engebretson, Renae Mogen, Kylee Roff, Chris Kubal). NEW context added: Tim Eng is a West Point Army combat veteran/real estate specialist ('The Homesteading Agent') and Sophia Eng is an author/growth-marketing entrepreneur; together they host the Call to Farms podcast. NOTE on adjacent same-venue 2026 events to avoid confusion: Ag Expo Queen Contest (May 16), PRCA Rodeo (May 22-23), McKenzie County Fair (June 18-20 per Heartland Association; note Minot Daily News cited June 16-20), Olaf Leiseth Memorial Draft Horse Event (June 17), Demolition Derby (June 19), and NDRA Finals (Sept 25-27). Minor source discrepancy flagged: the county fair end-date varies slightly between sources but does not affect the Summit record.",
-      "registration_url": "https://tickets.mcagexpo.com/p/tickets"
+      "registration_url": "https://tickets.mcagexpo.com/p/tickets",
+      "ticket_url": "https://tickets.mcagexpo.com/p/tickets"
     },
     {
       "id": "cahc-2026",
@@ -871,7 +878,7 @@
         "state": "WA",
         "region": "Northwest"
       },
-      "url": "https://facebook.com",
+      "url": "https://sites.google.com/view/ewhomesteadingexpo",
       "description": "Second annual Eastern Washington Homesteading Expo, a weekend of hands-on learning, skill demonstrations, expert speakers, and vendors covering gardening, pressure canning, solar power, soap making, medicinal herbs, animal processing (chicken/rabbit/pig), dairy basics, fermenting, freeze drying, cottage licensing, livestock guardian dogs, and sourdough. Founded in 2025 by Susan Cooksey of Palmer Lake Homestead. The inaugural 2025 event drew 26 vendors, 25+ presentations from 19 presenters, and an estimated 350 adults plus children. The 2026 planning group includes Cooksey, Karla Stucker, Jerian Ashley, Tami Brathovde, Yolanda Leffler, and Ed and Rachel Lawrence. Family-friendly with kids events, an animal petting area, a family dance, and Sunday pancake breakfast, church service, and pie social. Contact: ewhomesteadingexpo@gmail.com, (509) 429-2142.",
       "speakers": [
         "Larry Littrell (keynote \u2014 intentional/small-space homesteading; Sunday 12:15 p.m.)",
@@ -907,9 +914,704 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-01",
+      "last_researched": "2026-06-02",
       "changes_noted": "RE-CONFIRMED and expanded. Verified via official site (sites.google.com/view/ewhomesteadingexpo), Omak Chronicle (Feb 2, updated Mar 20, 2026), KKRV radio listing, Homestead Living 2026 events roundup, and the official Facebook page (61573023031080). NEW THIS RESEARCH: (1) Full Sunday schedule added \u2014 pancake breakfast 9:30am, church 11am, Larry Littrell keynote 12:15pm, pie social 2pm. (2) Friday homeschool event time clarified as 8am\u20131pm. (3) Additional unnamed speaker confirmed presenting on livestock guardian dogs and sourdough (listing did not give a name, so left descriptive \u2014 not fabricated). (4) Confirmed planning committee members (Cooksey, Stucker, Ashley, Brathovde, Leffler, Lawrences). (5) Contact info confirmed: ewhomesteadingexpo@gmail.com / (509) 429-2142. (6) A second Tixtree presale URL surfaced via Facebook. STILL NOT CONFIRMED: specific ticket dollar amounts \u2014 left descriptive, not fabricated. IMPORTANT FLAG: today's date is 2026-06-01, AFTER the event. The event appears to have already occurred (Facebook activity references it in the past tense). RECOMMEND: replace generic facebook.com URL with the official Google Sites page or specific FB page; update status from 'pending' to reflect that the event has concluded (e.g. 'completed') rather than 'active/upcoming'; do NOT post the upcoming-event social copy as written since the date has passed.",
-      "registration_url": "https://www.tixtree.com/o/eastern-washington-homesteading-expo-3d0f8c42e75e"
+      "registration_url": "https://www.tixtree.com/o/eastern-washington-homesteading-expo-3d0f8c42e75e",
+      "ticket_url": "https://www.tixtree.com/e/eastern-washington-homesteading-expo-5349ae077f98"
+    },
+    {
+      "id": "okhr-2026",
+      "name": "Oklahoma Homestead Rendezvous",
+      "status": "confirmed",
+      "dates": {
+        "start": "2026-09-25",
+        "end": "2026-09-26",
+        "pre_event": null,
+        "notes": "Friday & Saturday"
+      },
+      "location": {
+        "venue": "Southeast Expo Center",
+        "city": "McAlester",
+        "state": "OK",
+        "region": "South"
+      },
+      "url": "https://www.facebook.com/profile.php?id=61556712466334",
+      "description": "Bringing the Past to the Present, for the Future. Dynamic speakers, skilled demonstrations, real talk sessions, vendors, games, and giveaways. Come to learn. Stay to connect. Leave inspired.",
+      "speakers": [],
+      "ticket_price": "Adult $15.00/day; Child 12 & under $5.00/day; 5 & under free",
+      "highlights": [
+        "dynamic speakers",
+        "skilled demonstrations",
+        "real talk sessions",
+        "vendors & giveaways",
+        "honoring our roots",
+        "living our traditions",
+        "building what's next"
+      ],
+      "phone": "801-949-8196",
+      "source": "flyer",
+      "verified": true,
+      "social_posts": {
+        "facebook": null,
+        "x": null,
+        "youtube": null
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-01"
+    },
+    {
+      "id": "wapf-2026",
+      "name": "Wise Traditions Conference (26th Annual) \u2014 Weston A. Price Foundation",
+      "status": "confirmed",
+      "dates": {
+        "start": "2026-10-16",
+        "end": "2026-10-18",
+        "pre_event": null,
+        "notes": "Friday\u2013Sunday"
+      },
+      "location": {
+        "venue": "Omni Shoreham Hotel",
+        "city": "Washington",
+        "state": "DC",
+        "region": "Northeast"
+      },
+      "url": "https://www.wisetraditions.org/",
+      "description": "For 26 years the Weston A. Price Foundation has been bringing the wisdom of the past regarding healthy foods into the present. 40 speakers, 75 exhibitors, great food, socializing, and unparalleled learning on nutrient-dense foods, farming, and the healing arts.",
+      "speakers": [],
+      "ticket_price": "See wisetraditions.org for registration and cost",
+      "highlights": [
+        "40 speakers",
+        "75 exhibitors",
+        "nutrient-dense food",
+        "regenerative farming",
+        "healing arts",
+        "annual journal",
+        "membership community"
+      ],
+      "source": "verified",
+      "verified": true,
+      "social_posts": {
+        "facebook": null,
+        "x": null,
+        "youtube": null
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-02"
+    },
+    {
+      "id": "prepper-camp-2026",
+      "name": "Prepper Camp",
+      "status": "confirmed",
+      "dates": {
+        "start": "2026-08-14",
+        "end": "2026-08-16",
+        "pre_event": null,
+        "notes": "Friday\u2013Sunday, camping/RV on-site \u2014 sells out early"
+      },
+      "location": {
+        "venue": "Tryon International Equestrian Center",
+        "city": "Mill Spring",
+        "state": "NC",
+        "region": "Southeast"
+      },
+      "url": "https://preppercamp.com",
+      "description": "The #1 rated self-reliance event in the country. 60+ classes per day on food preservation, off-grid tech, bushcraft, livestock, and survival. Immersive multi-day camping experience with big vendors, demos, and speakers. Family-friendly and sells out fast.",
+      "speakers": [],
+      "ticket_price": "See preppercamp.com \u2014 sells out early",
+      "highlights": [
+        "60+ classes/day",
+        "camping & RV on-site",
+        "off-grid tech",
+        "bushcraft",
+        "food preservation",
+        "livestock",
+        "survival skills",
+        "vendor hall"
+      ],
+      "source": "verified",
+      "verified": true,
+      "social_posts": {
+        "facebook": null,
+        "x": null,
+        "youtube": null
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-02"
+    },
+    {
+      "id": "homestead-prep-festival-2026",
+      "name": "Homesteading & Preparedness Festival",
+      "status": "confirmed",
+      "dates": {
+        "start": "2026-07-17",
+        "end": "2026-07-19",
+        "pre_event": null,
+        "notes": "Friday\u2013Sunday"
+      },
+      "location": {
+        "venue": "WKU Brown AG Expo Center",
+        "city": "Bowling Green",
+        "state": "KY",
+        "region": "Southeast"
+      },
+      "url": "https://trueprepper.com",
+      "description": "Direct crossover event with workshops on hydroponics, permaculture, homestead medicine, soil health, and preparedness topics. Exhibits and family activities across three days.",
+      "speakers": [],
+      "ticket_price": "See trueprepper.com for details",
+      "highlights": [
+        "hydroponics",
+        "permaculture",
+        "homestead medicine",
+        "soil health",
+        "preparedness",
+        "family activities",
+        "exhibits"
+      ],
+      "source": "verified",
+      "verified": true,
+      "social_posts": {
+        "facebook": null,
+        "x": null,
+        "youtube": null
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-02"
+    },
+    {
+      "id": "homestead-life-conf-2026",
+      "name": "Homesteading Life Conference (Doug & Stacy)",
+      "status": "past",
+      "dates": {
+        "start": "2026-05-15",
+        "end": "2026-05-16",
+        "pre_event": null,
+        "notes": "Friday\u2013Saturday"
+      },
+      "location": {
+        "venue": "TBD",
+        "city": "Vandalia",
+        "state": "MO",
+        "region": "Midwest"
+      },
+      "url": "https://www.homesteadinglifeconference.com/",
+      "description": "Hosted by YouTube homesteaders Doug & Stacy. Hands-on focus on gardening, butchering, livestock, seed swaps, and self-sufficiency and preparedness demos.",
+      "speakers": [
+        "Doug",
+        "Stacy",
+        "Dr. Tom Cowan",
+        "Tia Murphy",
+        "Dr. Patrick Jones",
+        "Dr. Leo Sharaskin"
+      ],
+      "ticket_price": "See trueprepper.com for details",
+      "highlights": [
+        "gardening",
+        "butchering",
+        "livestock",
+        "seed swaps",
+        "self-sufficiency",
+        "preparedness demos",
+        "Doug & Stacy"
+      ],
+      "source": "verified",
+      "verified": true,
+      "social_posts": {
+        "facebook": null,
+        "x": null,
+        "youtube": null
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-02"
+    },
+    {
+      "id": "homestead-prep-summit-2026",
+      "name": "Homesteading & Prepping Summit",
+      "status": "confirmed",
+      "dates": {
+        "start": "2026-04-25",
+        "end": "2026-04-26",
+        "pre_event": null,
+        "notes": "Saturday\u2013Sunday"
+      },
+      "location": {
+        "venue": "TBD",
+        "city": "Elkton",
+        "state": "FL",
+        "region": "Southeast"
+      },
+      "url": "https://trueprepper.com",
+      "description": "Intimate gathering with practical sessions on natural farming, CBRN preparedness, and homesteading skills.",
+      "speakers": [],
+      "ticket_price": "See trueprepper.com for details",
+      "highlights": [
+        "natural farming",
+        "CBRN preparedness",
+        "homesteading skills",
+        "intimate setting"
+      ],
+      "source": "verified",
+      "verified": true,
+      "social_posts": {
+        "facebook": null,
+        "x": null,
+        "youtube": null
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-02"
+    },
+    {
+      "id": "self-reliance-festival-2026",
+      "name": "Self-Reliance Festival",
+      "status": "confirmed",
+      "dates": {
+        "start": "2026-10-03",
+        "end": "2026-10-04",
+        "pre_event": null,
+        "notes": "Saturday\u2013Sunday"
+      },
+      "location": {
+        "venue": "Birdsong Area",
+        "city": "Camden",
+        "state": "TN",
+        "region": "Southeast"
+      },
+      "url": "https://selfreliancefestival.com",
+      "description": "Strong mix of homesteading, preparedness, blacksmithing, defense, livestock, and self-reliance workshops. Growing event with speakers, community focus, and practical skills for off-grid living.",
+      "speakers": [],
+      "ticket_price": "See selfreliancefestival.com for details",
+      "highlights": [
+        "blacksmithing",
+        "defense",
+        "livestock",
+        "off-grid living",
+        "preparedness",
+        "self-reliance workshops",
+        "community focus"
+      ],
+      "source": "verified",
+      "verified": true,
+      "social_posts": {
+        "facebook": null,
+        "x": null,
+        "youtube": null
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-02"
+    },
+    {
+      "id": "wv-offgrid-expo-2026",
+      "name": "West Virginia Off-Grid Living Expo (Thrivalist Fair)",
+      "status": "confirmed",
+      "dates": {
+        "start": "2026-10-02",
+        "end": "2026-10-03",
+        "pre_event": null,
+        "notes": "Friday\u2013Saturday"
+      },
+      "location": {
+        "venue": "WV State Fairgrounds",
+        "city": "Lewisburg",
+        "state": "WV",
+        "region": "Northeast"
+      },
+      "url": "https://wvoffgridexpo.com",
+      "description": "Festival-style event with vendors and seminars on homesteading, off-grid living, hunting, fishing, survival gear, tactical skills, and farm-to-table. Affordable and family-oriented.",
+      "speakers": [],
+      "ticket_price": "See wvoffgridexpo.com \u2014 affordable family pricing",
+      "highlights": [
+        "off-grid living",
+        "hunting & fishing",
+        "survival gear",
+        "tactical skills",
+        "farm-to-table",
+        "vendors",
+        "family-friendly"
+      ],
+      "source": "verified",
+      "verified": true,
+      "social_posts": {
+        "facebook": null,
+        "x": null,
+        "youtube": null
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-02"
+    },
+    {
+      "id": "colorado-prepper-expo-2026",
+      "name": "Colorado Prepper Expo",
+      "status": "confirmed",
+      "dates": {
+        "start": "2026-10-10",
+        "end": "2026-10-12",
+        "pre_event": null,
+        "notes": "Saturday\u2013Monday"
+      },
+      "location": {
+        "venue": "TBD",
+        "city": "Pueblo",
+        "state": "CO",
+        "region": "Southwest"
+      },
+      "url": "https://trueprepper.com",
+      "description": "Gear, food storage, off-grid tools, and preparedness expo in Colorado. Strong crossover with homesteading and self-reliance community.",
+      "speakers": [],
+      "ticket_price": "See trueprepper.com for details",
+      "highlights": [
+        "gear expo",
+        "food storage",
+        "off-grid tools",
+        "preparedness",
+        "self-reliance"
+      ],
+      "source": "verified",
+      "verified": true,
+      "social_posts": {
+        "facebook": null,
+        "x": null,
+        "youtube": null
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-02"
+    },
+    {
+      "id": "cancon-2026",
+      "name": "CANCON East",
+      "status": "confirmed",
+      "dates": {
+        "start": "2026-05-08",
+        "end": "2026-05-09",
+        "pre_event": null,
+        "notes": "Friday & Saturday, 9 AM\u20134 PM"
+      },
+      "location": {
+        "venue": "Clinton House Plantation",
+        "city": "Clinton",
+        "state": "SC",
+        "region": "Southeast"
+      },
+      "url": "https://canconevent.com/east/",
+      "ticket_url": "https://canconevent.com/east/",
+      "description": "Regional preparedness and self-reliance event featuring Mountain Readiness instructors and hands-on skills training.",
+      "speakers": [],
+      "ticket_price": "See canconevent.com for details",
+      "highlights": [
+        "preparedness",
+        "self-reliance skills",
+        "hands-on training",
+        "Mountain Readiness instructors"
+      ],
+      "source": "mountainreadiness.com",
+      "verified": true,
+      "social_posts": {
+        "facebook": null,
+        "x": null,
+        "youtube": null
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-02"
+    },
+    {
+      "id": "mountain-readiness-west-2026",
+      "name": "Mountain Readiness West",
+      "status": "confirmed",
+      "dates": {
+        "start": "2026-07-24",
+        "end": "2026-07-26",
+        "pre_event": null,
+        "notes": "Friday\u2013Sunday, multi-day camping event"
+      },
+      "location": {
+        "venue": "Camp Ponderosa",
+        "city": "Swan Lake",
+        "state": "MT",
+        "region": "Northwest"
+      },
+      "url": "https://www.mountainreadiness.com/mountain-readiness-west",
+      "ticket_url": "https://www.mountainreadiness.com/mountain-readiness-west",
+      "description": "Multi-day preparedness and self-reliance event featuring hands-on skills training in a beautiful Montana mountain setting.",
+      "speakers": [],
+      "ticket_price": "See mountainreadiness.com for details",
+      "highlights": [
+        "hands-on skills training",
+        "camping",
+        "preparedness",
+        "off-grid",
+        "Montana mountains"
+      ],
+      "source": "mountainreadiness.com",
+      "verified": true,
+      "social_posts": {
+        "facebook": null,
+        "x": null,
+        "youtube": null
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-02"
+    },
+    {
+      "id": "mountain-readiness-fallout-2026",
+      "name": "Mountain Readiness Fall Out",
+      "status": "confirmed",
+      "dates": {
+        "start": "2026-10-23",
+        "end": "2026-10-25",
+        "pre_event": null,
+        "notes": "Friday\u2013Sunday"
+      },
+      "location": {
+        "venue": "VanHoy Campground",
+        "city": "Harmony",
+        "state": "NC",
+        "region": "Southeast"
+      },
+      "url": "https://www.mountainreadiness.com/fall-out",
+      "ticket_url": "https://www.mountainreadiness.com/fall-out",
+      "description": "Survival and preparedness expo with expert instructors. Multi-day immersive event covering self-reliance, off-grid living, and emergency preparedness.",
+      "speakers": [],
+      "ticket_price": "See mountainreadiness.com for details",
+      "highlights": [
+        "survival skills",
+        "preparedness",
+        "expert instructors",
+        "camping",
+        "off-grid living"
+      ],
+      "source": "mountainreadiness.com",
+      "verified": true,
+      "social_posts": {
+        "facebook": null,
+        "x": null,
+        "youtube": null
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-02"
+    },
+    {
+      "id": "sovereign-health-summit-2026",
+      "name": "Sovereign Health Summit",
+      "status": "confirmed",
+      "dates": {
+        "start": "2026-10-27",
+        "end": "2026-10-31",
+        "pre_event": null,
+        "notes": "Tuesday\u2013Saturday, 5-day event"
+      },
+      "location": {
+        "venue": "VanHoy Campground",
+        "city": "Harmony",
+        "state": "NC",
+        "region": "Southeast"
+      },
+      "url": "https://www.sovereignhealthsummit.com",
+      "ticket_url": "https://www.sovereignhealthsummit.com",
+      "description": "Extended 5-day health-focused preparedness event. Covers natural health, self-reliance, sovereignty, and practical skills for off-grid and independent living.",
+      "speakers": [],
+      "ticket_price": "See sovereignhealthsummit.com for details",
+      "highlights": [
+        "natural health",
+        "sovereignty",
+        "preparedness",
+        "5-day immersive",
+        "off-grid living",
+        "self-reliance"
+      ],
+      "source": "mountainreadiness.com",
+      "verified": true,
+      "social_posts": {
+        "facebook": null,
+        "x": null,
+        "youtube": null
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-02"
+    },
+    {
+      "id": "mountain-readiness-lone-star-2027",
+      "name": "Mountain Readiness Lone Star",
+      "status": "confirmed",
+      "dates": {
+        "start": "2027-03-12",
+        "end": "2027-03-14",
+        "pre_event": null,
+        "notes": "Friday\u2013Sunday"
+      },
+      "location": {
+        "venue": "Salmon Lake Park",
+        "city": "Grapeland",
+        "state": "TX",
+        "region": "South"
+      },
+      "url": "https://www.mountainreadiness.com/mountain-readiness-lone-star",
+      "ticket_url": "https://www.mountainreadiness.com/mountain-readiness-lone-star",
+      "description": "Texas regional preparedness and self-reliance event featuring hands-on training from Mountain Readiness expert instructors.",
+      "speakers": [],
+      "ticket_price": "See mountainreadiness.com for details",
+      "highlights": [
+        "preparedness",
+        "survival skills",
+        "Texas",
+        "hands-on training",
+        "camping"
+      ],
+      "source": "mountainreadiness.com",
+      "verified": true,
+      "social_posts": {
+        "facebook": null,
+        "x": null,
+        "youtube": null
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-02"
+    },
+    {
+      "id": "mountain-readiness-expo-2027",
+      "name": "Mountain Readiness Expo",
+      "status": "confirmed",
+      "dates": {
+        "start": "2027-04-30",
+        "end": "2027-05-02",
+        "pre_event": null,
+        "notes": "Thursday\u2013Saturday"
+      },
+      "location": {
+        "venue": "VanHoy Campground",
+        "city": "Harmony",
+        "state": "NC",
+        "region": "Southeast"
+      },
+      "url": "https://www.mountainreadiness.com/mountain-readiness-expo",
+      "ticket_url": "https://www.mountainreadiness.com/mountain-readiness-expo",
+      "description": "Major annual expo event featuring extensive training, vendors, and community connections. The flagship Mountain Readiness event.",
+      "speakers": [],
+      "ticket_price": "See mountainreadiness.com for details",
+      "highlights": [
+        "major expo",
+        "training",
+        "vendors",
+        "community",
+        "preparedness",
+        "self-reliance"
+      ],
+      "source": "mountainreadiness.com",
+      "verified": true,
+      "social_posts": {
+        "facebook": null,
+        "x": null,
+        "youtube": null
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-02"
+    },
+    {
+      "id": "homestead-life-conf-2027",
+      "name": "Homesteading Life Conference Spring Festival 2027",
+      "status": "confirmed",
+      "dates": {
+        "start": "2027-05-18",
+        "end": "2027-05-22",
+        "pre_event": null,
+        "notes": "5-day event, Tuesday\u2013Saturday"
+      },
+      "location": {
+        "venue": "Vandalia Fairgrounds",
+        "city": "Vandalia",
+        "state": "MO",
+        "region": "Midwest"
+      },
+      "url": "https://www.homesteadinglifeconference.com/",
+      "ticket_url": "https://events.ticketleap.com/tickets/homesteading-life-conference/2027-homesteading-life-conference",
+      "description": "Hosted by Doug & Stacy (Off Grid with Doug & Stacy). A five-day event for homesteaders, gardeners, natural wellness enthusiasts, off-grid families, and anyone interested in traditional living and self-reliance. Workshops, demos, vendors, speakers, and family activities.",
+      "speakers": [
+        "Doug",
+        "Stacy",
+        "Barbara O'Neill"
+      ],
+      "ticket_price": "Early bird tickets available \u2014 see homesteadinglifeconference.com",
+      "highlights": [
+        "Doug & Stacy hosts",
+        "natural wellness",
+        "herbal remedies",
+        "gardening & food preservation",
+        "off-grid living",
+        "traditional skills",
+        "5-day immersive",
+        "natural living vendors",
+        "family-friendly"
+      ],
+      "source": "homesteadinglifeconference.com",
+      "verified": true,
+      "social_posts": {
+        "facebook": null,
+        "x": null,
+        "youtube": null
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-02"
     }
   ]
 }

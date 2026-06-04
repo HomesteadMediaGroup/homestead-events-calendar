@@ -1280,24 +1280,29 @@
         "start": "2026-10-10",
         "end": "2026-10-12",
         "pre_event": null,
-        "notes": "Saturday\u2013Monday"
+        "notes": "2025 dates confirmed Oct 10\u201312 \u2014 2026 dates same pattern, check coprepperexpo.com"
       },
       "location": {
-        "venue": "TBD",
+        "venue": "Colorado State Fairgrounds, Livestock Pavilion",
         "city": "Pueblo",
         "state": "CO",
         "region": "Southwest"
       },
-      "url": "https://trueprepper.com",
-      "description": "Gear, food storage, off-grid tools, and preparedness expo in Colorado. Strong crossover with homesteading and self-reliance community.",
+      "url": "https://www.coprepperexpo.com/",
+      "description": "The ultimate gathering for those serious about preparedness, self-reliance, and survival. Expert speakers, hands-on workshops, and vendors showcasing gear, food storage, medical supplies, and off-grid living equipment. Topics: fire building, water purification, foraging, shelter, navigation, hunting, knife skills, communications, self-defense, and more.",
       "speakers": [],
-      "ticket_price": "See trueprepper.com for details",
+      "ticket_price": "Adults $20 \u00b7 Teens $10 \u00b7 Available at the door (2025 pricing \u2014 2026 TBC)",
       "highlights": [
-        "gear expo",
+        "preparedness & survival",
+        "hands-on workshops",
+        "expert speakers",
+        "off-grid gear vendors",
         "food storage",
-        "off-grid tools",
-        "preparedness",
-        "self-reliance"
+        "fire building",
+        "water purification",
+        "foraging",
+        "self-defense",
+        "navigation"
       ],
       "source": "verified",
       "verified": true,
@@ -1311,7 +1316,8 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-02"
+      "last_researched": "2026-06-04",
+      "ticket_url": "https://www.coprepperexpo.com/"
     },
     {
       "id": "cancon-2026",

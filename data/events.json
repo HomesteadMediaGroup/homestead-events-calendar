@@ -1052,32 +1052,33 @@
     },
     {
       "id": "homestead-prep-festival-2026",
-      "name": "Homesteading & Preparedness Festival",
+      "name": "Kentucky Sustainable Living Festival (Homesteading & Preparedness)",
       "status": "confirmed",
       "dates": {
         "start": "2026-07-17",
         "end": "2026-07-19",
         "pre_event": null,
-        "notes": "Friday\u2013Sunday"
+        "notes": "Doors 8:30 AM \u00b7 Speakers/demos from 10:00 AM \u00b7 Trauma Management Course extra (Thursday)"
       },
       "location": {
-        "venue": "WKU Brown AG Expo Center",
+        "venue": "406 Elrod Rd (WKU Facility)",
         "city": "Bowling Green",
         "state": "KY",
         "region": "Southeast"
       },
-      "url": "https://trueprepper.com",
-      "description": "Direct crossover event with workshops on hydroponics, permaculture, homestead medicine, soil health, and preparedness topics. Exhibits and family activities across three days.",
+      "url": "https://kentuckysustainableliving.com/pages/festivalmainpage10",
+      "description": "3-day event packed with speakers, vendors, and hands-on workshops for anyone interested in homesteading & preparedness. Indoor air-conditioned WKU facility. Food trucks, coffee vendor, and RV spots with water/electric hookups available.",
       "speakers": [],
-      "ticket_price": "See trueprepper.com for details",
+      "ticket_price": "3-day ticket covers all speakers, workshops & vendors \u2014 see website. Trauma Management Course sold separately. RV hookups available.",
       "highlights": [
-        "hydroponics",
-        "permaculture",
-        "homestead medicine",
-        "soil health",
-        "preparedness",
-        "family activities",
-        "exhibits"
+        "homesteading & preparedness",
+        "hands-on workshops",
+        "vendor row",
+        "indoor AC facility",
+        "food trucks",
+        "RV hookups",
+        "trauma management course",
+        "networking"
       ],
       "source": "verified",
       "verified": true,
@@ -1091,7 +1092,8 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-02"
+      "last_researched": "2026-06-04",
+      "ticket_url": "https://kentuckysustainableliving.com/pages/festivalmainpage10"
     },
     {
       "id": "homestead-life-conf-2026",

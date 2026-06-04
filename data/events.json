@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-03",
+    "last_updated": "2026-06-04",
     "version": "1.0",
     "total_events": 31
   },
@@ -1159,7 +1159,7 @@
         "state": "FL",
         "region": "Southeast"
       },
-      "url": "https://trueprepper.com",
+      "url": "https://hapsummit.com/",
       "description": "Intimate gathering with practical sessions on natural farming, CBRN preparedness, and homesteading skills.",
       "speakers": [],
       "ticket_price": "See trueprepper.com for details",
@@ -1181,7 +1181,8 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-02"
+      "last_researched": "2026-06-04",
+      "ticket_url": "https://hapsummit.com/"
     },
     {
       "id": "self-reliance-festival-2026",

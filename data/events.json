@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-05",
+    "last_updated": "2026-06-08",
     "version": "1.0",
     "total_events": 32
   },
@@ -285,7 +285,7 @@
         "start": "2026-03-14",
         "end": "2026-03-15",
         "pre_event": null,
-        "notes": "Two-day event, Saturday March 14 (10 AM - 5 PM) and Sunday March 15 (10 AM - 3 PM), 2026. Confirmed via official Exhibitor Resources page. NOTE: As of the research date (2026-06-01), this 2026 event has already concluded. The organizer (Bird + Duck Media) has confirmed a 2027 West Coast Homesteading Expo in Puyallup at the WA State Fair Event Center on March 20-21, 2027, and states they will offer TWO expos in 2027."
+        "notes": "PAST EVENT \u2014 the 2026 expo concluded March 15, 2026. As of 2026-06-08, the official homepage no longer features 2026 and now leads with the next edition. The two-day 2026 format was Saturday March 14 (10 AM-5 PM) and Sunday March 15 (10 AM-3 PM) at the Washington State Fair Event Center, Puyallup, WA. The 2026 registration page is no longer the active sales offering. NEXT EDITION: organizer confirms a 2027 West Coast Homesteading Expo in Puyallup on March 20-21, 2027 at the WA State Fair Event Center, and states they will offer TWO expos in 2027 (a separate 'Eastern Washington Homesteading Expo' now appears in their speaker materials). Recommend creating a new 'wche-2027' record (and possibly an Eastern WA record)."
       },
       "location": {
         "venue": "Washington State Fair Event Center (Agriplex and Tractor Arena)",
@@ -302,7 +302,8 @@
         "Karl Scheuerman (General Manager of Palouse Heritage; heritage/landrace/ancient grains, live stone-milling demonstration)",
         "Sean (grain scientist, former Director of USDA in-house research agency; presenting with Karl Scheuerman on heritage grains)",
         "Ashley Rodriguez (author of 'Rooted Kitchen' and 'Field Notes from a Fungi Forager'; chef, forager, nature/forest therapy guide; foraging spring wild foods, nettles cooking demo)",
-        "Cindy Joy (home baker and vlogger; beginner sourdough-making classes)"
+        "Cindy Joy (home baker and vlogger; beginner sourdough-making classes)",
+        "Larry Littrell (lifelong homesteader, writer, and relocation specialist via Legacy Homesteads; author of forthcoming 'Modern Homesteads: Buying, Building, Letting Go, and Redefining Legacy in a Changing World'; NOTE: listed as the keynote speaker for the related Eastern Washington Homesteading Expo, not the Puyallup expo)"
       ],
       "ticket_price": "Early Bird (until 02/14/26): $10 single / $25 family. Online Presale (until 03/13/26): $15 single / $30 family. At-door general admission: $20 single / $35 family. Family tickets admit 4 people; children 12 and under free.",
       "highlights": [
@@ -329,8 +330,8 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-01",
-      "changes_noted": "Re-verified against official site and confirmed all key details. CONFIRMED: official URL https://www.westcoasthomesteadingexpo.com/ (produced by Bird + Duck Media, owner/director Nadine). Confirmed dates March 14 (10 AM-5 PM) & 15 (10 AM-3 PM), 2026 at Washington State Fair Event Center, Agriplex and Tractor Arena, 110 9th Ave SW, Puyallup, WA 98371. Confirmed all three ticket pricing tiers and that family tickets admit 4 with kids 12 and under free. IMPORTANT TIMING UPDATE: As of the 2026-06-01 research date, the 2026 event has already taken place (concluded March 15, 2026); the record should be treated as a past event. NEW: organizer has now published 2027 details \u2014 a West Coast Homesteading Expo on March 20-21, 2027 at the same venue, with two expos planned for 2027 (recommend creating a new 'wche-2027' record). ADDED two speakers not previously listed: 'Sean' (grain scientist / former USDA research director, co-presenting on heritage grains with Karl Scheuerman) and Cindy Joy (home baker/vlogger teaching beginner sourdough). Refined Ashley's full name to Ashley Rodriguez (author of 'Rooted Kitchen' and 'Field Notes from a Fungi Forager'). Added swag-bag highlight and Fair Scone truck. Facebook page confirmed active (1,712 likes). verified remains true.",
+      "last_researched": "2026-06-08",
+      "changes_noted": "Re-verified against the official site on 2026-06-08. CONFIRMED via the homepage that the site now prominently features March 20 + 21, 2027 at the WA State Fair Event Center, Puyallup, WA \u2014 see <cite index=\"22-1\">March 20 + 21, 2027 \u00b7 WA State Fair Event Center \u00b7 Puyallup, WA</cite>. The 2026 event is now PAST (concluded March 15, 2026). CONFIRMED organizer plans for 2027: <cite index=\"21-1,21-2\">Join us for a 2027 West Coast Homesteading Expo! We will be offering two expos in 2027 and invite you to join us.</cite> CONFIRMED producer/organizer details: <cite index=\"24-13\">Nadine is the owner of Bird + Duck Media, Director of the West Coast Homesteading Expo as well as the Director of the Tacoma Wedding + Event Show.</cite> NEW: A companion 'Eastern Washington Homesteading Expo' is referenced in the site's speaker bios \u2014 Larry Littrell is now listed as a new speaker/keynote: <cite index=\"23-25,23-26,23-27\">Larry Littrell is a lifelong homesteader, writer, and relocation specialist with more than forty years of hands-on experience building, adapting, and\u2014when the season was right\u2014moving homesteads. He understands that a homestead is more than land and buildings; it's a way of life, a set of values, and often a deeply personal legacy. Larry is the upcoming keynote speaker at the Eastern Washington Homesteading Expo, where he shares practical, experience-based guidance for navigating change in rural living.</cite> Family ticket/admission rules remain confirmed: <cite index=\"23-2,23-3\">Family Tickets provide admissions for 4 people. All children 12 and under are free.</cite> Facebook page remains active with 1,712 likes. RECOMMENDATION: treat wche-2026 as a past event; create wche-2027 (Puyallup, March 20-21, 2027) and consider a separate Eastern Washington Homesteading Expo record. 2026 ticket pricing and the 2026 TicketSpice registration URL are retained for historical reference but are no longer the active sales offering.",
       "registration_url": "https://birdandduckmedia.ticketspice.com/west-coast-homesteading-expo-2026"
     },
     {
@@ -341,7 +342,7 @@
         "start": "2026-01-31",
         "end": "2026-01-31",
         "pre_event": null,
-        "notes": "Single-day event, Saturday January 31, 2026, 9:00 AM\u20134:15 PM. Online registration closes January 21, 2026."
+        "notes": "Single-day event, Saturday January 31, 2026, 9:00 AM\u20134:15 PM per official WSU Extension Skagit and South Whidbey Tilth listings. Online registration closes January 21, 2026. (Note: Snohomish Conservation District's listing shows a 9:00 AM\u20135:00 PM window; the official 4:15 PM end time is retained as authoritative.)"
       },
       "location": {
         "venue": "Stanwood High School",
@@ -350,17 +351,21 @@
         "region": "Northwest"
       },
       "url": "https://www.facebook.com/CountryLivingExpo/",
-      "description": "The 2026 Country Living & Modern Homesteading Expo is the Northwest's premier hands-on learning event for farmers, gardeners, homesteaders, and rural dreamers, offering 100+ hands-on workshops, expert-led classes, demonstrations, and community panels covering every aspect of rural life. Presented by the Livestock Master Foundation with WSU Skagit & Snohomish County Extension and the Cattlemen's Association, hosted by Stanwood FFA. Registration includes lunch (historically a prime rib lunch) and breakfast items at no extra cost.",
+      "description": "The 2026 Country Living & Modern Homesteading Expo is the Northwest's premier hands-on learning event for farmers, gardeners, homesteaders, and rural dreamers, offering 100+ hands-on workshops, expert-led classes, demonstrations, and community panels covering every aspect of rural life. Topics range from raising goats, fermenting food, and building a root cellar to regenerative design, seed saving, lavender, clematis, backyard poultry disease management, mastitis/dairy animal health, and noxious weed management. Presented in partnership with WSU Skagit & Snohomish County Extension; includes a vendor marketplace and a prime rib lunch.",
       "speakers": [],
       "ticket_price": "$85 advance (online); $100 day-of-event registration",
       "highlights": [
         "100+ hands-on workshops",
-        "WSU Extension / Livestock Master Foundation",
+        "WSU Extension partners (Skagit & Snohomish County)",
         "regenerative design, off-grid & rural skills",
-        "gardening, food preservation, fermentation",
+        "gardening, food preservation, fermentation & quick pickling",
+        "seed saving (Finney Farm Seed Distro)",
+        "lavender (Our Legacy Fields, Stanwood) & clematis growing",
+        "backyard poultry disease management; mastitis / dairy animal health",
+        "noxious weed management (Snohomish Conservation District presenters)",
         "livestock, poultry, bees",
         "trade show / vendor marketplace",
-        "registration includes prime rib lunch & breakfast items",
+        "prime rib (or vegetarian) lunch included",
         "Chicken & Duck Egg Weigh Off (sponsored by Conway Feed)",
         "hosted by Stanwood FFA"
       ],
@@ -383,8 +388,8 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-03",
-      "changes_noted": "RE-VERIFIED via official WSU Extension Skagit County pages (both the main country-living-expo landing page and the dedicated event page) plus multiple corroborating sources (Snohomish & Skagit Conservation Districts, South Whidbey Tilth, Island & San Juan County WSU Extension, 10times). CONFIRMED unchanged: date (Sat Jan 31, 2026, single day, 9:00 AM\u20134:15 PM), venue (Stanwood High School, 7400 272nd St NW, Stanwood WA 98292), pricing ($85 advance online / $100 day-of, online registration closes Jan 21, 2026), 100+ workshops, organizers (Livestock Master Foundation with WSU Skagit & Snohomish County Extension and the Cattlemen's Association), and Stanwood FFA hosting. NEW/ADDED: (1) Registration includes lunch (historically a prime rib lunch) and breakfast items at no cost \u2014 not previously noted. (2) Returning Chicken & Duck Egg Weigh Off sponsored by Conway Feed. (3) Confirmed sample 2026 session topics on official page: regenerative design, fermentation/quick pickling, lavender, clematis, seed saving, backyard poultry disease management, mastitis/dairy animal health, hay selection, sheep keeping, growing tea in western WA, blueberries. NO keynote speakers listed \u2014 the event uses a multi-track format with numerous individual workshop instructors, so speakers array remains empty. NOTE: a dedicated event-detail page exists at extension.wsu.edu/skagit/event/country-living-modern-homesteading-expo/, but the primary public-facing registration/landing page remains extension.wsu.edu/skagit/country-living-expo/. NOT cancelled or postponed. NOTE: the supplied URL 'https://extension.wsu.edu' is a generic WSU Extension landing page, not the event page; recommend keeping the specific registration_url.",
+      "last_researched": "2026-06-08",
+      "changes_noted": "RE-VERIFIED on 2026-06-08 via official WSU Extension Skagit County pages (main landing page extension.wsu.edu/skagit/country-living-expo/ and dedicated event page extension.wsu.edu/skagit/event/country-living-modern-homesteading-expo/) plus corroborating sources (Snohomish Conservation District, South Whidbey Tilth, San Juan & Island County WSU Extension, Eat Local First, 10times). CONFIRMED UNCHANGED: date (Sat Jan 31, 2026, single day), venue (Stanwood High School, 7400 272nd St NW, Stanwood WA 98292), pricing ($85 advance online / $100 day-of), online registration closing Jan 21, 2026, 100+ workshops, prime rib lunch. NEW DETAILS confirmed via official page: specific 2026 session topics including regenerative design, fermentation/quick pickling, lavender (Our Legacy Fields), clematis, seed saving (Finney Farm Seed Distro), backyard poultry disease management, and mastitis/dairy animal health; Snohomish Conservation District is presenting a noxious weeds session (#155). MINOR DISCREPANCY flagged: Snohomish Conservation District lists end time as 5:00 PM, while the official WSU and South Whidbey Tilth listings state 4:15 PM \u2014 the 4:15 PM official time is retained. NO keynote speakers listed (multi-track format with many individual workshop instructors), so speakers array remains empty. NOT cancelled or postponed. The supplied URL was the Facebook page (facebook.com/CountryLivingExpo/), which is an active official channel posting 2026 promo videos and 'save the date' posts directing to the WSU registration page; recommend retaining the specific WSU registration_url as the primary link.",
       "registration_url": "https://extension.wsu.edu/skagit/country-living-expo/"
     },
     {
@@ -395,7 +400,7 @@
         "start": "2026-02-27",
         "end": "2026-02-28",
         "pre_event": null,
-        "notes": "Vendor load-in/setup on Thursday, February 26th. Doors open 7:45 AM, sessions begin 8:15-8:20 AM both days; classes end 5:30 PM, workshops end 4:30 PM."
+        "notes": "Vendor load-in/setup on Thursday, February 26th. Per official venue page: Speakers' Welcome begins 8:20 AM each day; Vendor Hall opens 9:30 AM each day. Per Ottumwa Radio: doors open 7:45 AM, sessions begin 8:15 AM both days. Classes end 5:30 PM; workshops end 4:30 PM. (Minor source variance on the early-morning open/start times; venue site and press release differ slightly.)"
       },
       "location": {
         "venue": "Bridge View Center",
@@ -406,16 +411,17 @@
       "url": "https://homesteadersofiowa.com/",
       "description": "The 2026 Homesteaders of Iowa Expo & Midwest Conference is a family-friendly two-day event bringing together experts, educators, and families for hands-on learning and community building. It features 30 educational classes covering gardening, livestock, food preservation, preparedness, herbalism, and sustainable living, plus 24 hands-on workshops. All activities are held indoors at the Bridge View Center, with a vendor hall, live demonstrations, and national and local speakers.",
       "speakers": [
-        "David Ford (regenerative living/homesteading; Jefferson County, Iowa)",
+        "David Ford (regenerative living/homesteading; Jefferson County, Iowa; session 'Entangled and Unplugged: How Land Health Can Save Us')",
         "Jeremy Skinner (Event Chaplain; leads 'Faith and the Homestead' panel)",
         "Pearlicia Cloke (Raw Americana; 'Drama-Free Soap Making' workshop)",
         "David Mixdorf (Prairie Hilltop Farm; 'Raising Chickens for Eggs & Meat')",
-        "Dr. Burgmeier (veterinarian, certified in veterinary chiropractic care)",
+        "Dr. Michelle Burgmeier, DVM (veterinarian, veterinary chiropractic care; 'Goat & Sheep Maintenance' / small ruminant class 'Let's Ruminate on it')",
         "Lynford Miller (Gingerich Greenhouse; Seed Starting)",
-        "Lori Fenton (speaker)",
-        "Beckham (fruit trees/grafting/bonsai; Ottumwa, Iowa)"
+        "Lori Fenton (speaker; Davis County)",
+        "Beckham (fruit trees/grafting/bonsai; Ottumwa, Iowa)",
+        "Wendy (SouthStar Farms, 20-acre medicinal herb farm/apothecary; herbal medicine 'simples' method flu tea class)"
       ],
-      "ticket_price": "General admission required for all speaker sessions, with optional add-on workshops; early bird discount of 10% applied automatically through December 25th. Vendor-hall-only 'shop' day pass is $5 per person (ages 15+) at the door. Vendor booths $200 (10'x10', 1 table + 2 chairs), early bird $125 with code through December 31st; electricity available for $35.",
+      "ticket_price": "General admission required for all speaker sessions, with optional add-on workshops; early bird discount of 10% applied automatically through December 25th. Vendor-hall-only 'shop' day pass is $5 per person (ages 15+) at the door (does not allow entry to speakers or workshops). Vendor booths $200 (10'x10', 1 table + 2 chairs), early bird $125 with code through December 31st; electricity available for $35 per vendor.",
       "highlights": [
         "Midwest focus",
         "hands-on learning",
@@ -424,7 +430,8 @@
         "24 hands-on workshops",
         "national and local speakers",
         "$5 vendor-hall-only day pass option",
-        "family-friendly"
+        "family-friendly",
+        "topics include solar array construction, soap making, bread baking, mushroom cultivation, seed starting, and poultry hatching"
       ],
       "source": "seed",
       "verified": true,
@@ -445,8 +452,8 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-02",
-      "changes_noted": "VERIFIED. The event is confirmed by multiple independent sources including the official site (homesteadersofiowa.com), the Bridge View Center venue site, the Meet Ottumwa tourism site, and local news (Ottumwa Courier, Ottumwa Radio, bdemo.com). All key facts in the seed record are confirmed: dates (Feb 27-28, 2026), venue (Bridge View Center, 102 Church St, Ottumwa, IA 52501), and Midwest homesteading focus. NEW info added: dedicated registration/info site is homesteadersofiowa.com (the prior meetottumwa.org URL is a tourism listing, not the registration page \u2014 corrected as flagged); ticket structure (general admission + optional workshops, 10% early-bird, $5 shop-only day pass); 8 named speakers identified; event scale (30 classes, 24 workshops). Status remains 'confirmed'. No cancellation or postponement found. Recommend updating the primary 'url' field from meetottumwa.org to homesteadersofiowa.com.",
+      "last_researched": "2026-06-08",
+      "changes_noted": "RE-VERIFIED on 2026-06-08. Event confirmed by the official site (homesteadersofiowa.com and its Google Sites mirror), the Bridge View Center venue page, Meet Ottumwa tourism listing, and local news (Ottumwa Courier, Ottumwa Radio, bdemo.com). All core seed facts hold: dates (Feb 27-28, 2026), venue (Bridge View Center, 102 Church St, Ottumwa, IA 52501), Midwest homesteading focus, scale (30 classes, 24 workshops), and ticket/vendor pricing. NEW: added a 9th speaker \u2014 Wendy of SouthStar Farms (medicinal herb farm) teaching an herbal 'simples'-method flu tea class. Added session titles for David Ford ('Entangled and Unplugged'), Dr. Burgmeier (small ruminant 'Goat & Sheep Maintenance'), and confirmed Lori Fenton is from Davis County. Noted a minor source discrepancy on early-morning open times: the venue page lists Speakers' Welcome 8:20 AM and Vendor Hall 9:30 AM, while the press release lists doors 7:45 AM / sessions 8:15 AM. Status remains 'confirmed' \u2014 no cancellation or postponement found. Primary URL homesteadersofiowa.com confirmed correct (vendor inquiries: homesteaders.iowa@gmail.com).",
       "registration_url": "https://homesteadersofiowa.com"
     },
     {
@@ -457,7 +464,7 @@
         "start": "2026-09-04",
         "end": "2026-09-05",
         "pre_event": null,
-        "notes": "Friday-Saturday. Confirmed via official SimpleTix listing, ozarkshomesteading.com, and third-party event roundups. Gates have historically opened at 7 a.m. with vendors at 8 a.m."
+        "notes": "Friday-Saturday. Re-confirmed via official SimpleTix listing and ozarkshomesteading.com/2026-homesteading-expo. SimpleTix calendar entry lists 2026-09-04 13:00 to 2026-09-05 22:00 UTC. Gates have historically opened at 7 a.m. with vendors at 8 a.m. (per prior-year event pages); 2026-specific gate times not yet republished."
       },
       "location": {
         "venue": "Ellis O. Jackson Park / Webster County Fairgrounds, 614 North Marshall Street",
@@ -466,9 +473,9 @@
         "region": "Midwest"
       },
       "url": "https://ozarkshomesteading.com",
-      "description": "An in-person, two-day educational resource fair running since 2019, featuring 40+ teaching sessions, demonstrations, workshops, food trucks, and a large homesteading vendor marketplace (160+ vendors in the prior year, with more expected in 2026). Attendees learn from local, national, and internationally known experts. Topics include livestock raising and processing, hog butchering, chicken processing, raising/harvesting meat rabbits, canning and harvest preservation, natural beekeeping, cheesemaking, bread making/sourdough, soap making, foraging, mushrooms, herbal/medicinal herbs, soil health, solar/off-grid living, fermenting, all-season gardening, high tunnels, orchards, blacksmithing, natural building (clay & straw), rocket mass heaters, clay pizza ovens, livestock guardian dogs, goat husbandry, sheep shearing, dairy cows, composting, homeschooling, and kids activities.",
+      "description": "An in-person, two-day educational resource fair running since 2019, featuring 40+ teaching sessions, demonstrations, workshops, food trucks, and a large homesteading vendor marketplace (more than 160 vendors in the prior year, with more expected in 2026). Attendees learn from local, national, and internationally known experts. Topics include livestock raising and processing, hog butchering, chicken processing, raising/harvesting meat rabbits, canning and harvest preservation, natural beekeeping, cheesemaking, bread making/sourdough, soap making, foraging, mushrooms, herbal/medicinal herbs, soil health, solar/off-grid living, fermenting, all-season gardening, high tunnels, orchards, blacksmithing, natural building (clay & straw), rocket mass heaters, clay pizza ovens, livestock guardian dogs, goat husbandry, sheep shearing, dairy cows, composting, food freedom, homeschooling, and kids activities.",
       "speakers": [],
-      "ticket_price": "Multiple tiers confirmed on SimpleTix: General Admission $50 (two-day access to all presentations, demonstrations, and vendors; added workshops extra); General Admission with video access to all 2026 videos $69 (advance purchase ~50%+ off, video access after the event costs more than double); VIP Admission $249 (VIP parking, early entry, AC VIP lounge shared with presenters, premium seating, swag tote, free T-shirt, and all 2026 video recordings); Kids 11 and under VIP $199 (must be accompanied by a VIP adult); kids 11 and under free for general but require a ticket.",
+      "ticket_price": "Multiple tiers confirmed on SimpleTix. General Admission $50 (two-day access to all teaching presentations, demonstrations, and vendors; any workshops added later are extra). General Admission with video access to all 2026 videos $69 (advance purchase discounted more than 50% off; video access purchased after the event costs more than double; videos expected within 60 days after the event; one video code per household sent to the ticket buyer's email). VIP Admission $249 (VIP parking, early entry, AC VIP lounge shared with presenters, premium seating, sponsor goodie tote, free event T-shirt, and all 2026 video recordings). Kids 11 and under VIP $199 (must be accompanied by a VIP adult). Kids 11 and under free for general admission but require a ticket.",
       "highlights": [
         "40+ teaching sessions and demonstrations",
         "natural beekeeping",
@@ -502,8 +509,8 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-02",
-      "changes_noted": "VERIFIED & RE-CONFIRMED. Dates remain Sept 4-5, 2026 (Fri-Sat) per official SimpleTix listing, ozarkshomesteading.com, and an independent 2026 events roundup. Venue and location unchanged. TICKET PRICING EXPANDED \u2014 record previously listed only the $69 GA+video tier; SimpleTix now shows a full tier structure: GA $50 (no video), GA+video $69 (~50%+ advance discount), VIP $249, and Kids VIP $199. Video access is expected within 60 days after the event and one code is issued per household. DESCRIPTION/HIGHLIGHTS updated with additional confirmed 2026 topics from the official 2026 Expo page (hog butchering, chicken processing, meat rabbits, livestock guardian dogs, natural building from clay & straw, rocket mass heaters, clay pizza ovens, high tunnels, homeschooling). Vendor count corrected: official 2026 page states 'more than 160 vendors' last year (record had said 150+). SPEAKERS STILL NOT PUBLISHED for 2026 \u2014 official 2026 page only teases 'here are just a few' with no names yet; the speaker bios on the site (Joel Salatin, Uncle Mud, the Moody family, etc.) belong to the 2025 event and are NOT confirmed for 2026, so the speakers array remains empty pending an official 2026 announcement. Official Facebook page (@ozarkshomesteading) confirmed with ~25,289 likes and active Sept 4-5, 2026 promotional posts.",
+      "last_researched": "2026-06-08",
+      "changes_noted": "RE-CONFIRMED on 2026-06-08, no material changes from the 2026-06-02 record. Dates confirmed Sept 4-5, 2026 (Fri-Sat) per official SimpleTix listing and ozarkshomesteading.com 2026 page. Venue and location unchanged. Full ticket tier structure re-confirmed on SimpleTix: GA $50 (no video), GA+video $69 (>50% advance discount), VIP $249, Kids VIP $199; kids 11 & under free for GA but require a ticket; video access expected within 60 days after event with one code per household. Vendor count confirmed: official 2026 page states 'more than 160 vendors' last year. SPEAKERS STILL NOT PUBLISHED for 2026 \u2014 the official 2026 Expo page only teases speakers ('here are just a few') with no names; the speaker bios on the site (Joel Salatin, Uncle Mud, the Moody family, Millsap Farms, etc.) are on a page explicitly titled '2025 Expo Speaker Bios' and are NOT confirmed for 2026, so the speakers array remains empty pending an official 2026 announcement. Confirmed third-party vendor Wildwise Botanicals references presenting (mushroom talk + shiitake log workshop) but their listed page is not clearly dated to 2026, so not added as a confirmed speaker. Official Facebook page (@ozarkshomesteading) confirmed with 25,289 likes and active Sept 4-5, 2026 promotional posts. Note: the site footer still reads 'Copyright \u00a9 2025,' indicating the site has not been fully updated for 2026 \u2014 speaker list likely still pending.",
       "registration_url": "https://www.simpletix.com/e/2026-ozarks-homesteading-expo-marshfield-m-tickets-253685",
       "ticket_url": "https://www.simpletix.com/e/2026-ozarks-homesteading-expo-marshfield-m-tickets-253685"
     },
@@ -638,7 +645,7 @@
         "start": "2026-09-05",
         "end": "2026-09-05",
         "pre_event": null,
-        "notes": "Single-day on-farm event. Date confirmed on official Willow Haven Farm site. Past editions ran roughly 8:00 am\u20134:00 pm and opened with an optional 8:00 am Traditional Catholic Mass followed by a 9:00 am farm breakfast."
+        "notes": "Single-day on-farm event. The 2026 date (Sept 5, 2026) is confirmed via the official Willow Haven Farm site's events listing. Past editions ran roughly 8:00 am\u20134:00 pm: the day opens with an optional 8:00 am Traditional Catholic Mass (Gregorian chant in the barn), a 9:00 am farm breakfast/check-in, Workshop Session #1 at 10:00 am, a 12:00 pm lunch break (salad bar / brick-oven pizza available for purchase), Workshop Session #2 at 1:30 pm, and a 4:00 pm closing prayer. NOTE: The dedicated conference portfolio page still displays 2025-edition content (Aug 30, 2025) as of this research; the 2026 lineup/schedule had not yet been refreshed there."
       },
       "location": {
         "venue": "Willow Haven Farm",
@@ -647,16 +654,17 @@
         "region": "Northeast"
       },
       "url": "https://willowhavenfarmpa.com/portfolio/homesteading-conference",
-      "description": "An on-farm, single-day homesteading conference at Willow Haven Farm in New Tripoli, PA, run by Farmer Reuben and Tessa DeMaster. Attendees choose from hands-on workshops and in-depth farm tours covering sustainable living and traditional skills such as sourdough baking, fermentation/food preservation, foraging, herbal remedies, composting, permaculture, and organic gardening. Registration is limited.",
+      "description": "An on-farm, single-day homesteading conference at Willow Haven Farm in New Tripoli, PA, run by Farmer Reuben and Tessa DeMaster. Attendees discover the art of sustainable living through a day of hands-on workshops and in-depth farm tours led by experts. Attendees can follow a single themed path all day or mix and match morning and afternoon sessions. Topics span sustainable living and traditional skills such as sourdough baking, fermentation/food preservation, foraging, herbal remedies, composting, permaculture, organic gardening, native plants, meal planning, and functional fitness. Registration is limited; ticket holders receive a workshop-selection form by email to reserve their chosen sessions.",
       "speakers": [],
-      "ticket_price": "TBD for 2026; not yet published. For reference, the 2025 edition priced Early Bird Full Day +2 meals at ~$97.34, Full Day +2 meals at ~$113.89, Half-Day at ~$49.87, and a kids ticket (incl. breakfast) at ~$7.18 (all incl. fees).",
+      "ticket_price": "TBD for 2026; not yet published. For reference, the 2025 edition priced Early Bird Full Day +2 meals at ~$97.34, Full Day +2 meals at ~$113.89, Half-Day at ~$49.87, and a kids ticket (incl. breakfast) at ~$7.18 (all incl. fees). Early-bird pricing for 2025 ended Aug 3. These figures are from the 2025 edition and should be treated as reference only, not confirmed 2026 pricing.",
       "highlights": [
         "limited seats / registration is limited",
-        "on-farm hands-on experience",
-        "choose-your-path morning and afternoon workshop sessions",
-        "in-depth farm tours with Farmer Reuben",
-        "topics include sourdough, fermentation, foraging, herbal remedies, permaculture, composting",
-        "optional 8:00 am Traditional Catholic Mass and farm breakfast"
+        "on-farm hands-on experience with in-depth farm tours led by Farmer Reuben",
+        "choose-your-path format: follow one themed track all day or mix & match AM/PM sessions",
+        "topics include sourdough, fermentation/food preservation, foraging, herbal remedies, composting, permaculture, organic gardening, native plants, meal planning, and functional fitness",
+        "optional 8:00 am Traditional Catholic Mass (Gregorian chant in the barn) followed by a 9:00 am farm breakfast",
+        "lunch break with salad bar and brick-oven pizza available for purchase",
+        "workshop-selection form emailed to ticket holders after purchase"
       ],
       "source": "seed",
       "verified": true,
@@ -677,8 +685,8 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-02",
-      "changes_noted": "VERIFIED via the official Willow Haven Farm website. The 2026 Homesteading Conference is confirmed for September 5, 2026, matching the existing record's date. CORRECTION: The previous URL (https://eventbrite.com homepage) was not a valid event link. Replaced with the farm's official events page (willowhavenfarmpa.com/events); the dedicated conference page is willowhavenfarmpa.com/portfolio/homesteading-conference. Confirmed venue/address: Willow Haven Farm, 7686 Herber Rd, New Tripoli, PA 18066 (run by Reuben & Tessa DeMaster). Expanded the description and highlights based on confirmed event format. NOTE: A specific 2026 speaker lineup and 2026 ticket prices are NOT yet published \u2014 the speaker roster and pricing seen in search results are from the 2025/prior editions and should not be treated as confirmed for 2026 (left speakers empty; pricing noted as reference only). Recommend re-checking closer to the event for the 2026 workshop lineup, speakers, finalized pricing, and a direct Eventbrite/registration link.",
+      "last_researched": "2026-06-08",
+      "changes_noted": "RE-VERIFIED via the official Willow Haven Farm website (June 8, 2026). The 2026 Homesteading Conference date of September 5, 2026 is confirmed on the farm's site (cross-referenced on the farm's events/foster-chicks pages), matching the existing record. IMPORTANT: The dedicated conference portfolio page (willowhavenfarmpa.com/portfolio/homesteading-conference) still shows 2025-edition content (Aug 30, 2025), so its listed workshops/speakers and pricing are from the 2025 (third annual) edition, NOT confirmed for 2026 \u2014 speakers left empty and pricing kept as reference only. Confirmed venue/operators: Willow Haven Farm, 7686 Herber Rd, New Tripoli, PA 18066, run by Reuben & Tessa DeMaster. Confirmed event-day schedule format (Mass 8am, breakfast/check-in 9am, workshop session #1 10am, lunch 12pm, workshop session #2 1:30pm, closing prayer 4pm) and the choose-your-path workshop structure. Expanded description/highlights accordingly. NOTE: One aggregator (Buy Fresh Buy Local GLV) listed a different address (4896 Gruber Rd 'Stone Barn') for the 2025 edition \u2014 the farm's own pages consistently list 7686 Herber Rd, so the Gruber Rd reference may be a venue sub-location or aggregator error; recommend confirming the exact 2026 on-site location. RECOMMEND re-checking closer to the event for the finalized 2026 workshop lineup, speakers, pricing, and a direct registration/ticket link.",
       "registration_url": "https://willowhavenfarmpa.com/events",
       "ticket_url": "https://www.eventbrite.com/e/homesteading-conference-on-the-farm-2026-tickets-1633143398869"
     },

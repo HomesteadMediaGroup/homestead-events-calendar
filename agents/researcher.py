@@ -7,6 +7,7 @@ Outputs updated events.json and a research report.
 
 import json
 import os
+import re
 import sys
 import datetime
 import anthropic
@@ -113,20 +114,89 @@ def log(message):
 WEB_SEARCH_TOOL = {"type": "web_search_20250305", "name": "web_search"}
 
 
+def _strip_js_comments(text):
+    """Remove JS comments and trailing commas to make lax JSON parseable."""
+    # Remove block comments
+    text = re.sub(r'/\*.*?\*/', '', text, flags=re.DOTALL)
+    # Remove line comments (but not URLs — only // not preceded by colon or slash)
+    text = re.sub(r'(?<!:)(?<!/)//[^\n]*', '', text)
+    # Remove trailing commas before } or ]
+    text = re.sub(r',\s*([}\]])', r'\1', text)
+    return text
+
+
+def _balanced_extract(text, open_char, close_char):
+    """Return the first balanced open_char...close_char substring, or None."""
+    start = text.find(open_char)
+    if start < 0:
+        return None
+    depth = 0
+    in_string = False
+    escape_next = False
+    for i, ch in enumerate(text[start:], start):
+        if escape_next:
+            escape_next = False
+            continue
+        if ch == '\\' and in_string:
+            escape_next = True
+            continue
+        if ch == '"':
+            in_string = not in_string
+            continue
+        if in_string:
+            continue
+        if ch == open_char:
+            depth += 1
+        elif ch == close_char:
+            depth -= 1
+            if depth == 0:
+                return text[start:i + 1]
+    return None
+
+
+def parse_json_from_text(text):
+    """
+    Robustly extract and parse a JSON object or array from a text that may
+    contain prose, markdown code fences, or JavaScript-style comments.
+    Returns the parsed object/list, or raises json.JSONDecodeError on failure.
+    """
+    # 1. Try markdown code fence (```json ... ``` or ``` ... ```)
+    fence = re.search(r'```(?:json)?\s*([\[{].*?)\s*```', text, re.DOTALL)
+    if fence:
+        try:
+            return json.loads(fence.group(1))
+        except json.JSONDecodeError:
+            try:
+                return json.loads(_strip_js_comments(fence.group(1)))
+            except json.JSONDecodeError:
+                pass
+
+    # 2. Try balanced extraction — prefer whichever opener appears first
+    obj_pos = text.find('{')
+    arr_pos = text.find('[')
+    if arr_pos >= 0 and (obj_pos < 0 or arr_pos < obj_pos):
+        pairs = [('[', ']'), ('{', '}')]
+    else:
+        pairs = [('{', '}'), ('[', ']')]
+    for open_c, close_c in pairs:
+        candidate = _balanced_extract(text, open_c, close_c)
+        if candidate is None:
+            continue
+        try:
+            return json.loads(candidate)
+        except json.JSONDecodeError:
+            try:
+                return json.loads(_strip_js_comments(candidate))
+            except json.JSONDecodeError:
+                continue
+
+    raise json.JSONDecodeError("No valid JSON found", text, 0)
+
+
 def extract_json_from_blocks(content_blocks):
-    """Find the text block containing JSON and return it."""
-    # Collect all text blocks, return the one containing a JSON object or array
+    """Concatenate all text blocks from the response."""
     texts = [b.text for b in content_blocks if hasattr(b, "text") and b.text]
-    for text in reversed(texts):  # JSON is usually in a later block
-        s = text.find("{")
-        e = text.rfind("}") + 1
-        if s >= 0 and e > s:
-            return text
-        s = text.find("[")
-        e = text.rfind("]") + 1
-        if s >= 0 and e > s:
-            return text
-    return "".join(texts)  # fallback: concatenate all
+    return "".join(texts)
 
 
 def research_one_event(client, event, today):
@@ -166,20 +236,17 @@ def research_known_events(client, events_data):
 
         # Parse JSON from response
         try:
-            start = response_text.find("{")
-            end = response_text.rfind("}") + 1
-            if start >= 0 and end > start:
-                updates = json.loads(response_text[start:end])
-                # Merge updates into the event record
-                for key, value in updates.items():
-                    if key not in ("id",) and value is not None:
-                        if isinstance(value, dict) and isinstance(event.get(key), dict):
-                            event[key].update({k: v for k, v in value.items() if v is not None})
-                        else:
-                            event[key] = value
-                event["last_researched"] = today
-                updated_count += 1
-                log(f"  ✓ Updated: {updates.get('changes_noted', 'no changes noted')}")
+            updates = parse_json_from_text(response_text)
+            # Merge updates into the event record
+            for key, value in updates.items():
+                if key not in ("id",) and value is not None:
+                    if isinstance(value, dict) and isinstance(event.get(key), dict):
+                        event[key].update({k: v for k, v in value.items() if v is not None})
+                    else:
+                        event[key] = value
+            event["last_researched"] = today
+            updated_count += 1
+            log(f"  ✓ Updated: {updates.get('changes_noted', 'no changes noted')}")
         except json.JSONDecodeError as e:
             log(f"  ✗ JSON parse error: {e}")
 
@@ -210,17 +277,16 @@ def discover_new_events(client, events_data):
     response_text = extract_json_from_blocks(response.content)
 
     try:
-        start = response_text.find("[")
-        end = response_text.rfind("]") + 1
-        if start >= 0 and end > start:
-            new_events = json.loads(response_text[start:end])
-            if new_events:
-                events_data["events"].extend(new_events)
-                log(f"Discovery found {len(new_events)} new events.")
-                for e in new_events:
-                    log(f"  + {e['name']} ({e.get('dates', {}).get('start', 'date TBD')})")
-            else:
-                log("Discovery found no new events this run.")
+        new_events = parse_json_from_text(response_text)
+        if not isinstance(new_events, list):
+            new_events = [new_events] if new_events else []
+        if new_events:
+            events_data["events"].extend(new_events)
+            log(f"Discovery found {len(new_events)} new events.")
+            for e in new_events:
+                log(f"  + {e['name']} ({e.get('dates', {}).get('start', 'date TBD')})")
+        else:
+            log("Discovery found no new events this run.")
     except json.JSONDecodeError as e:
         log(f"Discovery JSON parse error: {e}")
         log(f"Raw response: {response_text[:500]}")

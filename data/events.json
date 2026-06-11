@@ -1934,7 +1934,7 @@
         "start": null,
         "end": null,
         "pre_event": null,
-        "notes": "Multiple national & chapter events throughout 2026 \u2014 see nlhg.org/upcoming-events for current listings"
+        "notes": "Monthly virtual event \u2014 first Wednesday of each month except December. Remaining 2026: 2026-07-01, 2026-08-05, 2026-09-02, 2026-10-07, 2026-11-04"
       },
       "location": {
         "venue": "Multiple locations nationwide",
@@ -1944,17 +1944,18 @@
       },
       "url": "https://www.nlhg.org/upcoming-events",
       "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
-      "description": "National Ladies Homestead Gathering \u2014 connecting homesteading women across America. Share Knowledge. Build Community. Grow Friendships. Hosts national virtual gatherings, in-person chapter events, and special conferences throughout the year.",
+      "description": "National Ladies Homestead Gathering \u2014 connecting homesteading women across America. Share Knowledge. Build Community. Grow Friendships. National Virtual Gathering meets the first Wednesday of every month (except December) online. Remaining 2026 dates: 2026-07-01, 2026-08-05, 2026-09-02, 2026-10-07, 2026-11-04.",
       "speakers": [],
-      "ticket_price": "See nlhg.org for event-specific pricing and registration",
+      "ticket_price": "Free to attend \u2014 check nlhg.org for registration link each month",
       "highlights": [
+        "monthly virtual gathering",
+        "first Wednesday each month",
         "women's homesteading community",
         "national & chapter events",
-        "virtual gatherings",
-        "in-person meetups",
         "knowledge sharing",
         "community building",
-        "homesteading skills"
+        "homesteading skills",
+        "free to attend"
       ],
       "source": "nlhg.org",
       "verified": true,

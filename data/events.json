@@ -1929,17 +1929,17 @@
     {
       "id": "nlhg-2026",
       "name": "National Ladies Homestead Gathering (NLHG) \u2014 Events",
-      "status": "pending",
+      "status": "confirmed",
       "dates": {
-        "start": null,
-        "end": null,
+        "start": "2026-07-01",
+        "end": "2026-07-01",
         "pre_event": null,
-        "notes": "Monthly virtual event \u2014 first Wednesday of each month except December. Remaining 2026: 2026-07-01, 2026-08-05, 2026-09-02, 2026-10-07, 2026-11-04"
+        "notes": "Monthly virtual \u2014 first Wednesday each month (except December). Remaining: Jul 1, Aug 5, Sep 2, Oct 7, Nov 4"
       },
       "location": {
         "venue": "Multiple locations nationwide",
-        "city": "Nationwide",
-        "state": "",
+        "city": "Virtual",
+        "state": "Online",
         "region": "Southeast"
       },
       "url": "https://www.nlhg.org/upcoming-events",

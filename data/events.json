@@ -2,7 +2,7 @@
   "meta": {
     "last_updated": "2026-06-10",
     "version": "1.0",
-    "total_events": 32
+    "total_events": 33
   },
   "events": [
     {
@@ -1913,6 +1913,50 @@
         "real food"
       ],
       "source": "roguefoodconference.com",
+      "verified": true,
+      "social_posts": {
+        "facebook": null,
+        "x": null,
+        "youtube": null
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-10"
+    },
+    {
+      "id": "nlhg-2026",
+      "name": "National Ladies Homestead Gathering (NLHG) \u2014 Events",
+      "status": "pending",
+      "dates": {
+        "start": null,
+        "end": null,
+        "pre_event": null,
+        "notes": "Multiple national & chapter events throughout 2026 \u2014 see nlhg.org/upcoming-events for current listings"
+      },
+      "location": {
+        "venue": "Multiple locations nationwide",
+        "city": "Nationwide",
+        "state": "",
+        "region": "Southeast"
+      },
+      "url": "https://www.nlhg.org/upcoming-events",
+      "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
+      "description": "National Ladies Homestead Gathering \u2014 connecting homesteading women across America. Share Knowledge. Build Community. Grow Friendships. Hosts national virtual gatherings, in-person chapter events, and special conferences throughout the year.",
+      "speakers": [],
+      "ticket_price": "See nlhg.org for event-specific pricing and registration",
+      "highlights": [
+        "women's homesteading community",
+        "national & chapter events",
+        "virtual gatherings",
+        "in-person meetups",
+        "knowledge sharing",
+        "community building",
+        "homesteading skills"
+      ],
+      "source": "nlhg.org",
       "verified": true,
       "social_posts": {
         "facebook": null,

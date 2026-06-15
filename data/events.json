@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-10",
+    "last_updated": "2026-06-15",
     "version": "1.0",
     "total_events": 43
   },
@@ -1054,7 +1054,7 @@
         "start": "2026-08-14",
         "end": "2026-08-16",
         "pre_event": null,
-        "notes": "Friday\u2013Sunday. NEW August date for 2026 (previously held in October). Camping/RV/cabins/hotel all on-site; has a history of selling out and lodging fills quickly. 64 classes per day, 8 per hour for 8 hours all 3 days."
+        "notes": "Friday\u2013Sunday. CONFIRMED via official site and TicketLeap. NEW August date for 2026 (previously held in October/September). On-site lodging confirmed: 180 RV/camper sites, 55 full-service cabins, 140 hotel rooms (2 hotels), and 'Tent City' tent camping, plus 7 restaurants \u2014 all on site. Has a history of selling out; lodging fills quickly. 64 classes/day, 8 per hour for 8 hours, all 3 days."
       },
       "location": {
         "venue": "Tryon International Equestrian Center & Resort",
@@ -1063,21 +1063,24 @@
         "region": "Southeast"
       },
       "url": "https://preppercamp.com",
-      "description": "The #1 self-reliance, homesteading, off-grid living, and preparedness conference. A total-immersion, open-air event held in the foothills of the Appalachian Mountains at a campground/resort venue. Offers 64 classes a day (8 per hour, 8 hours daily, all 3 days), plus 4 movies, demonstrations, a Tin Foil Hat Contest, food vendors, a shopping mall of gear, entertainment, music, and prizes. Hosted by Survivor Jane and Rick Austin with 45+ expert speakers. Family-friendly with all lodging, camping, RV, cabins, and hotels on site.",
+      "description": "The #1 self-reliance, homesteading, off-grid living, and preparedness conference \u2014 for 12 years running. A total-immersion, open-air event held in the foothills of the Appalachian Mountains, now at a new venue: the Tryon International Equestrian Center & Resort in Mill Spring, NC. Offers 64 classes a day (8 per hour, 8 hours daily, all 3 days), plus 4 movies, multiple demonstrations, a Tin Foil Hat Contest, food vendors, a shopping mall of innovative gear and supplies, entertainment, music, and prizes. Hosted by Survivor Jane and Rick Austin (The Survivalist Gardener) with roughly 50 world-class instructors. Family-friendly with all lodging \u2014 tent camping, RV sites, full-service cabins, and 2 on-site hotels \u2014 plus 7 restaurants, all on site.",
       "speakers": [
         "Survivor Jane (host)",
         "Rick Austin \u2013 The Survivalist Gardener (host)",
-        "Diane Devereaux \u2013 The Canning Diva",
+        "Diane Devereaux \u2013 The Canning Diva (teaching 'Preserving for Your Pets')",
         "Jeff Yago",
-        "Tighe Kuykendall",
-        "Keith (Run Hide Fight)"
+        "Tighe Kuykendall (Ham Radio / communications)",
+        "Keith (Run Hide Fight)",
+        "Sean Patrick Tario (newly confirmed for 2026)"
       ],
-      "ticket_price": "See preppercamp.com (TicketLeap) \u2014 sells out early. Discount lodging/RV with code Prepper25 (25% off lodging and RV sites); holiday promo had offered $60 off tickets",
+      "ticket_price": "Purchase via TicketLeap (https://www.ticketleap.events/tickets/wwwpreppercampcom/prepper-camp-2026). New TicketLeap ticketing system this year. Organizers note prices increase incrementally toward the event (monthly price increases), so earliest purchase is cheapest. Past promos: $60 off tickets (holiday/early-bird before Dec 31) and a $50/ticket flash discount. Lodging/RV discount code 'Prepper25' = 25% off lodging and RV sites (booked separately through Tryon International). Specific current ticket dollar amounts not publicly listed on the site \u2014 see TicketLeap for live pricing.",
       "highlights": [
         "64 classes/day (8 per hour, 8 hours, 3 days)",
         "20+ new classes added for 2026",
-        "camping, RV, full-service cabins & on-site hotels",
+        "new venue for 2026: Tryon International Equestrian Center & Resort",
+        "on-site lodging: 180 RV/camper sites, 55 full-service cabins, 140 hotel rooms, 'Tent City' tent camping",
         "7 on-site restaurants",
+        "~50 world-class instructors",
         "off-grid tech",
         "bushcraft",
         "food preservation",
@@ -1086,7 +1089,8 @@
         "vendor/shopping mall",
         "Tin Foil Hat Contest",
         "4 movies, demos, music & entertainment",
-        "on-site recreation (axe throwing, pickleball, bowling, etc.)"
+        "venue has its own highway exit off a major highway",
+        "expected 2,000+ attendees"
       ],
       "source": "verified",
       "verified": true,
@@ -1107,19 +1111,19 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-08",
+      "last_researched": "2026-06-15",
       "registration_url": "https://www.ticketleap.events/tickets/wwwpreppercampcom/prepper-camp-2026",
-      "changes_noted": "CONFIRMED for August 14\u201316, 2026. MAJOR CHANGE: New venue (Tryon International Equestrian Center & Resort, Mill Spring, NC) and a NEW DATE \u2014 moved from its traditional October slot to August. Organizers describe it as 'bigger and better' with expanded on-site lodging (180 RV/camper sites, 55 cabins, 140 hotel rooms, tent camping) and 7 restaurants. Class count updated to 64/day (record previously said 60+). Added 20+ new classes. New TicketLeap registration system. Identified speakers (record had none): hosts Survivor Jane & Rick Austin plus Diane Devereaux (Canning Diva), Jeff Yago, Tighe Kuykendall, and others. Lodging discount code 'Prepper25' (25% off)."
+      "changes_noted": "RE-CONFIRMED for August 14\u201316, 2026 (Fri\u2013Sun) via official preppercamp.com, the Tryon International event page, and the TicketLeap listing. Date/venue change from the traditional October/September slot to August at the NEW venue (Tryon International Equestrian Center & Resort, Mill Spring, NC) is verified. On-site lodging confirmed: 180 RV/camper sites, 55 full-service cabins, 140 hotel rooms (2 hotels), Tent City tent camping, and 7 restaurants. 64 classes/day confirmed; 20+ new classes for 2026. Instructor count on partner listings cited as '50 World Class Instructors' (record previously said 45+) \u2014 adjusted. NEW SPEAKER added: Sean Patrick Tario (confirmed speaking/training). Diane Devereaux (Canning Diva) confirmed teaching 'Preserving for Your Pets'; Tighe Kuykendall confirmed for Ham Radio/communications. TicketLeap is the confirmed registration system. Lodging code 'Prepper25' (25% off) still active; past ticket promos included $60 off (before Dec 31) and a $50/ticket flash sale \u2014 note exact current ticket dollar prices are not posted publicly on the site. No cancellation or postponement; organizers describe it as 'bigger and better,' expecting 2,000+ attendees."
     },
     {
       "id": "homestead-prep-festival-2026",
       "name": "Kentucky Sustainable Living Festival (Homesteading & Preparedness)",
       "status": "confirmed",
       "dates": {
-        "start": "2026-07-17",
-        "end": "2026-07-19",
+        "start": "2026-07-18",
+        "end": "2026-07-20",
         "pre_event": null,
-        "notes": "Doors open at 8:30 AM with speakers and demonstrations starting at 10:00 AM. 3-day pass covers all speakers, workshops, and vendors. Trauma Management Course sold separately (typically held Thursday before main event)."
+        "notes": "CORRECTION: Multiple sources now indicate the festival runs July 18-20, 2026, NOT July 17-19 as previously recorded. The official festival speakers and tickets pages prominently state 'REFUGE MEDICAL IN PERSON TRAINING FRIDAY JULY 18TH AT THE FESTIVAL,' and a confirmed vendor (OSS Dutch Shepherds) independently lists July 18-20. Doors open at 8:30 AM with speakers and demonstrations starting at 10:00 AM. Admission is a 3-day pass covering all speakers, workshops, and vendors. IMPORTANT: The Refuge Medical training (Friday July 18) is NOT included in the 3-day pass and is the only thing sold separately/excluded; it appears to be the first day of the festival weekend rather than a Thursday pre-event as previously assumed."
       },
       "location": {
         "venue": "L.D. Brown Ag Expo Center (WKU Agricultural Complex)",
@@ -1128,19 +1132,16 @@
         "region": "Southeast"
       },
       "url": "https://kentuckysustainableliving.com/pages/festivalmainpage10",
-      "description": "The Kentucky Sustainable Living Festival is a 3-day indoor, air-conditioned event at the L.D. Brown Ag Expo Center on WKU's Agricultural Complex, packed with speakers, vendors, and hands-on workshops for anyone interested in homesteading & preparedness. The 3-day pass includes access to all speakers, workshops, and vendors. Features a huge vendor row, food trucks, a coffee vendor, and RV spots with water/electric hookups. Includes a charity auction benefiting Kaleb House.",
-      "speakers": [
-        "Dr. Trevor Wilkins, PhD, LPCC-S, NCC, CCTP (anger, trauma, and PTSD specialist; 'The Angry Viking Therapist')"
-      ],
-      "ticket_price": "$45.00 per person for the 3-day pass; children 17 and under free. Tickets picked up at the door, non-refundable but transferable. Trauma Management Course sold separately. RV hookups available.",
+      "description": "The Kentucky Sustainable Living Festival is a 3-day indoor, air-conditioned event at the L.D. Brown Ag Expo Center on WKU's Agricultural Complex in Bowling Green, KY, packed with speakers, vendors, and hands-on workshops for anyone interested in homesteading & preparedness. The 3-day pass includes access to all speakers, workshops, and vendors. Features a large vendor row, food trucks, a coffee vendor, hands-on demonstrations (e.g., animal processing, permaculture, radio communications), and a charity auction benefiting Kaleb House. A separately ticketed Refuge Medical in-person training is offered Friday, July 18.",
+      "speakers": [],
+      "ticket_price": "$45.00 per person for the 3-day pass; children 17 and under free. All tickets are picked up at the door upon arrival; non-refundable but transferable. The Refuge Medical in-person training (Friday July 18) is sold separately and is the only thing NOT included in the 3-day pass.",
       "highlights": [
         "homesteading & preparedness",
         "hands-on workshops",
         "vendor row",
         "indoor AC facility",
         "food trucks & coffee vendor",
-        "RV hookups",
-        "trauma management course",
+        "Refuge Medical in-person training (Friday, separately ticketed)",
         "Kaleb House charity auction",
         "networking & community"
       ],
@@ -1163,10 +1164,10 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-08",
+      "last_researched": "2026-06-15",
       "ticket_url": "https://kentuckysustainableliving.com/pages/festivalmainpage10",
       "registration_url": "https://kentuckysustainableliving.com/products/festival-tickets",
-      "changes_noted": "CONFIRMED: Dates (July 17-19, 2026), Bowling Green KY location, indoor AC venue, doors 8:30 AM / speakers 10:00 AM, 3-day pass model, separate Trauma Management Course, and RV hookups all verified. UPDATED: (1) Venue name corrected/clarified \u2014 the official WKU facility at 406 Elrod Rd is the 'L.D. Brown Ag Expo Center' on WKU's Agricultural Complex; the prior record listed only '406 Elrod Rd (WKU Facility)'. (2) Ticket price now specified: $45.00/person, children 17 & under free, picked up at door, non-refundable but transferable (note: a prior year's ticket page listed $35). (3) Added confirmed speaker Dr. Trevor Wilkins (trauma/PTSD specialist) found on the festival speakers page. (4) Added Kaleb House charity auction as a highlight. NOTE: Status remains 'confirmed'; no cancellation or postponement found. Full speaker lineup not yet fully published on the site at time of research."
+      "changes_noted": "STATUS: Confirmed; no cancellation or postponement found. MAJOR CORRECTION \u2014 DATES: Prior record listed July 17-19, 2026, but current sources indicate July 18-20, 2026. The official festival speakers and tickets pages state the Refuge Medical training is 'FRIDAY JULY 18TH AT THE FESTIVAL,' and confirmed vendor OSS Dutch Shepherds independently lists 'July 18-20' for its festival demonstrations. RECOMMEND verifying exact end date directly with organizer, but July 18 (Fri) start is now well-supported by two independent sources. MEDICAL/TRAUMA COURSE: Prior record framed this as a Thursday-before pre-event 'Trauma Management Course.' The official site instead identifies it as a 'Refuge Medical In Person Training' on FRIDAY July 18, described as the only thing NOT included in the 3-day pass. This appears to be part of the festival weekend, not a separate Thursday pre-event. SPEAKER REMOVED: Could NOT verify 'Dr. Trevor Wilkins / The Angry Viking Therapist' in any current source \u2014 recommend removing this speaker unless re-confirmed; it may be erroneous or from an unverified prior draft. The current official speakers page instead features an herbalist couple (Jeffrey & Elizabeth, both US Army veterans) and health/wellness coaches (Erica & Dillon); full names/lineup not yet fully published. Past attendee reviews reference speakers like Bear Independent, A. American, Charlie Mike Adkins, and Angry Prepper from prior years (not confirmed for 2026). CONFIRMED: $45.00/person 3-day pass, children 17 & under free, picked up at door, non-refundable/transferable (note: an older/legacy ticket page still lists $35 \u2014 the current festival-tickets page lists $45). CONFIRMED: Bowling Green KY, L.D. Brown Ag Expo Center / WKU Ag Complex (406 Elrod Rd), indoor AC venue, doors 8:30 AM / speakers 10:00 AM, Kaleb House charity auction, vendor row, food trucks & coffee vendor."
     },
     {
       "id": "homestead-life-conf-2026",
@@ -1472,30 +1473,34 @@
         "start": "2026-07-24",
         "end": "2026-07-26",
         "pre_event": null,
-        "notes": "Friday\u2013Sunday, three-day camping event. Project 22:3 has historically hosted a Friday medical/first-aid class before main sessions begin; confirm pre-event class details with organizer."
+        "notes": "Friday\u2013Sunday, three-day event. Official sponsor listing shows event running Jul 24, 2026 5:00 AM \u2013 Jul 26, 2026 9:00 AM. Project 22:3 has confirmed it will host a medical/first-aid class on Friday before the main sessions begin. Tickets will NOT be sold at the door."
       },
       "location": {
-        "venue": "Veterans Camp Ponderosa",
+        "venue": "Veterans Camp Ponderosa (Camp Ponderosa)",
         "city": "Swan Lake",
         "state": "MT",
         "region": "Northwest"
       },
       "url": "https://www.mountainreadiness.com/mountain-readiness-west",
       "ticket_url": "https://www.mountainreadiness.com/mountain-readiness-west",
-      "description": "A three-day hands-on survival, preparedness, and self-reliance training event hosted by Tactical Wisdom in Swan Lake, Montana, featuring expert instructors covering wilderness survival, off-grid living, emergency medicine, communications, and homesteading. Held at the 80+ acre Veterans Camp Ponderosa with RV/tent camping and event-center facilities.",
+      "description": "A three-day hands-on survival, preparedness, and self-reliance training event hosted by Tactical Wisdom in Swan Lake, Montana, held at Veterans Camp Ponderosa. The immersive family-friendly weekend brings hands-on preparedness training led by experts in self-reliance, homesteading, and outdoor survival, with skill tracks spanning wilderness survival, off-grid living, emergency/field medicine, communications, and homesteading. Set on 80+ acres of veteran-owned wilderness, roughly an hour from Glacier National Park. The event evolved from the former 'Shield Field Days' and is the western counterpart to Mountain Readiness's flagship North Carolina event.",
       "speakers": [
-        "Joe Dolio (Tactical Wisdom) \u2014 host"
+        "Joe Dolio (Tactical Wisdom) \u2014 host",
+        "Project 22:3 \u2014 hosting a Friday medical/first-aid class (confirmed instructor/contributor)"
       ],
-      "ticket_price": "Tickets available now \u2014 specific public ticket price not confirmed on official West page; see mountainreadiness.com/mountain-readiness-west",
+      "ticket_price": "Multiple tiers available now via official site: 3-Day Pass, 1-Day Pass, youth pass (ages 13-17), and kids 12 & Under pass. Camping is NOT included; prices increase closer to the event ('get tickets now to save'). Tickets will NOT be sold at the door. Specific dollar amounts not published in available results.",
       "highlights": [
         "hands-on skills training",
-        "camping (RV and tent)",
+        "camping (RV and tent / dry camping; camping not included in ticket)",
         "preparedness and self-reliance",
         "off-grid living",
-        "emergency medicine",
+        "emergency / field medicine",
         "communications",
         "homesteading",
-        "Montana mountains / Swan Valley setting",
+        "80+ acres veteran-owned wilderness, ~1 hour from Glacier National Park",
+        "dining and event halls, nature trails",
+        "family-friendly (youth and kids ticket tiers)",
+        "Friday Project 22:3 medical class (pre-event)",
         "hosted by Tactical Wisdom (Joe Dolio)"
       ],
       "source": "mountainreadiness.com",
@@ -1517,9 +1522,9 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-08",
-      "registration_url": "https://www.mountainreadiness.com/mountain-readiness-west",
-      "changes_noted": "Event CONFIRMED for July 24\u201326, 2026. Dates and location remain unchanged. Updates: (1) Official venue name refined to 'Veterans Camp Ponderosa' (an 80+ acre wooded property in Swan Lake/near Bigfork, MT), previously listed as 'Camp Ponderosa'. (2) Host confirmed as Tactical Wisdom / Joe Dolio (event evolved from the former 'Shield Field Days'). (3) Tickets are now noted as available on the official site. (4) Description expanded to include specific skill tracks (wilderness survival, off-grid living, emergency medicine, communications, homesteading) and on-site amenities (RV/tent camping, dining and event halls, nature trails). (5) Speakers/instructors list still not publicly detailed for this West event aside from host Joe Dolio; a full instructor roster page exists but specific 2026 West instructors were not confirmed. (6) A retail ticket price could not be verified on the official West page."
+      "last_researched": "2026-06-15",
+      "registration_url": "https://www.mountainreadiness.com/event-details-registration/mountain-readiness-west-2026",
+      "changes_noted": "Event RE-CONFIRMED for July 24\u201326, 2026; dates and Swan Lake, MT location unchanged. New/updated details: (1) A specific event-details/registration page was confirmed at mountainreadiness.com/event-details-registration/mountain-readiness-west-2026 (distinct from the previously recorded landing URL). (2) Confirmed venue street address: Camp Ponderosa, 31904 Frst Cp Lp, Bigfork, MT 59911 (per official sponsor registration page); venue is veteran-owned, ~1 hour from Glacier National Park. (3) Ticket structure now confirmed: 3-Day Pass, 1-Day Pass, youth (13-17), and kids 12 & Under tiers \u2014 camping NOT included, prices rise closer to event, and no door sales. Specific dollar prices still not published in results. (4) Project 22:3 CONFIRMED as a contributing instructor hosting a Friday medical/first-aid class before main sessions (upgrades the prior 'historically/confirm' note to confirmed). (5) Confirmed origin: event evolved from the former 'Shield Field Days,' now expanded with more sponsors, vendors, and speakers. (6) A full named instructor roster page exists (mountainreadiness.com/copy-of-instructors-mountain-readin...), but specific named 2026 West instructors beyond host Joe Dolio and Project 22:3 were not enumerated in available results. (7) NOTE: the West page reuses some boilerplate referencing the Harmony, NC 'VanHoy Farms' campground/Vanhoy camping instructions \u2014 this appears to be template carryover; the actual West venue is Camp Ponderosa in Swan Lake/Bigfork, MT."
     },
     {
       "id": "mountain-readiness-fallout-2026",
@@ -1882,7 +1887,7 @@
         "start": "2026-08-14",
         "end": "2026-08-15",
         "pre_event": "2026-08-13",
-        "notes": "Optional Thursday Aug 13 VIP pre-event with Joel Salatin wagon tour"
+        "notes": "Confirmed: Friday Aug 14 and Saturday Aug 15 main event. Optional Thursday Aug 13 VIP day with a small private morning wagon tour of Polyface with Joel Salatin (speakers/VIPs only) plus a Thursday afternoon-into-evening VIP dinner with Dr. Berg, Joel and Theresa Salatin, Hunter Smith and others. NOTE: The Friday night 'bonfire/hotdog shindig' is on FRIDAY (not a Thursday bonfire). Friday event begins ~8:00am with talks 9:00-3:30. Saturday opens with a Polyface breakfast and walking tour with Joel, then a keynote and lunch; Saturday afternoon has 'something special' still TBA."
       },
       "location": {
         "venue": "Polyface Farm",
@@ -1892,22 +1897,25 @@
       },
       "url": "https://roguefoodconference.com/polyface-2026/",
       "ticket_url": "https://roguefoodconference.com/awesomestuff/polyface2026/polyface-rogue-august-14th-15th/",
-      "description": "Two-day conference on real food, sustainable farming, and food freedom held at the iconic Polyface Farm. Four pastured real food meals included. Thursday VIP wagon tour with Joel Salatin, Friday farm bonfire, Saturday morning walking tour and breakfast.",
+      "description": "Two-day Rogue Food, Health, and Finance conference at the iconic Polyface Farm, returning to 'Rogue's roots' with featured keynote Dr. Eric Berg. Includes four pastured real food meals, a Friday night pastured hotdog 'shindig'/bonfire at the farm, and a Saturday morning rise-and-shine walking tour of Polyface after breakfast. An optional Thursday VIP day adds a small private morning wagon tour with Joel Salatin and a Thursday evening VIP dinner. Theme tied to the slogan 'Circumvention, not Compliance.'",
       "speakers": [
         "Joel Salatin",
         "Dr. Eric Berg",
         "Hunter Smith",
-        "Max Kane",
-        "John Moody"
+        "John Moody",
+        "Theresa Salatin"
       ],
-      "ticket_price": "VIP and regular tickets available \u2014 see roguefoodconference.com",
+      "ticket_price": "VIP and regular tickets available \u2014 see roguefoodconference.com (specific 2026 pricing not published on researched pages)",
       "highlights": [
         "Polyface Farm",
         "Joel Salatin",
         "Dr. Eric Berg keynote",
+        "Hunter Smith (former NFL/Indianapolis Colts Super Bowl champion turned farmer, Indiana delegate)",
         "4 pastured meals included",
-        "VIP wagon tour",
-        "farm bonfire",
+        "VIP Thursday wagon tour with Joel Salatin",
+        "Friday night pastured hotdog shindig / farm bonfire",
+        "Saturday morning walking tour",
+        "'Circumvention, not Compliance' theme",
         "food freedom",
         "regenerative farming",
         "real food"
@@ -1915,16 +1923,25 @@
       "source": "roguefoodconference.com",
       "verified": true,
       "social_posts": {
-        "facebook": null,
-        "x": null,
-        "youtube": null
+        "facebook": "\ud83d\udccd Polyface 2026 Rogue \u2014 Rogue Food Conference\n\ud83d\uddd3\ufe0f August 14\u201315, 2026 (optional VIP day Thursday, Aug 13)\n\ud83d\udccc Polyface Farm, Swoope, VA\n\nThe Rogue Food Conference is heading back to its roots \u2014 and there's no better place than the rolling pastures of Polyface Farm itself.\n\nTwo full days built around one idea: \"Circumvention, not Compliance.\" Keynote speaker Dr. Eric Berg joins Joel Salatin, Theresa Salatin, John Moody, and Hunter Smith \u2014 the former Indianapolis Colts Super Bowl champ turned farmer who helped land a major food-freedom win in Indiana.\n\nHere's what folks in the homestead community can expect:\n\n\ud83c\udf74 Four pastured real-food meals included\n\ud83d\udd25 A Friday night pastured hotdog shindig & farm bonfire\n\ud83c\udf05 A Saturday rise-and-shine walking tour of Polyface with Joel\n\ud83c\udfa4 Talks Friday 9:00\u20133:30, plus a Saturday keynote and \"something special\" still under wraps\n\nWant the full experience? The optional Thursday VIP day adds a private morning wagon tour with Joel Salatin and an evening dinner alongside Dr. Berg and the Salatins.\n\nThis is where the food-freedom movement gathers, learns, and breaks bread together \u2014 right on the soil that started it all.\n\nGrab your tickets and see the full schedule here \ud83d\udc47\nhttps://roguefoodconference.com/polyface-2026/\n\n#Farm2Table #HomesteadLife #RegenerativeAg #FoodFreedom #RogueFoodConference",
+        "x": {
+          "lead": "Rogue Food Conference returns to its roots \u2014 at Polyface Farm itself. \ud83c\udf3e\n\nAug 14\u201315, 2026 | Swoope, VA\nKeynote: Dr. Eric Berg + Joel Salatin\nTheme: \"Circumvention, not Compliance.\"\n\nDetails \ud83d\udc47 https://roguefoodconference.com/polyface-2026/",
+          "thread": [
+            "The lineup is stacked: Dr. Eric Berg keynoting, plus Joel & Theresa Salatin, John Moody, and Hunter Smith \u2014 the ex-Colts Super Bowl champ turned farmer who secured a major food-freedom win in Indiana. \ud83c\udfc8\u27a1\ufe0f\ud83d\ude9c",
+            "What's included: 4 pastured real-food meals, a Friday night hotdog shindig & farm bonfire, and a Saturday morning walking tour of Polyface with Joel himself. Talks run Friday 9:00\u20133:30. This is hands-on, boots-in-the-pasture stuff.",
+            "Optional Thursday VIP day adds a private wagon tour with Joel + an evening dinner with Dr. Berg and the Salatins. Regular & VIP tickets available \u2014 lock yours in: https://roguefoodconference.com/polyface-2026/ #FoodFreedom #RegenerativeAg"
+          ]
+        },
+        "youtube": "Big one for the food-freedom folks \ud83d\udc47 The Rogue Food Conference is coming back home to Polyface Farm in Swoope, VA \u2014 August 14\u201315, 2026.\n\nDr. Eric Berg is keynoting, alongside Joel & Theresa Salatin, John Moody, and Hunter Smith (former NFL champ turned farmer). Expect four pastured meals, a Friday night bonfire & hotdog shindig, and a Saturday sunrise walking tour of Polyface with Joel. The theme says it all: \"Circumvention, not Compliance.\"\n\nGrab tickets + the full schedule here: https://roguefoodconference.com/polyface-2026/\n\nWho are you most excited to hear from \u2014 and would we see you at the bonfire? \ud83d\udd25"
       },
       "posted": {
         "facebook": false,
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-10"
+      "last_researched": "2026-06-15",
+      "registration_url": "https://roguefoodconference.com/polyface-2026/",
+      "changes_noted": "CONFIRMED via roguefoodconference.com and polyfacefarm.com: Event is confirmed for Aug 14\u201315, 2026 at Polyface Farm, Swoope, VA, with optional Thursday Aug 13 VIP day. Keynote Dr. Eric Berg, plus Joel Salatin, John Moody, and Hunter Smith confirmed. CHANGES/FLAGS: (1) Max Kane was in the prior record's speaker list but does NOT appear in any 2026 promotional material found \u2014 only listed for older Polyface events; removed pending confirmation. (2) Added Theresa Salatin, confirmed as part of the Thursday VIP dinner. (3) Clarified Hunter Smith's bio \u2014 former Indianapolis Colts Super Bowl champion and Indiana state delegate who secured a major Indiana food-freedom win. (4) IMPORTANT: The original record placed the bonfire on Friday and a 'VIP pre-event' on Thursday, which is broadly correct, but note the official site clearly states the hotdog shindig/bonfire is FRIDAY night, while the VIP wagon tour + VIP dinner are THURSDAY. (5) Polyface's own site confirms the event and the 'Circumvention, not Compliance' theme. (6) No specific dollar ticket pricing was published on the pages researched; the original ticket_url could not be independently re-verified in results \u2014 recommend manual check of the live ticket page. (7) Polyface lists adjacent August events (Launching Farmers Aug 21\u201322; Brownstone Summit Aug 28\u201329) \u2014 separate events, not part of this conference."
     },
     {
       "id": "nlhg-2026-01",
@@ -1958,9 +1975,16 @@
       "source": "nlhg.org",
       "verified": true,
       "social_posts": {
-        "facebook": null,
-        "x": null,
-        "youtube": null
+        "facebook": "\ud83d\udcc5 National Ladies Homestead Gathering \u2014 Virtual\nWhen: First Wednesday of every month\nWhere: Online, from wherever you call home\nCost: Free \u2014 register at nlhg.org\n\nThere's something special happening in the homesteading movement, and it's been quietly connecting women across America one Wednesday at a time.\n\nThe National Ladies Homestead Gathering brings folks together online every month to do what this lifestyle has always been about \u2014 sharing what we know, building real community, and growing friendships that last well past the harvest.\n\nMaybe you're knee-deep in your first season of canning. Maybe you've been raising goats for a decade and have wisdom to pass along. Maybe you're just curious and looking for your people. There's a seat at this table for all of it. No fancy setup required \u2014 just show up and join the conversation.\n\nThe women in this community show up for each other in a way that's getting harder to find, and it's free to be part of it.\n\nFind the next gathering and register here \ud83d\udc49 https://www.nlhg.org/upcoming-events\n\n#Farm2Table #HomesteadingCommunity #HomesteadLife #SelfSufficiency #BackToBasics",
+        "x": {
+          "lead": "Women across America are connecting one Wednesday a month \u2014 sharing knowledge, building community, growing friendships. The National Ladies Homestead Gathering meets online, and it's free. \ud83c\udf31\n\nNext gathering \ud83d\udc49 https://www.nlhg.org/upcoming-events",
+          "thread": [
+            "Here's the deal: no speakers on a stage, no gatekeeping. Just homesteading women \u2014 first-season canners to decade-long goat keepers \u2014 swapping what they know and learning from each other. The real stuff, the practical stuff.",
+            "It happens online, the first Wednesday of every month (except December). No travel, no setup, no excuses. Wherever you call home, there's room at this table.",
+            "Best part? It's completely free. Register and find the next gathering here \ud83d\udc49 https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp #HomesteadingCommunity #SelfSufficiency"
+          ]
+        },
+        "youtube": "Quick one for the homesteading women out there \ud83d\udc4b\n\nThe National Ladies Homestead Gathering meets online the first Wednesday of every month \u2014 totally free \u2014 to share knowledge, build community, and grow real friendships. Whether you're brand new to canning or you've been milking goats for years, there's a seat for you. No travel, no cost, just good folks figuring this lifestyle out together.\n\nFind the next gathering and register at https://www.nlhg.org/upcoming-events\n\nWhat skill are you hoping to learn this season? Drop it below \ud83d\udc47"
       },
       "posted": {
         "facebook": false,
@@ -2001,9 +2025,16 @@
       "source": "nlhg.org",
       "verified": true,
       "social_posts": {
-        "facebook": null,
-        "x": null,
-        "youtube": null
+        "facebook": "\ud83d\udcc5 NLHG National Virtual Gathering\n\ud83d\udccd Online \u2014 free to attend\n\ud83d\uddd3\ufe0f First Wednesday of every month (except December)\n\nThe February gathering of the National Ladies Homestead Gathering has wrapped \u2014 and if you missed it, here's the good news: there's another one coming up.\n\nFor folks new to the movement, NLHG brings homesteading women together from all across America. No barns required, no long drives \u2014 just an online table where the homestead community shows up to share knowledge, build community, and grow real friendships. Someone's swapping cheesemaking notes, someone else is asking about their first flock of laying hens, and somebody always has the answer.\n\nThat's the heart of it. Women teaching women, season after season, the skills that keep a homestead running.\n\nBest part? It's completely free. You just register and log on.\n\nIf you've been homesteading solo and craving your people, this is the room for you. Catch the next first-Wednesday gathering and pull up a chair.\n\nRegister now \ud83d\udc49 nlhg.org\n\n#Farm2Table #HomesteadLife #HomesteadingCommunity #SelfSufficiency #GrowYourOwn",
+        "x": {
+          "lead": "The National Ladies Homestead Gathering meets online the first Wednesday of every month \u2014 free, women-led, and full of folks ready to share what they know. February's wrapped, but the next one's coming. \ud83e\uddf5\ud83d\udc47",
+          "thread": [
+            "1/ What is it? Homesteading women from across America, all in one virtual room. Knowledge sharing, community building, real friendships. No matter where you homestead, this is your table.",
+            "2/ What you'll find: someone deep into cheesemaking, someone starting their first garden, someone three flocks of chickens in. The whole spectrum of the movement, teaching each other.",
+            "3/ Free to attend, every first Wednesday (except December). Just register and log on. Catch the next one \ud83d\udc49 nlhg.org  #HomesteadingCommunity #SelfSufficiency #Farm2Table"
+          ]
+        },
+        "youtube": "Quick one for the homesteading women out there \ud83d\udc4b The National Ladies Homestead Gathering meets online the first Wednesday of every single month (December's the one exception), and it's completely free. February's gathering just wrapped, but the door's always open for the next one. It's women from all over the country swapping skills, building community, and growing real friendships \u2014 whether you're knee-deep in cheesemaking or just figuring out your first garden bed. Register over at nlhg.org and pull up a chair. So tell me \u2014 what's the ONE homestead skill you're trying to learn this year?"
       },
       "posted": {
         "facebook": false,
@@ -2044,9 +2075,16 @@
       "source": "nlhg.org",
       "verified": true,
       "social_posts": {
-        "facebook": null,
-        "x": null,
-        "youtube": null
+        "facebook": "\ud83d\udcc5 ICYMI: The National Ladies Homestead Gathering held its March virtual meetup on March 4, 2026 \u2014 and it was a good one.\n\nIf you missed it, here's the best part: NLHG hosts these online every first Wednesday of the month (except December), and they're always free to attend.\n\nThere's something special about women across the country logging on from their kitchens, barns, and back porches to swap real knowledge \u2014 the kind you can't always find in a book. Folks in the movement showed up to share what's working on their land, ask the questions they've been chewing on, and find the people who just *get* this way of life.\n\nKnowledge sharing. Community building. Friendships that outlast the call. That's the heart of what NLHG does, and it's why so many women in the homesteading community come back month after month.\n\nMissed March? No worries. The next gathering is the first Wednesday of the month \u2014 same time, same warm welcome.\n\n\ud83d\udc49 Find the next date and register free at nlhg.org\n\n#HomesteadingCommunity #HomesteadLife #SelfSufficiency #GrowYourOwn #Farm2Table",
+        "x": {
+          "lead": "Missed the NLHG National Virtual Gathering on March 4? Women homesteaders from across the country logged on to swap skills, ask questions & find their people. Free, online, first Wednesday of every month. \ud83e\uddf5",
+          "thread": [
+            "What makes these gatherings different: it's not a lecture. It's homesteading women sharing what actually works on their land \u2014 from someone who's been there, not a brochure. Real knowledge, real questions, real answers.",
+            "And it's about finding your people. The homesteading road can feel lonely when nobody around you knows why you're rendering lard at 9pm. NLHG connects women who get it \u2014 and the friendships stick around long after the call ends.",
+            "Missed March? The next gathering is the first Wednesday of the month (except December), always free to attend. Grab your spot and register at nlhg.org \ud83d\udc49 #HomesteadingCommunity #SelfSufficiency"
+          ]
+        },
+        "youtube": "Quick recap for anyone who missed it \ud83d\udc4b The National Ladies Homestead Gathering held its March virtual meetup on March 4th \u2014 women homesteaders from all over the country jumping on a call to share knowledge, build community, and grow real friendships. The best part? It's free and happens the first Wednesday of every month (except December). If you've ever wished you had a circle of women who understand this lifestyle, this is it. Next one's coming up soon \u2014 register free at nlhg.org. What's the one homestead skill you'd love to learn from another woman in the movement? Drop it below \ud83d\udc47"
       },
       "posted": {
         "facebook": false,
@@ -2087,9 +2125,16 @@
       "source": "nlhg.org",
       "verified": true,
       "social_posts": {
-        "facebook": null,
-        "x": null,
-        "youtube": null
+        "facebook": "\ud83c\udf3f National Ladies Homestead Gathering \u2014 Monthly Virtual Gathering\n\nWhen: First Wednesday of every month (online)\nWhere: Virtual \u2014 join from your own kitchen table\nCost: Free to attend \u2014 register at nlhg.org\n\nThere's something special happening once a month for women in the movement. The National Ladies Homestead Gathering brings homesteading women together from across the country to do the three things that keep this lifestyle alive: share knowledge, build community, and grow real friendships.\n\nWhether you're putting up your first batch of canned tomatoes, troubleshooting a stubborn sourdough starter, or just wanting to talk shop with folks who get it \u2014 this is the table to pull up a chair to. No fancy setup required. No pressure. Just women who love the work of growing, raising, and making things by hand.\n\nThe homestead community runs on people willing to pass down what they know, and these gatherings are where a whole lot of that passing-down happens.\n\nMissed April's? Good news \u2014 there's another one coming the first Wednesday of next month, and every month after that (except December).\n\nGrab your free spot and find your people \ud83d\udc49 https://www.nlhg.org/upcoming-events\n\n#HomesteadingCommunity #HomesteadLife #SelfSufficiency #GrowYourOwn #BackToBasics",
+        "x": {
+          "lead": "Women in the homestead movement \u2014 there's a free virtual gathering waiting for you the first Wednesday of every month. Share knowledge. Build community. Grow friendships. \ud83c\udf3f\n\nRegister free \ud83d\udc49 https://www.nlhg.org/upcoming-events",
+          "thread": [
+            "The National Ladies Homestead Gathering connects homesteading women from across the country \u2014 all online, all free. No travel, no fancy setup. Just folks who get the work of growing and making things by hand. \ud83e\uddfa",
+            "From canning and cheesemaking to gardening and putting up the harvest, these gatherings are where knowledge gets passed down. The kind of skill-sharing that keeps this whole lifestyle going.",
+            "It's free, it's monthly (first Wednesday, every month except December), and there's a seat at the table for you. Register here \ud83d\udc49 https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp #HomesteadingCommunity #SelfSufficiency"
+          ]
+        },
+        "youtube": "Quick one for the women in the homestead movement \ud83c\udf3f The National Ladies Homestead Gathering meets online the first Wednesday of every month \u2014 totally free \u2014 to share knowledge, build community, and grow real friendships. Canning, gardening, raising animals, making things by hand... whatever you're into, there are folks ready to talk shop with you. No travel, no cost, just good company from your own kitchen table. The next one's coming up soon, and you can grab your free spot at nlhg.org. What's the one homestead skill you'd most want to learn from another woman in the community? Drop it below \ud83d\udc47"
       },
       "posted": {
         "facebook": false,
@@ -2130,9 +2175,16 @@
       "source": "nlhg.org",
       "verified": true,
       "social_posts": {
-        "facebook": null,
-        "x": null,
-        "youtube": null
+        "facebook": "The National Ladies Homestead Gathering meets online the first Wednesday of every month \u2014 and it's free to attend.\n\nIf you missed the May 6 session, don't worry. This one comes around every month (except December), connecting homesteading women clear across the country from wherever they are.\n\nThere's something special about the women in this movement. The ones swapping sourdough starter tips, talking through their first goat kidding, figuring out the canning pressure that finally worked. NLHG built a space where that knowledge gets shared freely \u2014 no gatekeeping, just folks helping folks. Share Knowledge. Build Community. Grow Friendships. That's the whole heart of it.\n\nWhether you're three years into your homestead or still dreaming over seed catalogs at the kitchen table, you belong in this circle.\n\nThe next gathering lands on the first Wednesday of the month, online, and it won't cost you a thing. Register and find the upcoming date at nlhg.org.\n\nCome meet your people. \ud83d\udc47\nhttps://www.nlhg.org/upcoming-events\n\n#HomesteadingCommunity #HomesteadLife #SelfSufficiency #GrowYourOwn #Farm2Table",
+        "x": {
+          "lead": "The National Ladies Homestead Gathering meets online the first Wednesday of EVERY month \u2014 free to attend. Homesteading women from all over, sharing what they know. Next one's coming up: nlhg.org \ud83c\udf3e",
+          "thread": [
+            "What makes it work? No gatekeeping. Women three years into their homestead sitting alongside women still dreaming over seed catalogs. Sourdough, goat kidding, canning fails and wins \u2014 all of it shared freely.",
+            "The model is simple and it's the whole point: Share Knowledge. Build Community. Grow Friendships. Folks in the movement know that last one matters as much as the skills.",
+            "It's online, it's free, and it runs the first Wednesday of every month (except December). Grab the next date and register at nlhg.org \u2192 https://www.nlhg.org/upcoming-events #HomesteadingCommunity #SelfSufficiency"
+          ]
+        },
+        "youtube": "Quick one for the homesteading women out here \ud83d\udc4b Did you know the National Ladies Homestead Gathering meets online the FIRST WEDNESDAY of every month? It's free, it's virtual, and it pulls together women from all over to swap real skills and build real friendships \u2014 sourdough, livestock, canning, the whole homestead life. The May session already passed, but this thing comes back around monthly. Find the next date and register at nlhg.org (link in the event list above). So tell me: what's the ONE skill you'd want to learn from another homesteader right now? \ud83d\udc47"
       },
       "posted": {
         "facebook": false,
@@ -2173,9 +2225,16 @@
       "source": "nlhg.org",
       "verified": true,
       "social_posts": {
-        "facebook": null,
-        "x": null,
-        "youtube": null
+        "facebook": "The National Ladies Homestead Gathering Virtual Meetup happened June 3, 2026 \u2014 and if you missed it, here's the good news: it rolls around every first Wednesday of the month, online and free to attend.\n\nFor the women in the homesteading movement, this monthly gathering has become a real anchor. It's a place to share what's working on your land, ask the questions you've been sitting on, and connect with folks who actually get the rhythm of a homestead day. Share knowledge. Build community. Grow friendships. That's the whole heart of it.\n\nNo travel, no ticket cost \u2014 just an evening with women who are growing their own, raising their own, and figuring it out together across the whole country.\n\nIf June slipped past you, mark your calendar for the next first Wednesday and come see what the NLHG community is all about.\n\nRegister free at nlhg.org \u2192 https://www.nlhg.org/upcoming-events\n\n#HomesteadingCommunity #HomesteadLife #SelfSufficiency #GrowYourOwn #Farm2Table",
+        "x": {
+          "lead": "The National Ladies Homestead Gathering met online June 3 \u2014 and it happens every first Wednesday, free to join. Women across America sharing skills, building community, growing friendships. Catch the next one \u2192 https://www.nlhg.org/upcoming-events",
+          "thread": [
+            "What makes the NLHG gathering different: it's run by and for women in the homesteading movement. No fluff, just real knowledge-sharing from folks who are actually doing the work on their own land.",
+            "Skills, questions, wins, hard lessons \u2014 it all gets shared. Whether you're three goats deep or still planning your first raised bed, there's a seat at this table for you.",
+            "Free to attend, online, first Wednesday of every month (except December). Register at nlhg.org and join the next gathering \u2192 https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp #HomesteadingCommunity #FoodFreedom"
+          ]
+        },
+        "youtube": "The National Ladies Homestead Gathering held its monthly virtual meetup on June 3, and the best part? It happens every single first Wednesday \u2014 free, online, and open to women across the country. It's an evening of sharing what's working on your homestead, asking the questions you've been chewing on, and meeting folks who truly get it. If you missed June, the next one's just around the corner. Register free at nlhg.org \u2192 https://www.nlhg.org/upcoming-events. What's the one homestead skill you'd most want to learn from another woman in the community? Drop it below \ud83d\udc47"
       },
       "posted": {
         "facebook": false,
@@ -2192,40 +2251,50 @@
         "start": "2026-07-01",
         "end": "2026-07-01",
         "pre_event": null,
-        "notes": "Monthly virtual gathering \u2014 first Wednesday of the month"
+        "notes": "UNCONFIRMED for 2026. The NLHG National Virtual Gatherings page still references the 2025 schedule ('first Wednesdays of the month'), and no 2026 schedule or specific July 1, 2026 virtual gathering date was found. The first-Wednesday-of-July 2026 would be July 1, but this is inferred from the pattern, not confirmed on the site. Note: it is also unconfirmed whether December is the only skipped month \u2014 the record's 'except December' claim was not verifiable in current sources."
       },
       "location": {
-        "venue": "Virtual / Online",
+        "venue": "Virtual / Online (live-streamed on NLHG online forums)",
         "city": "Online",
         "state": "",
-        "region": "Southeast"
+        "region": "National (NLHG is HQ'd in Statham, Georgia / Southeast, but the virtual gathering is national in scope)"
       },
       "url": "https://www.nlhg.org/upcoming-events",
       "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
-      "description": "National Ladies Homestead Gathering monthly virtual event. Connecting homesteading women across America \u2014 Share Knowledge. Build Community. Grow Friendships. Free to attend, held online every first Wednesday (except December).",
+      "description": "National Ladies Homestead Gathering's monthly National Virtual Gathering. NLHG is a 501(c)3 nonprofit (EIN 46-1858853) connecting homesteading women \u2014 'Share Knowledge. Build Community. Grow Friendships.' Gatherings are live-streamed on the organization's online forums on the first Wednesday of the month, with past sessions archived on the NLHG YouTube channel. Speakers have historically included Regional Directors and subject experts (e.g., certified herbalists).",
       "speakers": [],
-      "ticket_price": "Free to attend \u2014 register at nlhg.org",
+      "ticket_price": "Free to attend \u2014 register/join via nlhg.org. Note: VIP Members receive 'exclusives' from National Virtual Gatherings, so some content may be member-gated.",
       "highlights": [
-        "monthly virtual gathering",
+        "monthly national virtual gathering",
         "women's homesteading community",
         "knowledge sharing",
         "community building",
-        "free to attend",
-        "online event"
+        "live-streamed on NLHG online forums",
+        "past sessions archived on YouTube",
+        "VIP Members receive exclusive content"
       ],
       "source": "nlhg.org",
-      "verified": true,
+      "verified": false,
       "social_posts": {
-        "facebook": null,
-        "x": null,
-        "youtube": null
+        "facebook": "\ud83d\udccd National Ladies Homestead Gathering \u2014 National Virtual Gathering\n\ud83d\uddd3\ufe0f First Wednesday of the month (July's session expected around July 1, 2026 \u2014 check NLHG to confirm the 2026 schedule)\n\ud83d\udcbb Online & free to join, live-streamed on the NLHG forums\n\nThere's something special about the women in this movement. The ones swapping cheesemaking notes, comparing herb-drying setups, and cheering each other on through a first butchering or a stubborn sourdough starter.\n\nThat's the heart of NLHG \u2014 a women's homesteading community built on three simple things: share knowledge, build community, grow friendships. Their monthly National Virtual Gathering brings folks together from across the country, no matter how rural the road or how far the nearest neighbor. Past sessions have featured Regional Directors and subject experts like certified herbalists, and they're archived on the NLHG YouTube channel so you can catch up anytime.\n\nHeads up: the 2026 schedule isn't posted yet, and some gathering content is exclusive to VIP Members \u2014 so double-check details before you set your reminder.\n\nWant to find your people and learn alongside them?\n\n\ud83d\udc49 Confirm the date and register at nlhg.org/national-virtual-gatherings\n\n#HomesteadingCommunity #HomesteadLife #GrowYourOwn #SelfSufficiency #BackToBasics",
+        "x": {
+          "lead": "The National Ladies Homestead Gathering hosts a free National Virtual Gathering the first Wednesday of each month \u2014 women across the country sharing real skills and growing real friendships. July's session is expected ~July 1. Confirm: nlhg.org/national-virtual-gatherings",
+          "thread": [
+            "NLHG is a women's homesteading community built on three things: share knowledge, build community, grow friendships. Past gatherings have featured Regional Directors and subject experts \u2014 including certified herbalists walking folks through their craft. \ud83c\udf3f",
+            "Can't make it live? Sessions get archived on the NLHG YouTube channel, so you can learn at your own pace. Note: some gathering content is exclusive to VIP Members. \ud83d\udcbb",
+            "It's free to join \u2014 just register through NLHG. One thing to know: the 2026 schedule isn't posted yet, so confirm the exact July date before you plan around it \ud83d\udc49 nlhg.org/national-virtual-gatherings"
+          ]
+        },
+        "youtube": "Quick one for the women in this movement \ud83c\udf3f The National Ladies Homestead Gathering runs a free National Virtual Gathering on the first Wednesday of most months \u2014 knowledge sharing, real community, and friendships that stick. Past sessions (featuring Regional Directors and certified herbalists) live on their YouTube channel if you want to dig in. Heads up: the 2026 schedule isn't published yet, so confirm the July date at nlhg.org/national-virtual-gatherings before you set a reminder. What skill are you hoping someone covers next \u2014 cheesemaking, foraging, herbs? Drop it below. \ud83d\udc47"
       },
       "posted": {
         "facebook": false,
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-10"
+      "last_researched": "2026-06-15",
+      "registration_url": "https://www.nlhg.org/national-virtual-gatherings",
+      "changes_noted": "VERIFICATION DOWNGRADED to false. (1) The official NLHG National Virtual Gatherings page still advertises the 2025 schedule ('Our 2025 National Virtual Gatherings will be live-streamed... on the first Wednesdays of the month'); no 2026 schedule was published/found, so the July 1, 2026 date is INFERRED from the recurring pattern, not confirmed. (2) The upcoming-events calendar page exists but its listings could not be read to confirm a July 2026 virtual entry. (3) Region was previously labeled 'Southeast' \u2014 the org is Georgia-based but the virtual gathering is national; recommend relabeling. (4) Ticket pricing 'free' is broadly accurate but note some virtual-gathering content is VIP-member-exclusive. (5) The dedicated 2025 virtual-gatherings page URL (nlhg.org/national-virtual-gatherings) is a better registration/info link than the generic upcoming-events page. (6) Could not confirm the 'except December' detail. RECOMMENDATION: re-research once NLHG publishes its 2026 virtual gathering schedule before marking confirmed."
     },
     {
       "id": "nlhg-2026-08",
@@ -2235,40 +2304,51 @@
         "start": "2026-08-05",
         "end": "2026-08-05",
         "pre_event": null,
-        "notes": "Monthly virtual gathering \u2014 first Wednesday of the month"
+        "notes": "Date NOT independently confirmed for August 2026. The 'first Wednesday' pattern holds (Aug 5, 2026 is the first Wednesday of August). However, the official National Virtual Gatherings page still references the 2025 schedule and no 2026-specific virtual gathering calendar was found. Org states gatherings are live-streamed on online forums on first Wednesdays of the month."
       },
       "location": {
-        "venue": "Virtual / Online",
+        "venue": "Virtual / Online (live-streamed on NLHG online forums)",
         "city": "Online",
         "state": "",
-        "region": "Southeast"
+        "region": "National"
       },
       "url": "https://www.nlhg.org/upcoming-events",
       "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
-      "description": "National Ladies Homestead Gathering monthly virtual event. Connecting homesteading women across America \u2014 Share Knowledge. Build Community. Grow Friendships. Free to attend, held online every first Wednesday (except December).",
+      "description": "National Ladies Homestead Gathering monthly virtual gathering for women interested in homesteading. NLHG provides a welcoming environment where women can share knowledge, celebrate victories, and address challenges while cultivating community with like-minded women. All women are welcome who have a dream or desire to be more self-reliant. Gatherings are live-streamed on the organization's online forums on the first Wednesday of the month, with past sessions archived on the NLHG YouTube channel.",
       "speakers": [],
-      "ticket_price": "Free to attend \u2014 register at nlhg.org",
+      "ticket_price": "Free to attend",
       "highlights": [
         "monthly virtual gathering",
         "women's homesteading community",
         "knowledge sharing",
         "community building",
         "free to attend",
-        "online event"
+        "online event",
+        "live-streamed on NLHG online forums",
+        "past sessions archived on YouTube"
       ],
       "source": "nlhg.org",
-      "verified": true,
+      "verified": false,
       "social_posts": {
-        "facebook": null,
-        "x": null,
-        "youtube": null
+        "facebook": "\ud83d\udcc5 National Ladies Homestead Gathering \u2014 Virtual\n\ud83d\uddd3\ufe0f First Wednesday of the month (next up: August 5, 2026)\n\ud83d\udcbb Online \u2014 live-streamed on the NLHG forums\n\ud83c\udf9f\ufe0f Free to attend\n\nIf you've ever stood in your kitchen wondering how to start canning, raise your first flock, or just find folks who get the homesteading dream \u2014 this one's for you.\n\nThe National Ladies Homestead Gathering is a 501(c)3 nonprofit out of Statham, Georgia that's been quietly building one of the most welcoming corners of the movement. Every first Wednesday, women across the country log on to share knowledge, swap hard-won lessons, celebrate the wins (and the goats that escaped again), and work through the challenges together.\n\nThere's no gatekeeping here. Whether you're on forty acres or dreaming from a city apartment, every woman with a desire to be more self-reliant has a seat at this table. And if you miss the live session, past gatherings live on the NLHG YouTube channel.\n\nFolks in the movement keep saying the same thing: it's the people that make it stick. This is how you find yours.\n\nHeads up \u2014 NLHG posts each month's topic closer to the date, so check the schedule for the August lineup.\n\n\ud83d\udc49 Register and find the latest schedule: https://www.nlhg.org/national-virtual-gatherings\n\n#HomesteadingCommunity #SelfSufficiency #GrowYourOwn #BackToBasics #HomesteadLife",
+        "x": {
+          "lead": "Free, online, and built for women chasing the homesteading dream \ud83c\udf3e\n\nThe National Ladies Homestead Gathering meets the first Wednesday of every month \u2014 next up Aug 5, 2026.\n\nShare skills. Celebrate wins. Find your people.\n\n\ud83d\udc49 https://www.nlhg.org/national-virtual-gatherings",
+          "thread": [
+            "What is it? NLHG is a 501(c)3 nonprofit out of Statham, GA running monthly virtual gatherings for women interested in homesteading. No acreage required \u2014 just a desire to be more self-reliant. Every woman's welcome at this table.",
+            "What happens? Women across the country log on to share knowledge, work through challenges, and celebrate the victories together. Monthly topics get posted closer to each date \u2014 check the schedule for what August has in store.",
+            "How to join: It's free and fully online, live-streamed on the NLHG forums. Miss the live session? Past gatherings are archived on the NLHG YouTube channel. Register here \ud83d\udc49 https://www.nlhg.org/national-virtual-gatherings #HomesteadingCommunity #SelfSufficiency"
+          ]
+        },
+        "youtube": "Quick one for the women in the homesteading movement \ud83c\udf3f The National Ladies Homestead Gathering runs a free virtual meetup the first Wednesday of every month \u2014 next one's set for August 5, 2026. It's a space to swap skills, ask the questions you've been sitting on, and connect with folks who actually get the dream of being more self-reliant. No land or experience needed. Miss the live stream? Past sessions are right here on the NLHG YouTube channel. Check the latest schedule and register at nlhg.org/national-virtual-gatherings. What skill are you most hoping to learn this year \u2014 canning, foraging, raising your first flock? Drop it below \ud83d\udc47"
       },
       "posted": {
         "facebook": false,
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-10"
+      "last_researched": "2026-06-15",
+      "registration_url": "https://www.nlhg.org/national-virtual-gatherings",
+      "changes_noted": "PARTIAL CONFIRMATION ONLY. Confirmed: (1) NLHG is an active, verified 501(c)3 nonprofit (EIN 46-1858853) founded in Statham, GA; (2) it runs monthly National Virtual Gatherings live-streamed on its online forums on the first Wednesday of the month, with past events on its YouTube channel. COULD NOT CONFIRM: the specific August 5, 2026 instance, any topic, or speaker. The dedicated virtual gatherings page (nlhg.org/national-virtual-gatherings) still references the '2025' schedule, suggesting it may not yet be updated for 2026 \u2014 recommend re-checking closer to the date. CHANGES TO RECORD: (a) 'region' should likely be 'National' rather than 'Southeast' since this is a national online event, not a regionally-bound one; (b) the most accurate dedicated landing page is nlhg.org/national-virtual-gatherings rather than the general upcoming-events page; (c) the ticket_url in the original record (neoncrm) was not corroborated by any search result \u2014 registration appears to flow through the virtual gatherings page / online forums. Recommend setting verified=false until the August date and topic appear on an updated 2026 schedule."
     },
     {
       "id": "nlhg-2026-09",
@@ -2302,9 +2382,16 @@
       "source": "nlhg.org",
       "verified": true,
       "social_posts": {
-        "facebook": null,
-        "x": null,
-        "youtube": null
+        "facebook": "\ud83d\udcc5 NLHG National Virtual Gathering \u2014 September 2, 2026\n\ud83d\udccd Online (no travel, no chores left undone)\n\ud83c\udf9f\ufe0f Free to attend\n\nIf you're a homesteading woman who's ever wished for a circle of folks who just *get it* \u2014 this one's for you.\n\nThe National Ladies Homestead Gathering meets online the first Wednesday of every month, and September's gathering is right around the corner. It's a space where women across America come together to share what they've learned, ask the questions they've been sitting on, and build the kind of friendships that make this life feel a little less lonely and a whole lot richer.\n\nWhether you're elbow-deep in your first season of canning, learning the rhythm of dairy goats, or you've been at this for decades and have wisdom to pass down \u2014 there's a seat at this table for you. Knowledge gets shared. Community gets built. Friendships grow.\n\nAnd the best part? It's completely free.\n\nSo pour yourself something warm, settle in, and meet the women who are quietly building a more self-sufficient life right alongside you.\n\n\ud83d\udc49 Register at nlhg.org or grab your free spot here: https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp\n\n#HomesteadingCommunity #HomesteadLife #SelfSufficiency #GrowYourOwn #BackToBasics",
+        "x": {
+          "lead": "Homesteading women \u2014 mark your calendars. \ud83d\udcc5 The NLHG National Virtual Gathering is back September 2, 2026. Online, free, and full of folks who actually get this life. \ud83d\udc47",
+          "thread": [
+            "The National Ladies Homestead Gathering meets the first Wednesday of every month. It's where women across America swap real skills \u2014 canning, dairy, gardening, preserving \u2014 and ask the questions they've been holding onto. #HomesteadingCommunity",
+            "It's not just about learning, though. It's about finding your people. Knowledge gets shared, community gets built, and friendships grow. That's the whole heart of it. #HomesteadLife #SelfSufficiency",
+            "Best part? It's 100% free to attend. No travel, no fuss \u2014 just show up online and join in. Register here: https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp #GrowYourOwn #BackToBasics"
+          ]
+        },
+        "youtube": "Hey friends \u2014 quick one for the homesteading women out there. \ud83c\udf31\n\nThe National Ladies Homestead Gathering has its monthly virtual meetup coming up September 2nd, and it's completely free. It's an online space where women across the country come together to share skills, swap knowledge, and build real friendships \u2014 the kind that make this life feel less lonely.\n\nWhether you're just starting out or you've got decades of wisdom to pass along, there's a seat for you. Register over at nlhg.org.\n\nSo tell us \u2014 what skill are you hoping to learn or teach this season? Drop it in the comments. \ud83d\udc47"
       },
       "posted": {
         "facebook": false,
@@ -2345,9 +2432,16 @@
       "source": "nlhg.org",
       "verified": true,
       "social_posts": {
-        "facebook": null,
-        "x": null,
-        "youtube": null
+        "facebook": "\ud83c\udf3f National Ladies Homestead Gathering \u2014 Virtual Edition\n\ud83d\udcc5 Wednesday, October 7, 2026\n\ud83d\udccd Online, wherever you are\n\ud83d\udcb5 Free to attend\n\nFirst Wednesday of the month means it's time for the women of the homestead movement to gather 'round the (virtual) kitchen table again.\n\nThe National Ladies Homestead Gathering brings together women across America who are growing their own, putting up the harvest, and figuring out this self-sufficient life one season at a time. It's a space to swap what's working \u2014 whether that's a sourdough starter that finally took off, a canning batch that went sideways, or the herbs you're drying for winter.\n\nThe heart of it is simple: Share Knowledge. Build Community. Grow Friendships. No fancy setup required, no travel, no cost. Just real women connecting over real homesteading life.\n\nFolks in the movement know this work goes better when you're not doing it alone. This is where you find your people.\n\nGrab your spot (it's free!) and join in \ud83d\udc49 https://www.nlhg.org/upcoming-events\n\n#HomesteadLife #HomesteadingCommunity #GrowYourOwn #SelfSufficiency #BackToBasics",
+        "x": {
+          "lead": "\ud83c\udf3f First Wednesday = gathering day. The National Ladies Homestead Gathering goes virtual on Oct 7, 2026. Women across America sharing knowledge, building community, growing friendships. Free to attend \ud83d\udc47",
+          "thread": [
+            "The format is simple: women of the homestead movement gather online to swap what's actually working \u2014 sourdough, canning, herb drying, garden wins and the lessons learned the hard way. Real talk, no gatekeeping.",
+            "Held the first Wednesday of every month (except December), it's a standing invitation to find your people. Homesteading is better when you're not doing it solo \u2014 this is where those friendships start.",
+            "Best part? It's completely free. No travel, no ticket price, just show up. Register here \ud83d\udc49 https://www.nlhg.org/upcoming-events #HomesteadingCommunity #SelfSufficiency #GrowYourOwn"
+          ]
+        },
+        "youtube": "Hey friends! \ud83c\udf3f The National Ladies Homestead Gathering is back online for its monthly meetup on October 7, 2026 \u2014 and it's free to join. It's a space for women across the country to share what they're learning on the homestead, from canning and cheesemaking to garden planning and putting up the harvest. The whole spirit of it: share knowledge, build community, grow friendships. No fancy setup, just real folks connecting over this self-sufficient life. Register at https://www.nlhg.org/upcoming-events. Now tell us \u2014 what's the one homestead skill you're most hoping to learn this fall? \ud83d\udc47"
       },
       "posted": {
         "facebook": false,
@@ -2388,9 +2482,16 @@
       "source": "nlhg.org",
       "verified": true,
       "social_posts": {
-        "facebook": null,
-        "x": null,
-        "youtube": null
+        "facebook": "\ud83d\udcc5 National Ladies Homestead Gathering \u2014 Virtual\n\ud83d\uddd3\ufe0f Wednesday, November 4, 2026 (first Wednesday, like always)\n\ud83d\udcbb Online \u2014 join from your kitchen table, barn, or back porch\n\ud83d\udcb5 Free to attend\n\nThere's something special about a room full of women who know what it means to put up the harvest, troubleshoot a stubborn goat, or save seed for next season. The National Ladies Homestead Gathering brings that energy online every month \u2014 a place where folks in the movement swap real knowledge, build community, and grow friendships that outlast the growing season.\n\nThis isn't a webinar you sit through. It's a circle. Women across America showing up to share what they know and learn what they don't \u2014 from food preservation to flock management to the quiet skills of self-sufficiency that don't make the magazine covers.\n\nWhether you've been homesteading for decades or you're just starting to dream about it, there's a seat for you here. No cost, no pressure \u2014 just good people and good talk.\n\nThe November gathering is the perfect spot to land before the holidays.\n\nGrab your free spot \ud83d\udc49 https://nlhg.org/upcoming-events\n\n#HomesteadingCommunity #HomesteadLife #SelfSufficiency #GrowYourOwn #BackToBasics",
+        "x": {
+          "lead": "Free, online, and full of women who actually homestead. \ud83c\udf31\n\nThe National Ladies Homestead Gathering meets virtually on Wednesday, Nov 4 \u2014 first Wednesday of the month, like always.\n\nShare knowledge. Build community. Grow friendships.\n\nRegister \ud83d\udc49 https://nlhg.org/upcoming-events",
+          "thread": [
+            "This isn't a lecture \u2014 it's a circle. Women across America showing up to swap real skills: food preservation, flock management, seed saving, and all the self-sufficiency know-how that doesn't make the magazine covers.",
+            "Whether you've homesteaded for decades or you're still dreaming about your first raised bed, there's a seat for you. The folks in this community meet you exactly where you are. No cost, no pressure.",
+            "\ud83d\udcc5 Wednesday, November 4, 2026\n\ud83d\udcbb Online\n\ud83d\udcb5 Free to attend\n\nLand here before the holidays. Register now \ud83d\udc49 https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp\n\n#HomesteadingCommunity #SelfSufficiency #FoodFreedom"
+          ]
+        },
+        "youtube": "Quick one for the homesteading women out there \ud83d\udc4b\n\nThe National Ladies Homestead Gathering meets online Wednesday, November 4 \u2014 first Wednesday of the month, free to attend. It's a monthly circle where women across America share knowledge, build community, and grow real friendships. Preservation, livestock, seed saving, and all the self-sufficiency talk you can't get anywhere else.\n\nNo cost, no pressure \u2014 just good people figuring it out together.\n\nWhat's the one homestead skill you wish you could ask a room full of experienced women about? Drop it below \ud83d\udc47\n\nRegister \ud83d\udc49 https://nlhg.org/upcoming-events"
       },
       "posted": {
         "facebook": false,

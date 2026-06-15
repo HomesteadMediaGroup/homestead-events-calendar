@@ -2,7 +2,7 @@
   "meta": {
     "last_updated": "2026-06-15",
     "version": "1.0",
-    "total_events": 43
+    "total_events": 44
   },
   "events": [
     {
@@ -519,7 +519,7 @@
     {
       "id": "okie-expo-2026",
       "name": "Okie Homesteading Expo",
-      "status": "pending",
+      "status": "completed",
       "dates": {
         "start": "2026-03-20",
         "end": "2026-03-21",
@@ -2499,6 +2499,49 @@
         "youtube": false
       },
       "last_researched": "2026-06-10"
+    },
+    {
+      "id": "okie-expo-2027",
+      "name": "Okie Homesteading Expo 2027",
+      "status": "confirmed",
+      "dates": {
+        "start": "2027-03-19",
+        "end": "2027-03-20",
+        "pre_event": null,
+        "notes": "Friday March 19 & Saturday March 20, 2027. Mayes County Event Center, Pryor, OK."
+      },
+      "location": {
+        "venue": "Mayes County Event Center",
+        "city": "Pryor",
+        "state": "OK",
+        "region": "South"
+      },
+      "url": "https://okiehomesteading.com",
+      "description": "The Okie Homesteading Expo returns for 2027 \u2014 two days of community, self-reliance, and hands-on learning. 25+ farm, ag, and homesteading experts. 40+ live sessions covering skills from nose-to-tail processing to herbal medicine. Live Q&As with working practitioners. Early-bird tickets announced on the Okie Homesteading Facebook page first. Organized by Sean & Brandi Farnsworth and Kevin & Rachel Pritchett (Hidden Heights Farm).",
+      "speakers": [],
+      "ticket_price": "Early-bird pricing to be announced via Facebook page. Check okiehomesteading.com for current availability.",
+      "highlights": [
+        "25+ farm, ag, and homesteading experts",
+        "40+ live sessions and hands-on demonstrations",
+        "Nose-to-tail processing and herbal medicine sessions confirmed",
+        "Live Q&As with working practitioners",
+        "Early-bird tickets announced on Facebook first"
+      ],
+      "source": "save-the-date-flyer",
+      "verified": true,
+      "social_posts": {
+        "facebook": null,
+        "x": null,
+        "youtube": null
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-06-15",
+      "changes_noted": "Added 2026-06-15 from official Save the Date flyer (image) and organizer Facebook post. Dates, venue, and session counts confirmed.",
+      "registration_url": "https://okiehomesteading.com"
     }
   ]
 }

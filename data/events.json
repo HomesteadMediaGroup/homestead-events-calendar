@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-15",
+    "last_updated": "2026-07-01",
     "version": "1.0",
     "total_events": 44
   },
@@ -287,7 +287,7 @@
         "start": "2026-03-14",
         "end": "2026-03-15",
         "pre_event": null,
-        "notes": "PAST EVENT \u2014 the 2026 expo concluded March 15, 2026. As of 2026-06-08 the official homepage no longer features 2026 and now leads with the next edition. The 2026 format was Saturday March 14 (10 AM\u20135 PM) and Sunday March 15 (10 AM\u20133 PM) at the Washington State Fair Event Center, Puyallup, WA. NEXT EDITION confirmed on the homepage: West Coast Homesteading Expo, March 20 + 21, 2027, WA State Fair Event Center, Puyallup, WA. Organizer states they will offer TWO expos in 2027. NOTE/CORRECTION: The 'Eastern Washington Homesteading Expo' referenced in the Puyallup speaker bios is a SEPARATE pre-existing organization (EWHomesteadingExpo.com), held at Okanogan County Fairgrounds, April 24\u201326, and is NOT produced by Bird + Duck Media. Recommend creating a new 'wche-2027' record."
+        "notes": "PAST EVENT \u2014 the 2026 expo concluded March 15, 2026, at the Washington State Fair Event Center, Puyallup, WA (Sat. March 14, 10 AM\u20135 PM; Sun. March 15, 10 AM\u20133 PM). As of 2026-07-01 the official homepage continues to lead with the next edition rather than 2026. NEXT EDITION confirmed on the homepage: West Coast Homesteading Expo, March 20 + 21, 2027, WA State Fair Event Center, Puyallup, WA. Organizer states they will offer TWO expos in 2027. NOTE/CORRECTION (unchanged): the 'Eastern Washington Homesteading Expo' is a SEPARATE pre-existing organization (Okanogan County Fairgrounds, April 24\u201326), NOT produced by Bird + Duck Media. Recommend creating a new 'wche-2027' record."
       },
       "location": {
         "venue": "Washington State Fair Event Center (Agriplex and Tractor Arena)",
@@ -307,7 +307,7 @@
         "Cindy Joy (home baker and vlogger; beginner sourdough-making classes)",
         "Larry Littrell (lifelong homesteader, writer, and relocation specialist via Legacy Homesteads; author of forthcoming 'Modern Homesteads: Buying, Building, Letting Go, and Redefining Legacy in a Changing World'; NOTE: listed as the keynote speaker for the related Eastern Washington Homesteading Expo, not the Puyallup expo)"
       ],
-      "ticket_price": "Early Bird (until 02/14/26): $10 single / $25 family. Online Presale (until 03/13/26): $15 single / $30 family. At-door general admission: $20 single / $35 family. Family tickets admit 4 people; children 12 and under free.",
+      "ticket_price": "2026 (historical, for reference only): Early Bird (until 02/14/26): $10 single / $25 family. Online Presale (until 03/13/26): $15 single / $30 family. At-door general admission: $20 single / $35 family. Family tickets admit 4 people; children 12 and under free. 2027 pricing NOT yet published as of 2026-07-01.",
       "highlights": [
         "beginner-friendly",
         "urban farming / micro farming",
@@ -332,8 +332,8 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-08",
-      "changes_noted": "Re-verified against the official site on 2026-06-08. CONFIRMED via the homepage that the site now prominently features the next edition: <cite index=\"14-1\">March 20 + 21, 2027 \u00b7 WA State Fair Event Center \u00b7 Puyallup, WA</cite>. The 2026 event is now PAST (concluded March 15, 2026), corroborated by listings showing <cite index=\"6-9,6-10,6-11,6-12,6-13,6-14,6-15,6-16,6-17\">The West Coast Homesteading Expo features speakers, demonstrations, and vendors focused on self-sufficiency, gardening, livestock, and sustainable living practices. Workshops and exhibits bring together regional homesteading experts and educators. Sat., Mar. 14\u2013Sun., Mar. 15; 10 a.m.\u20135 p.m. (Sat.), 10 a.m.\u20133 p.m. (Sun.); Washington State Fair Events Center; 110 9th Ave. SW, Puyallup</cite>. CONFIRMED organizer plans for 2027: <cite index=\"11-1,11-2\">Join us for a 2027 West Coast Homesteading Expo! We will be offering two expos in 2027 and invite you to join us.</cite> CONFIRMED producer/organizer details: <cite index=\"3-11\">Nadine is the owner of Bird + Duck Media, Director of the West Coast Homesteading Expo as well as the Director of the Tacoma Wedding + Event Show.</cite> IMPORTANT CORRECTION to the prior record's assumption: the 'Eastern Washington Homesteading Expo' is NOT a Bird + Duck companion event \u2014 it is a separate, pre-existing organization. <cite index=\"12-2,12-3\">The Eastern Washington Homesteading Expo runs April 24th\u201326th at the Okanogan County Fairgrounds with this year's theme 'Bloom Where You're Planted.'</cite> It has its own website (EWHomesteadingExpo.com), its own contact <cite index=\"12-10\">Phone: (509) 429-2142 (Susan) ... Email: EWHomesteadingExpo@gmail.com</cite>, and its own ticketing via Tixtree. Larry Littrell appears at BOTH expos: the Puyallup site notes <cite index=\"20-1\">Larry is the upcoming keynote speaker at the Eastern Washington Homesteading Expo, where he shares practical, experience-based guidance for navigating change in rural living.</cite> Family ticket/admission rules remain confirmed: <cite index=\"4-2,4-3,4-4,4-5\">Family Tickets provide admissions for 4 people. All children 12 and under are free. Children must be supervised at all times. Strollers and wagons are welcome!</cite> The next event's scope is also confirmed: <cite index=\"20-16\">Our next event will take place at the Washington State Fair Event Center serving all of Western Washington and beyond!</cite> Facebook page remains active with 1,712 likes. RECOMMENDATION: treat wche-2026 as a past event; create wche-2027 (Puyallup, March 20\u201321, 2027); do NOT create an Eastern WA record under Bird + Duck \u2014 instead track it as a distinct third-party event if desired. 2026 ticket pricing and the 2026 TicketSpice registration URL are retained for historical reference only.",
+      "last_researched": "2026-07-01",
+      "changes_noted": "Re-verified against the official site on 2026-07-01. NO MATERIAL CHANGES since the 2026-06-08 research. Homepage still leads with the next edition: <cite index=\"1-1\">March 20 + 21, 2027 \u00b7 WA State Fair Event Center \u00b7 Puyallup, WA</cite>. The 2026 event remains confirmed as PAST (concluded March 15, 2026): <cite index=\"6-9,6-10,6-11,6-12,6-13,6-14,6-15,6-16,6-17\">The West Coast Homesteading Expo features speakers, demonstrations, and vendors focused on self-sufficiency, gardening, livestock, and sustainable living practices. Workshops and exhibits bring together regional homesteading experts and educators. Sat., Mar. 14\u2013Sun., Mar. 15; 10 a.m.\u20135 p.m. (Sat.), 10 a.m.\u20133 p.m. (Sun.); Washington State Fair Events Center; 110 9th Ave. SW, Puyallup</cite>. Organizer's 2027 plans re-confirmed on the Attend page: <cite index=\"21-1,21-2\">Join us for a 2027 West Coast Homesteading Expo! We will be offering two expos in 2027 and invite you to join us.</cite> Producer/organizer details unchanged: <cite index=\"3-11\">Nadine is the owner of Bird + Duck Media, Director of the West Coast Homesteading Expo as well as the Director of the Tacoma Wedding + Event Show.</cite> The Eastern Washington Homesteading Expo correction stands \u2014 it is a separate third-party event listed independently at <cite index=\"10-9\">EASTERN WASHINGTON HOMESTEADING EXPO April 24-26, 2026 Location: Okanogan, WA</cite>. Family admission rules remain confirmed: <cite index=\"4-2,4-3,4-4,4-5\">Family Tickets provide admissions for 4 people. All children 12 and under are free. Children must be supervised at all times. Strollers and wagons are welcome!</cite> Swag bag policy also re-confirmed via exhibitor resources: <cite index=\"28-13\">The first 200 attendees/families each day will receive a West Coast Homesteading Expo Swag Bag.</cite> 2027 ticket pricing and a 2027 registration URL are NOT yet available; the 2026 TicketSpice URL and 2026 pricing are retained for historical reference only. RECOMMENDATION (unchanged): treat wche-2026 as a past event; create wche-2027 (Puyallup, March 20\u201321, 2027) and monitor for the second 2027 expo date, venue, and 2027 ticketing; do NOT create an Eastern WA record under Bird + Duck.",
       "registration_url": "https://birdandduckmedia.ticketspice.com/west-coast-homesteading-expo-2026"
     },
     {
@@ -397,12 +397,12 @@
     {
       "id": "hoi-midwest-2026",
       "name": "Homesteaders of Iowa Expo & Midwest Conference",
-      "status": "confirmed",
+      "status": "completed",
       "dates": {
         "start": "2026-02-27",
         "end": "2026-02-28",
         "pre_event": null,
-        "notes": "Vendor load-in/setup on Thursday, February 26th. Per official venue page: Speakers' Welcome begins 8:20 AM each day; Vendor Hall opens 9:30 AM each day. Per Ottumwa Radio: doors open 7:45 AM, sessions begin 8:15 AM both days. Classes end 5:30 PM; workshops end 4:30 PM. (Minor source variance on the early-morning open/start times; venue site and press release differ slightly.)"
+        "notes": "EVENT HAS CONCLUDED (took place Feb 27-28, 2026; research date is 2026-07-01). Per Bridge View Center venue page: Speakers' Welcome begins 8:20 AM each day; Vendor Hall opens 9:30 AM each day; classes end 5:30 PM; workshops end 4:30 PM. Ticket sales are now closed on the TicketSpice registration page."
       },
       "location": {
         "venue": "Bridge View Center",
@@ -413,26 +413,30 @@
       "url": "https://homesteadersofiowa.com/",
       "description": "The 2026 Homesteaders of Iowa Expo & Midwest Conference is a family-friendly two-day event bringing together experts, educators, and families for hands-on learning and community building. It features 30 educational classes covering gardening, livestock, food preservation, preparedness, herbalism, and sustainable living, plus 24 hands-on workshops. All activities are held indoors at the Bridge View Center, with a vendor hall, live demonstrations, and national and local speakers.",
       "speakers": [
-        "David Ford (regenerative living/homesteading; Jefferson County, Iowa; session 'Entangled and Unplugged: How Land Health Can Save Us')",
+        "David Ford (regenerative living/homesteading; Jefferson County, Iowa; former Navy electronics technician/telecom engineer; workshop 'Fungi Fundamentals: Growing Mushrooms')",
         "Jeremy Skinner (Event Chaplain; leads 'Faith and the Homestead' panel)",
-        "Pearlicia Cloke (Raw Americana; 'Drama-Free Soap Making' workshop)",
+        "Pearlicia Cloke (Raw Americana; 'The Soap Opera: Drama-Free Soap Making' workshop)",
         "David Mixdorf (Prairie Hilltop Farm; 'Raising Chickens for Eggs & Meat')",
-        "Dr. Michelle Burgmeier, DVM (veterinarian, veterinary chiropractic care; 'Goat & Sheep Maintenance' / small ruminant class 'Let's Ruminate on it')",
-        "Lynford Miller (Gingerich Greenhouse; Seed Starting)",
+        "Dr. Michelle Burgmeier, DVM (veterinarian, veterinary chiropractic care; small ruminant / goat & sheep class)",
+        "Lynford Miller (Gingerich Greenhouse; 'Sow What?! Seed Starting')",
         "Lori Fenton (speaker; Davis County)",
         "Beckham (fruit trees/grafting/bonsai; Ottumwa, Iowa)",
-        "Wendy (SouthStar Farms, 20-acre medicinal herb farm/apothecary; herbal medicine 'simples' method flu tea class)"
+        "Wendy (SouthStar Farms, 20-acre medicinal herb farm/apothecary; herbal 'simples' method flu tea class)",
+        "John Ewing (\"Watt's Up? Build a Solar Array\" workshop)",
+        "Sarah Severson (\"Dough Not Panic: Bread Made Easy\" workshop)",
+        "William Burgmeier (\"Cracking the Code on Your Hatching Knowledge\" workshop)"
       ],
-      "ticket_price": "General admission required for all speaker sessions, with optional add-on workshops; early bird discount of 10% applied automatically through December 25th. Vendor-hall-only 'shop' day pass is $5 per person (ages 15+) at the door (does not allow entry to speakers or workshops). Vendor booths $200 (10'x10', 1 table + 2 chairs), early bird $125 with code through December 31st; electricity available for $35 per vendor.",
+      "ticket_price": "Ticket sales now CLOSED (event concluded). During the sale period: one price covered both days, with a 10% early bird discount through December 25th. Vendor-hall-only 'shop' day pass was $5 per person (ages 15+) at the door (no entry to speakers or workshops). Vendor area was open to the public this year.",
       "highlights": [
         "Midwest focus",
         "hands-on learning",
-        "vendor expo",
+        "vendor expo (open to the public this year)",
         "30 educational classes",
         "24 hands-on workshops",
         "national and local speakers",
         "$5 vendor-hall-only day pass option",
         "family-friendly",
+        "expanded workshops based on attendee requests",
         "topics include solar array construction, soap making, bread baking, mushroom cultivation, seed starting, and poultry hatching"
       ],
       "source": "seed",
@@ -454,8 +458,8 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-08",
-      "changes_noted": "RE-VERIFIED on 2026-06-08. Event confirmed by the official site (homesteadersofiowa.com and its Google Sites mirror), the Bridge View Center venue page, Meet Ottumwa tourism listing, and local news (Ottumwa Courier, Ottumwa Radio, bdemo.com). All core seed facts hold: dates (Feb 27-28, 2026), venue (Bridge View Center, 102 Church St, Ottumwa, IA 52501), Midwest homesteading focus, scale (30 classes, 24 workshops), and ticket/vendor pricing. NEW: added a 9th speaker \u2014 Wendy of SouthStar Farms (medicinal herb farm) teaching an herbal 'simples'-method flu tea class. Added session titles for David Ford ('Entangled and Unplugged'), Dr. Burgmeier (small ruminant 'Goat & Sheep Maintenance'), and confirmed Lori Fenton is from Davis County. Noted a minor source discrepancy on early-morning open times: the venue page lists Speakers' Welcome 8:20 AM and Vendor Hall 9:30 AM, while the press release lists doors 7:45 AM / sessions 8:15 AM. Status remains 'confirmed' \u2014 no cancellation or postponement found. Primary URL homesteadersofiowa.com confirmed correct (vendor inquiries: homesteaders.iowa@gmail.com).",
+      "last_researched": "2026-07-01",
+      "changes_noted": "RE-VERIFIED on 2026-07-01. MAJOR STATUS CHANGE: this event has now CONCLUDED \u2014 it took place Feb 27-28, 2026, which is in the past relative to the current research date (2026-07-01). The TicketSpice registration page now displays 'Our ticket sales are closed for our 2026 Midwest Conference.' An Instagram post confirmed the expo happening ('It's HERE... THIS...'). Recommend changing status from 'confirmed' to 'completed'/'past.' NEW SPEAKERS/WORKSHOP LEADERS identified from the Ottumwa Radio press release not previously captured: John Ewing ('Watt's Up? Build a Solar Array'), Sarah Severson ('Dough Not Panic: Bread Made Easy'), and William Burgmeier ('Cracking the Code on Your Hatching Knowledge'). CORRECTION: David Ford's workshop is 'Fungi Fundamentals: Growing Mushrooms' per the press release (the seed record's 'Entangled and Unplugged' title was not corroborated in current sources). Pearlicia Cloke's workshop full title is 'The Soap Opera: Drama-Free Soap Making'; Lynford Miller's is 'Sow What?! Seed Starting.' The vendor page confirms the vendor area was open to the public this year. All core facts hold: dates, venue (Bridge View Center, Ottumwa, IA), Midwest homesteading focus, scale (30 classes, 24 workshops), $5 shop pass, and the 8:20 AM speakers' welcome / 9:30 AM vendor hall schedule. No cancellation or postponement occurred \u2014 the event ran as planned.",
       "registration_url": "https://homesteadersofiowa.com"
     },
     {
@@ -466,7 +470,7 @@
         "start": "2026-09-04",
         "end": "2026-09-05",
         "pre_event": null,
-        "notes": "Friday-Saturday. Re-confirmed 2026-06-08 via official SimpleTix listing and ozarkshomesteading.com/2026-homesteading-expo. SimpleTix calendar entry lists 2026-09-04 13:00 to 2026-09-05 22:00 UTC. 2026-specific gate/open times still not republished on the official 2026 page."
+        "notes": "Friday-Saturday. Re-confirmed 2026-07-01 via official SimpleTix listing and ozarkshomesteading.com/2026-homesteading-expo. SimpleTix calendar block lists 2026-09-04 13:00 to 2026-09-05 22:00 UTC. Also independently confirmed Sept 4-5, 2026 by Homestead Living's 2026 events roundup and Arkansas Homesteader event listing (updated ~3 weeks before research). 2026-specific gate/open times still not republished on the official 2026 page."
       },
       "location": {
         "venue": "Ellis O. Jackson Park / Webster County Fairgrounds, 614 North Marshall Street",
@@ -477,7 +481,7 @@
       "url": "https://ozarkshomesteading.com",
       "description": "An in-person, two-day educational resource fair running since 2019, featuring 40+ teaching sessions, demonstrations, workshops, food trucks, and a large homesteading vendor marketplace (more than 160 vendors in the prior year, with more expected in 2026). Attendees learn from local, national, and internationally known experts. Topics include livestock raising and processing, hog butchering, chicken processing, raising/harvesting meat rabbits, canning and harvest preservation, natural beekeeping, cheesemaking, bread making/sourdough, soap making, foraging, mushrooms, herbal/medicinal herbs, soil health, solar/off-grid living, fermenting, all-season gardening, high tunnels, orchards, blacksmithing, natural building (clay & straw), rocket mass heaters, clay pizza ovens, livestock guardian dogs, goat husbandry, sheep shearing, dairy cows, composting, food freedom, homeschooling, and kids activities.",
       "speakers": [],
-      "ticket_price": "Multiple tiers confirmed on SimpleTix. General Admission $50 (two-day access to all teaching presentations, demonstrations, and vendors; any workshops added later are extra). General Admission with video access to all 2026 videos $69 (advance purchase discounted more than 50% off; video access purchased after the event costs more than double; videos expected within 60 days after the event; one video code per household sent to the ticket buyer's email). VIP Admission $249 (VIP parking, early entry, AC VIP lounge shared with presenters, premium seating, sponsor goodie tote, free event T-shirt, and all 2026 video recordings). Kids 11 and under VIP $199 (must be accompanied by a VIP adult). Kids 11 and under free for general admission but require a ticket.",
+      "ticket_price": "Multiple tiers confirmed on SimpleTix. General Admission $50 (two-day access to all teaching presentations, demonstrations, and vendors; any workshops added later are extra). General Admission with video access to all 2026 videos $69 (advance purchase discounted more than 50% off; video access purchased after the event costs more than double; videos expected within 60 days after the event; one video code per household sent to the ticket buyer's email; separate ticket per household). VIP Admission $249 (VIP parking, early entry, AC VIP lounge shared with presenters, premium seating, sponsor goodie tote, free event T-shirt, and all 2026 video recordings). Kids 11 and under VIP $199 (must be accompanied by a VIP adult). Kids 11 and under free for general admission but require a ticket.",
       "highlights": [
         "40+ teaching sessions and demonstrations",
         "natural beekeeping",
@@ -511,8 +515,8 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-08",
-      "changes_noted": "RE-CONFIRMED 2026-06-08, no material changes from prior record. Dates confirmed Sept 4-5, 2026 (Fri-Sat) per official SimpleTix listing, which states the event runs 'on Sept. 4-5, 2026' and lists the calendar block 2026-09-04 13:00 to 2026-09-05 22:00 UTC. Venue confirmed unchanged: Ellis O. Jackson Park/Webster County Fairgrounds, 614 North Marshall Street, Marshfield, MO 65706. Description confirmed: 'two-day, in person educational resource fair featuring 40+ teaching sessions, demonstrations, workshops, food trucks and a large homesteading related vendor marketplace,' running since 2019. Ticket structure re-confirmed on SimpleTix: GA+video $69 (advance 'discounted at more than 50 percent off'; post-event video access 'more than double this price'; videos within 60 days; one code per household; separate ticket per household); kids 11 and under free but must have a ticket. SPEAKERS STILL NOT PUBLISHED FOR 2026: the official 2026 page only teases 'WE CAN'T WAIT FOR YOU TO SEE ALL OF OUR SPEAKERS FOR 2026! HERE ARE JUST A FEW!' with no names, so the speakers array remains empty pending an official 2026 announcement. The site footer still reads 'Copyright \u00a9 2025,' confirming the site is not yet fully updated for 2026. Third-party vendor Wildwise Botanicals references an Ozarks Homesteading Expo mushroom talk + shiitake log workshop, but that listing links to a 2024 expo page and is NOT dated to 2026, so not added as a confirmed 2026 speaker. Note: prior-year (2025) news coverage (Marshfield Mail) confirms the sixth annual expo drew ~3,000 attendees on Sept. 5-6, 2025; the social-post copy citing '~3,000 people' and 'seven years running' reflects historical figures, not new 2026 attendance projections. Official Facebook page (@ozarkshomesteading) confirmed active with 25,289 likes and a 'Sept 4-5, 2026' promotional post. Event also independently listed for Sept 4-5, 2026 in Homestead Living's 2026 events roundup. Registration/ticket URL unchanged and live.",
+      "last_researched": "2026-07-01",
+      "changes_noted": "RE-CONFIRMED 2026-07-01, no material changes from prior record. Dates confirmed Sept 4-5, 2026 (Fri-Sat) per official SimpleTix listing, which states the event runs 'on Sept. 4-5, 2026' and lists the calendar block 2026-09-04 13:00 to 2026-09-05 22:00 UTC. Venue confirmed unchanged: Ellis O. Jackson Park/Webster County Fairgrounds, 614 North Marshall Street, Marshfield, MO 65706. Description confirmed: 'two-day, in person educational resource fair featuring 40+ teaching sessions, demonstrations, workshops, food trucks and a large homesteading related vendor marketplace,' running since 2019. Vendor count confirmed on official 2026 page: 'LAST YEAR WE HAD MORE THAN 160 VENDORS... LOOK FOR MORE IN 2026!' (SimpleTix separately references 'more than 150 vendors'). Ticket structure re-confirmed on SimpleTix: GA $50; GA+video $69 (advance 'discounted at more than 50 percent off'; post-event video access 'more than double this price'; videos within 60 days; one code per household; separate ticket per household); VIP $249; Kids 11-under VIP $199; kids 11 and under free but must have a ticket. SPEAKERS STILL NOT PUBLISHED FOR 2026: the official 2026 page still only teases 'WE CAN'T WAIT FOR YOU TO SEE ALL OF OUR SPEAKERS FOR 2026! HERE ARE JUST A FEW!' with no names listed, so the speakers array remains empty pending an official 2026 announcement. (Note: Joel Salatin, Marissa Ames, Kevin/Sarah of An American Homestead, and Uncle Mud appear only on prior-year 2023/2025 speaker-bio pages, NOT the 2026 page, so they are NOT added as confirmed 2026 speakers.) The site footer still reads 'Copyright \u00a9 2025,' confirming the site is not yet fully updated for 2026. Official Facebook page (@ozarkshomesteading) confirmed active with 26,189 likes (up from 25,289 at prior research on 2026-06-08). Event also independently listed for Sept 4-5, 2026 in Homestead Living's 2026 events roundup and on Arkansas Homesteader's event calendar. Registration/ticket URL unchanged and live.",
       "registration_url": "https://www.simpletix.com/e/2026-ozarks-homesteading-expo-marshfield-m-tickets-253685",
       "ticket_url": "https://www.simpletix.com/e/2026-ozarks-homesteading-expo-marshfield-m-tickets-253685"
     },
@@ -756,7 +760,7 @@
         "start": "2026-05-15",
         "end": "2026-05-16",
         "pre_event": null,
-        "notes": "Two-day event; presentations run 8:30 a.m.\u20135 p.m. Dates confirmed by the official mcagexpo.com event/summit pages, ND Tourism, Minot Daily News, and The Roundup."
+        "notes": "Two-day event confirmed May 15\u201316, 2026 by the official mcagexpo.com/homesteading-summit page, ND Tourism, Minot Daily News, The Roundup (April 2026), ND Living, Homestead Living's 2026 events roundup, Abundant Permaculture (the Rhodes' official tour page), and the 'Living in McKenzie County' podcast (Daniel Stenberg). No cancellation or postponement found."
       },
       "location": {
         "venue": "McKenzie County Ag Expo",
@@ -765,24 +769,29 @@
         "region": "Midwest"
       },
       "url": "https://www.mcagexpo.com/homesteading-summit",
-      "description": "Two-day gathering focused on sustainable living education. Mission: inspire, educate, and connect people through the exchange of knowledge and skills in self-sufficiency. Covers food production, soil health, traditional skills, hands-on demos, and networking. RV camping available on-site.",
+      "description": "A dynamic two-day event where self-sufficiency enthusiasts and newcomers gather to explore sustainable living. Mission: to inspire, educate, and connect people through the exchange of knowledge and skills in self-sufficiency, soil health, food production and preservation, conservation, community building, healthy living, and traditional skills. Features keynote speakers, hands-on demonstrations, informational talks, and a wide variety of exhibitors. Tailored to the Upper Midwest's prairie climate. RV camping available on-site at the McKenzie County Ag Expo, plus 800+ area hotel rooms and camping at Theodore Roosevelt National Park.",
       "speakers": [
         "Justin Rhodes",
         "Rebekah Rhodes",
         "Tim Eng",
         "Sophia Eng"
       ],
-      "ticket_price": "Tickets on sale \u2014 see tickets.mcagexpo.com",
+      "ticket_price": "$65 general admission; $10 early-bird discount for registrations before May 1, 2026 (per The Roundup)",
       "highlights": [
-        "Justin & Rebekah Rhodes",
-        "regenerative farming",
-        "food production",
-        "soil health",
+        "Justin & Rebekah Rhodes (headliners)",
+        "Tim & Sophia Eng (Call to Farms podcast hosts)",
+        "soil health & regenerative practices",
+        "food production & preservation",
+        "livestock care",
+        "gardening",
+        "herbalism",
+        "healthy living",
         "traditional skills",
-        "hands-on demos",
+        "hands-on demonstrations",
+        "keynote speakers & informational talks",
         "exhibitor booths",
         "RV camping on-site",
-        "networking"
+        "networking / community building"
       ],
       "source": "seed",
       "verified": true,
@@ -803,8 +812,8 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-02",
-      "changes_noted": "RE-VERIFIED on 2026-06-01. All record details confirmed accurate and unchanged. Event is real and remains on-schedule for May 15-16, 2026, 8:30 a.m.-5 p.m. at the McKenzie County Ag Expo, Watford City, ND. Confirmed by the official event page (mcagexpo.com/homesteading-summit and mcagexpo.com/events), ND Tourism, The Roundup (April 2026), and Minot Daily News (May 2026). NO cancellation or postponement found. Speakers (Justin & Rebekah Rhodes; Tim & Sophia Eng), ticket pricing ($65 general; $10 early-bird before May 1), 8:30am-5pm presentation times, and registration URL (tickets.mcagexpo.com/p/tickets) all independently re-confirmed. Sponsored by the nonprofit McKenzie County Ag Expo Foundation; managed by committee (Daniel Stenberg, Ryan Odenbach, Rebekah Engebretson, Renae Mogen, Kylee Roff, Chris Kubal). NEW context added: Tim Eng is a West Point Army combat veteran/real estate specialist ('The Homesteading Agent') and Sophia Eng is an author/growth-marketing entrepreneur; together they host the Call to Farms podcast. NOTE on adjacent same-venue 2026 events to avoid confusion: Ag Expo Queen Contest (May 16), PRCA Rodeo (May 22-23), McKenzie County Fair (June 18-20 per Heartland Association; note Minot Daily News cited June 16-20), Olaf Leiseth Memorial Draft Horse Event (June 17), Demolition Derby (June 19), and NDRA Finals (Sept 25-27). Minor source discrepancy flagged: the county fair end-date varies slightly between sources but does not affect the Summit record.",
+      "last_researched": "2026-07-01",
+      "changes_noted": "RE-VERIFIED on 2026-07-01. All record details confirmed accurate and unchanged. Event remains on-schedule for May 15\u201316, 2026 at the McKenzie County Ag Expo, Watford City, ND. Confirmed via the official event page (mcagexpo.com/homesteading-summit), ND Tourism, Minot Daily News, The Roundup (April 2026), ND Living, the 'Living in McKenzie County' podcast (Daniel Stenberg), and Homestead Living's 2026 events roundup. Also independently listed on the Rhodes' official Abundant Permaculture 2026 tour page. NO cancellation or postponement found. Speakers (Justin & Rebekah Rhodes; Tim & Sophia Eng), $65 ticket price with $10 early-bird before May 1, and registration URL all re-confirmed. Sponsored by the nonprofit McKenzie County Ag Expo Foundation; committee: Daniel Stenberg, Ryan Odenbach, Rebekah Engebretson, Renae Mogen, Kylee Roff, Chris Kubal. Contact: Daniel Stenberg, 701-204-1554. NOTE: Previously the record noted the 8:30 a.m.\u20135 p.m. daily schedule as confirmed, but this daily time was NOT verifiable in the current search results (sources list dates but not confirmed daily hours \u2014 ND Tourism shows a placeholder '12:00am to 12:00am'); daily hours should be treated as UNCONFIRMED pending a schedule page. DISCREPANCY UPDATE on adjacent same-venue event: the McKenzie County Fair is now listed by the official mcagexpo.com homepage as June 17\u201320, 2026 (theme 'Stars, Stripes, and Fair Nights'), with Bares, Broncs & Bulls rodeo on June 20; this supersedes the earlier Minot Daily News June 16\u201320 figure. This does not affect the Summit record.",
       "registration_url": "https://tickets.mcagexpo.com/p/tickets",
       "ticket_url": "https://tickets.mcagexpo.com/p/tickets"
     },
@@ -816,7 +825,7 @@
         "start": "2026-04-17",
         "end": "2026-04-18",
         "pre_event": null,
-        "notes": "Re-confirmed via official site, Kerr Center, and Kinnard Homestead vendor listing. Friday April 17 runs 12:00 PM\u20138:00 PM; Saturday April 18 runs 9:00 AM\u20135:00 PM."
+        "notes": "Confirmed via official events page (Apr 17, 2026, 12:00 PM start at Conway Expo Center) and Kerr Center listing. Multiple third-party homesteading event roundups (Homestead Living, The Daily Homesteader) list April 17\u201318, 2026 at Conway Expo Center. Daily hours (Fri 12\u20138 PM, Sat 9 AM\u20135 PM) previously confirmed via vendor listing; not re-surfaced in current search but no contradicting info found. An allevents.in listing references a '2nd Annual' conference in April 2027, indicating 2026 is the inaugural event."
       },
       "location": {
         "venue": "Conway Expo & Event Center",
@@ -868,8 +877,8 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-08",
-      "changes_noted": "RE-VERIFIED on 2026-06-08; no material changes since 2026-06-01. All previously recorded details remain confirmed against current sources. Dates April 17\u201318, 2026 at Conway Expo & Event Center (2505 E Oak St, Conway, AR 72032) confirmed via official events page and Kerr Center listing. Daily hours (Fri 12\u20138 PM, Sat 9 AM\u20135 PM) re-confirmed via Kinnard Homestead vendor listing. Keynote Joel Salatin (Polyface Farms) confirmed via official presenters page. Three previously-added presenters (Amber/Forward to the Basics, Dewayne/Red Feather Farms, Jon Zawislak/U of A apiculture & Walnut Valley Honey) all confirmed on official presenters page. Vendors/sponsors confirmed: Bison Pumps (Conway, AR), Sweet T Farm (Ashley Thompson), PortaHut, Arkansas Beef Council, Simply Sid (Sidney). ticket_price REMAINS NULL \u2014 the official tickets page lists no dollar amounts; it directs visitors to buy tickets but shows no prices in available results. REMINDER: ticket prices in search results ($129/$149/$399 GA & VIP, children $49, family pass) belong to the UNRELATED Modern Homesteading Conference in Coeur d'Alene, ID (June 26\u201327/28, 2026) \u2014 do NOT apply them to this event. Organizer contact unchanged: 501-519-2679. Status can be advanced from 'pending' to 'confirmed' given strong multi-source verification.",
+      "last_researched": "2026-07-01",
+      "changes_noted": "RE-VERIFIED on 2026-07-01; no material changes since 2026-06-08. Dates April 17\u201318, 2026 at Conway Expo Center (2505 E Oak St, Conway, AR 72032) re-confirmed via official events page, Kerr Center listing, and multiple event roundups (Homestead Living, The Daily Homesteader). Keynote Joel Salatin (Polyface Farms) re-confirmed on official presenters page. 2-Day Expo all-access pass description confirmed on official events page. Vendors/sponsors re-confirmed: Bison Pumps (Conway, AR), Sweet T Farm (Ashley Thompson), PortaHut, Arkansas Beef Council, Simply Sid (Sidney), plus additional vendors now visible (Coop'd Up chicken coops, Black Cat Botanics, Pink Penelope plant shop, The Warrior's Provision freeze-dried goods, a Crow Mountain/Atkins AR apiary). NEW: An allevents.in listing references a '2nd Annual Central Arkansas Homestead Conference' for April 2027, confirming the 2026 event is the inaugural/1st annual edition. ticket_price REMAINS NULL \u2014 the official tickets page still lists no dollar amounts; it directs visitors to buy tickets but shows no prices in available results. REMINDER: ticket prices appearing in search results ($245/$345 belong to Homesteaders of America/Polyface; $80 belongs to Homesteading Life Conference in Vandalia, MO; $49-off early-bird and family passes belong to the UNRELATED Modern Homesteading Conference in Coeur d'Alene, ID, June 26\u201327/28, 2026) \u2014 do NOT apply any of these to this event. Organizer contact unchanged: 501-519-2679. Status can be advanced from 'pending' to 'confirmed' given strong multi-source verification.",
       "registration_url": "https://www.centralarhomesteading.com/tickets"
     },
     {
@@ -937,7 +946,7 @@
         "start": "2026-09-25",
         "end": "2026-09-26",
         "pre_event": null,
-        "notes": "Friday & Saturday. Start date 2026-09-25 confirmed via TravelOK listing. End date (09-26) carried from flyer record and not independently re-confirmed; 2025 edition ran 9 am\u20136 pm each day."
+        "notes": "Start date 2026-09-25 confirmed via TravelOK (Oklahoma's official tourism site) and a Facebook event listing at Southeast Expo Center. End date (09-26) still NOT independently re-confirmed by current sources \u2014 carried from flyer record. 2025 edition ran Sept 26\u201327, 9 am\u20136 pm each day; 2026 daily hours not confirmed."
       },
       "location": {
         "venue": "Southeast Expo Center",
@@ -946,9 +955,9 @@
         "region": "South"
       },
       "url": "https://www.facebook.com/profile.php?id=61556712466334",
-      "description": "Bringing the Past to the Present, for the Future. A self-sufficiency event featuring guest speakers and demonstrations on running a self-sustaining homestead and/or farm, with prepared foods, live music, and vendor booths of handcrafted artisan goods. Run by a 501(c)(3) nonprofit (motto: 'Together we grow').",
+      "description": "Bringing the Past to the Present, for the Future. A self-sufficiency event featuring guest speakers and demonstrations on running a self-sustaining homestead and/or farm, with prepared foods, live music, and vendor booths of handcrafted artisan goods. Run by a 501(c)(3) nonprofit (Dewayne Hall); motto 'Together we grow.' Stated goal: to teach necessary skills, provide information, and share knowledge while growing a community of like-minded people working toward living self-sustainably.",
       "speakers": [],
-      "ticket_price": "Adult $15.00/day; Child 12 & under $5.00/day; 5 & under free (carried from flyer; 2026-specific pricing not independently re-confirmed \u2014 2025 adult entry was also $15)",
+      "ticket_price": "Adult $15.00/day; Child 12 & under $5.00/day; 5 & under free (carried from flyer; 2026-specific pricing still NOT independently re-confirmed \u2014 2025 adult entry was confirmed at $15/day via petrichorliving listing, but per-day/child pricing for 2026 not verified on official site or TicketLeap)",
       "highlights": [
         "dynamic speakers",
         "skilled demonstrations",
@@ -980,9 +989,9 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-08",
+      "last_researched": "2026-07-01",
       "registration_url": "https://events.ticketleap.com/tickets/oklahomahomesteadrendezvous/oklahoma-homestead-rendezvous",
-      "changes_noted": "CONFIRMED: Event still listed for September 2026 in McAlester, OK at Southeast Expo Center; start date 2026-09-25 confirmed via Oklahoma's official tourism site (TravelOK). NEW: Official website found \u2014 https://oklahomahomesteadrendezvous.org (previously only a Facebook page was on record). NEW: Dedicated TicketLeap registration/ticketing page found. NEW: Organizer is a 501(c)(3) nonprofit (Dewayne Hall) with email okhomesteadrendezvous@yahoo.com and mailing address PO Box 705, Hartshorne, OK 74547. DISCREPANCY/FLAG: Official website lists phone 801-949-8198, which differs from the on-record 801-949-8196 \u2014 recommend verifying correct number. NOTE: End date (09-26) and 2026 ticket prices are carried from the existing flyer and were NOT independently re-confirmed by current sources; recommend confirming via the official site/ticket page before publishing. CAUTION: Do not confuse with the separate 'Okie Homesteading Expo' (Pryor, OK, March 20\u201321, 2026) \u2014 a different, larger event."
+      "changes_noted": "CONFIRMED: Event still on for September 2026 in McAlester, OK at Southeast Expo Center; start date 2026-09-25 confirmed via TravelOK and a dedicated Facebook event listing (facebook.com/events/southeast-expo-center/oklahoma-homestead-rendezvous/1272100237409482). CONFIRMED: Official website (oklahomahomesteadrendezvous.org) is live, run by 501(c)(3) nonprofit (Dewayne Hall). RESOLVED PHONE DISCREPANCY: Official website lists 801-949-8198 \u2014 recommend updating the on-record 801-949-8196 to 801-949-8198 (the official-site number). Confirmed org contact: PO Box 705, Hartshorne, OK 74547; okhomesteadrendezvous@yahoo.com. STILL UNCONFIRMED/FLAG: End date (09-26) and 2026 ticket prices not independently re-confirmed by current sources; TicketLeap page and official site did not expose explicit 2026 dates/prices. NOTE: 2025 edition was Sept 26\u201327, 9 am\u20136 pm daily, $15 adult entry (per petrichorliving listing) \u2014 useful for pattern but not a 2026 confirmation. NO speakers published for 2026 yet. CAUTION CONFIRMED: Do NOT confuse with the separate, larger 'Okie Homesteading Expo' (Pryor, OK, Mayes County Fairgrounds, March 20\u201321, 2026, $50 2-day ticket, keynote Dr. Temple Grandin) \u2014 a different event/organizer. NOTE: Facebook page could not be fully read (login-gated); details verified via TravelOK, official website, and Choctaw Country events listing instead."
     },
     {
       "id": "wapf-2026",

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-07-15",
+    "last_updated": "2026-08-01",
     "version": "1.0",
-    "total_events": 44
+    "total_events": 45
   },
   "events": [
     {
@@ -136,7 +136,7 @@
         "start": "2026-04-24",
         "end": "2026-04-25",
         "pre_event": null,
-        "notes": "Friday\u2013Saturday. CONFIRMED CONCLUDED as of 2026-06-08. Official homepage (thehomesteadconference.com) now reads as a post-event thank-you and directs visitors to the 2027 conference. Per sustainlife.org events page and official contact page, 2026 was Friday 7 AM\u20137 PM and Saturday 7 AM\u20136 PM. 2027 dates confirmed: April 23\u201324, 2027 (Waco, TX), tickets on sale now via official Facebook, Universe, and homepage. Recommend creating record 'thc-ploughshare-2027'."
+        "notes": "Friday\u2013Saturday. CONFIRMED CONCLUDED as of 2026-08-01. Official homepage (thehomesteadconference.com) now reads as a post-event thank-you ('Thank you to everyone who joined us for the 2026 Homestead Conference! ... We hope to see you again at the 2027 conference! Tickets are available now.') and directs visitors to the 2027 conference. 2026 times were Friday 7 AM\u20137 PM and Saturday 7 AM\u20136 PM (per sustainlife.org events page and contact page). 2027 dates CONFIRMED: April 23\u201324, 2027 (Waco, TX), 7 AM\u20136 PM, tickets on sale now via official Facebook, Instagram, Universe, and homepage. Recommend creating record 'thc-ploughshare-2027'."
       },
       "location": {
         "venue": "Heritage Center (hosted by Homestead Heritage community), 747 Dry Creek Rd",
@@ -161,14 +161,15 @@
         "Jeff Gately",
         "John Kempf"
       ],
-      "ticket_price": "No fixed figure published for 2026 on the official site; sold via Etix, with one-day tickets available at the entrance. Ticket insurance was offered at checkout; tickets without insurance are non-refundable but transferable. Historical reference: the inaugural 2025 conference was priced at $99 for adults and $19 for children ages 3\u201317. 2027 tickets are now on sale.",
+      "ticket_price": "No fixed figure published for 2026 on the official site; sold via Etix with one-day tickets at the door. Optional ticket insurance offered at checkout; non-insured tickets non-refundable but transferable. Historical reference: the inaugural 2025 conference was priced at $99 for adults and $19 for children ages 3\u201317. 2027 tickets are now on sale via Universe.",
       "highlights": [
         "hands-on workshops and demonstrations (lamb processing, beekeeping, garden creation, soil blocks, compost, pottery)",
         "Friday-evening Rory Feek concert",
         "agrarian/self-sufficiency education focus",
         "Joel & Daniel Salatin sessions",
         "Dr. Ben Edwards 'From Pharm to Food' talk",
-        "vendor marketplace for homesteading supplies"
+        "vendor marketplace for homesteading supplies (backyard poultry starter kits, beekeeping supplies)",
+        "on-site food trucks/booths; outside snacks/sack lunches allowed; no alcohol"
       ],
       "source": "seed",
       "verified": true,
@@ -189,9 +190,9 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-08",
-      "changes_noted": "VERIFIED via live official sources on 2026-06-08; record largely confirmed with minor additions. (1) STATUS \u2014 event is CONCLUDED. Official homepage now reads: thanks to 2026 attendees and points to the 2027 conference, with 2027 tickets available now. (2) 2027 dates CONFIRMED as April 23\u201324, 2027 at the Heritage Center, 747 Dry Creek Rd, Waco, TX, via official Facebook page and Universe ticketing listing (Fri Apr 23 \u2013 Sat Apr 24, 2027, 7 AM\u20136 PM). Recommend creating record 'thc-ploughshare-2027'. (3) URL: thehomesteadconference.com confirmed as primary; sustainlife.org is the Ploughshare Institute parent site (secondary). (4) 2026 dates/times/venue re-confirmed (Apr 24\u201325, 2026, Fri 7 AM\u20137 PM / Sat 7 AM\u20136 PM; Heritage Center, 747 Dry Creek Rd, Waco, TX 76705, hosted by Homestead Heritage). (5) SPEAKER ADDITIONS \u2014 added Jeff Gately (attorney/homesteader, 'Smart Decisions in Homesteading' seminar) and John Kempf (founder of Advancing Eco Agriculture), both confirmed as 2026 presenters on the official site/2026 Conference Guide. Existing speakers re-confirmed. (6) Ticket price not published as a fixed figure for 2026; sold via Etix with one-day tickets at the door. Added detail: optional ticket insurance offered at checkout; non-insured tickets non-refundable but transferable. (7) Food trucks/booths on-site; outside snacks/sack lunches allowed; no alcohol. (8) Note: the conference is full-day seminar/educational content (not a festival like the fall Homestead Fair); no dedicated kids' activities.",
-      "registration_url": "https://thehomesteadconference.com/ (2026 tickets via Etix: https://www.etix.com/ticket/v/35495/the-homestead-conference; 2027 tickets via https://www.universe.com/events/the-homestead-conference-2027-tickets-QMSX5C)"
+      "last_researched": "2026-08-01",
+      "changes_noted": "RE-VERIFIED via live official sources on 2026-08-01; no material changes since the 2026-06-08 research. Record remains accurate. (1) STATUS \u2014 event CONCLUDED. Official homepage confirms: 'Thank you to everyone who joined us for the 2026 Homestead Conference!' and points to 2027 with tickets available now. (2) 2027 dates re-confirmed as April 23\u201324, 2027 at the Heritage Center, 747 Dry Creek Rd, Waco, TX 76705, 7 AM\u20136 PM, via official Facebook, Instagram (@thehomesteadconference), and Universe ticketing listing. Recommend creating record 'thc-ploughshare-2027'. (3) URL: thehomesteadconference.com confirmed as primary; sustainlife.org is the Ploughshare Institute parent site (secondary). (4) 2026 dates/times/venue re-confirmed (Apr 24\u201325, 2026, Fri 7 AM\u20137 PM / Sat 7 AM\u20136 PM; Heritage Center, 747 Dry Creek Rd, Waco, TX 76705, hosted by Homestead Heritage; mailing address P.O. Box 867, Elm Mott, TX 76640). (5) Speakers all re-confirmed on the official presenters page; note the 2027 presenters page also lists newcomers Abram Bowerman (author of 'The Practical Shepherd') and Brim Seed Co. principals \u2014 track these for the 2027 record, not 2026. (6) Ticket detail re-confirmed: optional ticket insurance at checkout; non-insured tickets non-refundable but transferable; one-day tickets available. (7) On-site food trucks/booths confirmed; outside snacks/sack lunches allowed; no alcohol permitted. (8) Recommended nearby lodging per official site: Holiday Inn & Suites Waco Northwest.",
+      "registration_url": "https://thehomesteadconference.com/ (2026 tickets via Etix; 2027 tickets via https://www.universe.com/events/the-homestead-conference-2027-tickets-QMSX5C)"
     },
     {
       "id": "homestead-festival-2026",
@@ -201,16 +202,16 @@
         "start": "2026-06-05",
         "end": "2026-06-06",
         "pre_event": null,
-        "notes": "Friday June 5 & Saturday June 6, 2026. This is the 5th Annual Homestead Festival. Gates open at 7:00 am CT; first speaker at 9:00 am CT, last speaker ends ~4:30 pm CT; evening music ~5:00 pm\u20139:00 pm CT. (One local news source listed hours as 9am\u20138pm both days.) RV check-in begins Thursday June 4 after 5 PM CT."
+        "notes": "Friday June 5 & Saturday June 6, 2026 (5th Annual). Per the official FAQ: gates open 7:00 am CT, first speaker 9:00 am CT, last speaker ends ~4:30 pm CT, evening music ~5:00 pm\u20139:00 pm CT. Local news sources (Maury/Wilson County Source) listed hours as 9am\u20138pm both days \u2014 defer to official site. NOTE: As of the research date (2026-08-01), this event has already concluded; it should likely be moved to a 'past/completed' status and a 2027 record created."
       },
       "location": {
-        "venue": "The Homestead at Hardison Mill (Rory Feek's 100-acre farm); festival entrance at 4765 Hardison Mill Rd",
+        "venue": "The Homestead at Hardison Mill (Rory Feek's 100-acre historic farm); festival entrance at 4765 Hardison Mill Rd (back entrance \u2014 traffic routed via Old Hardison Mill Rd)",
         "city": "Columbia",
         "state": "TN",
         "region": "Southeast"
       },
       "url": "https://thehomesteadfestival.com",
-      "description": "The 5th Annual Homestead Festival is a two-day event on Rory Feek's 100-acre historic farm (The Homestead at Hardison Mill) in Columbia, TN, about 45 minutes south of Nashville. It combines hands-on homesteading education from 25+ speakers/teachers with live music, 200+ vendors, demonstrations (wood turning, leather crafting, animal care), food trucks, and a family-friendly 'Lil' Homesteaders Area' (face painting, corn pit, bounce house). The festival runs rain or shine.",
+      "description": "The 5th Annual Homestead Festival was a two-day event on Rory Feek's 100-acre historic farm (The Homestead at Hardison Mill) in Columbia, TN, about 45 minutes south of Nashville. It combined hands-on homesteading education from 25+ speakers/teachers with live music, 200+ vendors, demonstrations (wood turning, leather crafting, animal care), food trucks (with attendees allowed to bring their own food/non-alcoholic drinks), and a family-friendly children's area. The festival ran rain or shine.",
       "speakers": [
         "Joel Salatin",
         "Daniel Salatin",
@@ -218,6 +219,8 @@
         "Temple Grandin",
         "RuthAnn Zimmerman",
         "Jill Ragan",
+        "Greg Judy",
+        "A.Z. Adams",
         "Rory Feek",
         "Shawn & Beth Dougherty",
         "Janelle Anderson",
@@ -244,15 +247,16 @@
         "Thom Schuyler (music)",
         "Elliott Park (music)"
       ],
-      "ticket_price": "Two-day passes only (non-refundable, non-transferable). General Admission starts at $95; children ages 6\u201317 are $25 (must be accompanied by an adult); kids 5 and under free. GA+ and VIP upgrade tiers available. GA+ adds shaded tent seating, free water/sunscreen, upgraded restrooms, and speaker meet-and-greets. VIP adds Homestead Hall access, reserved seating at all tents and Main Stage, VIP entrance parking, festival goodie bag, and breakfast both days.",
+      "ticket_price": "Two-day passes only. General Admission starts at $95; children ages 6\u201317 are $25 (must be accompanied by an adult); kids 5 and under free. GA+ and VIP upgrade tiers available. All passes include access to all speaking events, vendors, demonstration areas, and musical performances for the two-day event.",
       "highlights": [
         "5th Annual edition",
         "25+ speakers/educators",
         "200+ vendors",
-        "live music each evening and during lunch",
+        "live music each evening and during lunchtime",
         "demos: wood turning, leather crafting, animal care",
-        "Lil' Homesteaders Area (face painting, corn pit, bounce house)",
-        "food trucks; outside food/drink allowed",
+        "Lil' Homesteaders Area (family-friendly)",
+        "food trucks; outside food/non-alcoholic drink allowed (no alcohol permitted)",
+        "free water refill station; free parking with golf cart shuttles",
         "limited RV parking (50 spots, no hookups)",
         "official Homestead Festival mobile app (Apple/Google)"
       ],
@@ -275,8 +279,8 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-01",
-      "changes_noted": "VERIFIED via the official site and multiple independent sources (Maury County Source, Wilson County Source, Tennessee Home & Farm, Homestead Living, Eventeny, One-Cow Revolution). CONFIRMED: (1) Dates June 5\u20136, 2026; (2) Location confirmed as Rory Feek's farm 'The Homestead at Hardison Mill,' 4765 Hardison Mill Rd, Columbia, TN 38401 \u2014 refined from prior generic 'Farm south of Nashville'; (3) This is the 5th Annual festival; (4) No cancellation/postponement found \u2014 event is active and tickets selling. CHANGES/ADDITIONS: Speaker list greatly expanded beyond seed record \u2014 added Joel Salatin, Daniel Salatin, Temple Grandin, John Chester, RuthAnn Zimmerman, Jill Ragan, Shawn & Beth Dougherty and many others; music lineup expanded (Lee Greenwood and The Isaacs confirmed; added Terri Clark, Shenandoah, The Cleverlys, etc.). NOTE: prior seed listed 'Rory Feek' as a speaker \u2014 confirmed he is the farm host and performs musically. Ticket pricing detail added: GA from $95, child (6\u201317) $25, under-5 free; GA+/VIP tiers confirmed. Source field should change from 'seed' to verified web. RECOMMEND populating social_posts: official Facebook is facebook.com/TheHomesteadFestival. One inconsistency to flag: official FAQ gives schedule of 7am gates/9am\u20134:30pm talks/5\u20139pm music, while a local news article stated 9am\u20138pm \u2014 defer to official site.",
+      "last_researched": "2026-08-01",
+      "changes_noted": "RE-VERIFIED via the official site, official FAQ, the official mobile app listing, and multiple independent sources (Maury County Source, Wilson County Source, Tennessee Home & Farm, Homestead Living, Experience Maury). CONFIRMED: dates June 5\u20136, 2026; venue/address (4765 Hardison Mill Rd, Columbia, TN 38401); 5th Annual; GA from $95, child (6\u201317) $25, under-5 free; no cancellation/postponement. NEW/CHANGED: (1) Official current speaker page adds 'A.Z. Adams'; the official app also lists 'Greg Judy' \u2014 both added to speaker list. (2) SOURCE CONFLICT FLAGGED: Tennessee Home & Farm (dated June 7, 2026) lists a substantially different headliner lineup \u2014 Michael Pollan, Jill Winger, plus musical acts The Bellamy Brothers, John Anderson, Michael Martin Murphey, and Mo Pitney \u2014 none of which appear on the current official site, which instead lists Joel Salatin, Temple Grandin, John Chester and music by Lee Greenwood, The Isaacs, Terri Clark, Shenandoah, etc. This likely reflects an earlier/erroneous or template-based listing; the official site and app take precedence, but the discrepancy should be reviewed. (3) TIMING/STATUS: As of research date 2026-08-01, the festival has ALREADY OCCURRED (was June 5\u20136). Recommend updating status from 'confirmed' (upcoming) to a past/completed state and spinning up a 2027 (6th Annual) record when announced. (4) Added detail from official FAQ: free parking with golf cart shuttles, free water refill station, no alcohol allowed, outside food permitted, bags/coolers subject to check.",
       "registration_url": "https://www.thehomesteadfestival.com"
     },
     {
@@ -287,7 +291,7 @@
         "start": "2026-03-14",
         "end": "2026-03-15",
         "pre_event": null,
-        "notes": "PAST EVENT \u2014 the 2026 expo concluded March 15, 2026, at the Washington State Fair Event Center, Puyallup, WA (Sat. March 14, 10 AM\u20135 PM; Sun. March 15, 10 AM\u20133 PM). As of 2026-07-01 the official homepage continues to lead with the next edition rather than 2026. NEXT EDITION confirmed on the homepage: West Coast Homesteading Expo, March 20 + 21, 2027, WA State Fair Event Center, Puyallup, WA. Organizer states they will offer TWO expos in 2027. NOTE/CORRECTION (unchanged): the 'Eastern Washington Homesteading Expo' is a SEPARATE pre-existing organization (Okanogan County Fairgrounds, April 24\u201326), NOT produced by Bird + Duck Media. Recommend creating a new 'wche-2027' record."
+        "notes": "PAST EVENT \u2014 the 2026 expo concluded March 15, 2026, at the Washington State Fair Event Center, Puyallup, WA (Sat. March 14, 10 AM\u20135 PM; Sun. March 15, 10 AM\u20133 PM). As of 2026-08-01 the official homepage no longer leads with 2026; it now advertises TWO 2027 editions. UPDATE (new since 2026-07-01): The site has added a dedicated Vancouver page confirming the SECOND 2027 expo location. NEXT EDITIONS confirmed: (1) PUYALLUP \u2014 March 20 + 21, 2027, WA State Fair Event Center, Puyallup, WA; (2) VANCOUVER \u2014 Clark County Event Center, Vancouver, WA (serving Vancouver/Portland metro & SW Washington), specific date NOT yet published. Organizer reconfirms they will offer two expos in 2027. NOTE/CORRECTION (unchanged): the 'Eastern Washington Homesteading Expo' is a SEPARATE pre-existing organization (Okanogan County Fairgrounds), NOT produced by Bird + Duck Media; Larry Littrell is that event's keynote, not Puyallup's. Recommend creating separate 'wche-2027-puyallup' and 'wche-2027-vancouver' records."
       },
       "location": {
         "venue": "Washington State Fair Event Center (Agriplex and Tractor Arena)",
@@ -332,8 +336,8 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-07-01",
-      "changes_noted": "Re-verified against the official site on 2026-07-01. NO MATERIAL CHANGES since the 2026-06-08 research. Homepage still leads with the next edition: <cite index=\"1-1\">March 20 + 21, 2027 \u00b7 WA State Fair Event Center \u00b7 Puyallup, WA</cite>. The 2026 event remains confirmed as PAST (concluded March 15, 2026): <cite index=\"6-9,6-10,6-11,6-12,6-13,6-14,6-15,6-16,6-17\">The West Coast Homesteading Expo features speakers, demonstrations, and vendors focused on self-sufficiency, gardening, livestock, and sustainable living practices. Workshops and exhibits bring together regional homesteading experts and educators. Sat., Mar. 14\u2013Sun., Mar. 15; 10 a.m.\u20135 p.m. (Sat.), 10 a.m.\u20133 p.m. (Sun.); Washington State Fair Events Center; 110 9th Ave. SW, Puyallup</cite>. Organizer's 2027 plans re-confirmed on the Attend page: <cite index=\"21-1,21-2\">Join us for a 2027 West Coast Homesteading Expo! We will be offering two expos in 2027 and invite you to join us.</cite> Producer/organizer details unchanged: <cite index=\"3-11\">Nadine is the owner of Bird + Duck Media, Director of the West Coast Homesteading Expo as well as the Director of the Tacoma Wedding + Event Show.</cite> The Eastern Washington Homesteading Expo correction stands \u2014 it is a separate third-party event listed independently at <cite index=\"10-9\">EASTERN WASHINGTON HOMESTEADING EXPO April 24-26, 2026 Location: Okanogan, WA</cite>. Family admission rules remain confirmed: <cite index=\"4-2,4-3,4-4,4-5\">Family Tickets provide admissions for 4 people. All children 12 and under are free. Children must be supervised at all times. Strollers and wagons are welcome!</cite> Swag bag policy also re-confirmed via exhibitor resources: <cite index=\"28-13\">The first 200 attendees/families each day will receive a West Coast Homesteading Expo Swag Bag.</cite> 2027 ticket pricing and a 2027 registration URL are NOT yet available; the 2026 TicketSpice URL and 2026 pricing are retained for historical reference only. RECOMMENDATION (unchanged): treat wche-2026 as a past event; create wche-2027 (Puyallup, March 20\u201321, 2027) and monitor for the second 2027 expo date, venue, and 2027 ticketing; do NOT create an Eastern WA record under Bird + Duck.",
+      "last_researched": "2026-08-01",
+      "changes_noted": "MATERIAL CHANGE since 2026-07-01: The official site now confirms the SECOND 2027 expo location. The homepage now shows both cities \u2014 <cite index=\"22-1\">Vancouver, WA \u00b7 March 20 + 21, 2027 \u00b7 WA State Fair Event Center \u00b7 Puyallup, WA</cite>. A new dedicated Vancouver page confirms the venue: <cite index=\"25-1,25-2\">Join us for the West Coast Homesteading Expo! Our next event will take place at the Clark County Event Center serving all of Vancouver and Portland metro, Southwest Washington, and beyond!</cite> The Vancouver edition's specific date is NOT yet published (only the Puyallup date, March 20+21, 2027, is confirmed). The two-expo plan is reconfirmed on the Attend page: <cite index=\"28-1,28-2\">Join us for a 2027 West Coast Homesteading Expo! We will be offering two expos in 2027 and invite you to join us.</cite> The Vancouver expo will offer the same core format: <cite index=\"25-8,25-9\">We are excited to share micro farming, urban gardening and farming, and homesteading at any scale. The expo will feature workshops, live demonstrations, vendors with products to support homesteading, expert exhibitors, livestock/backyard animals, and more.</cite> Producer unchanged: <cite index=\"9-13\">Nadine is the owner of Bird + Duck Media, Director of the West Coast Homesteading Expo as well as the Director of the Tacoma Wedding + Event Show.</cite> Family admission rules remain confirmed for both editions: <cite index=\"25-11,25-12,25-13\">Family Tickets provide admissions for 4 people. All children 12 and under are free. Children must be supervised at all times.</cite> The 2026 event remains a confirmed PAST event: <cite index=\"32-8,32-9,32-10,32-11,32-12,32-13,32-14,32-15,32-16\">The West Coast Homesteading Expo features speakers, demonstrations, and vendors focused on self-sufficiency, gardening, livestock, and sustainable living practices. Workshops and exhibits bring together regional homesteading experts and educators. Sat., Mar. 14\u2013Sun., Mar. 15; 10 a.m.\u20135 p.m. (Sat.), 10 a.m.\u20133 p.m. (Sun.); Washington State Fair Events Center; 110 9th Ave. SW, Puyallup</cite>. 2027 ticket pricing and 2027 registration URLs are still NOT published; the 2026 TicketSpice URL and 2026 pricing are retained for historical reference only. RECOMMENDATION: treat wche-2026 as a past event; create wche-2027-puyallup (Puyallup, WA State Fair Event Center, March 20\u201321, 2027) AND wche-2027-vancouver (Clark County Event Center, Vancouver, WA, date TBD); monitor for the Vancouver date and 2027 ticketing; do NOT create an Eastern WA record under Bird + Duck.",
       "registration_url": "https://birdandduckmedia.ticketspice.com/west-coast-homesteading-expo-2026"
     },
     {
@@ -402,7 +406,7 @@
         "start": "2026-02-27",
         "end": "2026-02-28",
         "pre_event": null,
-        "notes": "EVENT HAS CONCLUDED (took place Feb 27-28, 2026; research date is 2026-07-01). Per Bridge View Center venue page: Speakers' Welcome begins 8:20 AM each day; Vendor Hall opens 9:30 AM each day; classes end 5:30 PM; workshops end 4:30 PM. Ticket sales are now closed on the TicketSpice registration page."
+        "notes": "EVENT HAS CONCLUDED (took place Feb 27-28, 2026; research date is 2026-08-01). Per Bridge View Center venue page: Speakers' Welcome begins 8:20 AM each day; Vendor Hall opens 9:30 AM each day; classes end 5:30 PM; workshops end 4:30 PM. Ticket sales are closed on the TicketSpice registration page ('Our ticket sales are closed for our 2026 Midwest Conference'). NOTE: The organizer website homepage now advertises a SUCCESSOR event \u2014 the HOI 2027 Expo & Midwest Conference, February 26-27, 2027, at Bridge View Center, Ottumwa, IA ('More Information to Come')."
       },
       "location": {
         "venue": "Bridge View Center",
@@ -411,7 +415,7 @@
         "region": "Midwest"
       },
       "url": "https://homesteadersofiowa.com/",
-      "description": "The 2026 Homesteaders of Iowa Expo & Midwest Conference is a family-friendly two-day event bringing together experts, educators, and families for hands-on learning and community building. It features 30 educational classes covering gardening, livestock, food preservation, preparedness, herbalism, and sustainable living, plus 24 hands-on workshops. All activities are held indoors at the Bridge View Center, with a vendor hall, live demonstrations, and national and local speakers.",
+      "description": "The 2026 Homesteaders of Iowa Expo & Midwest Conference was a family-friendly two-day event that brought together experts, educators, and families for hands-on learning and community building. It featured 30 educational classes covering gardening, livestock, food preservation, preparedness, herbalism, and sustainable living, plus 24 hands-on workshops. All activities were held indoors at the Bridge View Center, with a vendor hall open to the public, live demonstrations, and national and local speakers. The event has concluded; the organizer has announced a 2027 edition scheduled for February 26-27, 2027, at the same venue.",
       "speakers": [
         "David Ford (regenerative living/homesteading; Jefferson County, Iowa; former Navy electronics technician/telecom engineer; workshop 'Fungi Fundamentals: Growing Mushrooms')",
         "Jeremy Skinner (Event Chaplain; leads 'Faith and the Homestead' panel)",
@@ -426,7 +430,7 @@
         "Sarah Severson (\"Dough Not Panic: Bread Made Easy\" workshop)",
         "William Burgmeier (\"Cracking the Code on Your Hatching Knowledge\" workshop)"
       ],
-      "ticket_price": "Ticket sales now CLOSED (event concluded). During the sale period: one price covered both days, with a 10% early bird discount through December 25th. Vendor-hall-only 'shop' day pass was $5 per person (ages 15+) at the door (no entry to speakers or workshops). Vendor area was open to the public this year.",
+      "ticket_price": "Ticket sales now CLOSED (event concluded). During the sale period: one price covered both days, with a 10% early bird discount through December 25th. Vendor-hall-only 'shop' day pass was $5 per person (ages 15+) at the door (no entry to speakers or workshops). Vendor booths were $200 per 10'x10' booth (1 table, 2 chairs); electricity available for $35 per vendor. Vendor area was open to the public this year.",
       "highlights": [
         "Midwest focus",
         "hands-on learning",
@@ -435,9 +439,11 @@
         "24 hands-on workshops",
         "national and local speakers",
         "$5 vendor-hall-only day pass option",
+        "$200 per 10'x10' vendor booth ($35 electricity add-on)",
         "family-friendly",
         "expanded workshops based on attendee requests",
-        "topics include solar array construction, soap making, bread baking, mushroom cultivation, seed starting, and poultry hatching"
+        "topics include solar array construction, soap making, bread baking, mushroom cultivation, seed starting, and poultry hatching",
+        "SUCCESSOR EVENT: HOI 2027 Expo & Midwest Conference, Feb 26-27, 2027 (Bridge View Center, Ottumwa, IA)"
       ],
       "source": "seed",
       "verified": true,
@@ -458,8 +464,8 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-07-01",
-      "changes_noted": "RE-VERIFIED on 2026-07-01. MAJOR STATUS CHANGE: this event has now CONCLUDED \u2014 it took place Feb 27-28, 2026, which is in the past relative to the current research date (2026-07-01). The TicketSpice registration page now displays 'Our ticket sales are closed for our 2026 Midwest Conference.' An Instagram post confirmed the expo happening ('It's HERE... THIS...'). Recommend changing status from 'confirmed' to 'completed'/'past.' NEW SPEAKERS/WORKSHOP LEADERS identified from the Ottumwa Radio press release not previously captured: John Ewing ('Watt's Up? Build a Solar Array'), Sarah Severson ('Dough Not Panic: Bread Made Easy'), and William Burgmeier ('Cracking the Code on Your Hatching Knowledge'). CORRECTION: David Ford's workshop is 'Fungi Fundamentals: Growing Mushrooms' per the press release (the seed record's 'Entangled and Unplugged' title was not corroborated in current sources). Pearlicia Cloke's workshop full title is 'The Soap Opera: Drama-Free Soap Making'; Lynford Miller's is 'Sow What?! Seed Starting.' The vendor page confirms the vendor area was open to the public this year. All core facts hold: dates, venue (Bridge View Center, Ottumwa, IA), Midwest homesteading focus, scale (30 classes, 24 workshops), $5 shop pass, and the 8:20 AM speakers' welcome / 9:30 AM vendor hall schedule. No cancellation or postponement occurred \u2014 the event ran as planned.",
+      "last_researched": "2026-08-01",
+      "changes_noted": "RE-VERIFIED on 2026-08-01. Status remains CONCLUDED/PAST \u2014 the 2026 event took place Feb 27-28, 2026. No cancellation or postponement occurred; it ran as planned. KEY NEW DEVELOPMENT: The organizer homepage (homesteadersofiowa.com) now advertises a successor event \u2014 the HOI 2027 Expo & Midwest Conference, February 26-27, 2027, at Bridge View Center, Ottumwa, IA, with 'More Information to Come.' If Farm2Table wants an active/upcoming record, a new event entry (e.g. 'hoi-midwest-2027') should be created. TicketSpice registration page still confirms 2026 ticket sales are closed. All previously captured 2026 facts hold: dates, venue, Midwest homesteading focus, scale (30 classes, 24 workshops), $5 shop pass, 8:20 AM speakers' welcome / 9:30 AM vendor hall schedule, and the workshop lineup (John Ewing \u2013 'Watt's Up? Build a Solar Array'; Pearlicia Cloke \u2013 'The Soap Opera: Drama-Free Soap Making'; Sarah Severson \u2013 'Dough Not Panic: Bread Made Easy'; William Burgmeier \u2013 'Cracking the Code on Your Hatching Knowledge'; David Ford \u2013 'Fungi Fundamentals: Growing Mushrooms'; Lynford Miller \u2013 'Sow What?! Seed Starting'). ADDITIONAL DETAIL captured: vendor booths were $200 per 10'x10' (1 table, 2 chairs) with $35 electricity option; vendor setup was Thursday, Feb 26. Davis County participants noted in local coverage included Joe Dotterer (The Red Shed), Stephen Yoder (Rolling Acres Produce Supplies), and Lori Fenton (speaker).",
       "registration_url": "https://homesteadersofiowa.com"
     },
     {
@@ -470,7 +476,7 @@
         "start": "2026-09-04",
         "end": "2026-09-05",
         "pre_event": null,
-        "notes": "Friday-Saturday. Re-confirmed 2026-07-15 via official SimpleTix listing, which states the event runs 'on Sept. 4-5, 2026' and lists the calendar block 2026-09-04 13:00 to 2026-09-05 22:00 UTC. Independently confirmed Sept 4-5, 2026 by Homestead Living's 2026 events roundup (#19 on their list) and by Arkansas Homesteader's event listing (updated ~June 11, 2026). Official Facebook posts also reference 'Sept 4-5, 2026' and tickets now on sale. 2026-specific gate/open times still not republished on the official 2026 page."
+        "notes": "Friday-Saturday. Re-confirmed 2026-08-01. Official SimpleTix listing states the event is 'on Sept. 4-5, 2026' with calendar block 2026-09-04 13:00 to 2026-09-05 22:00 UTC. Independently confirmed Sept 4-5, 2026 by Homestead Living's 2026 events roundup (#19 on their list), Arkansas Homesteader's listing (updated ~June 11, 2026), and official Facebook posts referencing the 'September 4-5, 2026' event with tickets on sale. Note: third-party aggregator allevents.in lists a Friday 8:00 AM start, but 2026-specific gate/open times are still not republished on the official 2026 page."
       },
       "location": {
         "venue": "Ellis O. Jackson Park / Webster County Fairgrounds, 614 North Marshall Street",
@@ -515,8 +521,8 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-07-15",
-      "changes_noted": "RE-CONFIRMED 2026-07-15, no material changes from prior record (2026-07-01). Dates confirmed Sept 4-5, 2026 (Fri-Sat) per official SimpleTix listing ('on Sept. 4-5, 2026'; calendar block 2026-09-04 13:00 to 2026-09-05 22:00 UTC). Venue confirmed unchanged: Ellis O. Jackson Park/Webster County Fairgrounds, 614 North Marshall Street, Marshfield, MO 65706. Description confirmed unchanged: two-day, in-person educational resource fair featuring 40+ teaching sessions, demonstrations, workshops, food trucks, and a large homesteading vendor marketplace, running since 2019. Full ticket structure re-confirmed on SimpleTix (GA $50; GA+video $69; VIP $249; Kids 11-under VIP $199; kids 11 and under free but must have a ticket) with all fine-print terms intact. SPEAKERS STILL NOT PUBLISHED FOR 2026: the official 2026 page still only teases 'WE CAN'T WAIT FOR YOU TO SEE ALL OF OUR SPEAKERS FOR 2026! HERE ARE JUST A FEW!' with no names listed, so the speakers array remains empty. (Note: RuthAnn Zimmerman appears in an Ozarks Facebook 'gardening expert spotlight' post, but she is not listed as a confirmed 2026 speaker on the official page and also appears in other 2026 event lineups, so she is NOT added as a confirmed 2026 speaker.) Official site footer still reads 'Copyright \u00a9 2025,' indicating the site is not yet fully updated for 2026. Official Facebook page (@ozarkshomesteading) confirmed active with 26,317 likes (up from 26,189 at prior research on 2026-07-01), and now shows dated posts confirming tickets are on sale for the Sept 4-5, 2026 event. Prior-year attendance (~3,000) and 150+/160+ vendor figures unchanged. Registration/ticket URL unchanged and live.",
+      "last_researched": "2026-08-01",
+      "changes_noted": "RE-CONFIRMED 2026-08-01, no material changes from prior record (2026-07-15). Dates confirmed Sept 4-5, 2026 (Fri-Sat) per official SimpleTix listing ('on Sept. 4-5, 2026'; calendar block 2026-09-04 13:00 to 2026-09-05 22:00 UTC). Venue confirmed unchanged: Ellis O. Jackson Park/Webster County Fairgrounds, 614 North Marshall Street, Marshfield, MO 65706. Description confirmed unchanged: two-day, in-person educational resource fair featuring 40+ teaching sessions, demonstrations, workshops, food trucks, and a large homesteading vendor marketplace, running since 2019. Full ticket structure re-confirmed on SimpleTix (GA $50; GA+video $69; VIP $249; Kids 11-under VIP $199; kids 11 and under free but must have a ticket) with all fine-print terms intact. SPEAKERS STILL NOT PUBLISHED FOR 2026: the official 2026 page still only teases 'WE CAN'T WAIT FOR YOU TO SEE ALL OF OUR SPEAKERS FOR 2026! HERE ARE JUST A FEW!' with no names listed, so the speakers array remains empty. (Note: Ruthann/RuthAnn Zimmerman appears in an Ozarks Facebook 'gardening expert spotlight' post, but she is NOT listed as a confirmed 2026 speaker on the official page and she also appears in other 2026 event lineups \u2014 e.g. the Okie Homesteading Expo, where she is billed alongside keynote Dr. Temple Grandin \u2014 so she is NOT added as a confirmed 2026 speaker.) Official site footer still reads 'Copyright \u00a9 2025,' indicating the site is not yet fully updated for 2026. Official Facebook page (@ozarkshomesteading) confirmed active with dated posts confirming tickets are on sale for the Sept 4-5, 2026 event ('GOOD MORNING! Tickets for the Ozarks Homesteading Expo September 4-5, 2026 are now...'). Founder/organizer Cheryl Franklin (per Sept 2025 Marshfield Mail coverage). Prior-year attendance (~3,000) and 150+/160+ vendor figures unchanged. Registration/ticket URL unchanged and live.",
       "registration_url": "https://www.simpletix.com/e/2026-ozarks-homesteading-expo-marshfield-m-tickets-253685",
       "ticket_url": "https://www.simpletix.com/e/2026-ozarks-homesteading-expo-marshfield-m-tickets-253685"
     },
@@ -760,7 +766,7 @@
         "start": "2026-05-15",
         "end": "2026-05-16",
         "pre_event": null,
-        "notes": "Two-day event confirmed May 15\u201316, 2026 by the official mcagexpo.com/homesteading-summit page, ND Tourism, Minot Daily News, The Roundup (April 2026), ND Living, Homestead Living's 2026 events roundup, Abundant Permaculture (the Rhodes' official tour page), and the 'Living in McKenzie County' podcast (Daniel Stenberg). No cancellation or postponement found."
+        "notes": "Two-day event confirmed May 15\u201316, 2026 by the official mcagexpo.com/homesteading-summit page, ND Tourism, Minot Daily News (May 2026 coverage), The Roundup (April 2026), ND Living, Homestead Living's 2026 events roundup, and the Call to Farms podcast. NOTE: As of this research date (2026-08-01), the event has already taken place \u2014 it occurred nearly three months ago. No cancellation, postponement, or date change was found; the event proceeded as scheduled. Daily hours remain UNCONFIRMED \u2014 ND Tourism still shows placeholder times ('May 15, 2026 12:00am \u00b7 May 16, 2026 12:00am'), and no source verifies the previously-listed 8:30 a.m.\u20135 p.m. daily schedule."
       },
       "location": {
         "venue": "McKenzie County Ag Expo",
@@ -769,14 +775,14 @@
         "region": "Midwest"
       },
       "url": "https://www.mcagexpo.com/homesteading-summit",
-      "description": "A dynamic two-day event where self-sufficiency enthusiasts and newcomers gather to explore sustainable living. Mission: to inspire, educate, and connect people through the exchange of knowledge and skills in self-sufficiency, soil health, food production and preservation, conservation, community building, healthy living, and traditional skills. Features keynote speakers, hands-on demonstrations, informational talks, and a wide variety of exhibitors. Tailored to the Upper Midwest's prairie climate. RV camping available on-site at the McKenzie County Ag Expo, plus 800+ area hotel rooms and camping at Theodore Roosevelt National Park.",
+      "description": "A dynamic two-day event where self-sufficiency enthusiasts and newcomers gather to explore sustainable living. Mission: to inspire, educate, and connect people through the exchange of knowledge and skills in self-sufficiency, soil health, food production and preservation, conservation, community building, healthy living, and traditional skills. Features keynote speakers, workshops, hands-on demonstrations, informational talks, and a wide variety of exhibitors. Connected homesteaders, farmers, gardeners, and makers from across the Upper Midwest, tailored to the prairie climate. RV camping available on-site at the McKenzie County Ag Expo, plus 800+ area hotel rooms and camping at Theodore Roosevelt National Park and the National Grasslands.",
       "speakers": [
         "Justin Rhodes",
         "Rebekah Rhodes",
         "Tim Eng",
         "Sophia Eng"
       ],
-      "ticket_price": "$65 general admission; $10 early-bird discount for registrations before May 1, 2026 (per The Roundup)",
+      "ticket_price": "$65 general admission; $10 early-bird discount for registrations before May 1, 2026 (re-confirmed via The Roundup, April 2026)",
       "highlights": [
         "Justin & Rebekah Rhodes (headliners)",
         "Tim & Sophia Eng (Call to Farms podcast hosts)",
@@ -788,6 +794,7 @@
         "healthy living",
         "traditional skills",
         "hands-on demonstrations",
+        "workshops",
         "keynote speakers & informational talks",
         "exhibitor booths",
         "RV camping on-site",
@@ -812,8 +819,8 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-07-01",
-      "changes_noted": "RE-VERIFIED on 2026-07-01. All record details confirmed accurate and unchanged. Event remains on-schedule for May 15\u201316, 2026 at the McKenzie County Ag Expo, Watford City, ND. Confirmed via the official event page (mcagexpo.com/homesteading-summit), ND Tourism, Minot Daily News, The Roundup (April 2026), ND Living, the 'Living in McKenzie County' podcast (Daniel Stenberg), and Homestead Living's 2026 events roundup. Also independently listed on the Rhodes' official Abundant Permaculture 2026 tour page. NO cancellation or postponement found. Speakers (Justin & Rebekah Rhodes; Tim & Sophia Eng), $65 ticket price with $10 early-bird before May 1, and registration URL all re-confirmed. Sponsored by the nonprofit McKenzie County Ag Expo Foundation; committee: Daniel Stenberg, Ryan Odenbach, Rebekah Engebretson, Renae Mogen, Kylee Roff, Chris Kubal. Contact: Daniel Stenberg, 701-204-1554. NOTE: Previously the record noted the 8:30 a.m.\u20135 p.m. daily schedule as confirmed, but this daily time was NOT verifiable in the current search results (sources list dates but not confirmed daily hours \u2014 ND Tourism shows a placeholder '12:00am to 12:00am'); daily hours should be treated as UNCONFIRMED pending a schedule page. DISCREPANCY UPDATE on adjacent same-venue event: the McKenzie County Fair is now listed by the official mcagexpo.com homepage as June 17\u201320, 2026 (theme 'Stars, Stripes, and Fair Nights'), with Bares, Broncs & Bulls rodeo on June 20; this supersedes the earlier Minot Daily News June 16\u201320 figure. This does not affect the Summit record.",
+      "last_researched": "2026-08-01",
+      "changes_noted": "RE-VERIFIED on 2026-08-01. All core record details remain confirmed and unchanged. IMPORTANT STATUS NOTE: The event has now PASSED \u2014 it was held May 15\u201316, 2026, roughly three months before this research date. No cancellation or postponement was ever found; sources indicate it proceeded as a first-annual ('new regional conference') event. Confirmed via the official event page (mcagexpo.com/homesteading-summit), ND Tourism, Minot Daily News (both April and May 2026 articles), The Roundup (April 22, 2026), ND Living ('Simple by design'), Homestead Living's 2026 events roundup, and the Call to Farms podcast (Tim & Sophia Eng). Speakers (Justin & Rebekah Rhodes; Tim & Sophia Eng), $65 ticket price with $10 early-bird before May 1, and registration URL (tickets.mcagexpo.com/p/tickets) all re-confirmed. Sponsored by the nonprofit McKenzie County Ag Expo Foundation; committee: Daniel Stenberg, Ryan Odenbach, Rebekah Engebretson, Renae Mogen, Kylee Roff, Chris Kubal. CAVEATS: (1) Daily hours (previously 8:30 a.m.\u20135 p.m.) remain UNCONFIRMED \u2014 ND Tourism still displays placeholder '12:00am' times and no source verifies specific daily hours. (2) The official mcagexpo.com/homesteading-summit page still contains unfinished placeholder/Lorem ipsum text in some sections, suggesting the page was not fully built out. (3) No post-event recap, attendance figures, or 2027 date announcement was found \u2014 recommend a future check for whether this becomes a recurring annual event. DISCREPANCY on adjacent same-venue event persists: Minot Daily News (April 2026) lists the McKenzie County Fair as June 16\u201320, 2026, while the official mcagexpo.com homepage previously listed June 17\u201320 \u2014 this does not affect the Summit record.",
       "registration_url": "https://tickets.mcagexpo.com/p/tickets",
       "ticket_url": "https://tickets.mcagexpo.com/p/tickets"
     },
@@ -825,7 +832,7 @@
         "start": "2026-04-17",
         "end": "2026-04-18",
         "pre_event": null,
-        "notes": "Confirmed via official events page (Apr 17, 2026, 12:00 PM start at Conway Expo Center) and Kerr Center listing. Multiple third-party homesteading event roundups (Homestead Living, The Daily Homesteader) list April 17\u201318, 2026 at Conway Expo Center. Daily hours (Fri 12\u20138 PM, Sat 9 AM\u20135 PM) previously confirmed via vendor listing; not re-surfaced in current search but no contradicting info found. An allevents.in listing references a '2nd Annual' conference in April 2027, indicating 2026 is the inaugural event."
+        "notes": "Re-confirmed April 17-18, 2026 at Conway Expo Center via official events/tickets page (Apr 17, 2026, 12:00 PM start; 2505 E Oak St, Conway, AR 72032), official sponsors/vendors page ('April 17th & 18th at the Conway Expo Center'), Kerr Center listing, and Homestead Living roundup (April 17-18, 2026, Conway, AR). NOTE: A TikTok post referencing 'April 16 / April 17, 9-5pm' pertains to the 2ND ANNUAL (2027) conference \u2014 the post explicitly discusses working on the '2nd annual' event with Joel Salatin for 'TWO days next year' \u2014 and does NOT change the 2026 dates. An allevents.in listing separately confirms a '2nd Annual Central Arkansas Homestead Conference' on Fri Apr 16, 2027, reinforcing that the 2026 edition is the inaugural/1st annual event. Daily hours (Fri 12-8 PM, Sat 9 AM-5 PM) not re-surfaced this cycle but no contradicting info found."
       },
       "location": {
         "venue": "Conway Expo & Event Center",
@@ -877,8 +884,8 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-07-01",
-      "changes_noted": "RE-VERIFIED on 2026-07-01; no material changes since 2026-06-08. Dates April 17\u201318, 2026 at Conway Expo Center (2505 E Oak St, Conway, AR 72032) re-confirmed via official events page, Kerr Center listing, and multiple event roundups (Homestead Living, The Daily Homesteader). Keynote Joel Salatin (Polyface Farms) re-confirmed on official presenters page. 2-Day Expo all-access pass description confirmed on official events page. Vendors/sponsors re-confirmed: Bison Pumps (Conway, AR), Sweet T Farm (Ashley Thompson), PortaHut, Arkansas Beef Council, Simply Sid (Sidney), plus additional vendors now visible (Coop'd Up chicken coops, Black Cat Botanics, Pink Penelope plant shop, The Warrior's Provision freeze-dried goods, a Crow Mountain/Atkins AR apiary). NEW: An allevents.in listing references a '2nd Annual Central Arkansas Homestead Conference' for April 2027, confirming the 2026 event is the inaugural/1st annual edition. ticket_price REMAINS NULL \u2014 the official tickets page still lists no dollar amounts; it directs visitors to buy tickets but shows no prices in available results. REMINDER: ticket prices appearing in search results ($245/$345 belong to Homesteaders of America/Polyface; $80 belongs to Homesteading Life Conference in Vandalia, MO; $49-off early-bird and family passes belong to the UNRELATED Modern Homesteading Conference in Coeur d'Alene, ID, June 26\u201327/28, 2026) \u2014 do NOT apply any of these to this event. Organizer contact unchanged: 501-519-2679. Status can be advanced from 'pending' to 'confirmed' given strong multi-source verification.",
+      "last_researched": "2026-08-01",
+      "changes_noted": "RE-VERIFIED 2026-08-01; NO MATERIAL CHANGES since 2026-07-01. Dates April 17-18, 2026 at Conway Expo Center re-confirmed via official events page, official sponsors page ('April 17th & 18th'), Kerr Center listing, and Homestead Living roundup. Keynote Joel Salatin (Polyface Farms) re-confirmed on official presenters page and Kerr Center listing. Organizer contact unchanged (Robbie & Sonya Ryburn of The Wild Huckleberry; phone 501-519-2679; email info@centralarhomesteading.com). Arkansas Shepherds Association (ASA) and sponsors Sweet T Farm (Ashley Thompson), Bison Pumps (Conway, AR), Simply Sid (Sidney) re-confirmed on official vendors page. NEW OBSERVATION: A TikTok post shows '2nd annual' (2027) conference planning underway with Joel Salatin slated for TWO days, listing April 16-17 hours 9-5 \u2014 these dates belong to the 2027 event, NOT 2026; do not apply to this record. ticket_price REMAINS NULL \u2014 official tickets page still shows no dollar amount (directs to buy tickets but no price surfaced). REMINDER (unchanged): ticket figures in search results belong to OTHER events \u2014 $50/$99/$0-15 = Homesteaders of America 2026; $149/$49/$399/$129 early-bird = Modern Homesteading Conference (Coeur d'Alene, ID, June 26-27/28, 2026); $245 = HOA 'Homestead in a Weekend'; Eventbrite 'Tsunami Homesteading' Joel Salatin workshop is in St. Francis, WI \u2014 NONE apply to this Conway, AR event. Status can be advanced from 'pending' to 'confirmed' given strong multi-source verification.",
       "registration_url": "https://www.centralarhomesteading.com/tickets"
     },
     {
@@ -889,7 +896,7 @@
         "start": "2026-04-24",
         "end": "2026-04-26",
         "pre_event": null,
-        "notes": "Confirmed April 24\u201326, 2026 by the official EWHE site, Omak Chronicle (Feb 2026), KKRV radio, and event listings. Friday April 24: a special homeschool/kids event runs 8 a.m.\u20131 p.m., gates open to the public at 11 a.m., vendors and speakers all day, family dance 8\u201310 p.m. Saturday: booths/presentations during the day. Sunday April 26: pancake breakfast 9:30 a.m., church 11 a.m., keynote (Larry Littrell) 12:15 p.m., pie social 2 p.m. Food and coffee vendors on site all weekend. NOTE: As of the research date (June 1, 2026), this event has already occurred; Facebook posts reference it in the past tense ('looking forward to next year')."
+        "notes": "Confirmed April 24\u201326, 2026 by the official EWHE Google Sites page, Omak Chronicle (Feb 2, updated Feb 3, 2026), KKRV radio listing, and Homestead Living's 2026 events roundup. Held at the Okanogan County Fairgrounds. Friday April 24: gates open to the public at 11 a.m. with vendors and speakers all day, plus a family dance 8\u201310 p.m.; Friday also featured a homeschool/kids day with hands-on activities. Saturday April 25: booths, demos, and presentations. Sunday April 26: pancake breakfast, church, Larry Littrell keynote, and pie social. EVENT HAS CONCLUDED: As of the research date (2026-08-01), this event is well in the past (it ran in April 2026). Official Facebook activity references it in the past tense ('Great event!! Already looking forward to next year!!!'). This record should be marked completed, not upcoming."
       },
       "location": {
         "venue": "Okanogan County Fairgrounds (175 Rodeo Trail)",
@@ -898,21 +905,24 @@
         "region": "Northwest"
       },
       "url": "https://sites.google.com/view/ewhomesteadingexpo",
-      "description": "Second annual Eastern Washington Homesteading Expo, a weekend of hands-on learning, skill demonstrations, expert speakers, and vendors covering gardening, pressure canning, solar power, soap making, medicinal herbs, animal processing (chicken/rabbit/pig), dairy basics, fermenting, freeze drying, cottage licensing, livestock guardian dogs, and sourdough. Founded in 2025 by Susan Cooksey of Palmer Lake Homestead. The inaugural 2025 event drew 26 vendors, 25+ presentations from 19 presenters, and an estimated 350 adults plus children. The 2026 planning group includes Cooksey, Karla Stucker, Jerian Ashley, Tami Brathovde, Yolanda Leffler, and Ed and Rachel Lawrence. Family-friendly with kids events, an animal petting area, a family dance, and Sunday pancake breakfast, church service, and pie social. Contact: ewhomesteadingexpo@gmail.com, (509) 429-2142.",
+      "description": "Second annual Eastern Washington Homesteading Expo (EWHE), theme 'Bloom Where You're Planted,' a weekend of hands-on learning, skill demonstrations, expert speakers, and vendors covering gardening, pressure canning, solar power, soap making, medicinal herbs, animal processing (chicken/rabbit/pig), dairy basics, fermenting, freeze drying, cottage licensing, livestock guardian dogs, and sourdough. Founded in 2025 by Susan Cooksey of Palmer Lake Homestead, a former classroom teacher raised on a family farm near Palmer Lake in northern Okanogan County. The inaugural 2025 event drew 26 vendors, 25+ presentations from 19 presenters, and an estimated 350+ adults plus children. Karla Stucker helped plan and organize the first event. Family-friendly with a Friday homeschool/kids day, an animal petting area, a family dance, and Sunday pancake breakfast, church service, and pie social. Note: only trained service animals permitted inside (no pets or emotional support animals). Contact: ewhomesteadingexpo@gmail.com, (509) 429-2142 (Susan). Official site: EWHomesteadingExpo.com / sites.google.com/view/ewhomesteadingexpo.",
       "speakers": [
-        "Larry Littrell (keynote \u2014 intentional/small-space homesteading; Sunday 12:15 p.m.)",
-        "Additional presenter speaking on livestock guardian dogs and sourdough (name not confirmed in sources)"
+        "Larry Littrell (keynote \u2014 intentional/small-space homesteading; affiliated with Legacy Homesteads; lifelong homesteader and relocation specialist)",
+        "Presenter speaking on livestock guardian dogs and sourdough (name not confirmed in sources \u2014 the AllEvents listing was written in first person by this presenter but did not include a name)"
       ],
-      "ticket_price": "No published dollar amount found; sources reference early-bird tickets sold via Tixtree. Ticket presale page also seen at https://www.tixtree.com/e/ewhe-ticket-pre-sale-0b8f2a8a4d2c",
+      "ticket_price": "No published dollar amount confirmed. Sources reference early-bird tickets sold via Tixtree (presale page: https://www.tixtree.com/e/ewhe-ticket-pre-sale-0b8f2a8a4d2c). Specific price not verified \u2014 left descriptive, not fabricated.",
       "highlights": [
-        "vendors and food/coffee vendors all weekend",
+        "theme: 'Bloom Where You're Planted'",
+        "vendors and food vendors all weekend",
         "family dance (Fri 8-10pm)",
         "expert speakers and live skill demonstrations",
-        "homeschool/kids day (Friday 8am-1pm)",
+        "homeschool/kids day (Friday)",
         "animal petting area",
         "Sunday pancake breakfast, church service, keynote, and pie social",
         "Larry Littrell keynote on small-space/intentional homesteading",
-        "community / self-sufficiency focus"
+        "Sustainable Living Giveaway",
+        "community / self-sufficiency focus",
+        "only trained service animals permitted inside"
       ],
       "source": "seed",
       "verified": true,
@@ -933,8 +943,8 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-02",
-      "changes_noted": "RE-CONFIRMED and expanded. Verified via official site (sites.google.com/view/ewhomesteadingexpo), Omak Chronicle (Feb 2, updated Mar 20, 2026), KKRV radio listing, Homestead Living 2026 events roundup, and the official Facebook page (61573023031080). NEW THIS RESEARCH: (1) Full Sunday schedule added \u2014 pancake breakfast 9:30am, church 11am, Larry Littrell keynote 12:15pm, pie social 2pm. (2) Friday homeschool event time clarified as 8am\u20131pm. (3) Additional unnamed speaker confirmed presenting on livestock guardian dogs and sourdough (listing did not give a name, so left descriptive \u2014 not fabricated). (4) Confirmed planning committee members (Cooksey, Stucker, Ashley, Brathovde, Leffler, Lawrences). (5) Contact info confirmed: ewhomesteadingexpo@gmail.com / (509) 429-2142. (6) A second Tixtree presale URL surfaced via Facebook. STILL NOT CONFIRMED: specific ticket dollar amounts \u2014 left descriptive, not fabricated. IMPORTANT FLAG: today's date is 2026-06-01, AFTER the event. The event appears to have already occurred (Facebook activity references it in the past tense). RECOMMEND: replace generic facebook.com URL with the official Google Sites page or specific FB page; update status from 'pending' to reflect that the event has concluded (e.g. 'completed') rather than 'active/upcoming'; do NOT post the upcoming-event social copy as written since the date has passed.",
+      "last_researched": "2026-08-01",
+      "changes_noted": "RE-CONFIRMED. All core details verified against the official Google Sites page, Omak Chronicle (Feb 2026), KKRV radio, Homestead Living 2026 roundup, and the official Facebook page (61573023031080). CONFIRMED THIS RESEARCH: (1) Event theme is 'Bloom Where You're Planted.' (2) Larry Littrell keynote confirmed via official site and cross-referenced via West Coast Homesteading Expo bio (affiliated with Legacy Homesteads; 40+ years experience; relocation specialist). (3) Second presenter on livestock guardian dogs and sourdough confirmed via AllEvents listing (written in first person, no name given \u2014 left descriptive, NOT fabricated). (4) Service-animals-only policy noted. (5) Sustainable Living Giveaway mentioned. (6) Contact info reconfirmed. STILL UNCONFIRMED: specific ticket dollar amounts. IMPORTANT STATUS FLAG: Today's date is 2026-08-01, roughly 3+ months AFTER the event. The expo has CONCLUDED \u2014 official Facebook posts reference it in the past tense. RECOMMEND: change status from 'pending' to 'completed'; do NOT publish the upcoming-event social copy (dates have passed); watch for a 2027 (3rd annual) announcement, which organizers/attendees have signaled interest in but which is not yet posted.",
       "registration_url": "https://www.tixtree.com/o/eastern-washington-homesteading-expo-3d0f8c42e75e",
       "ticket_url": "https://www.tixtree.com/e/eastern-washington-homesteading-expo-5349ae077f98"
     },
@@ -946,7 +956,7 @@
         "start": "2026-09-25",
         "end": "2026-09-26",
         "pre_event": null,
-        "notes": "Start date 2026-09-25 confirmed via TravelOK (Oklahoma's official tourism site) and a Facebook event listing at Southeast Expo Center. End date (09-26) still NOT independently re-confirmed by current sources \u2014 carried from flyer record. 2025 edition ran Sept 26\u201327, 9 am\u20136 pm each day; 2026 daily hours not confirmed."
+        "notes": "Start date 2026-09-25 confirmed via TravelOK (Oklahoma's official tourism site, listing event.52421) and the dedicated Facebook event listing at Southeast Expo Center. TravelOK's listing title still reads only 'Sep 25, 2026' \u2014 end date (09-26) remains NOT independently re-confirmed by any current source; carried from flyer record. 2025 edition ran Sept 26\u201327, 9 am\u20136 pm daily (per petrichorliving); 2026 daily hours still not confirmed. TicketLeap page and official site did not expose explicit 2026 dates."
       },
       "location": {
         "venue": "Southeast Expo Center",
@@ -955,11 +965,11 @@
         "region": "South"
       },
       "url": "https://www.facebook.com/profile.php?id=61556712466334",
-      "description": "Bringing the Past to the Present, for the Future. A self-sufficiency event featuring guest speakers and demonstrations on running a self-sustaining homestead and/or farm, with prepared foods, live music, and vendor booths of handcrafted artisan goods. Run by a 501(c)(3) nonprofit (Dewayne Hall); motto 'Together we grow.' Stated goal: to teach necessary skills, provide information, and share knowledge while growing a community of like-minded people working toward living self-sustainably.",
+      "description": "Bringing the Past to the Present, for the Future. A self-sufficiency event featuring guest speakers and demonstrations on running a self-sustaining homestead and/or farm, with prepared foods, live music, and vendor booths of handcrafted artisan goods. Run by a 501(c)(3) nonprofit (Dewayne Hall); motto 'Together we grow, because we are all we have.' Stated goal: to teach necessary skills, provide information, and share knowledge that others have learned along the way, while growing a community of like-minded people who can become partners on their way to living self-sustainably.",
       "speakers": [],
-      "ticket_price": "Adult $15.00/day; Child 12 & under $5.00/day; 5 & under free (carried from flyer; 2026-specific pricing still NOT independently re-confirmed \u2014 2025 adult entry was confirmed at $15/day via petrichorliving listing, but per-day/child pricing for 2026 not verified on official site or TicketLeap)",
+      "ticket_price": "Adult $15.00/day; Child 12 & under $5.00/day; 5 & under free (carried from flyer; 2026-specific pricing STILL NOT independently re-confirmed. 2025 adult entry was confirmed at $15/day via petrichorliving; per-day/child pricing for 2026 not exposed on official site or TicketLeap listing)",
       "highlights": [
-        "dynamic speakers",
+        "guest speakers",
         "skilled demonstrations",
         "real talk sessions",
         "vendors & giveaways",
@@ -989,9 +999,9 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-07-01",
+      "last_researched": "2026-08-01",
       "registration_url": "https://events.ticketleap.com/tickets/oklahomahomesteadrendezvous/oklahoma-homestead-rendezvous",
-      "changes_noted": "CONFIRMED: Event still on for September 2026 in McAlester, OK at Southeast Expo Center; start date 2026-09-25 confirmed via TravelOK and a dedicated Facebook event listing (facebook.com/events/southeast-expo-center/oklahoma-homestead-rendezvous/1272100237409482). CONFIRMED: Official website (oklahomahomesteadrendezvous.org) is live, run by 501(c)(3) nonprofit (Dewayne Hall). RESOLVED PHONE DISCREPANCY: Official website lists 801-949-8198 \u2014 recommend updating the on-record 801-949-8196 to 801-949-8198 (the official-site number). Confirmed org contact: PO Box 705, Hartshorne, OK 74547; okhomesteadrendezvous@yahoo.com. STILL UNCONFIRMED/FLAG: End date (09-26) and 2026 ticket prices not independently re-confirmed by current sources; TicketLeap page and official site did not expose explicit 2026 dates/prices. NOTE: 2025 edition was Sept 26\u201327, 9 am\u20136 pm daily, $15 adult entry (per petrichorliving listing) \u2014 useful for pattern but not a 2026 confirmation. NO speakers published for 2026 yet. CAUTION CONFIRMED: Do NOT confuse with the separate, larger 'Okie Homesteading Expo' (Pryor, OK, Mayes County Fairgrounds, March 20\u201321, 2026, $50 2-day ticket, keynote Dr. Temple Grandin) \u2014 a different event/organizer. NOTE: Facebook page could not be fully read (login-gated); details verified via TravelOK, official website, and Choctaw Country events listing instead."
+      "changes_noted": "CONFIRMED: Event still on for September 2026 in McAlester, OK at Southeast Expo Center. Start date 2026-09-25 re-confirmed via TravelOK (travelok.com/listings/view.profile/id.33810/event.52421, titled 'Oklahoma Homestead Rendezvous Sep 25, 2026') and the dedicated Facebook event listing (facebook.com/events/southeast-expo-center/oklahoma-homestead-rendezvous/1272100237409482). CONFIRMED: Official website (oklahomahomesteadrendezvous.org) is live, run by 501(c)(3) nonprofit (Dewayne Hall); Facebook page shows 1,008 likes, 91 talking about it. PHONE \u2014 RE-CONFIRMED CORRECTION: Official website lists 801-949-8198 (not the on-record 801-949-8196); recommend updating on-record number to 801-949-8198. Org contact confirmed: PO Box 705, Hartshorne, OK 74547; OKhomesteadrendezvous@yahoo.com. STILL UNCONFIRMED/FLAG: End date (09-26) NOT independently re-confirmed \u2014 TravelOK still shows only the single start date; 2026 ticket prices also not exposed on TicketLeap or official site (both carried from flyer/2025 data). NO speakers published for 2026 yet ('No posts found' on official site). Facebook profile URL (the on-record url) remains login-gated and could not be fully read \u2014 details verified via TravelOK, official website, Choctaw Country events listing, and petrichorliving instead. CAUTION RE-CONFIRMED: Do NOT confuse with the separate, larger 'Okie Homesteading Expo' (Pryor, OK, Mayes County Fairgrounds, March 20\u201321, 2026, $50 adult 2-day weekend pass / $15 child 6-17 / 5 & under free, keynote Dr. Temple Grandin + RuthAnn Zimmerman, 25+ speakers, 100+ vendors) \u2014 a completely different event and organizer (okiehomesteading.com, run by the Farnsworth and Pritchett families)."
     },
     {
       "id": "wapf-2026",
@@ -1001,7 +1011,7 @@
         "start": "2026-10-16",
         "end": "2026-10-18",
         "pre_event": null,
-        "notes": "Friday\u2013Sunday; confirmed on official wisetraditions.org site"
+        "notes": "Friday\u2013Sunday; confirmed on official wisetraditions.org and westonaprice.org/events. Homepage banner consistently reads 'OCTOBER 16\u201318, 2026 \u00b7 Join us October 16-18 in DC.'"
       },
       "location": {
         "venue": "Omni Shoreham Hotel",
@@ -1010,27 +1020,31 @@
         "region": "Northeast"
       },
       "url": "https://www.wisetraditions.org/",
-      "description": "The 26th annual Wise Traditions Conference by the Weston A. Price Foundation, held at the Omni Shoreham Hotel in Washington, DC. The event focuses on wise traditions for food, farming and the healing arts, typically attracting around 1,200 attendees, with roughly 40 speakers, about 75 exhibitors, and farm-to-table nutrient-dense meals.",
+      "description": "The annual Wise Traditions Conference by the Weston A. Price Foundation, held October 16\u201318, 2026 at the Omni Shoreham Hotel in Washington, DC. The event focuses on wise traditions for food, farming and the healing arts, typically attracting around 1,200 attendees, with roughly 45 speakers, about 75 exhibitors, and farm-to-table nutrient-dense meals. The Weston A. Price Foundation is a member-supported organization dedicated to restoring nutrient-dense foods to the table through education.",
       "speakers": [
         "Thomas Massie",
+        "Dr. Joseph Ladapo (keynote)",
+        "Molly Engelhart",
         "Joel Salatin",
         "Kate Tietje",
-        "Dr. Joseph Ladapo (keynote)",
-        "Mollie Engelhart",
-        "Kate Pope",
-        "Sally Fallon Morell"
+        "Catherine Austin Fitts",
+        "Thaddeus Owen",
+        "Dr. Natasha Campbell-McBride",
+        "Sally Fallon Morell",
+        "Dr. Bill Schindler"
       ],
-      "ticket_price": "Conference registration price not published on site as of research date; see wisetraditions.org. Discounted host-hotel room rate is $279 plus tax (book by September 24); special rates available for attendees 20 and under and a children's program for ages 3-12",
+      "ticket_price": "Conference registration price still not published on the official site as of research date. Per third-party listings, rates include conference meals with one-, two-, or three-day passes plus reductions for ages 20 and younger. See wisetraditions.org.",
       "highlights": [
-        "~40 speakers",
+        "~45 speakers (third-party listings cite 45; exhibit page cites ~1,200 attendees and ~75 exhibitors)",
         "~75 exhibitors",
-        "nutrient-dense food / farm-to-table meals",
+        "~1,200 typical attendance",
+        "five nutrient-dense, farm-to-table meals",
         "regenerative & grass-based farming",
         "healing arts",
         "Dr. Joseph Ladapo keynote on health freedom",
-        "children's program (ages 3-12) and youth rates (20 and under)",
-        "annual journal",
-        "membership community"
+        "children's program and youth rates (20 and under)",
+        "accessible venue (ramps, lifts, elevators, accessible guest rooms)",
+        "annual journal / membership community (~14,000\u201315,000 members)"
       ],
       "source": "verified",
       "verified": true,
@@ -1051,9 +1065,9 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-08",
+      "last_researched": "2026-08-01",
       "registration_url": "https://www.wisetraditions.org/",
-      "changes_noted": "Confirmed event still scheduled for October 16-18, 2026 at the Omni Shoreham Hotel (2500 Calvert Street NW, Washington, DC 20008). No cancellation or postponement found. NEW: Added confirmed partial speaker lineup \u2014 Dr. Joseph Ladapo is the keynote (health freedom), plus Thomas Massie, Joel Salatin, Kate Tietje, Mollie Engelhart, Kate Pope, and Sally Fallon Morell; site notes 34 additional speakers not yet listed. NEW: Host-hotel room rate of $279+tax (book by Sept 24) and $55/day valet parking confirmed; conference registration price itself still not publicly posted. NEW: Typical attendance figure on official site updated to ~1,200 (previously framed as 1,000). Children's program and youth rates noted. Active Facebook event/page exists (facebook.com/wisetraditions). NOTE: The /speakers, /schedule pages still display 2025 (Salt Lake City) content \u2014 full 2026 program not yet published. Could not independently confirm '26th Annual' numbering (2025 SLC was the 25th, so 2026 as 26th is consistent)."
+      "changes_noted": "CONFIRMED: Event still scheduled Oct 16\u201318, 2026 (Friday\u2013Sunday) at the Omni Shoreham Hotel, Washington, DC. No cancellation or postponement found; official homepage banner reads 'OCTOBER 16\u201318, 2026.' Corroborated by westonaprice.org/events and a March 2026 WAPF X/Twitter post. SPEAKER LINEUP UPDATED: The official homepage now lists Thomas Massie, Dr. Joseph Ladapo, Molly Engelhart (note official spelling 'Molly,' not 'Mollie'), Joel Salatin, Kate Tietje, Catherine Austin Fitts, Thaddeus Owen, Dr. Natasha Campbell-McBride, Sally Fallon Morell, and Dr. Bill Schindler. NEW confirmed names since last research: Catherine Austin Fitts, Thaddeus Owen, and Dr. Natasha Campbell-McBride. FLAG: 'Kate Pope' from the prior record is NOT currently visible on the homepage speaker list \u2014 recommend re-verifying before publishing. ATTENDANCE/SPEAKER COUNTS: A third-party listing (National Center for Homeopathy) cites 1,000 attendees, 45 speakers, and 70 exhibits; the official Exhibit page states ~1,200 attendees and ~75 exhibitors. The 45-speaker figure supersedes the prior '~40.' TICKET PRICE: Conference registration price still not publicly posted; only the previously noted host-hotel rate and youth reductions are confirmed. WARNING: Several subpages (/speakers, /exhibit, /schedule) still render stale banner text referencing prior-year cities ('Salt Lake City, Utah' and 'Kansas City, Missouri'), indicating the full 2026 program/schedule is not yet fully published \u2014 the /schedule page itself shows the correct Oct 16-18 DC dates. Could not confirm the '26th Annual' numbering from official sources (2025 SLC was the 25th, so 26th is consistent but unverified on-site)."
     },
     {
       "id": "prepper-camp-2026",
@@ -1186,7 +1200,7 @@
         "start": "2026-05-15",
         "end": "2026-05-16",
         "pre_event": null,
-        "notes": "Friday\u2013Saturday, 7:00 AM \u2013 4:00 PM CDT both days. Rain or shine."
+        "notes": "Friday\u2013Saturday, 7:00 AM \u2013 4:00 PM CDT both days. Rain or shine. Event has concluded (past). Multiple independent sources confirm the May 15\u201316, 2026 dates."
       },
       "location": {
         "venue": "Vandalia Area Fairgrounds",
@@ -1195,13 +1209,13 @@
         "region": "Midwest"
       },
       "url": "https://www.homesteadinglifeconference.com/",
-      "description": "Hosted by YouTube homesteaders Doug & Stacy (Off Grid with Doug & Stacy). An outdoor 'Spring Festival' style conference at the Vandalia Area Fairgrounds with tents, hands-on demonstrations, and lectures. Topics include starting/maintaining a garden through all seasons, harvesting and preservation, launching a small family homesteading business, and raising livestock (chickens, sheep, cows, guinea fowl, ducks, turkeys, rabbits, pigs). Includes free live butchering demonstrations and a community seed swap. Organizers note they are working with the local Mennonite and Amish community as potential presenters.",
+      "description": "Hosted by YouTube homesteaders Doug & Stacy (Off Grid with Doug & Stacy). An outdoor 'Spring Festival' style conference at the Vandalia Area Fairgrounds with tents, chairs and tables on a grassy/gravel surface, hands-on demonstrations, and lectures led by experienced practitioners. Topics include starting/maintaining a garden through all seasons, harvesting and preservation, launching a small family homesteading business, and raising livestock (chickens, sheep, cows, guinea fowl, ducks, turkeys, rabbits, pigs). Includes free live butchering demonstrations, Q&A opportunities, and a community seed swap. Rain or shine.",
       "speakers": [
         "Doug",
         "Stacy",
         "Dr. Patrick Jones (HomeGrown Herbalist)"
       ],
-      "ticket_price": "Tickets sold via TicketLeap (homesteading-life-conference.ticketleap.com); specific 2026 price not confirmed on public pages",
+      "ticket_price": "$80 adult ticket (plus fee), per The Daily Homesteader 2026 events roundup; free for ages 15 and under; camping available at additional cost. Sold via TicketLeap.",
       "highlights": [
         "gardening",
         "live butchering demonstrations (no extra charge)",
@@ -1211,7 +1225,8 @@
         "food preservation",
         "homesteading business",
         "Doug & Stacy",
-        "outdoor / rain or shine"
+        "outdoor / rain or shine",
+        "camping available"
       ],
       "source": "verified",
       "verified": true,
@@ -1232,9 +1247,9 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-08",
+      "last_researched": "2026-08-01",
       "registration_url": "https://homesteading-life-conference.ticketleap.com/",
-      "changes_noted": "CONFIRMED: Dates remain May 15\u201316, 2026 (Fri\u2013Sat, 7am\u20134pm CDT). VENUE UPDATED from 'TBD' to 'Vandalia Area Fairgrounds' (1501 S Main St, Vandalia, MO 63382) \u2014 confirmed by multiple sources including a homesteading events calendar and TicketLeap. Confirmed it is an outdoor, rain-or-shine event with tents, included free live butchering demos, and a seed swap. NOTE: Status in current record is 'past' but the event is UPCOMING as of research date (June 8, 2026) \u2014 wait, dates have passed; event occurred May 15\u201316, 2026, so 'past' status is correct. SPEAKER DISCREPANCY: Could not verify several speakers in the prior record (Dr. Tom Cowan, Tia Murphy, Dr. Leo Sharaskin). The website's speaker page lists roles/descriptors rather than full names; Dr. Patrick Jones (HomeGrown Herbalist) appears associated with Doug & Stacy events. Recommend manual verification of full speaker roster, as the website still shows 2025 copyright and some pages reference 2025 dates (May 16\u201317, 2025), suggesting the site may not be fully updated for 2026. Registration is via TicketLeap (2026 event listing confirmed); exact ticket pricing not publicly visible in search results."
+      "changes_noted": "CONFIRMED (past): The 2026 event dates (May 15\u201316, 2026, Fri\u2013Sat) and venue (Vandalia Area Fairgrounds, 1501 S Main St, Vandalia, MO 63382) are confirmed by multiple independent sources including TicketLeap, 10Times, The Daily Homesteader, and Dr. Tom Cowan's podcast page. Status 'past' is correct \u2014 the event occurred in May 2026. NEW: TICKET PRICE now confirmed at $80/adult (plus fee), free for ages 15 & under, with camping at additional cost. MAJOR CHANGE \u2014 SUCCESSOR EVENT: The official website (homesteadinglifeconference.com) has been updated to promote a rebranded/successor event: the 'Homestead & Wellness Conference 2027' featuring Barbara O'Neill, a FIVE-day event May 18\u201322, 2027, at the Vandalia Fairgrounds. The site's active 'GET 2027 TICKETS' CTAs and expanded natural-wellness focus (herbal remedies, nutrition, natural health) mark a shift from the prior 2-day format. The site footer still shows 'Copyright \u00a9 2025.' SPEAKER NOTE: 10Times lists ~23 speakers for 2026 but does not name them; the website speaker pages list roles/testimonials without a full published 2026 roster, so the full lineup could not be independently verified. Only Doug, Stacy, and Dr. Patrick Jones (HomeGrown Herbalist) are retained as confirmed. Prior-record speakers Dr. Tom Cowan, Tia Murphy, and Dr. Leo Sharaskin remain UNVERIFIED \u2014 recommend manual verification. (Note: Dr. Tom Cowan did host Doug & Stacy on his podcast promoting the 2026 event, but this does not confirm him as a 2026 speaker.)"
     },
     {
       "id": "homestead-prep-summit-2026",
@@ -1244,7 +1259,7 @@
         "start": "2026-04-25",
         "end": "2026-04-26",
         "pre_event": null,
-        "notes": "Saturday\u2013Sunday; gates open 9:00 AM Saturday. NOTE: This event date has already passed as of the research date (June 8, 2026)."
+        "notes": "Saturday\u2013Sunday, April 25\u201326, 2026. Gates open 9:00 AM; first speakers start 9:30 AM; last speakers end 5:00 PM. NOTE: This event date has already PASSED as of the research date (August 1, 2026). Status should be updated to past/completed. The official site still displays 2026 promotional content (last archived March\u2013April 2026)."
       },
       "location": {
         "venue": "St. Johns County Fairgrounds",
@@ -1253,20 +1268,21 @@
         "region": "Southeast"
       },
       "url": "https://hapsummit.com/",
-      "description": "Two-day, intentionally intimate homesteading and prepping event at the St. Johns County Fairgrounds in Northeast Florida, featuring practical classes, vendors, and a community cookout. Sessions cover canning, food forests, gardening systems, beginner herbalism, fire starting, chickens, financial preparedness/getting out of debt, security mindset, and self-defense.",
+      "description": "Two-day, intentionally intimate homesteading and prepping event at the St. Johns County Fairgrounds in Northeast Florida, featuring practical classes, vendors, and a Saturday night community cookout. Kept deliberately small so attendees learn hands-on rather than in a large crowd. Published class topics include Meat Rabbits (Start to Freezer), Beekeeping 101, Water-Bath Canning Basics, Korean Natural Farming, Plants: Food and Medicine (herbalism), Situational Awareness, 'What Happens After Bang' (post-self-defense-incident legal/practical realities), Blacksmithing Basics, gardening systems, firestarting, chickens, security mindset, and financial preparedness (getting out of debt, investing beyond gold & silver).",
       "speakers": [
-        "April of Self-Reliance Academy (Working/Prepper Pantry class)",
-        "Lisa of Primerica (Winning the Money Game class)",
-        "Tony of Urban Survivalcraft (Machete Defense for Beginners class)"
+        "Lance Tilton \u2014 5th-generation farmer and disaster preparedness educator",
+        "April Iser \u2014 15th-generation Floridian, homeschooling mother, educator; background in firearms safety, self-defense, preparedness education, and homesteading",
+        "Haydon Aldersey \u2014 American Contingency (preparedness network offering communications planning, training, situational awareness updates)",
+        "Bobby Linn \u2014 owner/founder of PureFire Tactical (fire starters and survival tools)"
       ],
-      "ticket_price": "Early Bird $35 (through Feb 28) for ages 7 & up \u00b7 Ages 6 & under free with a ticketed adult \u00b7 Includes all classes (workshops not included), access to all vendors, and Saturday night community cookout",
+      "ticket_price": "Early Bird $35 (through Feb 28) for ages 7 & up \u00b7 Ages 6 & under free with a ticketed adult \u00b7 Includes all classes (workshops NOT included), access to all vendors, and the Saturday night community cookout",
       "highlights": [
-        "natural farming / gardening systems",
-        "homesteading skills (canning, herbalism, chickens, fire starting)",
-        "preparedness & security mindset",
+        "natural farming / gardening systems (incl. Korean Natural Farming)",
+        "homesteading skills (canning, herbalism, beekeeping, meat rabbits, chickens, blacksmithing, firestarting)",
+        "preparedness, situational awareness & security mindset",
         "financial resilience (getting out of debt, investing beyond gold & silver)",
-        "machete/blade self-defense",
-        "Saturday night community cookout",
+        "self-defense and post-incident realities ('What Happens After Bang')",
+        "Saturday night community cookout (included in ticket)",
         "intimate, limited-seat setting"
       ],
       "source": "verified",
@@ -1288,10 +1304,10 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-08",
+      "last_researched": "2026-08-01",
       "ticket_url": "https://hapsummit.com/tickets/",
       "registration_url": "https://hapsummit.com/tickets/",
-      "changes_noted": "Venue CONFIRMED as St. Johns County Fairgrounds (5840 State Road 207 E, Elkton, FL 32033), previously TBD. TICKET PRICE CHANGED: prior record listed $45/person; the official site now lists Early Bird at $35 (through Feb 28) for ages 7+, children 6 & under free \u2014 note the cookout is included but workshops are NOT included in the base ticket. SPEAKERS added (previously empty): April of Self-Reliance Academy, Lisa of Primerica, and Tony of Urban Survivalcraft. A tentative class schedule has been published. IMPORTANT: 'CBRN preparedness' from the prior description could NOT be confirmed on the current official site/schedule and was removed from the updated description/highlights. Also note the event dates (April 25\u201326, 2026) have already PASSED relative to the research date (June 8, 2026); status may warrant updating to past/completed."
+      "changes_noted": "MAJOR SPEAKER CHANGE: The prior record's speakers (April of Self-Reliance Academy, Lisa of Primerica, Tony of Urban Survivalcraft) could NOT be confirmed on the current official speakers page. The official https://hapsummit.com/speakers/ page now lists a DIFFERENT lineup: Lance Tilton (5th-gen farmer/preparedness educator), April Iser (15th-gen Floridian, firearms/self-defense/homesteading educator \u2014 this is the event organizer, not 'April of Self-Reliance Academy'), Haydon Aldersey (American Contingency), and Bobby Linn (PureFire Tactical). Prior class names ('Working/Prepper Pantry,' 'Winning the Money Game,' 'Machete Defense for Beginners') are NOT confirmed on the current class list. CLASS LINEUP UPDATED per official /classes/ and /class-schedule/ pages to include Meat Rabbits, Beekeeping 101, Water-Bath Canning, Korean Natural Farming, Plants: Food and Medicine, Situational Awareness, 'What Happens After Bang,' Blacksmithing Basics, Gardening Systems, Firestarting, Chickens, Security Mindset, and Investing Beyond Gold & Silver. Note the published schedule is explicitly marked TENTATIVE and subject to change. Venue CONFIRMED: St. Johns County Fairgrounds, 5840 State Road 207 E, Elkton, FL 32033. Ticket price CONFIRMED at Early Bird $35 (through Feb 28) for ages 7+, kids 6 & under free with a ticketed adult; workshops NOT included. FAQ notes: virtual/emailed tickets only, no WiFi at fairgrounds, camping/lodging available on-site (first-come reserve). IMPORTANT: Event dates (April 25\u201326, 2026) have PASSED relative to research date (August 1, 2026); status should be updated to past/completed. 'CBRN preparedness' from earlier records remains unconfirmed and is not in the current description."
     },
     {
       "id": "self-reliance-festival-2026",
@@ -1301,7 +1317,7 @@
         "start": "2026-10-03",
         "end": "2026-10-04",
         "pre_event": null,
-        "notes": "Saturday\u2013Sunday. Confirmed by dedicated 2026 ticket page titled 'TWO-DAY TICKETS: October 3 & 4'. Free tent camping available; setup allowed Friday after 2pm, off property by 5pm Sunday."
+        "notes": "Saturday\u2013Sunday. Confirmed via dedicated 2026 ticket product page URL '/product/two-day-tickets-october-3-4/' titled 'TWO-DAY TICKETS: October 3 & 4' carrying 2026 launch messaging ('2026 TICKETS ... launching soon'). This is distinct from the 2025 event, which was Oct 4\u20135, 2025 (separate '/product/tickets-2025/' page and agenda page confirm '2025' dates). Free tent camping at Birdsong Marina; setup allowed Friday after 2pm, off property by 5pm Sunday. Gates historically open 8am Saturday, first session 9am. Tickets refundable through August 1 minus processing fees."
       },
       "location": {
         "venue": "Birdsong Resort | Marina | Campground",
@@ -1312,23 +1328,30 @@
       "url": "https://selfreliancefestival.com",
       "description": "Strong mix of homesteading, preparedness, blacksmithing, defense, livestock, medical prep, and self-reliance workshops. An outdoor, hands-on, community-focused event held at Birdsong Resort & Marina in rural Camden, TN. Features speakers, demonstrations, roundtables, a kids program, and free on-site tent camping. Organized by Nicole Sauce (Living Free in Tennessee) and John Willis (Special Operations Equipment).",
       "speakers": [
-        "Joel Ryals (FortressK9) \u2014 'Fortress Mindset: Real-World Family Defense'",
+        "Joel Ryals (FortressK9) \u2014 'Fortress Mindset: Real-World Family Defense' (first 2026 speaker announcement)",
+        "Brooke Whipple (two-time 'Alone' contestant) \u2014 'Raw Land to Rural Freedom: Building a Homestead Life One Frugal Step at a Time'",
+        "John Pugliano (Wealthsteading Podcast) \u2014 'Talk/Trade With Other Tribes'",
         "Tag (Life Done Free)",
-        "John Pugliano (Wealthsteading Podcast) \u2014 'Talk With Other Tribes'"
+        "Nicole Sauce (Living Free in Tennessee) \u2014 organizer",
+        "John Willis (Special Operations Equipment / SOE Gear) \u2014 organizer"
       ],
-      "ticket_price": "Single ticket, family pass, vendor booth, and sponsorship options available; exact 2026 prices not published on public pages (historic pricing was ~$75\u2013$100). Tickets refundable through August 1 minus processing fees; Digital Pass option available. See selfreliancefestival.com/tickets for current pricing.",
+      "ticket_price": "As of research date, 2026 ticket sales are described as 'launching soon' and the public /tickets/ page still references the '2025 Self Reliance Festival,' so confirmed 2026 pricing is NOT yet published. Options include single ticket, family pass, vendor booth, and sponsorship, plus a Digital Pass for those who can't attend. Historic pricing: ~$95 (first 100 tickets) in 2025; ~$75 early bird / $100 regular / $75 at-gate in prior years. Re-check selfreliancefestival.com/tickets closer to the event.",
       "highlights": [
         "blacksmithing",
+        "homesteading",
+        "off-grid power / off-grid living",
+        "preparedness",
+        "medical prep",
         "defense",
         "defense dog demos",
         "livestock",
-        "off-grid living",
-        "preparedness",
-        "medical prep",
+        "food forest / food processing demos",
         "self-reliance workshops",
-        "SRF Kids Program",
+        "roundtables",
+        "SRF Kids / Youth & Teens Program",
         "free tent camping",
-        "community focus"
+        "community focus",
+        "small-business / financial literacy focus"
       ],
       "source": "verified",
       "verified": true,
@@ -1342,9 +1365,9 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-08",
+      "last_researched": "2026-08-01",
       "registration_url": "https://selfreliancefestival.com/tickets/",
-      "changes_noted": "CONFIRMED for 2026 with active ticket sales. KEY VENUE CHANGE: The current record lists the venue as 'Birdsong Area,' but the festival's official contact page and dedicated venue listing confirm the venue is Birdsong Resort | Marina | Campground (255 Marina Road, Camden, TN 38320). NOTE: Historically the event was held at Special Operations Equipment (SOE) in Camden; recent (2024+) listings place it at Birdsong Resort & Marina, so the venue should be updated to the full proper name. Dates CONFIRMED as Oct 3\u20134, 2026 via a dedicated 2026 two-day ticket page. Added first-confirmed 2026 speakers: Joel Ryals (FortressK9), Tag (Life Done Free), and John Pugliano \u2014 the speakers array was previously empty. Added social profiles found: Facebook (facebook.com/selfreliancefestival) and YouTube (youtube.com/@selfreliancefest). Ticket pricing for 2026 is NOT yet clearly published (some site text still references '2025'); recommend re-checking closer to the event for confirmed prices and a fuller speaker lineup."
+      "changes_noted": "VERIFIED for 2026. DATES CONFIRMED as Oct 3\u20134, 2026 via a dedicated 2026 two-day ticket product page ('/product/two-day-tickets-october-3-4/'). IMPORTANT DISAMBIGUATION: The similar-looking Oct 4\u20135 dates belong to the 2025 festival (separate '/product/tickets-2025/' page and the agenda page, which reads 'October 4\u20135, 2025 | Birdsong Marina'). VENUE CONFIRMED as 'Birdsong Resort | Marina | Campground,' 255 Marina Road, Camden, TN 38320-9699 \u2014 this is corroborated by the festival's own contact page, FAQ, blog footer, and Birdsong Resort's site; the older SOE (Special Operations Equipment) location on Hwy 70 E is historical only. SPEAKERS: Added Brooke Whipple (two-time 'Alone' contestant, 'Raw Land to Rural Freedom' session) to the previously listed Joel Ryals, Tag, and John Pugliano. NOTE: Brooke Whipple, Tag, and the Pugliano session originate from 2025-dated blog posts and the 2025 agenda; while a third-party (Prepper Shows USA) lists Whipple, Tag, Sauce, and Ryals together, treat non-Ryals names as likely-returning/unconfirmed for 2026 until the official 2026 lineup is published. Ryals is the confirmed 'first speaker announcement' for the current cycle. TICKET PRICING for 2026 is NOT yet published (site still shows 2025 messaging and 'launching soon'); recommend re-checking closer to the event. SOCIAL: TikTok profile also found (tiktok.com/@selfreliancefest) in addition to existing Facebook and YouTube."
     },
     {
       "id": "wv-offgrid-expo-2026",
@@ -1423,7 +1446,7 @@
         "start": "2026-10-10",
         "end": "2026-10-12",
         "pre_event": null,
-        "notes": "2026 dates NOT officially confirmed by organizer. Strideevents lists 10/10\u201310/12/2026 but explicitly flags it as 'event date estimated.' The official coprepperexpo.com schedule and homepage still reference only the 2025 event (Oct 10\u201312, gates open 10am). No 2026-specific page found on the official site as of this research. Treat 2026 dates as projected/unconfirmed pending organizer update."
+        "notes": "2026 dates STILL NOT officially confirmed by the organizer as of this research. The official coprepperexpo.com homepage continues to reference only the '2025 CO Prepper Expo' \u2014 no dedicated 2026 page found. Strideevents still lists 10/10\u201310/12/2026 but explicitly flags it as 'event date estimated,' and its body copy still describes the 2025 event. TruePrepper (updated Jan 2026) lists the Colorado Prepper Expo under events that did NOT make its top 10 and notes only that 'the first annual show launched in 2025' \u2014 giving no confirmed 2026 date, unlike other listed events which have explicit 2026 dates. Treat 2026 dates as projected/unconfirmed pending an organizer update."
       },
       "location": {
         "venue": "Colorado State Fairgrounds",
@@ -1432,11 +1455,14 @@
         "region": "Southwest"
       },
       "url": "https://www.coprepperexpo.com/",
-      "description": "The Colorado Prepper Expo is billed as the ultimate event for survivalists, homesteaders, and preparedness enthusiasts, featuring expert speakers, hands-on workshops, and vendors. The event brings together experts, hands-on workshops, and vendors offering gear, food storage solutions, medical supplies, and off-grid living tools. Topics span disaster preparedness, sustainable living, self-defense, first aid, food preservation, and alternative energy. Held at the Colorado State Fairgrounds in Pueblo with ~23,000 sq ft of indoor space; estimated attendance 1,000\u20132,000 people per day over three days.",
+      "description": "The Colorado Prepper Expo is billed as the ultimate event for survivalists, homesteaders, and preparedness enthusiasts, featuring expert speakers, hands-on workshops, and top vendors. The event brings together experts, hands-on workshops, and a wide range of vendors offering gear, food storage solutions, medical supplies, and off-grid living tools. Attendees can learn critical survival skills, explore homesteading techniques, and discover advances in emergency preparedness \u2014 topics span disaster preparedness, sustainable living, self-defense, first aid, food preservation, and alternative energy. Held at the Colorado State Fairgrounds in Pueblo with ~23,000 sq ft of indoor space for family-friendly classes plus indoor/outdoor vendors and food. Estimated attendance 1,000\u20132,000 people per day over the three-day weekend (up to ~6,000 for the weekend).",
       "speakers": [
-        "Foley Quinn (energy independence / sustainable energy advocate \u2014 referenced as a 2025 speaker highlight; not confirmed for 2026)"
+        "Foley Quinn (energy independence / sustainable energy advocate \u2014 2025 speaker highlight; not confirmed for 2026)",
+        "Katie Sanders (Certified Master Clinical Herbalist, weaver, homesteader, author; founder of Garden Fairy Apothecary and White Wolf in Canon City; 2025 class: 'The Herbal Medic \u2014 herbs and first aid for minor emergencies')",
+        "Ben Davidson (researcher/speaker, founder of Suspicious0bservers, focused on solar activity, Earth's magnetosphere, climate and geology)",
+        "Jason (FEMA-registered survivor of the 2013 Colorado Flood Disaster near Estes Park, sharing real-world preparedness experience)"
       ],
-      "ticket_price": "2025 pricing only \u2014 no 2026 pricing confirmed. Indoor vendor booths were $100/table for the 3-day weekend; outdoor space $50/table (vendor, not attendee, pricing).",
+      "ticket_price": "No 2026 attendee pricing confirmed. Only vendor booth pricing verified on the official site: indoor booth $100/table for the 3-day weekend; outdoor space $50/table (vendor, not attendee, pricing).",
       "highlights": [
         "preparedness & survival",
         "hands-on workshops",
@@ -1448,6 +1474,7 @@
         "first aid",
         "food preservation",
         "alternative energy",
+        "herbal medicine / first aid",
         "homesteading techniques"
       ],
       "source": "verified",
@@ -1469,10 +1496,10 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-08",
+      "last_researched": "2026-08-01",
       "ticket_url": "https://www.coprepperexpo.com/",
       "registration_url": "https://www.coprepperexpo.com/",
-      "changes_noted": "STATUS DOWNGRADED from 'confirmed' to UNCONFIRMED for 2026. (1) The official site (coprepperexpo.com homepage + /schedule) still references the 2025 event only; no dedicated 2026 page was found. (2) Strideevents lists 2026 dates as Oct 10\u201312 but explicitly marks them 'event date estimated' \u2014 not organizer-confirmed. (3) TruePrepper (Jan 2026) notes the Colorado Prepper Expo's first annual show launched in 2025, so a 2026 edition is not yet verified to be scheduled. (4) Venue confirmed as Colorado State Fairgrounds, 1001 Beulah Avenue, Pueblo, CO 81004 (recommend simplifying venue field \u2014 'Livestock Pavilion' could not be re-verified). (5) Organizer contact: Troy McKinley, 612-275-4492, trtoy@yahoo.com. (6) Added Foley Quinn as a known 2025 speaker. (7) Ticket pricing in prior record ($20 adults / $10 teens) could NOT be re-verified for 2026; only vendor booth pricing was found. RECOMMENDATION: keep status as tentative/unconfirmed and re-check coprepperexpo.com closer to fall for an official 2026 announcement."
+      "changes_noted": "STATUS REMAINS UNCONFIRMED for 2026 (unchanged from prior 'confirmed' downgrade). Key findings on re-check: (1) The official coprepperexpo.com homepage STILL references only the '2025 CO Prepper Expo' \u2014 no 2026-specific page found. (2) Strideevents STILL lists 10/10\u201310/12/2026 but explicitly marks it 'event date estimated,' with body text still describing the 2025 event \u2014 not organizer-confirmed. (3) TruePrepper (updated for 2026, dated Jan 3, 2026) lists the Colorado Prepper Expo among events that did NOT make its top 10, noting only 'the first annual show launched in 2025' and \u2014 unlike other listed events \u2014 providing NO explicit 2026 date, reinforcing that a 2026 edition is not yet verified. (4) Venue confirmed: Colorado State Fairgrounds, 1001 Beulah Avenue, Pueblo, CO 81004. (5) Organizer contact confirmed: Troy McKinley, 612-275-4492, trtoy@yahoo.com; ticketing handled via Eventbrite ('Troy McKinley presents Colorado Prepper Expo'). (6) NEW 2025 speakers identified from the official speakers page: Katie Sanders (master herbalist/homesteader), Ben Davidson (Suspicious0bservers), and Jason (2013 Colorado Flood FEMA survivor) \u2014 added alongside previously known Foley Quinn. (7) Attendance/space figures re-confirmed (~23,000 sq ft indoor; 1,000\u20132,000/day; up to ~6,000/weekend) and vendor pricing re-confirmed ($100 indoor / $50 outdoor per table). (8) 2026 attendee ticket pricing still could NOT be verified. RECOMMENDATION: keep status tentative/unconfirmed and re-check coprepperexpo.com and its Eventbrite listing closer to fall 2026 for an official announcement."
     },
     {
       "id": "mountain-readiness-west-2026",
@@ -1545,7 +1572,7 @@
         "start": "2026-11-02",
         "end": "2026-11-04",
         "pre_event": null,
-        "notes": "Monday\u2013Wednesday per official site listing (Nov 2nd\u20134th, 2026). Note: the dedicated Fall Out page and homepage both state Nov 2\u20134, 2026, a change from the previously recorded Oct 23\u201325 dates. The event founder is Robert 'T' Toombs."
+        "notes": "Nov 2\u20134, 2026 confirmed on the dedicated Fall Out page and the livestream/events page. IMPORTANT NEW CONFLICT: the mountainreadiness.com HOMEPAGE still lists 'Mountain Readiness Fallout, October 23rd\u201325th, 2026 in Harmony NC' \u2014 the homepage was NOT updated to match the Nov 2\u20134 date now shown elsewhere on the site. Two dated pages (the Fall Out page and the livestream page listing 'Nov 2nd\u20134th, 2026') agree on Nov 2\u20134, so that is treated as canonical, but the homepage inconsistency should be flagged for re-check. Note also that Nov 2\u20134, 2026 falls on Monday\u2013Wednesday."
       },
       "location": {
         "venue": "VanHoy Campground (VanHoy Farms / VanHoy Family Campground)",
@@ -1555,9 +1582,9 @@
       },
       "url": "https://www.mountainreadiness.com/fall-out",
       "ticket_url": "https://www.mountainreadiness.com/fall-out",
-      "description": "Mountain Readiness Fall Out is a three-day hands-on survival, preparedness, and self-reliance training event featuring expert instructors, held at VanHoy Campground in Harmony, NC. Programming has historically covered wilderness survival, off-grid living, emergency medicine, communications (including HAM radio testing), man tracking, and bug-out skills, plus community activities like a hog roast and costume contest.",
+      "description": "Mountain Readiness Fall Out is a three-day hands-on survival, preparedness, and self-reliance training event featuring expert instructors, held at VanHoy Campground (a 107-acre campground and multi-use live event space) in Harmony, NC. Programming has historically covered wilderness survival, off-grid living, emergency medicine, communications (including HAM radio testing), man tracking, and bug-out skills, plus community activities like a hog roast and costume contest. Venue amenities include indoor/outdoor concert arenas, 50/30amp pull-thru RV sites, primitive camping, a swimming pool, showers, laundry, and hiking trails.",
       "speakers": [],
-      "ticket_price": "Not published on the Fall Out page as of this research. Standard Admission (required for ages 13+) includes all classes; camping is reserved/paid separately through VanHoy Campground at (704) 539-5493. See mountainreadiness.com for current pricing.",
+      "ticket_price": "Still not published for Fall Out 2026. Confirmed model: Standard Admission required for ages 13+ includes all classes; camping is separate and paid directly to VanHoy Campground at (704) 539-5493. No dollar figures posted on the Fall Out page or a Fall Out registration listing as of this research. (For context, the sister Mountain Readiness West event notes prices increase closer to the event and tickets are not sold at the door \u2014 a pattern likely to apply to Fall Out.)",
       "highlights": [
         "survival skills",
         "preparedness",
@@ -1587,9 +1614,9 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-08",
+      "last_researched": "2026-08-01",
       "registration_url": "https://www.mountainreadiness.com/mountain-readiness-fall-out",
-      "changes_noted": "DATE CHANGE: The official site now lists Fall Out as November 2\u20134, 2026 (previously recorded as October 23\u201325, 2026). The canonical event page has moved to https://www.mountainreadiness.com/mountain-readiness-fall-out (the old /fall-out URL appears deprecated). Location confirmed as VanHoy Campground in Harmony, NC (note: the venue is also described as being in Union Grove, NC in the site FAQ \u2014 the campground straddles/serves both communities; mailing address used is 742 Jericho Road, Harmony, NC). CAUTION: One ticket/registration listing on the official site still references prior-year wording, and the public Fall Out description page contains apparent copy-paste boilerplate from the Montana 'West' event (mentions Montana). No confirmed 2026 Fall Out speaker lineup is published yet; speakers list left empty rather than fabricated. Ticket price not yet posted for Fall Out 2026. Event remains confirmed."
+      "changes_noted": "Event REMAINS CONFIRMED at VanHoy Campground, Harmony, NC. DATE STATUS: The dedicated Fall Out page confirms 'November 2-4, 2026' and the livestream/events page also lists 'Mountain Readiness Fallout, Nov 2nd\u20134th, 2026 in Harmony NC' \u2014 corroborating the previously recorded Nov 2\u20134 change. NEW ISSUE: The site HOMEPAGE was not updated and still reads 'Mountain Readiness Fallout, October 23rd\u201325th, 2026 in Harmony NC,' creating an internal date conflict on the official site; Nov 2\u20134 is treated as canonical since two pages agree, but this should be monitored. BOILERPLATE ERROR PERSISTS: The Fall Out page's instructor/description section still contains copy-paste text from the Mountain Readiness West (Montana) event \u2014 it references 'Mountain Readiness West' instructors bringing expertise 'to the mountains of Montana' on a page that is otherwise about the NC Fall Out event. VENUE NOTE: The Fall Out page describes VanHoy as being in Harmony, NC, while the site FAQ describes it as being in Union Grove, NC (the campground serves both communities; mailing address 742 Jericho Road, Harmony, NC). No confirmed 2026 Fall Out speaker lineup is published (historical Fall Out instructors have included 'Angery American' and Troy's Gate/Randy W. Martin, but these are not confirmed for 2026, so speakers left empty). Ticket price still not posted for Fall Out 2026. Registration/canonical URL confirmed as https://www.mountainreadiness.com/mountain-readiness-fall-out."
     },
     {
       "id": "sovereign-health-summit-2026",
@@ -1599,7 +1626,7 @@
         "start": "2026-10-27",
         "end": "2026-10-31",
         "pre_event": null,
-        "notes": "Tuesday\u2013Saturday, 5-day event, 9am\u20135pm each day"
+        "notes": "Tuesday\u2013Saturday, 5-day event, 9am\u20135pm each day. Confirmed unchanged."
       },
       "location": {
         "venue": "VanHoy Farms Family Campground",
@@ -1609,16 +1636,24 @@
       },
       "url": "https://www.sovereignhealthsummit.com",
       "ticket_url": "https://www.sovereignhealthsummit.com",
-      "description": "A five-day gathering dedicated to health freedom, resilience, and natural living, hosted by Mountain Readiness, Perma Pastures Farm, and Rustic Roots Heritage Homestead. Features keynote sessions, hands-on workshops, vendor exhibits, and community connection, focused on natural health, regenerative farming, biohacking, preparedness, and spiritual resilience. Runs 9am\u20135pm each day. Onsite RV/tent camping is limited and booked separately through VanHoy Campground; food trucks available on site; rain or shine; all ticket sales final.",
+      "description": "A five-day gathering dedicated to health freedom, resilience, and natural living, hosted by Mountain Readiness (also referenced as Appalachian Readiness in legal/liability text), Perma Pastures Farm, and Rustic Roots Heritage Homestead. Features keynote sessions, hands-on workshops, vendor exhibits, and community connection, focused on natural health, regenerative farming, biohacking, preparedness, and spiritual resilience. Runs 9am\u20135pm each day, rain or shine. Onsite RV/tent camping is limited and booked separately/directly through VanHoy Family Campground (704-539-5493) \u2014 the campground is an independent business not affiliated with the Summit; event tickets do NOT include camping. Parking is included with tickets; food trucks available on site; pets welcome (with restrictions); dump station on site; all ticket sales final.",
       "speakers": [
         "Barbara O'Neill",
+        "Dr. Sherri Tenpenny",
         "Dr. Lee Merritt",
-        "Callie Blackwell",
+        "Dr. Henry Ealy",
         "Jonathan Otto",
+        "Matt Roeske",
+        "Dr. Wil Spencer",
+        "Pat Miletich",
+        "David (Azure Standard Founder)",
+        "Jacqueline Bourne",
         "Logan Duvall",
-        "Matt Roeske"
+        "Callie Blackwell",
+        "AJ Richards",
+        "David Canterbury"
       ],
-      "ticket_price": "General Admission Full 5-Day Pass $250; Single Day Pass $99/day; Couples Pass $450 (two 5-day passes); Vendor Row evening access $20; Livestream ticket available",
+      "ticket_price": "General Admission Full 5-Day Pass ~$250; Single Day Pass ~$99/day; Couples Pass $450 (two full 5-day GA tickets, 'Save $50', parking + vendor row access included); Vendor Row evening access $20 (6:00\u20138:00pm nightly, vendor row only, parking included); Livestream ticket available (full virtual access to all main stage presentations in real time). Parking included with all tickets. All sales final \u2014 no refunds, exchanges, or transfers.",
       "highlights": [
         "natural health",
         "sovereignty",
@@ -1626,10 +1661,11 @@
         "5-day immersive",
         "off-grid living",
         "self-reliance",
-        "Barbara O'Neill keynote",
+        "Barbara O'Neill keynote (only 2026 NC appearance)",
         "regenerative farming",
         "biohacking",
-        "livestream option"
+        "livestream option",
+        "expanded speaker lineup"
       ],
       "source": "mountainreadiness.com",
       "verified": true,
@@ -1650,9 +1686,9 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-08",
+      "last_researched": "2026-08-01",
       "registration_url": "https://www.sovereignhealthsummit.com/event-details/sovereign-health-summit",
-      "changes_noted": "Event CONFIRMED for original dates Oct 27\u201331, 2026 at VanHoy Farms Family Campground, Harmony, NC. KEY UPDATES: (1) Venue name refined to 'VanHoy Farms Family Campground'. (2) Daily hours confirmed as 9am\u20135pm. (3) Speaker lineup added (was empty): Barbara O'Neill (her only 2026 NC appearance), Dr. Lee Merritt, Callie Blackwell, Jonathan Otto, Logan Duvall, Matt Roeske \u2014 more to be announced. (4) Ticket pricing now confirmed: $250 5-day GA, $99 single day, $450 couples, $20 evening Vendor Row, plus a livestream option. (5) Co-hosts confirmed: Mountain Readiness, Perma Pastures Farm, and Rustic Roots Heritage Homestead. (6) Logistics added: camping booked separately via VanHoy (704-539-5493), food trucks on site, rain-or-shine, all sales final/non-refundable. Promo code 'perma' gives 5% off via Perma Pastures. No cancellation or postponement found."
+      "changes_noted": "Event RE-CONFIRMED for Oct 27\u201331, 2026 at VanHoy Farms Family Campground, Harmony, NC (738/742 Jericho Rd, Harmony, NC 28634). No cancellation or postponement found. KEY UPDATES SINCE LAST RESEARCH (2026-06-08): (1) SPEAKER LINEUP SIGNIFICANTLY EXPANDED \u2014 previously 6 speakers, now 14+ confirmed on the official speakers page/homepage: added Dr. Sherri Tenpenny, Dr. Henry Ealy (Naturopathic Doctor/Energetic Health Institute), Dr. Wil Spencer (Naturopath), Pat Miletich (former UFC champion), David/Dave (Azure Standard founder), Jacqueline Bourne (Founder of OK B Healthy), AJ Richards (Founder of From The Farm), and David Canterbury (Pathfinder/Self Reliance Outfitters, per Swartz Foods vendor listing). 'More to be announced' still noted. (2) CO-HOST NAME DISCREPANCY: liability waiver and lodging legal text now reference 'Appalachian Readiness' alongside/in place of 'Mountain Readiness' \u2014 flag for verification (may be a rebrand or related entity). (3) TICKET DETAILS CLARIFIED: Couples Pass $450 explicitly = two full 5-day GA tickets ('Save $50') with parking + vendor row; Vendor Row $20 is 6:00\u20138:00pm nightly (vendor-row-only access); Livestream ticket confirmed as full virtual main-stage access in real time; parking included with all tickets. (4) CAMPING/LOGISTICS: camping booked directly via VanHoy Family Campgrounds (704-539-5493, 742 Jericho Rd \u2014 note address shows 742 on lodging page vs 738 on Bohemian Mama listing); tickets do NOT include camping; dump station on site; pets welcome with restrictions; rain or shine; all sales final. (5) ADDITIONAL PROMO CODES found via partners: 'perma' (5% via Perma Pastures / 10% listed on Mountain Readiness), 'Swartz5' (Swartz Foods), 'TPC' (Mountain Readiness). Sponsorship tiers exist (e.g., Mount Rogers Sponsor $2,500)."
     },
     {
       "id": "mountain-readiness-lone-star-2027",
@@ -1662,7 +1698,7 @@
         "start": "2027-03-12",
         "end": "2027-03-14",
         "pre_event": null,
-        "notes": "Friday\u2013Sunday; three-day event"
+        "notes": "Friday\u2013Sunday; three-day event. Venue listing shows event running Mar 12, 2027 11:00 AM \u2013 Mar 14, 2027 11:00 PM."
       },
       "location": {
         "venue": "Salmon Lake Park",
@@ -1672,9 +1708,9 @@
       },
       "url": "https://www.mountainreadiness.com/mountain-readiness-lone-star",
       "ticket_url": "https://www.mountainreadiness.com/mountain-readiness-lone-star",
-      "description": "A three-day hands-on survival, preparedness, and self-reliance training event in East Texas, built around the values of independence, resilience, and community. Attendees learn essential survival, homesteading, and emergency response skills from expert instructors through live demonstrations, expert-led workshops, music, and community gatherings.",
+      "description": "A three-day hands-on survival, preparedness, and self-reliance training event at Salmon Lake Park in Grapeland, East Texas, built around the values of independence, resilience, and community. Attendees learn essential survival, homesteading, and emergency response skills from expert instructors through live demonstrations and practical workshops, plus music and community gatherings. Described as the Mountain Readiness experience 'with a Lone Star twist\u2014where self-reliance meets Southern grit.' On-site RV (30/50 amp) and tent camping available at the venue.",
       "speakers": [],
-      "ticket_price": "Tickets available now; specific pricing not published on event page \u2014 see mountainreadiness.com",
+      "ticket_price": "Tickets available now; specific pricing not published on the event page \u2014 see mountainreadiness.com. A 'BUY TICKETS' link is also listed on the Salmon Lake Park venue events page.",
       "highlights": [
         "preparedness",
         "survival skills",
@@ -1685,7 +1721,8 @@
         "live demos",
         "expert-led workshops",
         "music",
-        "camping"
+        "camping",
+        "RV and tent sites on-site"
       ],
       "source": "mountainreadiness.com",
       "verified": true,
@@ -1706,9 +1743,9 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-08",
+      "last_researched": "2026-08-01",
       "registration_url": "https://www.mountainreadiness.com/mountain-readiness-lone-star",
-      "changes_noted": "Confirmed dates (March 12\u201314, 2027), venue (Salmon Lake Park, Grapeland, TX), and event still listed as active/confirmed on official site and corroborated on the organizer's main events page. Tickets are now noted as 'available now' (previously unconfirmed). Description expanded to include homesteading, emergency response, live demos, expert-led workshops, and music. No specific ticket prices or named speakers for the Lone Star event are published yet \u2014 the instructors page currently lists 2026 expo instructors only, so the speakers field remains empty. No cancellation or postponement found."
+      "changes_noted": "Re-confirmed on 2026-08-01. Dates (March 12\u201314, 2027), venue (Salmon Lake Park, Grapeland, TX), and confirmed/active status all verified on the official event page and corroborated on the organizer's homepage and the Salmon Lake Park venue events page. Tickets confirmed 'available now,' with a 'BUY TICKETS' link now also visible on the venue's events listing (Mar 12, 2027 11:00 AM \u2013 Mar 14, 2027 11:00 PM). No specific ticket price is published for the Lone Star event. No named speakers yet \u2014 the instructors page still lists only 2026 Expo instructors, so the speakers field remains empty. Event is organized by Aaron of Mountain Readiness (based in SW Montana), part of a series that also includes Mountain Readiness West (Swan Lake, MT, July 24\u201326, 2026) and Mountain Readiness Fallout (Harmony, NC, Oct 23\u201325, 2026). No cancellation or postponement found."
     },
     {
       "id": "mountain-readiness-expo-2027",
@@ -1718,21 +1755,21 @@
         "start": "",
         "end": "",
         "pre_event": null,
-        "notes": "No 2027 Expo dates confirmed. Flagship Expo is currently 2026: May 1\u20133, 2026 (Fri\u2013Sun). Historically held the first weekend of May. The record's 2027-04-30/2027-05-02 dates are unverified."
+        "notes": "No 2027 Harmony, NC Expo has been announced or listed anywhere. The 2026 flagship (rebranded 'Spring Expo') was May 1\u20133, 2026 at VanHoy Campground and has already PASSED as of this research date (Aug 1, 2026). The record's unverified 2027-04-30/2027-05-02 dates could NOT be confirmed. The organizer historically holds the flagship Expo the first weekend of May in Harmony, NC, so a 2027 edition is plausible but currently unannounced. The organizer's currently listed upcoming events are: Mountain Readiness Fall Out (Oct 23\u201325, 2026, Harmony NC); Sovereign Health Summit with Barbara O'Neill (Oct 27\u201331, 2026, Harmony NC); and Mountain Readiness Lone Star (March 12\u201314, 2027, Grapeland, TX) \u2014 a DIFFERENT event, not the Harmony Expo."
       },
       "location": {
-        "venue": "VanHoy Campground (VanHoy Farms / Vanhoy Family Campground)",
+        "venue": "VanHoy Farms / VanHoy Campground (Vanhoy Family Campground)",
         "city": "Harmony",
         "state": "NC",
         "region": "Southeast"
       },
       "url": "https://www.mountainreadiness.com/mountain-readiness-expo",
       "ticket_url": "https://www.mountainreadiness.com/mountain-readiness-expo",
-      "description": "The Mountain Readiness Expo is the organizer's flagship annual hands-on survival, preparedness, and self-reliance training event held at VanHoy Campground in Harmony, NC, featuring expert instructors, live demonstrations, classes, vendors, music, and community. NOTE: Currently confirmed only for 2026 (May 1\u20133); no 2027 edition has been announced.",
+      "description": "The Mountain Readiness Expo is the organizer's flagship annual hands-on survival, preparedness, and self-reliance training event held at VanHoy Campground in Harmony, NC, featuring expert instructors, live demonstrations, classes, vendors, music, and community. Past editions have featured presenters such as Daniel Salatin (Polyface Farms), The Honeystead, Tactical Rifleman, Dr. Bones & Nurse Amy, The FIT Farmer, and The Angery American. NOTE: The 2026 Spring Expo (May 1\u20133, 2026) has already passed; NO 2027 Harmony Expo has been announced.",
       "speakers": [],
-      "ticket_price": "Not published for a 2027 Expo. Historically: multi-day and single-day passes with tiered child/teen pricing; prices increase closer to the event; tickets not sold at the door; camping separate (paid directly to VanHoy Campground at (704) 539-5493).",
+      "ticket_price": "Not published for any 2027 Harmony Expo. Historically: multi-day and single-day passes with tiered pricing for teens (13\u201317) and children (12 & under); prices increase closer to the event; tickets are NOT sold at the door; camping is separate (paid directly to VanHoy Campground at (704) 539-5493).",
       "highlights": [
-        "major expo",
+        "flagship expo",
         "hands-on training",
         "expert-led workshops",
         "live demonstrations",
@@ -1743,8 +1780,11 @@
         "self-reliance",
         "homesteading",
         "off-grid living",
+        "bushcraft",
         "emergency medicine",
-        "family-friendly"
+        "communications",
+        "family-friendly",
+        "on-site camping"
       ],
       "source": "mountainreadiness.com",
       "verified": false,
@@ -1765,9 +1805,9 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-08",
-      "changes_noted": "UNABLE TO VERIFY a 2027 Mountain Readiness Expo. The organizer's website currently promotes the 2026 Expo as the flagship Harmony, NC event \u2014 confirmed for May 1\u20133, 2026 at VanHoy Campground (not 2027). The record's dates of April 30\u2013May 2, 2027 could NOT be confirmed anywhere; no 2027 Expo page or listing exists. The only confirmed 2027 Mountain Readiness event is a DIFFERENT event \u2014 'Mountain Readiness Lone Star,' March 12\u201314, 2027 at Salmon Lake Park in Grapeland, TX. An instructor-submission form does list 2027 as a selectable year alongside 2026, which suggests a 2027 Expo may eventually be scheduled, but no dates, venue confirmation, or registration for a 2027 Harmony Expo have been published. RECOMMENDATION: Either downgrade this record's status from 'confirmed' to 'tentative/unconfirmed,' correct it to the verifiable 2026 Expo (May 1\u20133, 2026), or replace it with the confirmed Lone Star 2027 event. The flagship Expo historically runs the first weekend of May in Harmony, NC, so a 2027 edition is plausible but currently unannounced.",
-      "registration_url": "https://www.mountainreadiness.com/tickets"
+      "last_researched": "2026-08-01",
+      "changes_noted": "STILL UNABLE TO VERIFY a 2027 Mountain Readiness Expo in Harmony, NC. As of Aug 1, 2026 the flagship 2026 Spring Expo (May 1\u20133, 2026 at VanHoy Campground) has already occurred. <cite index=\"25-1\">The website confirms it was held May 1\u20133, 2026 at VanHoy Campgrounds in Harmony, NC.</cite> No 2027 Harmony Expo page, dates, or listing exists anywhere; the record's April 30\u2013May 2, 2027 dates remain unconfirmed. The organizer's currently promoted upcoming events are: <cite index=\"26-6,26-7\">Mountain Readiness Fall Out (October 23rd\u201325th, 2026 in Harmony NC), the Sovereign Health Summit with Barbara O'Neill (October 27th\u201331st in Harmony NC), and Mountain Readiness Lone Star heading to Texas March 12th\u201314th, 2027 in Grapeland, TX.</cite> The only confirmed 2027 Mountain Readiness event is Lone Star (a DIFFERENT event in TX, not the Harmony Expo). RECOMMENDATION: Downgrade this record's status from 'confirmed' to 'tentative/unconfirmed'; the flagship Harmony Expo is now branded the 'Spring Expo' and historically runs the first weekend of May, so a 2027 edition is plausible but not yet announced. Consider either (a) archiving the passed 2026 Spring Expo, (b) tracking for a 2027 Spring Expo announcement, or (c) creating a separate confirmed record for Lone Star 2027 (Grapeland, TX).",
+      "registration_url": "https://www.mountainreadiness.com/mountain-readiness-expo"
     },
     {
       "id": "homestead-life-conf-2027",
@@ -1777,26 +1817,26 @@
         "start": "2027-05-18",
         "end": "2027-05-22",
         "pre_event": null,
-        "notes": "5-day event, May 18\u201322, 2027. Confirmed on official site."
+        "notes": "5-day event, May 18\u201322, 2027. Confirmed on official homepage. Note: this is a name/branding evolution of the annual Homesteading Life Conference Spring Festival, which ran May 15\u201316, 2026 at the same venue."
       },
       "location": {
-        "venue": "Vandalia Fairgrounds",
+        "venue": "Vandalia Area Fairgrounds",
         "city": "Vandalia",
         "state": "MO",
         "region": "Midwest"
       },
       "url": "https://www.homesteadinglifeconference.com/",
       "ticket_url": "https://events.ticketleap.com/tickets/homesteading-life-conference/2027-homesteading-life-conference",
-      "description": "Now branded on the official site as the 'Homestead & Wellness Conference 2027' featuring Barbara O'Neill, hosted by Doug & Stacy (Off Grid with Doug & Stacy). A five-day event for homesteaders, gardeners, natural wellness enthusiasts, off-grid families, and anyone interested in traditional living and self-reliance. Includes practical education, hands-on learning, and presentations on natural health, homesteading, preparedness, herbal remedies, gardening, food preservation, and simple living.",
+      "description": "Officially branded on the homepage as the 'Homestead & Wellness Conference 2027' featuring Barbara O'Neill, hosted by Doug & Stacy of Off Grid with Doug & Stacy. A five-day event for homesteaders, gardeners, natural wellness enthusiasts, off-grid families, and anyone interested in traditional living and self-reliance. Includes practical education, hands-on learning, and presentations on natural health, homesteading, preparedness, herbal remedies, gardening, food preservation, and simple living. Barbara O'Neill is billed to share teachings on natural wellness, nutrition, lifestyle habits, and traditional approaches to supporting the body naturally.",
       "speakers": [
-        "Doug",
-        "Stacy",
+        "Doug (Off Grid with Doug & Stacy)",
+        "Stacy (Off Grid with Doug & Stacy)",
         "Barbara O'Neill"
       ],
-      "ticket_price": "Could not confirm a specific 2027 price on the official site or TicketLeap; '2027 TICKETS' link is live but exact pricing/early-bird amount not verified. Recommend marking as TBD/unverified until a price is confirmed.",
+      "ticket_price": "STILL UNVERIFIED for 2027. Official site shows a live 'GET 2027 TICKETS!' link but publishes no specific 2027 price. For comparison, the 2026 Spring Festival was listed at ~$80/adult (plus fee), free for ages 15 and under, with camping at additional cost. Recommend marking 2027 pricing as TBD until confirmed on TicketLeap. The event's ticketing runs through TicketLeap (Off Grid with Doug & Stacy, P O Box 141, Bowling Green, MO 63334).",
       "highlights": [
         "Doug & Stacy hosts",
-        "Barbara O'Neill featured speaker",
+        "Barbara O'Neill featured speaker (natural wellness, nutrition, lifestyle)",
         "natural health & wellness",
         "herbal remedies",
         "gardening & food preservation",
@@ -1826,9 +1866,9 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-08",
+      "last_researched": "2026-08-01",
       "registration_url": "https://www.homesteadinglifeconference.com/",
-      "changes_noted": "CONFIRMED: Dates (May 18\u201322, 2027), venue (Vandalia Fairgrounds, Vandalia, MO; full address 1501 S Main St, Vandalia, MO 63382), and Barbara O'Neill as featured speaker. CHANGE/FLAG: The official website now markets the 2027 event as the 'Homestead & Wellness Conference 2027' rather than 'Homesteading Life Conference Spring Festival 2027' \u2014 name may have shifted; recommend reviewing the event name field. A live 'GET 2027 TICKETS!' link exists on the homepage, but I could NOT verify a specific 2027 ticket price or confirm the exact standalone 2027 TicketLeap URL in the current record (ticket_url in old record points to a 2027 TicketLeap slug that I could not independently confirm is live). Site copyright reads 2025, so some pages may not be fully updated. Ticket price should be downgraded from 'early bird available' to unverified/TBD until confirmed."
+      "changes_noted": "CONFIRMED via official homepage: Dates (May 18\u201322, 2027), venue (Vandalia Area Fairgrounds, Vandalia, MO \u2014 full address 1501 S Main St, Vandalia, MO 63382), and Barbara O'Neill as featured speaker. CONFIRMED BRANDING SHIFT: The homepage now markets the 2027 event explicitly as the 'Homestead & Wellness Conference 2027 featuring Barbara O'Neill' rather than 'Homesteading Life Conference Spring Festival 2027' \u2014 recommend updating the event name field to reflect the new branding. TICKET PRICE STILL UNVERIFIED: A live 'GET 2027 TICKETS!' link exists on the homepage, but no specific 2027 price is published on the official site. The prior year (2026) Spring Festival was ~$80/adult plus fee (free under 15, camping extra) per a third-party 2026 events roundup \u2014 useful as a reference point only, not a confirmed 2027 price. Keep 2027 pricing as TBD/unverified. NOTE: Site footer copyright still reads 2025, so some subpages (speakers, schedule) may not yet be fully updated for 2027. Speaker list beyond Doug, Stacy, and Barbara O'Neill was not published/verified at time of research."
     },
     {
       "id": "homestead-event-tn-2026",
@@ -1838,7 +1878,7 @@
         "start": "2026-04-24",
         "end": "2026-04-25",
         "pre_event": null,
-        "notes": "Confirmed April 24-25, 2026, 8:00 AM to 6:00 PM EDT both days. Third annual event. Note: site also references an ETHA Annual Homestead Festival held in September; the April dates are the confirmed Homestead Event dates."
+        "notes": "Confirmed 3rd Annual Homestead Event\u2122, April 24-25, 2026 at Hardin Valley Event Center, Knoxville, TN. The official ETHA Facebook and steveandsandy.com consistently list April 24-25 (two full days). NOTE ON DISCREPANCY: A third-party roundup (HomesteadLiving.com) lists 'April 24-26, 2026' for the same event \u2014 but all primary/official sources (ETHA Facebook, steveandsandy.com) state April 24-25, so April 24-25 remains the confirmed range. The separate September ETHA Harvest/Homestead Festival (Sept 12-13 in 2025, described on the site as a 3-day September celebration) is a related but distinct event under the same ETHA / Steve & Sandy umbrella; the April event is the one this record tracks. Times (8 AM\u20136 PM EDT) were from the prior social copy and were not re-confirmed on the current official page this cycle \u2014 treat as tentative until reconfirmed."
       },
       "location": {
         "venue": "Hardin Valley Event Center",
@@ -1848,22 +1888,25 @@
       },
       "url": "https://steveandsandy.com/the-homestead-event-tm",
       "ticket_url": "https://steveandsandy.com/the-homestead-event-tm",
-      "description": "Two-day boots-on-the-ground homestead learning experience hosted by Steve & Sandy Eplett (Wild Crafted Life). Two full days of homestead education, powerhouse speakers, live demonstrations, hands-on workshops, a Kidsteaders program, market vendors, and food trucks. Topics span herbal medicinals, chicken butchering, soil health, and building a sustainable homestead. Beginner-friendly with all skill levels welcome and a strong community focus.",
+      "description": "The Homestead Event\u2122 is a hands-on, boots-on-the-ground homestead learning experience hosted by Steve & Sandy Eplett (Wild Crafted Life) under the East Tennessee Homestead Alliance (ETHA). Its 3rd annual edition runs two full days at the Hardin Valley Event Center in Knoxville, TN. The event features 30+ speakers, live demonstrations, heritage skill workshops, market vendors (heirloom seeds to handmade tools), food trucks, and a kids zone, making it a family experience. Programming covers homesteading, off-grid living, tactical skills, gardening, soil health, animal husbandry, food preservation, natural healing, chicken butchering, and building a sustainable homestead. Explicitly beginner-friendly with all skill levels welcome and a strong community focus. ETHA's mission: 'Embracing Heritage Skills \u2014 Cultivating Community \u2014 Equipping the Next Generation.'",
       "speakers": [
         "Steve Eplett (founder)",
-        "Sandy Eplett (founder)"
+        "Sandy Eplett (founder)",
+        "30+ speakers advertised (full lineup not yet individually named on the official page at research time)"
       ],
-      "ticket_price": "Not publicly listed at research time \u2014 sponsors help keep ticket prices lower; check steveandsandy.com for current pricing. (For reference, the related 2025 ETHA festival offered standard and VIP tier wristband tickets.)",
+      "ticket_price": "Still not publicly itemized at research time. Tickets sold via TicketSpice (thehomesteadevent.ticketspice.com). Official site notes sponsor support helps keep ticket prices lower and fund workshops, kids zone, and presenters. Prior 2025 ETHA festival used standard and VIP tier wristband tickets for reference; confirm current tiers/pricing at thehomesteadevent.org.",
       "highlights": [
-        "powerhouse speakers",
+        "30+ speakers",
         "live demonstrations",
-        "hands-on workshops",
-        "Kidsteaders program (kids zone)",
-        "market vendors",
+        "heritage skill / hands-on workshops",
+        "Kidsteaders program / kids zone",
+        "market vendors (heirloom seeds to handmade tools)",
         "food trucks",
-        "herbal medicinals",
+        "herbal medicinals / natural healing",
         "chicken butchering / animal husbandry",
         "soil health",
+        "gardening",
+        "off-grid & tactical skills",
         "food preservation",
         "sustainable homestead planning"
       ],
@@ -1886,9 +1929,9 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-08",
-      "registration_url": "https://steveandsandy.com/the-homestead-event-tm",
-      "changes_noted": "CONFIRMED 2026 dates: April 24-25, 2026, 8:00 AM\u20136:00 PM EDT both days (previously TBD/null). CONFIRMED venue: Hardin Valley Event Center, 2620 Willow Point Way, Knoxville, TN 37931 (previously 'TBD, East Tennessee'). City updated from generic 'East Tennessee' to 'Knoxville'. Founders identified as Steve and Sandy Eplett. Confirmed this is the THIRD annual edition of the event. Updated highlights to match official language (e.g., 'Kidsteaders program'). IMPORTANT FLAG: The official site also references an 'ETHA Annual Homestead Festival' held every September (Sept 12-13 in 2025) at the same Hardin Valley venue, so there may be two related events under the Steve & Sandy / East Tennessee Homestead Alliance umbrella \u2014 verify which the calendar intends to list. Ticket pricing still not publicly posted; previous 30+ speaker claim not confirmed on current page (only Steve & Sandy named so far)."
+      "last_researched": "2026-08-01",
+      "registration_url": "https://www.thehomesteadevent.org",
+      "changes_noted": "NEW: Primary registration/ticket URL is now www.thehomesteadevent.org (per official ETHA Facebook), with ticketing handled via TicketSpice (thehomesteadevent.ticketspice.com/east-tennessee-homestead-alliance-festival). Previously the record pointed only to steveandsandy.com/the-homestead-event-tm \u2014 recommend updating ticket_url/registration_url to thehomesteadevent.org. RE-CONFIRMED: 3rd Annual Homestead Event\u2122, April 24-25, 2026, Hardin Valley Event Center (2620 Willow Point Way), Knoxville, TN 37931; founders Steve & Sandy Eplett; organized under East Tennessee Homestead Alliance (ETHA). CONFIRMED: The official site advertises '30+ speakers' (previously flagged as unconfirmed) \u2014 but the individual speaker lineup is still not published, so only Steve & Sandy are named. FLAG 1 (date discrepancy): third-party aggregator HomesteadLiving.com lists the event as 'April 24-26, 2026'; all official sources say April 24-25. Defaulting to April 24-25. FLAG 2 (two events): ETHA also runs a separate September festival (the ETHA Harvest/Homestead Festival, Sept 12-13 in 2025, described as a 3-day event) at the same venue \u2014 distinct from this April event. FLAG 3: Daily hours (8 AM\u20136 PM EDT) were not reconfirmed on the official page this cycle. Ticket pricing/tiers still not publicly posted."
     },
     {
       "id": "polyface-rogue-2026",
@@ -1963,24 +2006,27 @@
         "start": "2026-01-07",
         "end": "2026-01-07",
         "pre_event": null,
-        "notes": "Monthly virtual gathering \u2014 first Wednesday of the month"
+        "notes": "Monthly virtual gathering \u2014 first Wednesday of each month, except December. January 2026 event has passed."
       },
       "location": {
         "venue": "Virtual / Online",
         "city": "Online",
         "state": "",
-        "region": "Southeast"
+        "region": "National"
       },
       "url": "https://www.nlhg.org/upcoming-events",
       "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
-      "description": "National Ladies Homestead Gathering monthly virtual event. Connecting homesteading women across America \u2014 Share Knowledge. Build Community. Grow Friendships. Free to attend, held online every first Wednesday (except December).",
-      "speakers": [],
+      "description": "National Ladies Homestead Gathering's National Virtual Gathering is a live online event held the first Wednesday of each month (except December), where women from across the country come together to learn, connect, and grow in all things homesteading. Each gathering features a special guest speaker covering practical, self-reliance topics such as gardening, livestock care, preparedness, canning, and DIY projects. Open to both local Chapter members and those without a nearby Chapter. Free to attend.",
+      "speakers": [
+        "Each monthly Virtual Gathering features a special guest speaker (names not published on the general page; speakers range from experienced NLHG members to well-known homestead creators)"
+      ],
       "ticket_price": "Free to attend \u2014 register at nlhg.org",
       "highlights": [
         "monthly virtual gathering",
         "women's homesteading community",
-        "knowledge sharing",
-        "community building",
+        "features a guest speaker each month",
+        "topics: gardening, livestock, preparedness, canning, DIY",
+        "knowledge sharing and community building",
         "free to attend",
         "online event"
       ],
@@ -2003,7 +2049,9 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-10"
+      "last_researched": "2026-08-01",
+      "registration_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
+      "changes_noted": "Confirmed event exists and is ongoing/verified. Located a dedicated official page (https://www.nlhg.org/national-virtual-gatherings) with more detail than the original 'upcoming-events' URL. KEY UPDATE: original record listed speakers as empty and described the event as having 'no speakers on a stage' (per social copy) \u2014 but the official page now confirms EACH virtual gathering features a special guest speaker covering homesteading topics; the X thread social copy stating 'no speakers on a stage' is now INACCURATE and should be corrected. Confirmed cadence (first Wednesday monthly, except December), free pricing, and virtual format. Corrected 'region' from 'Southeast' to 'National' since this is a nationwide virtual event (NLHG is Georgia-founded but the gathering is national/online, not regional). The January 7, 2026 instance has passed; 'past' status remains accurate."
     },
     {
       "id": "nlhg-2026-02",
@@ -2013,24 +2061,25 @@
         "start": "2026-02-04",
         "end": "2026-02-04",
         "pre_event": null,
-        "notes": "Monthly virtual gathering \u2014 first Wednesday of the month"
+        "notes": "Monthly virtual gathering \u2014 first Wednesday of each month, except December. February 2026 gathering has concluded."
       },
       "location": {
         "venue": "Virtual / Online",
         "city": "Online",
         "state": "",
-        "region": "Southeast"
+        "region": "National"
       },
       "url": "https://www.nlhg.org/upcoming-events",
       "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
-      "description": "National Ladies Homestead Gathering monthly virtual event. Connecting homesteading women across America \u2014 Share Knowledge. Build Community. Grow Friendships. Free to attend, held online every first Wednesday (except December).",
+      "description": "National Ladies Homestead Gathering monthly National Virtual Gathering. Held live online on the first Wednesday of each month (except December), women from across the country come together to learn, connect, and grow in all things homesteading. Each Virtual Gathering features a special guest speaker sharing knowledge on topics like gardening, livestock care, preparedness, canning, and DIY projects. Guest speakers range from experienced NLHG members to well-known creators in the homestead world. Open to both Chapter members and those without a local Chapter.",
       "speakers": [],
       "ticket_price": "Free to attend \u2014 register at nlhg.org",
       "highlights": [
-        "monthly virtual gathering",
+        "monthly national virtual gathering",
         "women's homesteading community",
-        "knowledge sharing",
-        "community building",
+        "features a special guest speaker each session",
+        "topics: gardening, livestock care, preparedness, canning, DIY",
+        "open to members and non-members alike",
         "free to attend",
         "online event"
       ],
@@ -2053,7 +2102,9 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-10"
+      "last_researched": "2026-08-01",
+      "registration_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
+      "changes_noted": "Event confirmed as a recurring monthly National Virtual Gathering on the first Wednesday of each month (except December); February 2026 event has concluded. Found a dedicated event page (nlhg.org/national-virtual-gatherings) with expanded detail not previously captured: each gathering features a special guest speaker covering topics such as gardening, livestock care, preparedness, canning, and DIY projects, with speakers ranging from experienced NLHG members to well-known homestead creators. Corrected the 'region' from 'Southeast' to 'National' \u2014 this is a nationwide virtual event, not a Southeast-specific one (NLHG is HQ'd in Statham, GA, but the virtual gathering serves women across the country). No specific February speaker name was published/archived on the site. Free-to-attend and free registration confirmed unchanged."
     },
     {
       "id": "nlhg-2026-03",
@@ -2063,26 +2114,27 @@
         "start": "2026-03-04",
         "end": "2026-03-04",
         "pre_event": null,
-        "notes": "Monthly virtual gathering \u2014 first Wednesday of the month"
+        "notes": "Monthly virtual gathering \u2014 first Wednesday of each month, except December. March 4, 2026 date is consistent with this schedule (first Wednesday). Held live online."
       },
       "location": {
-        "venue": "Virtual / Online",
+        "venue": "Virtual / Online (live via NLHG online community forums)",
         "city": "Online",
         "state": "",
-        "region": "Southeast"
+        "region": "National"
       },
       "url": "https://www.nlhg.org/upcoming-events",
       "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
-      "description": "National Ladies Homestead Gathering monthly virtual event. Connecting homesteading women across America \u2014 Share Knowledge. Build Community. Grow Friendships. Free to attend, held online every first Wednesday (except December).",
+      "description": "The National Ladies Homestead Gathering (NLHG) National Virtual Gathering is a live online event held the first Wednesday of each month (except December), where women from across the country come together to learn, connect, and grow in all things homesteading. Each gathering features a special guest speaker covering practical topics such as gardening, livestock care, preparedness, canning, and DIY projects. Speakers range from experienced NLHG members to well-known creators in the homestead world. The events are open to women whether or not they belong to a local Chapter, and are free to attend via the NLHG online community forums.",
       "speakers": [],
-      "ticket_price": "Free to attend \u2014 register at nlhg.org",
+      "ticket_price": "Free \u2014 participation in the online community and National Virtual Gatherings is free; join the online forums at community.nlhg.org to attend live",
       "highlights": [
-        "monthly virtual gathering",
+        "monthly live virtual gathering",
+        "features a special guest speaker each month",
+        "topics include gardening, livestock, preparedness, canning, and DIY",
         "women's homesteading community",
-        "knowledge sharing",
-        "community building",
-        "free to attend",
-        "online event"
+        "open to Chapter members and non-members alike",
+        "free to attend via online community forums",
+        "first Wednesday of the month (except December)"
       ],
       "source": "nlhg.org",
       "verified": true,
@@ -2103,7 +2155,9 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-10"
+      "last_researched": "2026-08-01",
+      "registration_url": "https://community.nlhg.org/",
+      "changes_noted": "CONFIRMED: Event exists and matches the recurring schedule \u2014 first Wednesday of each month except December; March 4, 2026 aligns with this pattern (past event). SIGNIFICANT ADDITIONS/CORRECTIONS: (1) The official National Virtual Gatherings page confirms each gathering features a SPECIAL GUEST SPEAKER \u2014 this was missing from the prior record, which framed the event only as peer knowledge-sharing. Speakers cover gardening, livestock care, preparedness, canning, DIY, etc., and range from NLHG members to well-known homestead creators. (2) Access/registration is via the NLHG online community forums (community.nlhg.org), NOT the NeonCRM ticket link in the prior record \u2014 that NeonCRM link appears to be for paid in-person National Gatherings (e.g., Idaho Silver Valley event), not the free monthly virtual gatherings. (3) Region corrected from 'Southeast' to 'National' \u2014 this is a nationwide virtual event; NLHG is headquartered in Statham/Statham GA (P.O. Box 1190, Statham, GA 30666) but the virtual gathering draws women 'from across the country.' (4) Free-to-attend status confirmed. No specific March 2026 guest speaker name could be verified from available sources, so the speakers list remains empty rather than fabricated. Note: The event is women-only (18+)."
     },
     {
       "id": "nlhg-2026-04",
@@ -2113,26 +2167,28 @@
         "start": "2026-04-01",
         "end": "2026-04-01",
         "pre_event": null,
-        "notes": "Monthly virtual gathering \u2014 first Wednesday of the month"
+        "notes": "Recurring monthly virtual gathering \u2014 first Wednesday of each month, except December. This specific April 1, 2026 instance is past, but the series is ongoing with future monthly dates."
       },
       "location": {
-        "venue": "Virtual / Online",
+        "venue": "Virtual / Online (NLHG Online Community, community.nlhg.org)",
         "city": "Online",
         "state": "",
-        "region": "Southeast"
+        "region": "National"
       },
       "url": "https://www.nlhg.org/upcoming-events",
       "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
-      "description": "National Ladies Homestead Gathering monthly virtual event. Connecting homesteading women across America \u2014 Share Knowledge. Build Community. Grow Friendships. Free to attend, held online every first Wednesday (except December).",
-      "speakers": [],
-      "ticket_price": "Free to attend \u2014 register at nlhg.org",
+      "description": "National Ladies Homestead Gathering's National Virtual Gathering is a free live online event held the first Wednesday of each month (except December). Women from across the country come together to learn, connect, and grow in all things homesteading. Each gathering features a special guest speaker on topics like gardening, livestock care, preparedness, canning, and DIY projects. Participation is free by joining the NLHG online community/forums.",
+      "speakers": [
+        "Rotating guest speaker each month (varies by month; ranges from experienced NLHG members to well-known homestead creators)"
+      ],
+      "ticket_price": "Free to attend \u2014 join the NLHG online community/forums to participate live",
       "highlights": [
-        "monthly virtual gathering",
+        "monthly virtual gathering (first Wednesday, except December)",
         "women's homesteading community",
-        "knowledge sharing",
-        "community building",
-        "free to attend",
-        "online event"
+        "features a rotating guest speaker each month",
+        "topics include gardening, livestock care, preparedness, canning, DIY",
+        "free to attend via online community",
+        "open to those with or without a local Chapter"
       ],
       "source": "nlhg.org",
       "verified": true,
@@ -2153,7 +2209,9 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-10"
+      "last_researched": "2026-08-01",
+      "registration_url": "https://community.nlhg.org/landing",
+      "changes_noted": "CONFIRMED: NLHG National Virtual Gathering is a free, recurring monthly online event held the first Wednesday of each month (except December), organized by the National Ladies Homestead Gathering (501(c)3 nonprofit, EIN 46-1858853; HQ PO Box 1190, Statham, GA). CONFIRMED NEW DETAIL: Each gathering features a rotating guest speaker (gardening, livestock, preparedness, canning, DIY, etc.) \u2014 added to speakers/highlights. CHANGED: Registration/participation now flows through the NLHG online community/forums (community.nlhg.org, hosted on mn.co), not the previously recorded NeonCRM link (nlhg.app.neoncrm.com). The dedicated virtual-gathering page is https://www.nlhg.org/national-virtual-gatherings (the /upcoming-events page is now primarily a calendar of National + Chapter events). CORRECTED: region changed from 'Southeast' to 'National' \u2014 this is a nationwide online event, not a regional one (the org is HQ'd in the Southeast/GA, but the gathering itself connects women across the country). The specific April 1, 2026 instance is past, but the series is confirmed active and ongoing. No cancellation or postponement found."
     },
     {
       "id": "nlhg-2026-05",
@@ -2163,26 +2221,28 @@
         "start": "2026-05-06",
         "end": "2026-05-06",
         "pre_event": null,
-        "notes": "Monthly virtual gathering \u2014 first Wednesday of the month"
+        "notes": "Recurring monthly virtual gathering held the first Wednesday of each month, except December. The May 6, 2026 session is past; the series continues monthly."
       },
       "location": {
         "venue": "Virtual / Online",
         "city": "Online",
         "state": "",
-        "region": "Southeast"
+        "region": "National (organization based in Statham, GA)"
       },
       "url": "https://www.nlhg.org/upcoming-events",
       "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
-      "description": "National Ladies Homestead Gathering monthly virtual event. Connecting homesteading women across America \u2014 Share Knowledge. Build Community. Grow Friendships. Free to attend, held online every first Wednesday (except December).",
-      "speakers": [],
-      "ticket_price": "Free to attend \u2014 register at nlhg.org",
+      "description": "The National Ladies Homestead Gathering (NLHG) National Virtual Gathering is a live online event held the first Wednesday of each month (except December), where women from across the country come together to learn, connect, and grow in all things homesteading. Each session features a special guest speaker sharing knowledge on topics such as gardening, livestock care, preparedness, canning, and DIY projects\u2014practical skills that empower a more self-reliant lifestyle. Open to both local Chapter members and those without a nearby Chapter. Free to attend by joining NLHG's online forums.",
+      "speakers": [
+        "Rotating guest speakers each month (ranging from experienced NLHG members to well-known creators in the homestead world); specific speaker for a given month not published on the general page"
+      ],
+      "ticket_price": "Free to attend \u2014 participation in the community is free; join the online forums to take part in National Virtual Gatherings live",
       "highlights": [
-        "monthly virtual gathering",
+        "monthly virtual gathering (first Wednesday, except December)",
+        "features a special guest speaker each month",
+        "topics include gardening, livestock care, preparedness, canning, and DIY projects",
         "women's homesteading community",
-        "knowledge sharing",
-        "community building",
-        "free to attend",
-        "online event"
+        "open to Chapter members and non-members alike",
+        "free to attend via NLHG online forums"
       ],
       "source": "nlhg.org",
       "verified": true,
@@ -2203,7 +2263,9 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-10"
+      "last_researched": "2026-08-01",
+      "registration_url": "https://www.nlhg.org/national-virtual-gatherings",
+      "changes_noted": "Confirmed the event still exists and is a legitimate recurring series. Found a dedicated, more detailed page (nlhg.org/national-virtual-gatherings) beyond the generic upcoming-events URL. NEW details added: each gathering features a rotating special guest speaker (previously the speakers field was empty), and specific topic areas (gardening, livestock care, preparedness, canning, DIY). Clarified that free participation is via joining NLHG's online forums rather than a standalone registration. Corrected 'region' \u2014 the previous record labeled it 'Southeast,' but this is a national online event (the organization itself is headquartered in Statham, GA). No specific speaker or agenda was published for any individual month on the general page. Status remains 'past' for the specific May 6, 2026 session, but the monthly series is ongoing."
     },
     {
       "id": "nlhg-2026-06",
@@ -2213,26 +2275,30 @@
         "start": "2026-06-03",
         "end": "2026-06-03",
         "pre_event": null,
-        "notes": "Monthly virtual gathering \u2014 first Wednesday of the month"
+        "notes": "Monthly virtual gathering \u2014 first Wednesday of each month, except December. June 3, 2026 instance has passed; series is ongoing."
       },
       "location": {
-        "venue": "Virtual / Online",
+        "venue": "Virtual / Online (live online event)",
         "city": "Online",
         "state": "",
-        "region": "Southeast"
+        "region": "National"
       },
       "url": "https://www.nlhg.org/upcoming-events",
       "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
-      "description": "National Ladies Homestead Gathering monthly virtual event. Connecting homesteading women across America \u2014 Share Knowledge. Build Community. Grow Friendships. Free to attend, held online every first Wednesday (except December).",
-      "speakers": [],
-      "ticket_price": "Free to attend \u2014 register at nlhg.org",
+      "description": "National Ladies Homestead Gathering's National Virtual Gathering, held on the first Wednesday of each month (except December). In this live online event, women from across the country come together to learn, connect, and grow in all things homesteading. Each gathering features a special guest speaker covering practical topics like gardening, livestock care, preparedness, canning, and DIY projects. Being part of the community is free, and past events are available on YouTube. Mission: Share Knowledge. Build Community. Grow Friendships.",
+      "speakers": [
+        "Featured monthly guest speaker (varies each gathering \u2014 ranges from experienced NLHG members to well-known homestead creators)"
+      ],
+      "ticket_price": "Free to attend \u2014 being part of the community is free; register at nlhg.org",
       "highlights": [
-        "monthly virtual gathering",
+        "monthly virtual gathering (first Wednesday, except December)",
         "women's homesteading community",
-        "knowledge sharing",
-        "community building",
+        "features a special guest speaker each month",
+        "topics: gardening, livestock care, preparedness, canning, DIY",
+        "knowledge sharing and community building",
         "free to attend",
-        "online event"
+        "online event",
+        "past events available on YouTube"
       ],
       "source": "nlhg.org",
       "verified": true,
@@ -2253,7 +2319,9 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-10"
+      "last_researched": "2026-08-01",
+      "registration_url": "https://www.nlhg.org/national-virtual-gatherings",
+      "changes_noted": "CONFIRMED: Event series is legitimate and ongoing \u2014 first Wednesday of each month except December, free, live online, national in scope. NEW: Found a dedicated official page (nlhg.org/national-virtual-gatherings) that is more specific than the general upcoming-events URL previously on record. CORRECTION: Original record listed empty speakers[] and did not mention that each gathering features a special guest speaker (ranging from experienced NLHG members to well-known homestead creators) covering topics like gardening, livestock care, preparedness, canning, and DIY. CORRECTION: 'region' was previously 'Southeast' \u2014 the virtual event is national in scope (NLHG is HQ'd in Statham, GA, but the online gathering draws women from across the country), so 'National' is more accurate. NEW: Past events are archived on NLHG's YouTube channel. NOTE: Specific June 3, 2026 guest speaker name was not verifiable from available sources. Status remains 'past' for the June 3 instance; the recurring series continues."
     },
     {
       "id": "nlhg-2026-07",
@@ -2263,26 +2331,26 @@
         "start": "2026-07-01",
         "end": "2026-07-01",
         "pre_event": null,
-        "notes": "UNCONFIRMED for 2026. The NLHG National Virtual Gatherings page still references the 2025 schedule ('first Wednesdays of the month'), and no 2026 schedule or specific July 1, 2026 virtual gathering date was found. The first-Wednesday-of-July 2026 would be July 1, but this is inferred from the pattern, not confirmed on the site. Note: it is also unconfirmed whether December is the only skipped month \u2014 the record's 'except December' claim was not verifiable in current sources."
+        "notes": "STILL INFERRED, not explicitly confirmed for July 2026. The NLHG National Virtual Gatherings page has been updated and no longer references a year-specific ('2025') schedule; it now states gatherings occur 'on the first Wednesday of each month (except December!).' The first Wednesday of July 2026 is July 1, so the inferred date remains consistent with the stated recurring pattern. However, no page listing a specific July 1, 2026 gathering, its guest speaker, or a dedicated registration entry was found. The 'except December' exclusion is now CONFIRMED by the official page."
       },
       "location": {
         "venue": "Virtual / Online (live-streamed on NLHG online forums)",
         "city": "Online",
         "state": "",
-        "region": "National (NLHG is HQ'd in Statham, Georgia / Southeast, but the virtual gathering is national in scope)"
+        "region": "National (NLHG is HQ'd in Statham, GA \u2014 P.O. Box 1190, Statham, GA 30666 \u2014 but the virtual gathering is national in scope)"
       },
       "url": "https://www.nlhg.org/upcoming-events",
       "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
-      "description": "National Ladies Homestead Gathering's monthly National Virtual Gathering. NLHG is a 501(c)3 nonprofit (EIN 46-1858853) connecting homesteading women \u2014 'Share Knowledge. Build Community. Grow Friendships.' Gatherings are live-streamed on the organization's online forums on the first Wednesday of the month, with past sessions archived on the NLHG YouTube channel. Speakers have historically included Regional Directors and subject experts (e.g., certified herbalists).",
+      "description": "National Ladies Homestead Gathering's monthly National Virtual Gathering \u2014 a live online event held the first Wednesday of each month (except December) where women from across the country come together to learn, connect, and grow in all things homesteading. Each gathering features a special guest speaker covering practical skills like gardening, livestock care, preparedness, canning, and DIY projects. Guest speakers range from experienced NLHG members to well-known creators in the homestead world. NLHG is a 501(c)3 nonprofit (EIN 46-1858853) built on 'Share Knowledge. Build Community. Grow Friendships.' Being part of the community is free; join via the NLHG online forums.",
       "speakers": [],
-      "ticket_price": "Free to attend \u2014 register/join via nlhg.org. Note: VIP Members receive 'exclusives' from National Virtual Gatherings, so some content may be member-gated.",
+      "ticket_price": "Free to attend \u2014 join via NLHG online forums (nlhg.org). Note: VIP ('Very Invested Partner') Members receive 'exclusives from National Virtual Gatherings,' so some content remains member-gated.",
       "highlights": [
-        "monthly national virtual gathering",
+        "monthly national virtual gathering (first Wednesday of each month, except December)",
         "women's homesteading community",
-        "knowledge sharing",
-        "community building",
-        "live-streamed on NLHG online forums",
-        "past sessions archived on YouTube",
+        "special guest speaker each session",
+        "topics: gardening, livestock care, preparedness, canning, DIY projects",
+        "speakers range from NLHG members to well-known homestead creators",
+        "free to join via NLHG online forums",
         "VIP Members receive exclusive content"
       ],
       "source": "nlhg.org",
@@ -2304,9 +2372,9 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-15",
+      "last_researched": "2026-08-01",
       "registration_url": "https://www.nlhg.org/national-virtual-gatherings",
-      "changes_noted": "VERIFICATION DOWNGRADED to false. (1) The official NLHG National Virtual Gatherings page still advertises the 2025 schedule ('Our 2025 National Virtual Gatherings will be live-streamed... on the first Wednesdays of the month'); no 2026 schedule was published/found, so the July 1, 2026 date is INFERRED from the recurring pattern, not confirmed. (2) The upcoming-events calendar page exists but its listings could not be read to confirm a July 2026 virtual entry. (3) Region was previously labeled 'Southeast' \u2014 the org is Georgia-based but the virtual gathering is national; recommend relabeling. (4) Ticket pricing 'free' is broadly accurate but note some virtual-gathering content is VIP-member-exclusive. (5) The dedicated 2025 virtual-gatherings page URL (nlhg.org/national-virtual-gatherings) is a better registration/info link than the generic upcoming-events page. (6) Could not confirm the 'except December' detail. RECOMMENDATION: re-research once NLHG publishes its 2026 virtual gathering schedule before marking confirmed."
+      "changes_noted": "PARTIAL UPGRADE \u2014 verification remains false (specific July 2026 date still not explicitly listed), but several prior uncertainties were resolved: (1) The 'except December' detail is now CONFIRMED \u2014 the official National Virtual Gatherings page explicitly states gatherings are held 'the first Wednesday of each month (except December!).' The prior record's uncertainty on this point is resolved. (2) The page NO LONGER references a year-specific '2025' schedule; it now uses evergreen recurring phrasing, so the July 1, 2026 date remains a reasonable inference from the stated pattern but is still not individually published/listed. (3) Description ENRICHED with newly confirmed details: each gathering has a special guest speaker; topics include gardening, livestock care, preparedness, canning, and DIY projects; speakers range from experienced NLHG members to well-known homestead-world creators. (4) 'Free to join via online forums' CONFIRMED on the official page; VIP-member exclusivity also confirmed via the Membership Benefits page. (5) HQ address confirmed as P.O. Box 1190, Statham, GA 30666; region relabeled to 'National' per prior recommendation. (6) speakers[] left EMPTY \u2014 no specific July 2026 speaker named anywhere. RECOMMENDATION: keep verified=false until NLHG publishes/lists the specific July 2026 session with its guest speaker; re-research closer to the date to confirm the individual listing and speaker."
     },
     {
       "id": "nlhg-2026-08",
@@ -2316,29 +2384,29 @@
         "start": "2026-08-05",
         "end": "2026-08-05",
         "pre_event": null,
-        "notes": "STILL NOT independently confirmed for August 2026. As of the July 15, 2026 re-check, the dedicated National Virtual Gatherings page continues to reference the '2025' schedule and states only that gatherings are live-streamed on the online forums on the first Wednesdays of the month; no 2026-specific virtual gathering calendar or August 5, 2026 instance was found. The 'first Wednesday' pattern is consistent (Aug 5, 2026 is the first Wednesday of August), so the date remains a reasonable projection but is unverified."
+        "notes": "Still NOT independently confirmed for August 2026. As of the 2026-08-01 re-check, the dedicated National Virtual Gatherings page (nlhg.org/national-virtual-gatherings) has been refreshed with new descriptive copy but still contains NO 2026-specific calendar and NO August 5, 2026 instance, topic, or named speaker. The page now explicitly states gatherings occur 'the first Wednesday of each month (except December!)' \u2014 an important clarification confirming the recurring first-Wednesday cadence. Aug 5, 2026 is indeed the first Wednesday of August, so the projected date remains reasonable but unverified. Note: the page no longer says 'live-streamed on forums' in the old wording; it now says being part of the community is free and members join the online forums to take part in the gatherings live."
       },
       "location": {
-        "venue": "Virtual / Online (live-streamed on NLHG online forums)",
+        "venue": "Virtual / Online (join via NLHG online forums to participate live)",
         "city": "Online",
         "state": "",
         "region": "National"
       },
       "url": "https://www.nlhg.org/upcoming-events",
       "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
-      "description": "National Ladies Homestead Gathering monthly virtual gathering for women interested in homesteading. NLHG is a 501(c)3 nonprofit (EIN 46-1858853) founded in 2011 in Georgia by Cyndi Ball, which has grown from meeting in the founder's farmhouse to chapters across the country. The organization provides a welcoming environment where women can share knowledge, celebrate victories, and address challenges while cultivating community with like-minded women \u2014 whether urban, suburban, or rural, and regardless of experience level. National Virtual Gatherings are live-streamed on the organization's online forums on the first Wednesday of the month, and past sessions are archived on the NLHG YouTube channel. VIP Members receive exclusives from the National Virtual Gatherings.",
+      "description": "National Ladies Homestead Gathering (NLHG) monthly National Virtual Gathering for women interested in homesteading. NLHG is a 501(c)3 nonprofit (EIN 46-1858853); it began in January 2011 when women gathered in founder Cyndi Ball's farmhouse in Statham, Georgia, and was officially established as a nonprofit in 2013. Its mission is to empower women through homesteading, providing a welcoming community whether members are urban, suburban, or rural and regardless of experience level. National Virtual Gatherings are held live online on the first Wednesday of each month (except December). Each gathering features a special guest speaker on practical topics such as gardening, livestock care, preparedness, canning, and DIY projects; speakers range from experienced NLHG members to well-known creators in the homesteading world. Participation is free by joining the NLHG online forums, and past sessions are archived on the NLHG YouTube channel. VIP Members receive exclusives from the National Virtual Gatherings.",
       "speakers": [],
       "ticket_price": "Free to attend",
       "highlights": [
-        "monthly virtual gathering",
+        "monthly virtual gathering (first Wednesday of each month, except December)",
         "women's homesteading community",
-        "knowledge sharing",
-        "community building",
+        "features a special guest speaker each month",
+        "topics: gardening, livestock, preparedness, canning, DIY",
+        "knowledge sharing and community building",
         "free to attend",
-        "online event",
-        "live-streamed on NLHG online forums",
+        "online event \u2014 join via NLHG online forums",
         "past sessions archived on YouTube",
-        "501(c)3 nonprofit founded 2011 in Georgia"
+        "501(c)3 nonprofit founded 2011 in Statham, Georgia (incorporated 2013)"
       ],
       "source": "nlhg.org",
       "verified": false,
@@ -2359,9 +2427,9 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-07-15",
+      "last_researched": "2026-08-01",
       "registration_url": "https://www.nlhg.org/national-virtual-gatherings",
-      "changes_noted": "RE-VERIFICATION (2026-07-15): No change since last research on 2026-06-15. CONFIRMED via nlhg.org: (1) NLHG is an active 501(c)3 nonprofit; the model of free monthly National Virtual Gatherings live-streamed on its online forums on the first Wednesday of the month, with past sessions on YouTube, still holds. (2) Additional context confirmed: NLHG was founded in 2011 in Georgia by Cyndi Ball and has grown to chapters in multiple states; gatherings include a Swap and Shop, member mini-talks, 'Atta Girls' sharing, a main speaker, and socializing; VIP Members get virtual-gathering exclusives. STILL COULD NOT CONFIRM: the specific August 5, 2026 instance, any topic, or speaker. The dedicated virtual gatherings page (nlhg.org/national-virtual-gatherings) STILL references the '2025' schedule and has not been updated for 2026 \u2014 recommend re-checking closer to the date. Keeping verified=false until the August date and topic appear on an updated 2026 schedule. Note: the neoncrm ticket_url in the original record remains uncorroborated; registration/access appears to flow through the virtual gatherings page and online forums."
+      "changes_noted": "RE-VERIFICATION (2026-08-01): The recurring model is CONFIRMED and slightly clarified. The National Virtual Gatherings page has been updated with new copy that now explicitly states gatherings happen 'the first Wednesday of each month (except December!)' \u2014 this newly confirms the December exception and reinforces the first-Wednesday cadence underpinning the projected Aug 5, 2026 date. Also newly confirmed on the page: each gathering features a special guest speaker (ranging from NLHG members to well-known homestead creators) on topics like gardening, livestock care, preparedness, canning, and DIY; participation is free via the online forums; VIP Members get virtual-gathering exclusives. CORRECTION to founding history: About page indicates NLHG began meeting in Jan 2011 and was officially established as a nonprofit in 2013 (prior record's phrasing of 'founded 2011' should note the 2013 incorporation). STILL COULD NOT CONFIRM: the specific August 5, 2026 instance, its topic, or its speaker \u2014 no 2026-specific virtual-gathering calendar was found. Keeping verified=false until an updated 2026 schedule lists the August date/topic. Note: the neoncrm ticket_url remains uncorroborated for virtual gatherings \u2014 that portal currently surfaces an in-person National Gathering event (Silver Valley/Wallace, Idaho, w/ speaker Suzanne Tabert), not the monthly virtual series; access to the virtual gatherings flows through the online forums via the registration_url. Recommend re-checking within a week of Aug 5."
     },
     {
       "id": "nlhg-2026-09",
@@ -2371,30 +2439,31 @@
         "start": "2026-09-02",
         "end": "2026-09-02",
         "pre_event": null,
-        "notes": "UNCONFIRMED for 2026. NLHG's National Virtual Gatherings page currently references only the 2025 schedule ('first Wednesdays of the month'), with no published 2026 calendar or specific September 2026 date found. Sept 2, 2026 is indeed the first Wednesday of September, consistent with the stated cadence, but the specific 2026 event listing could not be verified. Note: the record's original 'December exception' note could not be independently confirmed from current sources."
+        "notes": "The official National Virtual Gatherings page now explicitly confirms the cadence as 'the first Wednesday of each month (except December!)' \u2014 this CONFIRMS the record's previously-unverified 'December exception' note. Sept 2, 2026 is the first Wednesday of September, fully consistent with the stated cadence. However, NLHG does not publish a specific dated 2026 calendar listing for individual monthly virtual gatherings on its public pages, so the Sept 2, 2026 date is confirmed by cadence/pattern rather than by an explicit standalone event listing. Each gathering features a guest speaker; the specific September 2026 speaker is not yet published."
       },
       "location": {
-        "venue": "Virtual / Online (live-streamed on NLHG online forums)",
+        "venue": "Virtual / Online \u2014 live-streamed via NLHG's private online forums (community.nlhg.org); past events archived on YouTube",
         "city": "Online",
         "state": "",
-        "region": "National (organization HQ: Statham, GA \u2014 'Southeast' region tag is HQ-based, not event-based)"
+        "region": "National (organization HQ: P.O. Box 1190, Statham, GA 30666)"
       },
       "url": "https://www.nlhg.org/upcoming-events",
       "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
-      "description": "The National Ladies Homestead Gathering (NLHG) is a 501(c)(3) nonprofit (EIN 46-1858853) founded in 2013 (workshops began at founder Cyndi Ball's home in 2009), headquartered in Statham, GA. Its tagline is 'Share Knowledge. Build Community. Grow Friendships.' NLHG hosts monthly National Virtual Gatherings live-streamed on its online forums on the first Wednesdays of the month, with past events accessible on YouTube.",
+      "description": "The National Ladies Homestead Gathering (NLHG) is a 501(c)(3) nonprofit headquartered in Statham, GA (P.O. Box 1190, Statham, GA 30666), whose tagline is 'Share Knowledge. Build Community. Grow Friendships.' NLHG hosts a monthly National Virtual Gathering on the first Wednesday of each month (except December). In this live online event, women from across the country come together to learn, connect, and grow in all things homesteading. Each gathering features a special guest speaker covering practical homesteading topics \u2014 gardening, livestock care, preparedness, canning, DIY projects, and more. Speakers range from experienced NLHG members to well-known creators in the homestead world. Participation is free via NLHG's online forums, and past events are archived on YouTube.",
       "speakers": [],
-      "ticket_price": "Could not confirm 'free to attend' for the National Virtual Gatherings. Membership pages indicate VIP Members receive 'exclusives from National Virtual Gatherings,' suggesting some content may be members-only. Recommend verifying pricing/access directly.",
+      "ticket_price": "Free. The official National Virtual Gatherings page now states that being part of the community is free and that joining the online forums lets members take part in the National Virtual Gatherings live. Note: while live participation is free, some post-event content/'exclusives' from National Virtual Gatherings are described as a VIP Member benefit \u2014 but attendance itself is free. This RESOLVES the prior pricing uncertainty and validates the 'free to attend' social-post claim.",
       "highlights": [
-        "monthly virtual gathering (first Wednesdays)",
+        "monthly virtual gathering (first Wednesdays, except December)",
         "women's homesteading community",
-        "knowledge sharing",
-        "community building",
-        "live-streamed on NLHG online forums",
-        "past events available on YouTube",
-        "501(c)(3) nonprofit, founded 2013"
+        "features a special guest speaker each session",
+        "topics: gardening, livestock care, preparedness, canning, DIY projects",
+        "free to attend via NLHG online forums (community.nlhg.org)",
+        "past events archived on YouTube",
+        "speakers range from NLHG members to well-known homestead creators",
+        "501(c)(3) nonprofit, HQ Statham, GA"
       ],
       "source": "nlhg.org",
-      "verified": false,
+      "verified": true,
       "social_posts": {
         "facebook": "\ud83d\udcc5 NLHG National Virtual Gathering \u2014 September 2, 2026\n\ud83d\udccd Online (no travel, no chores left undone)\n\ud83c\udf9f\ufe0f Free to attend\n\nIf you're a homesteading woman who's ever wished for a circle of folks who just *get it* \u2014 this one's for you.\n\nThe National Ladies Homestead Gathering meets online the first Wednesday of every month, and September's gathering is right around the corner. It's a space where women across America come together to share what they've learned, ask the questions they've been sitting on, and build the kind of friendships that make this life feel a little less lonely and a whole lot richer.\n\nWhether you're elbow-deep in your first season of canning, learning the rhythm of dairy goats, or you've been at this for decades and have wisdom to pass down \u2014 there's a seat at this table for you. Knowledge gets shared. Community gets built. Friendships grow.\n\nAnd the best part? It's completely free.\n\nSo pour yourself something warm, settle in, and meet the women who are quietly building a more self-sufficient life right alongside you.\n\n\ud83d\udc49 Register at nlhg.org or grab your free spot here: https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp\n\n#HomesteadingCommunity #HomesteadLife #SelfSufficiency #GrowYourOwn #BackToBasics",
         "x": {
@@ -2412,9 +2481,9 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-07-15",
-      "registration_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
-      "changes_noted": "SIGNIFICANT VERIFICATION ISSUES \u2014 recommend downgrading status from 'confirmed' to 'tentative/unconfirmed'. (1) DATE NOT VERIFIED: NLHG's National Virtual Gatherings page currently references the '2025' schedule of first-Wednesday gatherings; no explicit 2026 calendar or a specific Sept 2, 2026 listing was found. The date is plausible (Sept 2, 2026 is the first Wednesday) but unconfirmed. (2) PRICE NOT VERIFIED: The 'Free to attend' claim could not be confirmed; NLHG materials describe National Virtual Gathering content as a VIP Member benefit/'exclusive,' which may contradict 'free.' (3) DELIVERY DETAIL: Events are described as live-streamed on NLHG's own online forums (community.nlhg.org), not a generic webinar link; past sessions are archived on YouTube. (4) The distinct high-profile in-person National Gatherings (e.g., Grove, OK; Silver Valley, ID) are separate from these monthly virtual events and should not be conflated. CONFIRMED: organization is legitimate and active (nonprofit EIN 46-1858853, HQ Statham GA), the monthly first-Wednesday virtual cadence, tagline, and YouTube archive."
+      "last_researched": "2026-08-01",
+      "registration_url": "https://www.nlhg.org/national-virtual-gatherings",
+      "changes_noted": "STATUS UPGRADED \u2014 record can now be marked verified=true, though with caveats. KEY CONFIRMATIONS: (1) DECEMBER EXCEPTION CONFIRMED: The official National Virtual Gatherings page now explicitly states the cadence is 'the first Wednesday of each month (except December!)', directly confirming the record's previously-unverified 'December exception' note. (2) PRICING RESOLVED: The page now states participation is free \u2014 'Being part of our community is free' and joining the online forums lets you take part in the National Virtual Gatherings live. This validates the 'free to attend' social-post claim, though post-event 'exclusives' remain a VIP Member perk. (3) FORMAT CONFIRMED: Live-streamed on NLHG's own online forums (community.nlhg.org), with past events on YouTube; each session features a guest speaker. REMAINING CAVEATS: (a) No explicit standalone dated listing for Sept 2, 2026 was found on public NLHG pages \u2014 the date is confirmed by the stated monthly cadence, not by a specific published event entry. (b) The specific September 2026 guest speaker is not yet announced. (c) NOTE ON REGISTRATION URL: The prior neoncrm eventList / event.jsp links appear tied to NLHG's paid IN-PERSON National Gatherings (e.g., Grove, OK \u2014 women 18+, non-refundable tickets), NOT the free virtual gatherings. Recommend using the National Virtual Gatherings page (nlhg.org/national-virtual-gatherings) as the registration/participation link for THIS virtual event; the neoncrm ticket link is likely inappropriate for a free virtual gathering. (d) Reconfirm separation: monthly virtual gatherings are distinct from the paid in-person National Gatherings."
     },
     {
       "id": "nlhg-2026-10",
@@ -2424,26 +2493,27 @@
         "start": "2026-10-07",
         "end": "2026-10-07",
         "pre_event": null,
-        "notes": "Monthly virtual gathering \u2014 first Wednesday of the month"
+        "notes": "Monthly virtual gathering \u2014 first Wednesday of the month (October 7, 2026 falls on a Wednesday). NLHG holds a National Virtual Gathering on the first Wednesday of each month except December. Specific October 2026 date not individually listed on-site but consistent with recurring schedule."
       },
       "location": {
         "venue": "Virtual / Online",
         "city": "Online",
         "state": "",
-        "region": "Southeast"
+        "region": "National"
       },
       "url": "https://www.nlhg.org/upcoming-events",
       "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
-      "description": "National Ladies Homestead Gathering monthly virtual event. Connecting homesteading women across America \u2014 Share Knowledge. Build Community. Grow Friendships. Free to attend, held online every first Wednesday (except December).",
+      "description": "National Ladies Homestead Gathering monthly National Virtual Gathering. <cite index=\"3-1,3-2,3-3\">Held on the first Wednesday of each month (except December), this live online event brings women from across the country together to learn, connect, and grow in all things homesteading.</cite> <cite index=\"3-7\">Each Virtual Gathering features a special guest speaker sharing their knowledge on topics like gardening, livestock care, preparedness, canning, DIY projects, and more\u2014practical skills that empower a more self-reliant lifestyle.</cite> <cite index=\"22-5\">Guest speakers range from experienced NLHG members to well-known creators in the homestead world.</cite> <cite index=\"31-1\">Being part of the community is free\u2014attendees join the online forums to take part in the National Virtual Gatherings live.</cite> NLHG is a 501(c)(3) nonprofit founded in Statham, Georgia, connecting homesteading women across America under the motto: Share Knowledge. Build Community. Grow Friendships.",
       "speakers": [],
-      "ticket_price": "Free to attend \u2014 register at nlhg.org",
+      "ticket_price": "Free to attend",
       "highlights": [
-        "monthly virtual gathering",
+        "monthly national virtual gathering",
         "women's homesteading community",
-        "knowledge sharing",
-        "community building",
+        "features a special guest speaker each month",
+        "topics include gardening, livestock, preparedness, canning, DIY",
         "free to attend",
-        "online event"
+        "online event",
+        "held first Wednesday of month except December"
       ],
       "source": "nlhg.org",
       "verified": true,
@@ -2464,7 +2534,9 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-10"
+      "last_researched": "2026-08-01",
+      "registration_url": "https://www.nlhg.org/national-virtual-gatherings",
+      "changes_noted": "CONFIRMED: The recurring monthly National Virtual Gathering format is verified via the official NLHG site \u2014 first Wednesday of each month (except December), free, live online, with a special guest speaker each month. Oct 7, 2026 is indeed a first Wednesday, consistent with the schedule. However, the site does not list a standalone October 7, 2026 event page or confirm an individual October date/speaker, so the specific date should be treated as inferred-from-schedule rather than individually confirmed. CORRECTIONS: (1) 'region' changed from 'Southeast' to 'National' \u2014 this is a nationwide virtual event, not a regional one (the org is headquartered in Statham, GA, but the event serves women across the US). (2) The correct dedicated event/registration page is https://www.nlhg.org/national-virtual-gatherings, where attendees join the free online forums to participate live \u2014 NOT the NeonCRM event list (nlhg.app.neoncrm.com), which is used for paid/ticketed in-person National Gatherings. (3) No speaker announced yet for October; speakers array remains empty. (4) Ticket price simplified to 'Free to attend.' No cancellation or postponement found. Note: nlhg.org/upcoming-events is a general calendar of National + Chapter events and did not surface a specific October virtual gathering listing at time of research."
     },
     {
       "id": "nlhg-2026-11",
@@ -2474,24 +2546,25 @@
         "start": "2026-11-04",
         "end": "2026-11-04",
         "pre_event": null,
-        "notes": "Monthly virtual gathering \u2014 first Wednesday of the month"
+        "notes": "Confirmed via recurring pattern: first Wednesday of each month except December. Nov 4, 2026 is the first Wednesday of November. No standalone calendar listing for this specific date was found this far out; speaker/topic not yet announced."
       },
       "location": {
         "venue": "Virtual / Online",
         "city": "Online",
         "state": "",
-        "region": "Southeast"
+        "region": "National"
       },
       "url": "https://www.nlhg.org/upcoming-events",
       "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
-      "description": "National Ladies Homestead Gathering monthly virtual event. Connecting homesteading women across America \u2014 Share Knowledge. Build Community. Grow Friendships. Free to attend, held online every first Wednesday (except December).",
+      "description": "National Ladies Homestead Gathering's monthly National Virtual Gathering. In this live online event, women from across the country come together to learn, connect, and grow in all things homesteading. Each gathering features a special guest speaker on topics like gardening, livestock care, preparedness, canning, and DIY projects. Held on the first Wednesday of each month (except December). Free to attend \u2014 participation is via NLHG's online forums/community.",
       "speakers": [],
-      "ticket_price": "Free to attend \u2014 register at nlhg.org",
+      "ticket_price": "Free to attend \u2014 join the online community/forums at nlhg.org to participate live",
       "highlights": [
         "monthly virtual gathering",
         "women's homesteading community",
-        "knowledge sharing",
-        "community building",
+        "features a special guest speaker each month",
+        "topics include gardening, livestock care, preparedness, canning, DIY projects",
+        "open to Chapter members and non-members alike",
         "free to attend",
         "online event"
       ],
@@ -2514,7 +2587,9 @@
         "x": false,
         "youtube": false
       },
-      "last_researched": "2026-06-10"
+      "last_researched": "2026-08-01",
+      "registration_url": "https://community.nlhg.org/",
+      "changes_noted": "CONFIRMED: Monthly cadence (first Wednesday except December) verified on nlhg.org/national-virtual-gatherings; Nov 4, 2026 correctly matches the pattern. CONFIRMED: Free to attend. CORRECTION FLAGGED: Each virtual gathering features a special guest speaker (gardening, livestock, preparedness, canning, DIY) \u2014 this was not reflected in the prior description/highlights. REGISTRATION CORRECTION: Participation in the FREE virtual gatherings is via NLHG's online forums/community (community.nlhg.org), not the NeonCRM eventList link in the current record \u2014 that NeonCRM link appears tied to PAID in-person National Gatherings (e.g., the Idaho event), so the ticket_url should be reviewed. REGION NOTE: Prior record labeled region 'Southeast'; this is a national online event with a Georgia-based nonprofit HQ \u2014 'National' is more accurate for an online gathering. No specific speaker/topic announced for Nov 4, 2026 yet. Event not cancelled or postponed; no significant date changes."
     },
     {
       "id": "okie-expo-2027",
@@ -2565,6 +2640,53 @@
       "last_researched": "2026-06-15",
       "changes_noted": "Added 2026-06-15 from official Save the Date flyer (image) and organizer Facebook post. Dates, venue, and session counts confirmed.",
       "registration_url": "https://okiehomesteading.com"
+    },
+    {
+      "id": "american-regeneration-2026",
+      "name": "American Regeneration Conference 2026",
+      "status": "confirmed",
+      "dates": {
+        "start": "2026-05-01",
+        "end": "2026-05-02",
+        "notes": "1st Annual"
+      },
+      "location": {
+        "venue": "Sovereignty Ranch",
+        "city": "Bandera",
+        "state": "TX",
+        "region": "Texas Hill Country"
+      },
+      "url": "https://events.acresusa.com/american-regeneration",
+      "description": "Inaugural regenerative agriculture conference produced with Acres U.S.A. focused on soil health, regenerative farming, and farm-to-table food, with demonstrations, discussions, and live presentations at a 200-acre working regenerative farm and ranch.",
+      "speakers": [
+        "Robert F. Kennedy Jr."
+      ],
+      "ticket_price": "",
+      "highlights": [
+        "Regenerative agriculture demonstrations",
+        "Soil health & farm-to-table food",
+        "Held at working 200-acre regenerative ranch"
+      ],
+      "source": "discovery",
+      "verified": false,
+      "social_posts": {
+        "facebook": "American Regeneration Conference 2026\nMay 1\u20132, 2026 | Sovereignty Ranch, Bandera, TX (Texas Hill Country)\n\nThe inaugural American Regeneration Conference is rolling into the Hill Country, and it's shaping up to be a special one for folks in the homestead movement.\n\nProduced alongside the good people at Acres U.S.A., this two-day gathering plants itself right on a working 200-acre regenerative farm and ranch \u2014 no sterile convention halls here. You'll get boots-on-the-ground demonstrations covering soil health, regenerative farming, and honest-to-goodness farm-to-table food. The kind of learning that sticks because you're standing in the pasture while it happens.\n\nRobert F. Kennedy Jr. is on the speaker roster, bringing the conversation about food freedom and land stewardship front and center.\n\nWhether you're deep into building your own soil or just starting to dream about a place of your own, Bandera in May is where the regenerative community is coming together to share what actually works.\n\nSpots at a first-annual event like this go quick. Grab your details and register here:\nhttps://events.acresusa.com/american-regeneration\n\n#Farm2Table #RegenerativeAg #HomesteadingCommunity #FoodFreedom #BackToBasics",
+        "x": {
+          "lead": "American Regeneration Conference 2026 is coming to Sovereignty Ranch in Bandera, TX \u2014 May 1\u20132. A first-annual gathering on a working 200-acre regenerative farm. Soil health, farm-to-table, and hands-on demos. \ud83c\udf31\n\nhttps://events.acresusa.com/american-regeneration",
+          "thread": [
+            "Produced with Acres U.S.A., this one plants you right in the middle of the action \u2014 200 acres of working regenerative ranch in the Texas Hill Country. You learn soil health while your boots are in it, not in a conference hall. #RegenerativeAg",
+            "Robert F. Kennedy Jr. joins the speaker lineup, bringing the food freedom and land stewardship conversation front and center. The kind of talk the homestead community's been having around the kitchen table for years. #FoodFreedom",
+            "First-annual events fill up fast, and this is one worth showing up for. Grab your details and register: https://events.acresusa.com/american-regeneration #Farm2Table #HomesteadLife"
+          ]
+        },
+        "youtube": "Big one to put on your calendar, folks. The very first American Regeneration Conference lands at Sovereignty Ranch in Bandera, TX on May 1\u20132, 2026. Built with Acres U.S.A., it's happening on a real working 200-acre regenerative farm \u2014 so expect live demos on soil health, regenerative farming, and farm-to-table food, plus Robert F. Kennedy Jr. on the speaker roster. This is where the regenerative crowd is gathering to swap what actually works out in the pasture. Thinking about making the trip to the Hill Country for it? Let us know in the comments below \u2014 and grab your spot at https://events.acresusa.com/american-regeneration"
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-08-01"
     }
   ]
 }

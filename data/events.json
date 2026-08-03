@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-01",
+    "last_updated": "2026-08-03",
     "version": "1.0",
-    "total_events": 45
+    "total_events": 46
   },
   "events": [
     {
@@ -2687,6 +2687,58 @@
         "youtube": false
       },
       "last_researched": "2026-08-01"
+    },
+    {
+      "id": "mpp-topeka-meat-canning-2026",
+      "name": "Topeka MAG \u2014 Meat Canning Workshop with Angela Allard of Grumpy Acres Farm",
+      "status": "confirmed",
+      "dates": {
+        "start": "2026-08-16",
+        "end": "2026-08-16",
+        "notes": "3:00\u20135:00 PM. Hosted by the Topeka & Surrounding Area MAG (Mutual Assistance Group), organized under the Midwest Preparedness Project (MPP)."
+      },
+      "location": {
+        "venue": "Seaman Community Church",
+        "city": "Topeka",
+        "state": "KS",
+        "region": "Midwest"
+      },
+      "url": "https://midwestpreparednessproject.com/events",
+      "description": "Hands-on meat canning workshop hosted by the Topeka & Surrounding Area MAG (Mutual Assistance Group), part of the Midwest Preparedness Project (MPP). Angela Allard of Grumpy Acres Farm walks attendees through the full process of safely pressure-canning meat: selecting and prepping cuts, raw vs. hot pack methods, dialing in a pressure canner for local altitude, safe processing times, and how to test a trustworthy seal. Also covers essential vs. nice-to-have gear, troubleshooting cloudy liquid or failed seals, and building a pantry rotation for winter, outages, and lean seasons. Open to beginners and experienced canners alike.",
+      "speakers": [
+        "Angela Allard (Grumpy Acres Farm)"
+      ],
+      "ticket_price": "Not published on the MPP site \u2014 RSVP requested via the Midwest Preparedness Project events page; no dollar figure listed (consistent with other Topeka MAG meetings at this venue, which appear to be free/RSVP-only). Verify with MPP before publishing a specific price.",
+      "highlights": [
+        "Hands-on pressure canning instruction for meat",
+        "Raw pack vs. hot pack methods",
+        "Altitude-adjusted processing times and seal testing",
+        "Gear guidance: essential vs. nice-to-have",
+        "Troubleshooting cloudy liquid / failed seals",
+        "Pantry rotation planning for winter and emergencies"
+      ],
+      "source": "midwestpreparednessproject.com",
+      "verified": true,
+      "social_posts": {
+        "facebook": "Meat Canning Workshop with Angela Allard of Grumpy Acres Farm\n\ud83d\udcc5 Sunday, August 16, 2026 | 3:00\u20135:00 PM\n\ud83d\udccd Seaman Community Church, Topeka, KS\n\nThere's a certain kind of peace that comes from a pantry stocked with jars you filled yourself \u2014 and folks in the homestead community around Topeka have a chance to earn that skill hands-on this August.\n\nAngela Allard is walking attendees through the whole process of safely pressure-canning meat: selecting and prepping your cuts, raw pack vs. hot pack, dialing in a pressure canner for your local altitude, nailing safe processing times, and testing for a seal you can actually trust.\n\nShe's also getting into the real-world stuff nobody warns you about \u2014 cloudy liquid, failed seals, which gear is essential vs. nice-to-have, and how to build a pantry rotation that carries you through winter, outages, and lean seasons.\n\nBeginners and seasoned canners are both welcome. This one's hosted by the Topeka & Surrounding Area MAG under the Midwest Preparedness Project.\n\nSeats are RSVP-only, so don't wait to claim your spot. \ud83d\udc47\n\nRSVP: https://midwestpreparednessproject.com/events\n\n#Farm2Table #HomesteadLife #SelfSufficiency #BackToBasics #FoodFreedom",
+        "x": {
+          "lead": "Fill your shelves with jars YOU packed. \ud83e\uded9\n\nMeat Canning Workshop w/ Angela Allard of Grumpy Acres Farm\n\ud83d\udcc5 Aug 16, 2026 | 3\u20135 PM\n\ud83d\udccd Seaman Community Church, Topeka, KS\n\nHands-on. Beginners welcome.\n\nRSVP \ud83d\udc47\nhttps://midwestpreparednessproject.com/events",
+          "thread": [
+            "Angela's not just handing out a recipe card. She's walking folks through the full process: selecting & prepping cuts, raw pack vs. hot pack, and dialing a pressure canner in for your local altitude. Real skills you keep for life. #HomesteadingCommunity",
+            "The good part? She covers what usually goes wrong. Cloudy liquid, failed seals, safe processing times, and how to test for a seal you can actually trust. Plus which gear is essential vs. nice-to-have. #SelfSufficiency #BackToBasics",
+            "Hosted by the Topeka & Surrounding Area MAG under the Midwest Preparedness Project. Beginners and seasoned canners both welcome \u2014 seats are RSVP-only.\n\nGrab your spot \ud83d\udc49 https://midwestpreparednessproject.com/events #FoodFreedom"
+          ]
+        },
+        "youtube": "Anybody else find something deeply satisfying about a shelf lined with jars you canned yourself? \ud83e\uded9\n\nOn August 16, Angela Allard of Grumpy Acres Farm is hosting a hands-on meat canning workshop in Topeka, KS \u2014 raw pack vs. hot pack, altitude-adjusted processing times, seal testing, and troubleshooting the stuff that usually trips people up. Beginners and experienced canners alike are welcome. It's part of the Topeka MAG under the Midwest Preparedness Project, and seats are RSVP-only.\n\nRSVP here: https://midwestpreparednessproject.com/events\n\nSo tell us \u2014 what's the first thing YOU'd want to can for winter? Drop it in the comments. \ud83d\udc47"
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-08-03",
+      "changes_noted": "NEW EVENT added per direct research request. Confirmed via live Event entity API on midwestpreparednessproject.com/events (event id 6a6283a68f46dbfcc53e810e): date 2026-08-16, 3:00\u20135:00 PM, Seaman Community Church, Topeka, KS. MPP = Midwest Preparedness Project, the parent organization running the Topeka & Surrounding Area MAG. No registration_url or ticket price published by the source (field is null/absent in their system) \u2014 flag for re-check closer to the event date.",
+      "registration_url": null
     }
   ]
 }

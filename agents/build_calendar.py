@@ -7,17 +7,27 @@ clickable event chips that open a modal with full details + links.
 
 import json
 import os
+import base64
 import datetime
 
-EVENTS_FILE = os.path.join(os.path.dirname(__file__), "../data/events.json")
-OUTPUT_FILE = os.path.join(os.path.dirname(__file__), "../calendar.html")
+EVENTS_FILE  = os.path.join(os.path.dirname(__file__), "../data/events.json")
+OUTPUT_FILE  = os.path.join(os.path.dirname(__file__), "../calendar.html")
+LOGO_FILE    = os.path.join(os.path.dirname(__file__), "../farm2table_logo_round.png")
 
+def load_logo_b64():
+    try:
+        with open(LOGO_FILE, "rb") as f:
+            return base64.b64encode(f.read()).decode()
+    except Exception:
+        return ""
+
+# Farm2Table brand palette — red accent on dark
 REGION_COLORS = {
-    "Southeast":  "#6ab04c",
+    "Southeast":  "#c0392b",
     "South":      "#e67e22",
-    "Midwest":    "#3498db",
+    "Midwest":    "#2980b9",
     "Northwest":  "#8e44ad",
-    "Northeast":  "#e74c3c",
+    "Northeast":  "#c0392b",
     "Southwest":  "#f39c12",
     "Alaska":     "#1abc9c",
     "default":    "#546e7a",
@@ -106,8 +116,6 @@ def modal_data(events):
     """Build JS object literal for all events."""
     items = []
     for e in events:
-        if e.get("status") in ("past", "completed", "archived"):
-            continue
         color = event_chip_color(e)
         loc = e.get("location", {})
         location_str = ", ".join(filter(None, [
@@ -120,17 +128,20 @@ def modal_data(events):
         highlights = e.get("highlights", [])
         url = e.get("url", "#")
 
+        ticket_url = e.get("ticket_url", url)
+
         obj = {
             "id": e["id"],
             "name": e["name"],
             "color": color,
-            "date": format_date_range(e),
+            "date": ("Next dates coming soon — last held " + format_date_range(e)) if e.get("status") in ("past", "completed", "archived") else format_date_range(e),
             "location": location_str,
             "description": e.get("description", ""),
             "speakers": speakers,
             "highlights": highlights,
             "ticket_price": ticket,
             "url": url,
+            "ticket_url": ticket_url,
             "status": e.get("status", "confirmed"),
             "verified": e.get("verified", False),
         }
@@ -202,12 +213,14 @@ def calendar_grid_html(year, month, month_events):
     return "\n".join(cells)
 
 def build_html(events_data):
-    events = events_data["events"]
+    events     = events_data["events"]
     last_updated = events_data["meta"].get("last_updated", "")
-    months = build_calendar_months(events)
+    months     = build_calendar_months(events)
+    logo_b64   = load_logo_b64()
+    logo_src   = f"data:image/png;base64,{logo_b64}" if logo_b64 else ""
 
     legend_html = "".join(
-        f'<span class="legend-item"><span class="legend-dot" style="background:{c};"></span>{r}</span>'
+        f'<span class="legend-item"><span class="legend-dot" style="background:{c};"></span><span>{r}</span></span>'
         for r, c in REGION_COLORS.items() if r != "default"
     )
 
@@ -225,103 +238,233 @@ def build_html(events_data):
           </div>
         </div>"""
 
-    events_js = modal_data(events)
+    awaiting = [e for e in events if e.get("status") in ("past", "completed", "archived")]
+    if awaiting:
+        chips = "".join(
+            f'<button class="chip" style="background:{event_chip_color(e)};opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal(\'{e["id"]}\')">{e["name"]}</button>'
+            for e in awaiting)
+        months_html += f'''
+        <div class="month-block">
+          <h2 class="month-title">Awaiting 2027 Dates</h2>
+          <p style="margin:0 0 8px;opacity:.8;">These events have wrapped for 2026. We'll post new dates as soon as they're announced.</p>
+          <div>{chips}</div>
+        </div>'''
+
+    events_js  = modal_data(events)
+    logo_html  = f'<img src="{logo_src}" class="header-logo" alt="The Farm2Table Show">' if logo_src else ""
 
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Homestead Events Calendar 2026 — Farm2Table</title>
+<title>Homestead Events Calendar 2026 — The Farm2Table Show</title>
+
+<!-- Open Graph / Social Preview -->
+<meta property="og:type"        content="website">
+<meta property="og:url"         content="https://homestead-events-calendar.netlify.app/calendar.html">
+<meta property="og:title"       content="2026 Homestead Events Calendar — The Farm2Table Show">
+<meta property="og:description" content="14 verified homestead conferences, expos & festivals across America. Click any event for dates, speakers, ticket prices & more.">
+<meta property="og:image"       content="https://homestead-events-calendar.netlify.app/og-preview.jpg">
+<meta property="og:image:width"  content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name"   content="The Farm2Table Show">
+
+<!-- Twitter / X Card -->
+<meta name="twitter:card"        content="summary_large_image">
+<meta name="twitter:site"        content="@TF2TDS">
+<meta name="twitter:title"       content="2026 Homestead Events Calendar — The Farm2Table Show">
+<meta name="twitter:description" content="14 verified homestead conferences, expos & festivals across America. Click any event for dates, speakers, ticket prices & more.">
+<meta name="twitter:image"       content="https://homestead-events-calendar.netlify.app/og-preview.jpg">
 <style>
   :root {{
-    --green: #6ab04c;
-    --dark: #2d4a1e;
-    --bg: #f9f6f1;
-    --card: #ffffff;
+    --red:    #cc1100;
+    --red2:   #a30e00;
+    --black:  #0d0d0d;
+    --dark:   #1a1a1a;
+    --cream:  #f5f0e8;
+    --card:   #ffffff;
     --border: #ddd;
-    --shadow: 0 2px 12px rgba(0,0,0,0.10);
+    --text:   #1a1a1a;
   }}
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Georgia&display=swap');
   * {{ box-sizing: border-box; margin: 0; padding: 0; }}
-  body {{ font-family: Georgia, serif; background: var(--bg); color: #222; }}
+  body {{ font-family: Georgia, serif; background: var(--cream); color: var(--text); }}
 
+  /* ── HEADER ── */
   header {{
-    background: var(--dark);
+    background: var(--black);
     color: white;
-    padding: 28px 32px 20px;
+    padding: 0;
+    border-bottom: 4px solid var(--red);
+  }}
+  .header-inner {{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 18px 24px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }}
+  .header-logo {{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }}
+  .header-text {{ flex: 1; }}
+  .header-eyebrow {{
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--red);
+    margin-bottom: 4px;
+  }}
+  .header-title {{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.9rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+    line-height: 1.1;
+  }}
+  .header-title span {{ color: var(--red); }}
+  .header-sub {{
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 5px;
+    font-family: sans-serif;
+  }}
+  .header-right {{
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 0.75rem;
+    color: #777;
+  }}
+  .header-right strong {{
+    display: block;
+    font-size: 1.1rem;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+  }}
+
+  /* ── RED STRIPE ── */
+  .stripe {{
+    background: var(--red);
+    padding: 7px 24px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 8px;
   }}
-  header h1 {{ font-size: 1.6rem; font-weight: normal; letter-spacing: 0.5px; }}
-  header .sub {{ font-size: 0.85rem; opacity: 0.7; margin-top: 4px; }}
-  .updated {{ font-size: 0.78rem; opacity: 0.6; }}
+  .stripe-tagline {{
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.78rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+  }}
 
+  /* ── LEGEND ── */
   .legend {{
-    background: var(--card);
-    border-bottom: 1px solid var(--border);
-    padding: 10px 32px;
+    background: var(--dark);
+    padding: 9px 24px;
     display: flex;
     flex-wrap: wrap;
     gap: 14px;
     align-items: center;
-    font-size: 0.82rem;
+    border-bottom: 1px solid #333;
+  }}
+  .legend-label {{
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #888;
   }}
   .legend-item {{ display: flex; align-items: center; gap: 5px; }}
-  .legend-dot {{ width: 11px; height: 11px; border-radius: 50%; display: inline-block; }}
-
-  main {{ max-width: 1100px; margin: 0 auto; padding: 32px 20px 60px; }}
-
-  .month-block {{ margin-bottom: 48px; }}
-  .month-title {{
-    font-size: 1.3rem;
-    font-weight: normal;
-    color: var(--dark);
-    border-bottom: 2px solid var(--green);
-    padding-bottom: 6px;
-    margin-bottom: 12px;
+  .legend-dot {{ width: 10px; height: 10px; border-radius: 50%; display: inline-block; }}
+  .legend-item span:last-child {{
+    font-family: sans-serif;
+    font-size: 0.75rem;
+    color: #ccc;
   }}
 
+  /* ── MAIN ── */
+  main {{ max-width: 1100px; margin: 0 auto; padding: 32px 20px 60px; }}
+
+  /* ── MONTH ── */
+  .month-block {{ margin-bottom: 52px; }}
+  .month-title {{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--black);
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+    border-bottom: 3px solid var(--red);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }}
+  .month-title::before {{
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 22px;
+    background: var(--red);
+    border-radius: 2px;
+  }}
+
+  /* ── CALENDAR GRID ── */
   .cal-grid {{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 2px;
-    background: var(--border);
-    border: 1px solid var(--border);
-    border-radius: 8px;
+    background: #c8c0b0;
+    border: 2px solid var(--black);
+    border-radius: 6px;
     overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
   }}
   .dow {{
-    background: var(--dark);
+    background: var(--black);
     color: white;
     text-align: center;
-    font-size: 0.75rem;
-    padding: 6px 2px;
-    letter-spacing: 0.5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.72rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 7px 2px;
   }}
   .day {{
     background: var(--card);
-    min-height: 90px;
+    min-height: 95px;
     padding: 6px 5px 5px;
-    position: relative;
     vertical-align: top;
   }}
-  .day.empty {{ background: #f3f0eb; }}
-  .day.today {{ background: #f0f8ec; }}
+  .day.empty {{ background: #ece8e0; }}
+  .day.today {{ background: #fff5f5; border-left: 3px solid var(--red); }}
   .day-num {{
+    font-family: 'Oswald', sans-serif;
     font-size: 0.78rem;
-    color: #999;
+    color: #aaa;
     display: block;
     margin-bottom: 4px;
-    font-family: sans-serif;
   }}
-  .day.today .day-num {{ color: var(--green); font-weight: bold; }}
+  .day.today .day-num {{ color: var(--red); font-weight: 600; }}
 
+  /* ── CHIPS ── */
   .chip {{
     display: block;
-    font-size: 0.7rem;
+    font-size: 0.68rem;
     font-family: sans-serif;
     color: white;
     padding: 3px 5px;
@@ -332,22 +475,19 @@ def build_html(events_data):
     overflow: hidden;
     text-overflow: ellipsis;
     line-height: 1.3;
-    transition: opacity 0.15s;
+    transition: filter 0.15s, transform 0.1s;
+    font-weight: 600;
+    letter-spacing: 0.2px;
   }}
-  .chip:hover {{ opacity: 0.85; }}
-  .chip.continuation {{
-    height: 5px;
-    padding: 0;
-    border-radius: 0;
-    cursor: pointer;
-  }}
+  .chip:hover {{ filter: brightness(1.15); transform: translateY(-1px); }}
+  .chip.continuation {{ height: 4px; padding: 0; border-radius: 0; cursor: pointer; margin-bottom: 1px; }}
 
-  /* Modal */
+  /* ── MODAL ── */
   .overlay {{
     display: none;
     position: fixed;
     inset: 0;
-    background: rgba(0,0,0,0.55);
+    background: rgba(0,0,0,0.72);
     z-index: 100;
     justify-content: center;
     align-items: flex-start;
@@ -357,114 +497,184 @@ def build_html(events_data):
   .overlay.active {{ display: flex; }}
   .modal {{
     background: var(--card);
-    border-radius: 10px;
-    max-width: 560px;
+    border-radius: 8px;
+    max-width: 580px;
     width: 100%;
-    box-shadow: 0 8px 40px rgba(0,0,0,0.2);
+    box-shadow: 0 12px 48px rgba(0,0,0,0.4);
     overflow: hidden;
     position: relative;
+    border-top: 5px solid var(--red);
   }}
   .modal-header {{
+    background: var(--black);
     padding: 20px 24px 16px;
     color: white;
   }}
-  .modal-header h2 {{ font-size: 1.15rem; font-weight: normal; line-height: 1.4; }}
-  .modal-header .event-date {{ font-size: 0.85rem; opacity: 0.9; margin-top: 6px; }}
+  .modal-logo-row {{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }}
+  .modal-logo {{
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    opacity: 0.9;
+  }}
+  .modal-brand {{
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.65rem;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--red);
+  }}
+  .modal-header h2 {{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+    color: white;
+  }}
+  .event-date {{
+    font-size: 0.83rem;
+    color: #bbb;
+    margin-top: 5px;
+    font-family: sans-serif;
+  }}
+  .event-color-bar {{
+    height: 4px;
+    width: 100%;
+  }}
   .modal-body {{ padding: 20px 24px 24px; }}
   .modal-close {{
     position: absolute;
-    top: 14px; right: 16px;
+    top: 12px; right: 14px;
     background: none; border: none;
-    color: white; font-size: 1.4rem;
-    cursor: pointer; opacity: 0.8;
+    color: #888; font-size: 1.3rem;
+    cursor: pointer;
     line-height: 1;
+    transition: color 0.15s;
   }}
-  .modal-close:hover {{ opacity: 1; }}
+  .modal-close:hover {{ color: white; }}
 
   .detail-row {{
     display: flex;
     gap: 10px;
-    margin-bottom: 12px;
-    font-size: 0.9rem;
+    margin-bottom: 13px;
+    font-size: 0.88rem;
     align-items: flex-start;
   }}
   .detail-label {{
-    font-family: sans-serif;
-    font-size: 0.72rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.65rem;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
-    color: #888;
+    color: #999;
     min-width: 72px;
-    padding-top: 2px;
+    padding-top: 3px;
   }}
-  .detail-value {{ color: #333; line-height: 1.5; }}
+  .detail-value {{ color: #222; line-height: 1.55; }}
 
-  .tags {{ display: flex; flex-wrap: wrap; gap: 5px; margin-top: 4px; }}
+  .tags {{ display: flex; flex-wrap: wrap; gap: 5px; }}
   .tag {{
-    background: #f0f0f0;
+    background: #f0ece4;
     border-radius: 3px;
-    padding: 2px 7px;
-    font-size: 0.72rem;
+    padding: 3px 8px;
+    font-size: 0.7rem;
     font-family: sans-serif;
     color: #555;
+    border: 1px solid #ddd;
   }}
 
   .modal-actions {{
     display: flex;
     gap: 10px;
-    margin-top: 20px;
+    margin-top: 22px;
     flex-wrap: wrap;
+    padding-top: 18px;
+    border-top: 1px solid #eee;
   }}
   .btn {{
     display: inline-block;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 11px 22px;
+    border-radius: 4px;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 0.85rem;
-    font-weight: bold;
-    transition: opacity 0.15s;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: opacity 0.15s, transform 0.1s;
   }}
-  .btn:hover {{ opacity: 0.85; }}
-  .btn-primary {{ background: var(--green); color: white; }}
-  .btn-secondary {{
-    background: white;
-    color: var(--dark);
-    border: 2px solid var(--dark);
-  }}
+  .btn:hover {{ opacity: 0.88; transform: translateY(-1px); }}
+  .btn-primary {{ background: var(--red); color: white; }}
+  .btn-secondary {{ background: var(--black); color: white; }}
 
+  .date-note {{
+    font-size: 0.78rem; color: #aaa; font-style: italic; font-family: sans-serif;
+  }}
   .verified-badge {{
     display: inline-block;
     font-family: sans-serif;
-    font-size: 0.7rem;
-    background: #e8f5e0;
-    color: #4a7c2f;
+    font-size: 0.65rem;
+    background: rgba(204,17,0,0.12);
+    color: var(--red);
+    border: 1px solid rgba(204,17,0,0.3);
     border-radius: 3px;
     padding: 2px 6px;
     margin-left: 8px;
     vertical-align: middle;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
   }}
 
-  @media (max-width: 600px) {{
+  /* ── FOOTER ── */
+  footer {{
+    background: var(--black);
+    border-top: 4px solid var(--red);
+    padding: 24px;
+    text-align: center;
+    color: #666;
+    font-family: sans-serif;
+    font-size: 0.78rem;
+  }}
+  footer a {{ color: var(--red); text-decoration: none; }}
+  footer .footer-logo {{ width: 50px; height: 50px; object-fit: contain; opacity: 0.7; margin-bottom: 10px; }}
+
+  @media (max-width: 640px) {{
+    .header-logo {{ width: 55px; height: 55px; }}
+    .header-title {{ font-size: 1.3rem; }}
     .cal-grid {{ font-size: 0.7rem; }}
-    .day {{ min-height: 60px; }}
-    .chip {{ font-size: 0.62rem; padding: 2px 3px; }}
-    header h1 {{ font-size: 1.2rem; }}
+    .day {{ min-height: 64px; }}
+    .chip {{ font-size: 0.6rem; padding: 2px 3px; }}
   }}
 </style>
 </head>
 <body>
 
 <header>
-  <div>
-    <h1>🌱 Homestead Events Calendar</h1>
-    <div class="sub">Farm2Table — 2026 Conference & Expo Guide</div>
+  <div class="header-inner">
+    {logo_html}
+    <div class="header-text">
+      <div class="header-eyebrow">The Farm2Table Show Presents</div>
+      <div class="header-title">2026 Homestead Events <span>Calendar</span></div>
+      <div class="header-sub">Conferences · Expos · Festivals · Summits across America</div>
+    </div>
+    <div class="header-right">
+      <strong>{len([e for e in events if e.get('status') not in ('past','completed','archived') and e['dates'].get('start')])} Events</strong>
+      Updated {last_updated}
+    </div>
   </div>
-  <div class="updated">Updated: {last_updated}</div>
 </header>
 
+<div class="stripe">
+  <span class="stripe-tagline">Know Where the Community Gathers · Click Any Event for Details & Tickets</span>
+</div>
+
 <div class="legend">
-  <strong style="font-family:sans-serif;font-size:0.8rem;">Region:</strong>
+  <span class="legend-label">Region —</span>
   {legend_html}
 </div>
 
@@ -472,11 +682,22 @@ def build_html(events_data):
 {months_html}
 </main>
 
+<footer>
+  {logo_html.replace('class="header-logo"', 'class="footer-logo"') if logo_html else ""}
+  <div>© 2026 The Farm2Table Show &nbsp;·&nbsp; <a href="https://t.me/farm2tableinsiders">Farm2Table Insiders</a></div>
+  <div style="margin-top:6px;">Calendar data updated weekly. Verify details at official event websites before purchasing tickets.</div>
+</footer>
+
 <!-- Modal Overlay -->
 <div class="overlay" id="overlay" onclick="closeModal(event)">
   <div class="modal" id="modal">
-    <div class="modal-header" id="modal-header">
+    <div class="event-color-bar" id="modal-colorbar"></div>
+    <div class="modal-header">
       <button class="modal-close" onclick="closeModalDirect()">✕</button>
+      <div class="modal-logo-row">
+        {logo_html.replace('class="header-logo"','class="modal-logo"') if logo_html else ""}
+        <span class="modal-brand">The Farm2Table Show — Event Guide</span>
+      </div>
       <h2 id="modal-title"></h2>
       <div class="event-date" id="modal-date"></div>
     </div>
@@ -522,15 +743,15 @@ function openModal(id) {{
   const e = eventMap[id];
   if (!e) return;
 
-  document.getElementById('modal-header').style.background = e.color;
+  document.getElementById('modal-colorbar').style.background = e.color;
   document.getElementById('modal-title').innerHTML =
     e.name + (e.verified ? '<span class="verified-badge">✓ Verified</span>' : '');
-  document.getElementById('modal-date').textContent = e.date;
+  document.getElementById('modal-date').innerHTML = e.date;
   document.getElementById('modal-location').textContent = e.location || 'TBD';
 
   const ticketEl = document.getElementById('modal-ticket');
   ticketEl.textContent = e.ticket_price || 'See website';
-  document.getElementById('modal-ticket-row').style.display = e.ticket_price ? '' : 'none';
+  document.getElementById('modal-ticket-row').style.display = '';
 
   const speakersEl = document.getElementById('modal-speakers');
   if (e.speakers && e.speakers.length) {{
@@ -559,7 +780,7 @@ function openModal(id) {{
     document.getElementById('modal-tags-row').style.display = 'none';
   }}
 
-  document.getElementById('modal-btn-tickets').href = e.url;
+  document.getElementById('modal-btn-tickets').href = e.ticket_url || e.url;
   document.getElementById('modal-btn-info').href = e.url;
 
   document.getElementById('overlay').classList.add('active');

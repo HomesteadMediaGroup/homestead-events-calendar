@@ -88,6 +88,29 @@ Return a JSON array of newly discovered events in this format:
 Only return events you can confirm exist. Return an empty array [] if nothing new found."""
 
 
+NEXT_EDITION_PROMPT = """This homestead event's most recent edition has ended. Find the dates for its NEXT edition (starting after {today}).
+
+Current record:
+{event_json}
+
+Visit the URL: {url} and search the web for the next edition (e.g. 2027).
+
+Return a JSON object only:
+{{
+  "id": "{event_id}",
+  "next_edition_found": true/false,
+  "dates": {{"start": "YYYY-MM-DD", "end": "YYYY-MM-DD", "notes": ""}},
+  "location": {{"venue": "", "city": "", "state": "", "region": ""}},
+  "ticket_price": "",
+  "speakers": [],
+  "description": "",
+  "highlights": [],
+  "registration_url": "",
+  "changes_noted": "what you found, or that no next-edition dates are published yet"
+}}
+Only set next_edition_found true if an official source gives a specific start date after {today}. Do not guess or extrapolate dates."""
+
+
 def load_events():
     with open(EVENTS_FILE, "r") as f:
         return json.load(f)
@@ -237,6 +260,13 @@ def research_known_events(client, events_data):
         # Parse JSON from response
         try:
             updates = parse_json_from_text(response_text)
+            # Guard: if the model returned a list, try to unwrap a single-item list
+            if isinstance(updates, list):
+                if len(updates) == 1 and isinstance(updates[0], dict):
+                    updates = updates[0]
+                else:
+                    log(f"  ✗ Unexpected list response (len={len(updates)}), skipping merge")
+                    continue
             # Merge updates into the event record
             for key, value in updates.items():
                 if key not in ("id",) and value is not None:
@@ -344,22 +374,103 @@ def write_research_report(events_data):
     return report_path
 
 
+def event_end(e):
+    d = e.get("dates", {})
+    return d.get("end") or d.get("start")
+
+
+def rollover_past_events(client, events_data):
+    """Mark ended events as 'past', then look for next-edition dates.
+    Found -> new dates, status confirmed, social posts cleared so fresh drafts generate.
+    Not found -> stays 'past' (kept on calendar as awaiting new dates)."""
+    today = datetime.date.today().isoformat()
+    for e in events_data["events"]:
+        end = event_end(e)
+        if end and end < today and e.get("status") in ("confirmed", "pending", "completed", "past"):
+            if e.get("status") != "past":
+                e["status"] = "past"
+            log(f"Checking next edition: {e['name']} (ended {end})")
+            try:
+                prompt = NEXT_EDITION_PROMPT.format(
+                    event_json=json.dumps({k: e[k] for k in ("id", "name", "dates", "location", "url") if k in e}, indent=2),
+                    url=e["url"], event_id=e["id"], today=today)
+                resp = client.messages.create(
+                    model="claude-opus-4-8", max_tokens=2048,
+                    system=RESEARCH_SYSTEM_PROMPT, tools=[WEB_SEARCH_TOOL],
+                    messages=[{"role": "user", "content": prompt}])
+                u = parse_json_from_text(extract_json_from_blocks(resp.content))
+                if isinstance(u, list) and len(u) == 1:
+                    u = u[0]
+            except Exception as ex:
+                log(f"  ✗ {ex}")
+                continue
+            e["last_researched"] = today
+            new_start = (u.get("dates") or {}).get("start")
+            if u.get("next_edition_found") and new_start and new_start > today:
+                e.setdefault("previous_editions", []).append(e["dates"])
+                for k, v in u.items():
+                    if k in ("id", "next_edition_found") or v in (None, "", []):
+                        continue
+                    if isinstance(v, dict) and k != "dates" and isinstance(e.get(k), dict):
+                        e[k].update({a: b for a, b in v.items() if b})
+                    else:
+                        e[k] = v
+                e["status"] = "confirmed"
+                e["social_posts"] = {"facebook": None, "x": None, "youtube": None}
+                e["posted"] = {"facebook": False, "x": False, "youtube": False}
+                log(f"  ✓ New dates: {new_start}")
+            else:
+                e["changes_noted"] = u.get("changes_noted", "Awaiting next-edition dates")
+                log(f"  – No new dates yet")
+            save_events(events_data)
+    return events_data
+
+
+def filter_upcoming(events_data, within_days=60):
+    """Return a copy of events_data containing only events starting within N days."""
+    today = datetime.date.today()
+    cutoff = (today + datetime.timedelta(days=within_days)).isoformat()
+    today_str = today.isoformat()
+    upcoming = [
+        e for e in events_data["events"]
+        if e.get("dates", {}).get("start") and today_str <= e["dates"]["start"] <= cutoff
+    ]
+    result = dict(events_data)
+    result["events"] = upcoming
+    return result
+
+
 def main():
     mode = sys.argv[1] if len(sys.argv) > 1 else "full"
-    # modes: full | known-only | discover-only | report-only
+    # modes: full | known-only | discover-only | report-only | upcoming
 
     client = anthropic.Anthropic()
 
     log(f"=== Homestead Events Researcher — mode: {mode} ===")
     events_data = load_events()
 
-    if mode in ("full", "known-only"):
-        events_data = research_known_events(client, events_data)
+    if mode == "rollover":
+        events_data = rollover_past_events(client, events_data)
         save_events(events_data)
+    elif mode == "upcoming":
+        # Light run: re-check only events starting within the next 60 days
+        subset = filter_upcoming(events_data, within_days=60)
+        log(f"Upcoming filter: {len(subset['events'])} events within 60 days")
+        subset = research_known_events(client, subset)
+        # Merge updated subset back into the full events list
+        updated_by_id = {e["id"]: e for e in subset["events"]}
+        events_data["events"] = [
+            updated_by_id.get(e["id"], e) for e in events_data["events"]
+        ]
+        save_events(events_data)
+    else:
+        if mode in ("full", "known-only"):
+            events_data = research_known_events(client, events_data)
+            save_events(events_data)
 
-    if mode in ("full", "discover-only"):
-        events_data = discover_new_events(client, events_data)
-        save_events(events_data)
+        if mode in ("full", "discover-only"):
+            events_data = discover_new_events(client, events_data)
+            save_events(events_data)
 
     report_path = write_research_report(events_data)
     log(f"=== Research run complete ===")

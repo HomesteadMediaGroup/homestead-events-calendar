@@ -2,7 +2,7 @@
   "meta": {
     "last_updated": "2026-10-16",
     "version": "1.0",
-    "total_events": 46
+    "total_events": 56
   },
   "events": [
     {
@@ -2081,7 +2081,9 @@
       },
       "last_researched": "2026-10-16",
       "registration_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
-      "changes_noted": "The 'edition' here is a recurring monthly virtual gathering rather than a dated annual event. The official NLHG page confirms the ongoing schedule (first Wednesday of each month except December) and that the event is free, but does not list a specific upcoming date after 2026-10-16. Note: NLHG's separate IN-PERSON annual National Gathering has its next edition confirmed at Polyface Farms on May 21-22, 2027 \u2014 but that is a different event from the monthly virtual gathering in this record. No specific next-edition date is published for the virtual gathering, so next_edition_found is set to false to avoid extrapolation."
+      "changes_noted": "The 'edition' here is a recurring monthly virtual gathering rather than a dated annual event. The official NLHG page confirms the ongoing schedule (first Wednesday of each month except December) and that the event is free, but does not list a specific upcoming date after 2026-10-16. Note: NLHG's separate IN-PERSON annual National Gathering has its next edition confirmed at Polyface Farms on May 21-22, 2027 \u2014 but that is a different event from the monthly virtual gathering in this record. No specific next-edition date is published for the virtual gathering, so next_edition_found is set to false to avoid extrapolation.",
+      "recurrence": "first-wednesday-except-december",
+      "series": "NLHG National Virtual Gathering"
     },
     {
       "id": "nlhg-2026-02",
@@ -2134,7 +2136,9 @@
       },
       "last_researched": "2026-10-16",
       "registration_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
-      "changes_noted": "No official source publishes a specific next-edition date for the monthly National Virtual Gathering after 2026-10-16. The NLHG site confirms the recurring schedule (first Wednesday of each month except December) but does not list dated upcoming virtual sessions, so no confirmed next date can be reported. Separately, note that NLHG's homepage advertises an IN-PERSON National Gathering at Polyface Farms on May 21-22, 2027 (Swoope, VA area) \u2014 this is a distinct event type from the monthly virtual gathering in this record and was not used to set next_edition_found."
+      "changes_noted": "No official source publishes a specific next-edition date for the monthly National Virtual Gathering after 2026-10-16. The NLHG site confirms the recurring schedule (first Wednesday of each month except December) but does not list dated upcoming virtual sessions, so no confirmed next date can be reported. Separately, note that NLHG's homepage advertises an IN-PERSON National Gathering at Polyface Farms on May 21-22, 2027 (Swoope, VA area) \u2014 this is a distinct event type from the monthly virtual gathering in this record and was not used to set next_edition_found.",
+      "recurrence": "first-wednesday-except-december",
+      "series": "NLHG National Virtual Gathering"
     },
     {
       "id": "nlhg-2026-03",
@@ -2187,7 +2191,9 @@
       },
       "last_researched": "2026-10-16",
       "registration_url": "https://community.nlhg.org/",
-      "changes_noted": "No specific next-edition date is published yet on official NLHG sources. The official National Virtual Gatherings page confirms the recurring cadence (first Wednesday of each month, except December) but does not list a specific confirmed calendar instance after 2026-10-16. Note: NLHG's homepage prominently advertises a separate in-person 'National Gathering - Polyface Farms' on May 21-22, 2027, which is a different event type (in-person national gathering, not the monthly virtual gathering)."
+      "changes_noted": "No specific next-edition date is published yet on official NLHG sources. The official National Virtual Gatherings page confirms the recurring cadence (first Wednesday of each month, except December) but does not list a specific confirmed calendar instance after 2026-10-16. Note: NLHG's homepage prominently advertises a separate in-person 'National Gathering - Polyface Farms' on May 21-22, 2027, which is a different event type (in-person national gathering, not the monthly virtual gathering).",
+      "recurrence": "first-wednesday-except-december",
+      "series": "NLHG National Virtual Gathering"
     },
     {
       "id": "nlhg-2026-04",
@@ -2241,7 +2247,9 @@
       },
       "last_researched": "2026-10-16",
       "registration_url": "https://community.nlhg.org/landing",
-      "changes_noted": "No specific next-edition date (after 2026-10-16) is published on the official NLHG site. The official 'National Virtual Gatherings' page confirms the series is ongoing and recurs on the first Wednesday of each month except December, but it does not list an individual dated upcoming instance. Note the current record's notes say 'first Wednesday of each month' while the record name references 'April 1, 2026' \u2014 April 1, 2026 was indeed the first Wednesday of April. No specific future monthly date could be verified from an official source, so next_edition_found is set to false per the stated rule against extrapolating dates from a recurrence pattern. Separately, an unrelated in-person NLHG National Gathering at Polyface Farms is listed for May 21-22, 2027, but that is a different event type from this monthly virtual series."
+      "changes_noted": "No specific next-edition date (after 2026-10-16) is published on the official NLHG site. The official 'National Virtual Gatherings' page confirms the series is ongoing and recurs on the first Wednesday of each month except December, but it does not list an individual dated upcoming instance. Note the current record's notes say 'first Wednesday of each month' while the record name references 'April 1, 2026' \u2014 April 1, 2026 was indeed the first Wednesday of April. No specific future monthly date could be verified from an official source, so next_edition_found is set to false per the stated rule against extrapolating dates from a recurrence pattern. Separately, an unrelated in-person NLHG National Gathering at Polyface Farms is listed for May 21-22, 2027, but that is a different event type from this monthly virtual series.",
+      "recurrence": "first-wednesday-except-december",
+      "series": "NLHG National Virtual Gathering"
     },
     {
       "id": "nlhg-2026-05",
@@ -2295,7 +2303,9 @@
       },
       "last_researched": "2026-10-16",
       "registration_url": "https://www.nlhg.org/national-virtual-gatherings",
-      "changes_noted": "No specific next-edition date is published yet for a session after 2026-10-16. The official page (https://www.nlhg.org/national-virtual-gatherings) only confirms the recurring pattern: first Wednesday of each month except December. Following that cadence, the next session would nominally fall on 2026-11-04, but no official source lists this as a confirmed, scheduled event with details, so next_edition_found is set to false. Also noted: the organization is promoting an in-person National Gathering at Polyface Farms on May 21-22, 2027, which is a distinct event from this monthly virtual series."
+      "changes_noted": "No specific next-edition date is published yet for a session after 2026-10-16. The official page (https://www.nlhg.org/national-virtual-gatherings) only confirms the recurring pattern: first Wednesday of each month except December. Following that cadence, the next session would nominally fall on 2026-11-04, but no official source lists this as a confirmed, scheduled event with details, so next_edition_found is set to false. Also noted: the organization is promoting an in-person National Gathering at Polyface Farms on May 21-22, 2027, which is a distinct event from this monthly virtual series.",
+      "recurrence": "first-wednesday-except-december",
+      "series": "NLHG National Virtual Gathering"
     },
     {
       "id": "nlhg-2026-06",
@@ -2351,7 +2361,9 @@
       },
       "last_researched": "2026-10-16",
       "registration_url": "https://www.nlhg.org/national-virtual-gatherings",
-      "changes_noted": "No specific next-edition date is published on the official NLHG site. The National Virtual Gatherings page confirms the series is ongoing and occurs on the first Wednesday of each month except December, but lists no concrete calendar date for the next instance after 2026-10-16. The record's schedule description remains accurate. Note: Separately, NLHG has announced a (different) in-person National Gathering at Polyface Farms on May 21-22, 2027, which is not part of this monthly virtual series. Per instructions, no virtual-gathering date was extrapolated without an official published date."
+      "changes_noted": "No specific next-edition date is published on the official NLHG site. The National Virtual Gatherings page confirms the series is ongoing and occurs on the first Wednesday of each month except December, but lists no concrete calendar date for the next instance after 2026-10-16. The record's schedule description remains accurate. Note: Separately, NLHG has announced a (different) in-person National Gathering at Polyface Farms on May 21-22, 2027, which is not part of this monthly virtual series. Per instructions, no virtual-gathering date was extrapolated without an official published date.",
+      "recurrence": "first-wednesday-except-december",
+      "series": "NLHG National Virtual Gathering"
     },
     {
       "id": "nlhg-2026-07",
@@ -2404,7 +2416,9 @@
       },
       "last_researched": "2026-10-16",
       "registration_url": "https://www.nlhg.org/national-virtual-gatherings",
-      "changes_noted": "No next-edition dates are explicitly published yet. The official page confirms the recurring 'first Wednesday of each month (except December!)' pattern but does not list any specific dated gathering (with date, speaker, or registration) occurring after 2026-10-16. Per the no-extrapolation rule, next_edition_found is set to false. Separately noted (different events, not this record): the page advertises an in-person National Gathering at Polyface Farms on May 21-22, 2027, and an LDS-listed NLHG local chapter meeting on Nov 21, 2026 in Priest River, ID \u2014 neither is the monthly National Virtual Gathering tracked here."
+      "changes_noted": "No next-edition dates are explicitly published yet. The official page confirms the recurring 'first Wednesday of each month (except December!)' pattern but does not list any specific dated gathering (with date, speaker, or registration) occurring after 2026-10-16. Per the no-extrapolation rule, next_edition_found is set to false. Separately noted (different events, not this record): the page advertises an in-person National Gathering at Polyface Farms on May 21-22, 2027, and an LDS-listed NLHG local chapter meeting on Nov 21, 2026 in Priest River, ID \u2014 neither is the monthly National Virtual Gathering tracked here.",
+      "recurrence": "first-wednesday-except-december",
+      "series": "NLHG National Virtual Gathering"
     },
     {
       "id": "nlhg-2026-08",
@@ -2459,7 +2473,9 @@
       },
       "last_researched": "2026-10-16",
       "registration_url": "https://www.nlhg.org/national-virtual-gatherings",
-      "changes_noted": "No next-edition dates are published yet for the National Virtual Gathering. Confirmed cadence clarification remains: the official page explicitly says gatherings are 'the first Wednesday of each month (except December!)' \u2014 meaning NO virtual gathering occurs in December. The page still contains no dated instances, topics, or named speakers. IMPORTANT DISTINCTION: Separate (non-virtual) NLHG events DO have confirmed dates but are different events \u2014 (1) an in-person National Gathering at Polyface Farms is listed for May 21-22, 2027 on nlhg.org, and (2) a local Priest River, ID chapter meeting is listed for Nov 21, 2026. Neither is the monthly National Virtual Gathering. Also note the current record's URL field (nlhg.org/upcoming-events) differs from the dedicated virtual gatherings page (nlhg.org/national-virtual-gatherings); the upcoming-events page shows only a generic 'See below for upcoming National and Chapter events' message without a specific virtual-gathering date."
+      "changes_noted": "No next-edition dates are published yet for the National Virtual Gathering. Confirmed cadence clarification remains: the official page explicitly says gatherings are 'the first Wednesday of each month (except December!)' \u2014 meaning NO virtual gathering occurs in December. The page still contains no dated instances, topics, or named speakers. IMPORTANT DISTINCTION: Separate (non-virtual) NLHG events DO have confirmed dates but are different events \u2014 (1) an in-person National Gathering at Polyface Farms is listed for May 21-22, 2027 on nlhg.org, and (2) a local Priest River, ID chapter meeting is listed for Nov 21, 2026. Neither is the monthly National Virtual Gathering. Also note the current record's URL field (nlhg.org/upcoming-events) differs from the dedicated virtual gatherings page (nlhg.org/national-virtual-gatherings); the upcoming-events page shows only a generic 'See below for upcoming National and Chapter events' message without a specific virtual-gathering date.",
+      "recurrence": "first-wednesday-except-december",
+      "series": "NLHG National Virtual Gathering"
     },
     {
       "id": "nlhg-2026-09",
@@ -2513,7 +2529,9 @@
       },
       "last_researched": "2026-10-16",
       "registration_url": "https://www.nlhg.org/national-virtual-gatherings",
-      "changes_noted": "No next-edition specific date is officially published. The official National Virtual Gatherings page (https://www.nlhg.org/national-virtual-gatherings) continues to confirm the recurring cadence of 'the first Wednesday of each month (except December!)' with a guest speaker each time, but does not list individual dated monthly events, so the next edition's exact date cannot be verified from an official standalone listing. SEPARATE/UNRELATED FINDING: NLHG has announced a distinct in-person National Gathering at Polyface Farm on May 21-22, 2027 \u2014 this is a different event type (in-person National Gathering, not the monthly virtual gathering) and should likely be tracked as its own record rather than as the 'next edition' of this monthly virtual series."
+      "changes_noted": "No next-edition specific date is officially published. The official National Virtual Gatherings page (https://www.nlhg.org/national-virtual-gatherings) continues to confirm the recurring cadence of 'the first Wednesday of each month (except December!)' with a guest speaker each time, but does not list individual dated monthly events, so the next edition's exact date cannot be verified from an official standalone listing. SEPARATE/UNRELATED FINDING: NLHG has announced a distinct in-person National Gathering at Polyface Farm on May 21-22, 2027 \u2014 this is a different event type (in-person National Gathering, not the monthly virtual gathering) and should likely be tracked as its own record rather than as the 'next edition' of this monthly virtual series.",
+      "recurrence": "first-wednesday-except-december",
+      "series": "NLHG National Virtual Gathering"
     },
     {
       "id": "nlhg-2026-10",
@@ -2566,7 +2584,9 @@
       },
       "last_researched": "2026-10-16",
       "registration_url": "https://www.nlhg.org/national-virtual-gatherings",
-      "changes_noted": "The official NLHG site confirms the recurring schedule \u2014 monthly on the first Wednesday of each month except December \u2014 but does NOT individually publish a specific date for the next virtual gathering after 2026-10-16, so next_edition_found is set to false (no specific confirmed date to cite; only the recurring pattern). Separately of note: NLHG's flagship IN-PERSON event, the National Gathering at Polyface Farm, is listed on the homepage for May 21\u201322, 2027 \u2014 but that is a distinct event from this monthly virtual gathering record and is not reported here as this record's 'next edition.'"
+      "changes_noted": "The official NLHG site confirms the recurring schedule \u2014 monthly on the first Wednesday of each month except December \u2014 but does NOT individually publish a specific date for the next virtual gathering after 2026-10-16, so next_edition_found is set to false (no specific confirmed date to cite; only the recurring pattern). Separately of note: NLHG's flagship IN-PERSON event, the National Gathering at Polyface Farm, is listed on the homepage for May 21\u201322, 2027 \u2014 but that is a distinct event from this monthly virtual gathering record and is not reported here as this record's 'next edition.'",
+      "recurrence": "first-wednesday-except-december",
+      "series": "NLHG National Virtual Gathering"
     },
     {
       "id": "nlhg-2026-11",
@@ -2619,7 +2639,9 @@
       },
       "last_researched": "2026-08-01",
       "registration_url": "https://community.nlhg.org/",
-      "changes_noted": "CONFIRMED: Monthly cadence (first Wednesday except December) verified on nlhg.org/national-virtual-gatherings; Nov 4, 2026 correctly matches the pattern. CONFIRMED: Free to attend. CORRECTION FLAGGED: Each virtual gathering features a special guest speaker (gardening, livestock, preparedness, canning, DIY) \u2014 this was not reflected in the prior description/highlights. REGISTRATION CORRECTION: Participation in the FREE virtual gatherings is via NLHG's online forums/community (community.nlhg.org), not the NeonCRM eventList link in the current record \u2014 that NeonCRM link appears tied to PAID in-person National Gatherings (e.g., the Idaho event), so the ticket_url should be reviewed. REGION NOTE: Prior record labeled region 'Southeast'; this is a national online event with a Georgia-based nonprofit HQ \u2014 'National' is more accurate for an online gathering. No specific speaker/topic announced for Nov 4, 2026 yet. Event not cancelled or postponed; no significant date changes."
+      "changes_noted": "CONFIRMED: Monthly cadence (first Wednesday except December) verified on nlhg.org/national-virtual-gatherings; Nov 4, 2026 correctly matches the pattern. CONFIRMED: Free to attend. CORRECTION FLAGGED: Each virtual gathering features a special guest speaker (gardening, livestock, preparedness, canning, DIY) \u2014 this was not reflected in the prior description/highlights. REGISTRATION CORRECTION: Participation in the FREE virtual gatherings is via NLHG's online forums/community (community.nlhg.org), not the NeonCRM eventList link in the current record \u2014 that NeonCRM link appears tied to PAID in-person National Gatherings (e.g., the Idaho event), so the ticket_url should be reviewed. REGION NOTE: Prior record labeled region 'Southeast'; this is a national online event with a Georgia-based nonprofit HQ \u2014 'National' is more accurate for an online gathering. No specific speaker/topic announced for Nov 4, 2026 yet. Event not cancelled or postponed; no significant date changes.",
+      "recurrence": "first-wednesday-except-december",
+      "series": "NLHG National Virtual Gathering"
     },
     {
       "id": "okie-expo-2027",
@@ -2770,6 +2792,556 @@
       "last_researched": "2026-10-16",
       "changes_noted": "No next-edition dates are published yet for this specific event. The Midwest Preparedness Project's Topeka & Surrounding Area MAG (Mutual Assistance Group) hosts monthly meetings, but each is a distinct, one-off topical workshop (e.g., Pressure Canning 101-102, March 2026 Spring Gardening with Dr. Tracy Wichman) rather than a recurring annual edition of the same meat-canning workshop with Angela Allard of Grumpy Acres Farm. No official MPP source (website events/MAG pages, social media, or the preparedness-tour partner site) lists a repeat of this specific Angela Allard meat canning workshop with a confirmed start date after 2026-10-16. The organization does continue to run a Fall Feastival (recent edition Sept 23-28, 2025 at Rockhaven Park Campground) and a 26th Semi-Annual Spring Festival (May 05-10, 2026 at Bloomington West Campground, Lawrence, KS), but those are the larger festivals, not this workshop. Recommend monitoring midwestpreparednessproject.com/events (login/MAG section) for future Topeka MAG scheduling.",
       "registration_url": "https://www.facebook.com/groups/1291160056073245"
+    },
+    {
+      "id": "nlhg-2027-01",
+      "name": "NLHG National Virtual Gathering \u2014 January",
+      "status": "confirmed",
+      "dates": {
+        "start": "2027-01-06",
+        "end": "2027-01-06",
+        "pre_event": null,
+        "notes": "Monthly virtual gathering \u2014 first Wednesday of each month, except December. Speaker/topic announced closer to the date."
+      },
+      "location": {
+        "venue": "Virtual / Online",
+        "city": "Online",
+        "state": "",
+        "region": "National"
+      },
+      "url": "https://www.nlhg.org/upcoming-events",
+      "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
+      "description": "National Ladies Homestead Gathering's monthly National Virtual Gathering. In this live online event, women from across the country come together to learn, connect, and grow in all things homesteading. Each gathering features a special guest speaker on topics like gardening, livestock care, preparedness, canning, and DIY projects. Held on the first Wednesday of each month (except December). Free to attend \u2014 participation is via NLHG's online forums/community.",
+      "speakers": [],
+      "ticket_price": "Free to attend \u2014 join the online community/forums at nlhg.org to participate live",
+      "highlights": [
+        "monthly virtual gathering",
+        "women's homesteading community",
+        "features a special guest speaker each month",
+        "topics include gardening, livestock care, preparedness, canning, DIY projects",
+        "open to Chapter members and non-members alike",
+        "free to attend",
+        "online event"
+      ],
+      "source": "nlhg.org",
+      "verified": true,
+      "social_posts": {
+        "facebook": "\ud83c\udf31 NLHG National Virtual Gathering \u2014 Wednesday, January 6, 2027\nOnline / Virtual \u2022 Free to attend\n\nFirst Wednesday of the month means it's time for the National Ladies Homestead Gathering to pull up a chair together \u2014 no matter where you're planting roots.\n\nThis monthly live online event brings women from across the country into one space to learn, connect, and grow in all things homesteading. Each gathering features a special guest speaker on the real skills that make a homestead hum \u2014 gardening, livestock care, preparedness, canning, and hands-on DIY projects. (The January speaker and topic will be announced closer to the date, so keep an eye on the forums.)\n\nWhat the folks in the movement love most about these gatherings? You don't need acreage, experience, or a membership to belong. Chapter members and newcomers alike are welcome. Come for the skill, stay for the people who get why you're excited about a good canning batch.\n\nKicking off the new year surrounded by women who grow their own food and lift each other up \u2014 that's the kind of January worth showing up for.\n\nIt's free. Just join the online community to participate live.\n\n\ud83d\udc49 Register and find the details here: https://community.nlhg.org/\n\n#Farm2Table #HomesteadingCommunity #GrowYourOwn #SelfSufficiency #BackToBasics",
+        "x": {
+          "lead": "\ud83c\udf31 First Wednesday = gathering day. The NLHG National Virtual Gathering is back Jan 6, 2027 \u2014 women homesteaders from across the country, learning & connecting live online. Free to attend. \ud83e\uddf5\ud83d\udc47",
+          "thread": [
+            "Every month a special guest speaker digs into the real skills: gardening, livestock care, preparedness, canning, DIY projects. January's speaker & topic drop closer to the date \u2014 worth watching for. #HomesteadingCommunity",
+            "The best part? You don't need land, experience, or a membership to belong. Chapter members and newcomers are equally welcome. Come for the skill, stay for the women who get it. #GrowYourOwn #SelfSufficiency",
+            "It's free to attend \u2014 just join the online community to take part live. Start your new year with your people: https://community.nlhg.org/ #Farm2Table #BackToBasics"
+          ]
+        },
+        "youtube": "Hey, homestead friends \ud83d\udc4b The National Ladies Homestead Gathering's monthly virtual get-together is back on Wednesday, January 6, 2027 \u2014 and it's free. Women from all over the country hop online to learn a new skill, swap stories, and grow together. Each month brings a different guest speaker on things like canning, livestock care, preparedness, gardening, and DIY projects. The January topic gets announced closer to the date, so stay tuned! No land or experience needed \u2014 just show up and join in. Register through the community here: https://community.nlhg.org/\n\nSo tell us \u2014 what skill are you most hoping to learn this year? \ud83d\udc47"
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-08-01",
+      "registration_url": "https://community.nlhg.org/",
+      "changes_noted": "Auto-generated from recurring series pattern",
+      "recurrence": "first-wednesday-except-december",
+      "series": "NLHG National Virtual Gathering"
+    },
+    {
+      "id": "nlhg-2027-02",
+      "name": "NLHG National Virtual Gathering \u2014 February",
+      "status": "confirmed",
+      "dates": {
+        "start": "2027-02-03",
+        "end": "2027-02-03",
+        "pre_event": null,
+        "notes": "Monthly virtual gathering \u2014 first Wednesday of each month, except December. Speaker/topic announced closer to the date."
+      },
+      "location": {
+        "venue": "Virtual / Online",
+        "city": "Online",
+        "state": "",
+        "region": "National"
+      },
+      "url": "https://www.nlhg.org/upcoming-events",
+      "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
+      "description": "National Ladies Homestead Gathering's monthly National Virtual Gathering. In this live online event, women from across the country come together to learn, connect, and grow in all things homesteading. Each gathering features a special guest speaker on topics like gardening, livestock care, preparedness, canning, and DIY projects. Held on the first Wednesday of each month (except December). Free to attend \u2014 participation is via NLHG's online forums/community.",
+      "speakers": [],
+      "ticket_price": "Free to attend \u2014 join the online community/forums at nlhg.org to participate live",
+      "highlights": [
+        "monthly virtual gathering",
+        "women's homesteading community",
+        "features a special guest speaker each month",
+        "topics include gardening, livestock care, preparedness, canning, DIY projects",
+        "open to Chapter members and non-members alike",
+        "free to attend",
+        "online event"
+      ],
+      "source": "nlhg.org",
+      "verified": true,
+      "social_posts": {
+        "facebook": "\ud83d\udcc5 NLHG National Virtual Gathering \u2014 Wednesday, February 3, 2027\n\ud83d\udccd Online (join from anywhere in the country)\n\ud83d\udcb5 Free to attend\n\nFirst Wednesday of the month means it's time for the National Ladies Homestead Gathering's monthly virtual get-together \u2014 and this one's open to everyone.\n\nThis is where women from across the country show up to learn, connect, and grow in all things homesteading. Each month brings a different special guest speaker, with topics spanning the skills so many folks in the movement are working to master: gardening, livestock care, preparedness, canning, and hands-on DIY projects.\n\nWhat we love about these gatherings is how real they are. No fluff, no sales pitch \u2014 just practical knowledge passed between women who are actually doing the work, whether you're brand new to the homestead life or you've been at it for decades. Chapter members and non-members alike are welcome at the table.\n\nThe February speaker and topic will be announced closer to the date, so keep an eye on the NLHG community page.\n\nReady to join? Hop into the online community to participate live:\n\ud83d\udc49 https://community.nlhg.org/\n\n#HomesteadingCommunity #HomesteadLife #GrowYourOwn #SelfSufficiency #BackToBasics",
+        "x": {
+          "lead": "\ud83d\udcc5 Feb 3, 2027 \u2014 the NLHG National Virtual Gathering is back. Women from across the country, together online, learning the homestead skills that matter. Free to attend. \ud83e\uddf5",
+          "thread": [
+            "Every first Wednesday of the month, the National Ladies Homestead Gathering brings women together to learn, connect & grow. Gardening, livestock care, preparedness, canning, DIY \u2014 real skills from women actually doing the work.",
+            "This one's open to everyone \u2014 Chapter members and non-members alike. New to the homestead life or decades deep, there's a seat for you at the table. The February speaker & topic drop closer to the date.",
+            "Free to attend. All you have to do is join the online community to participate live \ud83d\udc49 https://community.nlhg.org/ #HomesteadingCommunity #SelfSufficiency #GrowYourOwn"
+          ]
+        },
+        "youtube": "Mark your calendar, friends \u2014 the NLHG National Virtual Gathering is back on Wednesday, February 3, 2027. \ud83c\udf31\n\nIt's the National Ladies Homestead Gathering's monthly online meetup, where women from all over the country come together to learn and swap knowledge on everything from gardening and canning to livestock care and preparedness. Each month features a special guest speaker (February's topic will be announced soon), and the best part? It's completely free and open to members and non-members alike.\n\nJoin the online community to participate live: https://community.nlhg.org/\n\nWhat's the one homestead skill you'd most love a guest speaker to cover? Drop it below \ud83d\udc47"
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-08-01",
+      "registration_url": "https://community.nlhg.org/",
+      "changes_noted": "Auto-generated from recurring series pattern",
+      "recurrence": "first-wednesday-except-december",
+      "series": "NLHG National Virtual Gathering"
+    },
+    {
+      "id": "nlhg-2027-03",
+      "name": "NLHG National Virtual Gathering \u2014 March",
+      "status": "confirmed",
+      "dates": {
+        "start": "2027-03-03",
+        "end": "2027-03-03",
+        "pre_event": null,
+        "notes": "Monthly virtual gathering \u2014 first Wednesday of each month, except December. Speaker/topic announced closer to the date."
+      },
+      "location": {
+        "venue": "Virtual / Online",
+        "city": "Online",
+        "state": "",
+        "region": "National"
+      },
+      "url": "https://www.nlhg.org/upcoming-events",
+      "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
+      "description": "National Ladies Homestead Gathering's monthly National Virtual Gathering. In this live online event, women from across the country come together to learn, connect, and grow in all things homesteading. Each gathering features a special guest speaker on topics like gardening, livestock care, preparedness, canning, and DIY projects. Held on the first Wednesday of each month (except December). Free to attend \u2014 participation is via NLHG's online forums/community.",
+      "speakers": [],
+      "ticket_price": "Free to attend \u2014 join the online community/forums at nlhg.org to participate live",
+      "highlights": [
+        "monthly virtual gathering",
+        "women's homesteading community",
+        "features a special guest speaker each month",
+        "topics include gardening, livestock care, preparedness, canning, DIY projects",
+        "open to Chapter members and non-members alike",
+        "free to attend",
+        "online event"
+      ],
+      "source": "nlhg.org",
+      "verified": true,
+      "social_posts": {
+        "facebook": "\ud83d\udcc5 NLHG National Virtual Gathering\n\ud83d\uddd3\ufe0f Wednesday, March 3, 2027\n\ud83d\udcbb Live & Online \u2014 Free to Attend\n\nFirst Wednesday of the month means the ladies of the homestead movement are gathering again \u2014 and this one's happening right from wherever you are.\n\nThe National Ladies Homestead Gathering hosts these monthly virtual meetups for women across the country to learn, connect, and grow in all things homesteading. Each session brings a special guest speaker digging into the real skills that keep a homestead running \u2014 gardening, livestock care, preparedness, canning, and hands-on DIY projects.\n\nThere's something steadying about knowing you're not doing this alone. Whether you're mid-canning-season chaos or just getting your first raised beds in the ground, there are folks in this community who've been exactly where you are \u2014 and they show up every month to share what they know.\n\nThe March speaker and topic will be announced closer to the date, so keep an eye out.\n\nOpen to chapter members and non-members alike. No cost to join in \u2014 all you need is to be part of the online community.\n\n\ud83d\udc49 Join the community and reserve your spot at community.nlhg.org\n\n#Farm2Table #HomesteadLife #HomesteadingCommunity #SelfSufficiency #GrowYourOwn",
+        "x": {
+          "lead": "The NLHG National Virtual Gathering is back \ud83c\udf31\n\n\ud83d\uddd3\ufe0f Wed, March 3, 2027\n\ud83d\udcbb Online \u2014 Free to attend\n\nWomen from across the country coming together to learn real homesteading skills. Join in \ud83d\udc47",
+          "thread": [
+            "Every first Wednesday, the ladies of the homestead movement gather online to learn, connect, and grow. The National Ladies Homestead Gathering has built a community where no one's figuring it out alone.",
+            "Each month features a special guest speaker on the skills that matter \u2014 gardening, livestock care, preparedness, canning, and hands-on DIY projects. March's speaker and topic drop closer to the date, so stay tuned.",
+            "Best part? It's free, and open to chapter members and non-members alike. Join the online community to participate live on March 3: community.nlhg.org #HomesteadingCommunity #SelfSufficiency"
+          ]
+        },
+        "youtube": "Mark your calendar, folks \u2014 the NLHG National Virtual Gathering is back on Wednesday, March 3, 2027. \ud83c\udf31\n\nIt's a monthly online meetup where women across the homestead movement come together to learn, connect, and grow. Every gathering brings a special guest speaker on things like gardening, livestock care, canning, preparedness, and DIY projects. The March topic gets announced closer to the date.\n\nIt's free, it's online, and it's open to everyone \u2014 members and newcomers alike.\n\nJoin the community and hop in live at community.nlhg.org \ud83d\udc49\n\nWhat homesteading skill are you hoping to tackle this year? Drop it in the comments \ud83d\udc47 #HomesteadLife"
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-08-01",
+      "registration_url": "https://community.nlhg.org/",
+      "changes_noted": "Auto-generated from recurring series pattern",
+      "recurrence": "first-wednesday-except-december",
+      "series": "NLHG National Virtual Gathering"
+    },
+    {
+      "id": "nlhg-2027-04",
+      "name": "NLHG National Virtual Gathering \u2014 April",
+      "status": "confirmed",
+      "dates": {
+        "start": "2027-04-07",
+        "end": "2027-04-07",
+        "pre_event": null,
+        "notes": "Monthly virtual gathering \u2014 first Wednesday of each month, except December. Speaker/topic announced closer to the date."
+      },
+      "location": {
+        "venue": "Virtual / Online",
+        "city": "Online",
+        "state": "",
+        "region": "National"
+      },
+      "url": "https://www.nlhg.org/upcoming-events",
+      "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
+      "description": "National Ladies Homestead Gathering's monthly National Virtual Gathering. In this live online event, women from across the country come together to learn, connect, and grow in all things homesteading. Each gathering features a special guest speaker on topics like gardening, livestock care, preparedness, canning, and DIY projects. Held on the first Wednesday of each month (except December). Free to attend \u2014 participation is via NLHG's online forums/community.",
+      "speakers": [],
+      "ticket_price": "Free to attend \u2014 join the online community/forums at nlhg.org to participate live",
+      "highlights": [
+        "monthly virtual gathering",
+        "women's homesteading community",
+        "features a special guest speaker each month",
+        "topics include gardening, livestock care, preparedness, canning, DIY projects",
+        "open to Chapter members and non-members alike",
+        "free to attend",
+        "online event"
+      ],
+      "source": "nlhg.org",
+      "verified": true,
+      "social_posts": {
+        "facebook": "\ud83d\udcc5 NLHG National Virtual Gathering \u2014 Wednesday, April 7, 2027\n\ud83d\udcbb Online, free to attend\n\ud83c\udf3e Hosted by National Ladies Homestead Gathering\n\nFirst Wednesday of the month means it's time for the women of the homestead movement to log on, learn something new, and settle in with folks who get it.\n\nEvery month, NLHG brings a special guest speaker to walk through the real skills that keep a homestead running \u2014 gardening, livestock care, preparedness, canning, and hands-on DIY projects. The April speaker and topic will be announced closer to the date, but one thing holds true every time: you leave knowing more than you did when you logged on.\n\nWhat makes this gathering special isn't just the teaching. It's the connection. Women from across the country, at every stage of the journey \u2014 from the first raised bed to a full working homestead \u2014 showing up for each other, swapping notes, and growing together.\n\nOpen to chapter members and non-members alike. No cost to join.\n\n\ud83d\udc49 Hop into the community to participate live: https://community.nlhg.org/\n\n#Farm2Table #HomesteadingCommunity #GrowYourOwn #SelfSufficiency #HomesteadLife",
+        "x": {
+          "lead": "\ud83d\udcc5 Wed, April 7, 2027 \u2014 NLHG's National Virtual Gathering is back. Women from across the country logging on to learn homestead skills together. Free, online, all levels welcome. \ud83c\udf3e\n\nJoin in: https://community.nlhg.org/",
+          "thread": [
+            "Every first Wednesday, the National Ladies Homestead Gathering brings in a special guest speaker on the stuff that actually matters on the homestead \u2014 gardening, livestock care, preparedness, canning, DIY projects. April's topic drops closer to the date. \ud83e\uddf5",
+            "But it's not just a lecture. It's a room full of women at every stage of the journey \u2014 first raised bed to full working homestead \u2014 swapping notes and showing up for each other. That's the part you can't get from a YouTube video. \ud83d\udc9b",
+            "Open to chapter members and non-members alike. Completely free. All you have to do is join the online community to participate live.\n\n\ud83d\udc49 https://community.nlhg.org/\n\n#HomesteadingCommunity #GrowYourOwn #SelfSufficiency"
+          ]
+        },
+        "youtube": "Mark your calendar, folks \u2014 the NLHG National Virtual Gathering is back on Wednesday, April 7, 2027. \ud83c\udf3e\n\nIt's a monthly online get-together where women across the homestead movement come to learn a real skill and find their people. Each one features a special guest speaker on things like gardening, livestock care, canning, preparedness, and DIY projects. April's topic will be announced closer to the date \u2014 but it's always worth showing up for.\n\nBest part? It's totally free and open to everyone, members or not.\n\nJoin the community here to participate live: https://community.nlhg.org/\n\nWhat skill are you hoping they cover next? \ud83d\udc47"
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-08-01",
+      "registration_url": "https://community.nlhg.org/",
+      "changes_noted": "Auto-generated from recurring series pattern",
+      "recurrence": "first-wednesday-except-december",
+      "series": "NLHG National Virtual Gathering"
+    },
+    {
+      "id": "nlhg-2027-05",
+      "name": "NLHG National Virtual Gathering \u2014 May",
+      "status": "confirmed",
+      "dates": {
+        "start": "2027-05-05",
+        "end": "2027-05-05",
+        "pre_event": null,
+        "notes": "Monthly virtual gathering \u2014 first Wednesday of each month, except December. Speaker/topic announced closer to the date."
+      },
+      "location": {
+        "venue": "Virtual / Online",
+        "city": "Online",
+        "state": "",
+        "region": "National"
+      },
+      "url": "https://www.nlhg.org/upcoming-events",
+      "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
+      "description": "National Ladies Homestead Gathering's monthly National Virtual Gathering. In this live online event, women from across the country come together to learn, connect, and grow in all things homesteading. Each gathering features a special guest speaker on topics like gardening, livestock care, preparedness, canning, and DIY projects. Held on the first Wednesday of each month (except December). Free to attend \u2014 participation is via NLHG's online forums/community.",
+      "speakers": [],
+      "ticket_price": "Free to attend \u2014 join the online community/forums at nlhg.org to participate live",
+      "highlights": [
+        "monthly virtual gathering",
+        "women's homesteading community",
+        "features a special guest speaker each month",
+        "topics include gardening, livestock care, preparedness, canning, DIY projects",
+        "open to Chapter members and non-members alike",
+        "free to attend",
+        "online event"
+      ],
+      "source": "nlhg.org",
+      "verified": true,
+      "social_posts": {
+        "facebook": "\ud83c\udf31 NLHG National Virtual Gathering \u2014 Wednesday, May 5, 2027\nWhere: Online (join from your own kitchen table, porch, or barn)\nCost: Free to attend\n\nOn the first Wednesday of every month, women from across the country log on, settle in, and dig into all things homesteading together. The National Ladies Homestead Gathering brings a special guest speaker to each session \u2014 covering things like gardening, livestock care, preparedness, canning, and hands-on DIY projects.\n\nHere's what folks in the movement love about it: you don't have to live near a chapter or have a big setup to belong. Whether you're starting your first raised bed or butchering your own birds, there's a seat for you. It's the kind of gathering where someone's always got an answer to that question you've been afraid to ask \u2014 and where the connections outlast the call.\n\nMay's speaker and topic will be announced closer to the date, so keep an eye out.\n\nThis one's open to chapter members and non-members alike. No ticket price, no pressure \u2014 just good company and real skills.\n\n\ud83d\udc49 Join the community and reserve your spot at community.nlhg.org\n\n#HomesteadingCommunity #Farm2Table #GrowYourOwn #SelfSufficiency #BackToBasics",
+        "x": {
+          "lead": "\ud83c\udf31 NLHG National Virtual Gathering \u2014 Wed, May 5, 2027. Women from across the country meet online to learn, connect & grow in all things homesteading. Free to attend. Join: community.nlhg.org #HomesteadingCommunity #Farm2Table",
+          "thread": [
+            "Every first Wednesday, the National Ladies Homestead Gathering brings a special guest speaker to the table \u2014 topics span gardening, livestock care, preparedness, canning & DIY projects. May's speaker drops closer to the date. #GrowYourOwn",
+            "Best part? You don't need a big spread or a nearby chapter to belong. First raised bed or seasoned flock-keeper \u2014 folks in the movement always have an answer and a welcome. Open to members AND non-members. #SelfSufficiency",
+            "No ticket price, no pressure. Just real skills and good company. Reserve your spot and join the online community here \ud83d\udc49 community.nlhg.org #BackToBasics #Farm2Table"
+          ]
+        },
+        "youtube": "Mark your calendar, friends \u2014 the NLHG National Virtual Gathering is back Wednesday, May 5. It's a monthly online get-together where women across the country swap homesteading know-how: gardening, livestock, canning, preparedness, DIY \u2014 you name it. Each month brings a new guest speaker (May's topic announced soon), and the whole thing is free to join. Whether you're just planting your first seeds or you've been at this for years, there's a spot for you. Jump into the community and sign up at community.nlhg.org. What's the one homestead skill you're itching to learn this year? Drop it in the comments \ud83d\udc47"
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-08-01",
+      "registration_url": "https://community.nlhg.org/",
+      "changes_noted": "Auto-generated from recurring series pattern",
+      "recurrence": "first-wednesday-except-december",
+      "series": "NLHG National Virtual Gathering"
+    },
+    {
+      "id": "nlhg-2027-06",
+      "name": "NLHG National Virtual Gathering \u2014 June",
+      "status": "confirmed",
+      "dates": {
+        "start": "2027-06-02",
+        "end": "2027-06-02",
+        "pre_event": null,
+        "notes": "Monthly virtual gathering \u2014 first Wednesday of each month, except December. Speaker/topic announced closer to the date."
+      },
+      "location": {
+        "venue": "Virtual / Online",
+        "city": "Online",
+        "state": "",
+        "region": "National"
+      },
+      "url": "https://www.nlhg.org/upcoming-events",
+      "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
+      "description": "National Ladies Homestead Gathering's monthly National Virtual Gathering. In this live online event, women from across the country come together to learn, connect, and grow in all things homesteading. Each gathering features a special guest speaker on topics like gardening, livestock care, preparedness, canning, and DIY projects. Held on the first Wednesday of each month (except December). Free to attend \u2014 participation is via NLHG's online forums/community.",
+      "speakers": [],
+      "ticket_price": "Free to attend \u2014 join the online community/forums at nlhg.org to participate live",
+      "highlights": [
+        "monthly virtual gathering",
+        "women's homesteading community",
+        "features a special guest speaker each month",
+        "topics include gardening, livestock care, preparedness, canning, DIY projects",
+        "open to Chapter members and non-members alike",
+        "free to attend",
+        "online event"
+      ],
+      "source": "nlhg.org",
+      "verified": true,
+      "social_posts": {
+        "facebook": "\ud83c\udf3f NLHG National Virtual Gathering \u2014 Wednesday, June 2, 2027 | Online, Nationwide | Free to Attend\n\nFirst Wednesday of the month means it's time for women across the country to gather around the (virtual) table again.\n\nThe National Ladies Homestead Gathering hosts this live online event every month, and it's become a real anchor for so many folks in the movement. Each gathering brings in a special guest speaker on the skills that keep a homestead running \u2014 think gardening, livestock care, preparedness, canning, and hands-on DIY projects. June's speaker and topic will be announced closer to the date, so keep an eye out.\n\nWhat makes this one special is the people. Women homesteaders from every corner of the country, sharing what's working, troubleshooting what isn't, and cheering each other on. Whether you've got a full working farm or a few pots on a balcony, there's a seat for you here.\n\nOpen to chapter members and non-members alike. Completely free.\n\nJoin the online community to participate live: https://community.nlhg.org/\n\n#HomesteadingCommunity #GrowYourOwn #SelfSufficiency #BackToBasics #Farm2Table",
+        "x": {
+          "lead": "\ud83c\udf3f NLHG National Virtual Gathering \u2014 Wed, June 2, 2027. Online. Free.\n\nWomen homesteaders from across the country gather the first Wednesday of every month to learn, connect & grow. June's speaker drops closer to the date.\n\nJoin in \ud83d\udc47",
+          "thread": [
+            "Each month brings a new guest speaker on the skills that matter \u2014 gardening, livestock care, preparedness, canning, DIY projects. Real practitioners, real know-how, live and interactive. No fluff. #HomesteadLife #RegenerativeAg",
+            "But the heart of it is the community. Women from every corner of the country, from working farms to balcony gardens, swapping what works and lifting each other up. Members and non-members both welcome. #HomesteadingCommunity #SelfSufficiency",
+            "Best part? It's completely free. Just join the online community to take part live on June 2.\n\n\ud83d\udc49 https://community.nlhg.org/\n\n#GrowYourOwn #FoodFreedom #Farm2Table"
+          ]
+        },
+        "youtube": "First Wednesday of the month, and the National Ladies Homestead Gathering is back online! \ud83c\udf3f\n\nJune 2, 2027 \u2014 women homesteaders from all over the country come together live to learn a new skill and connect. Every month features a guest speaker on things like gardening, livestock care, canning, preparedness, and DIY projects. June's topic gets announced closer to the date.\n\nIt's free, it's open to members and non-members, and honestly it's just a good crowd of folks who get it.\n\nJoin the community to take part live: https://community.nlhg.org/\n\nWhat skill are you hoping they cover next? \ud83d\udc47"
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-08-01",
+      "registration_url": "https://community.nlhg.org/",
+      "changes_noted": "Auto-generated from recurring series pattern",
+      "recurrence": "first-wednesday-except-december",
+      "series": "NLHG National Virtual Gathering"
+    },
+    {
+      "id": "nlhg-2027-07",
+      "name": "NLHG National Virtual Gathering \u2014 July",
+      "status": "confirmed",
+      "dates": {
+        "start": "2027-07-07",
+        "end": "2027-07-07",
+        "pre_event": null,
+        "notes": "Monthly virtual gathering \u2014 first Wednesday of each month, except December. Speaker/topic announced closer to the date."
+      },
+      "location": {
+        "venue": "Virtual / Online",
+        "city": "Online",
+        "state": "",
+        "region": "National"
+      },
+      "url": "https://www.nlhg.org/upcoming-events",
+      "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
+      "description": "National Ladies Homestead Gathering's monthly National Virtual Gathering. In this live online event, women from across the country come together to learn, connect, and grow in all things homesteading. Each gathering features a special guest speaker on topics like gardening, livestock care, preparedness, canning, and DIY projects. Held on the first Wednesday of each month (except December). Free to attend \u2014 participation is via NLHG's online forums/community.",
+      "speakers": [],
+      "ticket_price": "Free to attend \u2014 join the online community/forums at nlhg.org to participate live",
+      "highlights": [
+        "monthly virtual gathering",
+        "women's homesteading community",
+        "features a special guest speaker each month",
+        "topics include gardening, livestock care, preparedness, canning, DIY projects",
+        "open to Chapter members and non-members alike",
+        "free to attend",
+        "online event"
+      ],
+      "source": "nlhg.org",
+      "verified": true,
+      "social_posts": {
+        "facebook": "\ud83d\udcc5 NLHG National Virtual Gathering \u2014 Wednesday, July 7, 2027\n\ud83d\udccd Online (free to attend, wherever you are)\n\nFirst Wednesday of the month means it's time for the National Ladies Homestead Gathering to come together again \u2014 this time on July 7th.\n\nIf you've ever wanted to learn alongside women who are actually doing the work \u2014 the canning, the livestock care, the garden planning, the DIY fixes that keep a homestead running \u2014 this is the room for you. Every month NLHG brings in a special guest speaker to go deep on real skills, and folks in the movement log on from kitchens and farmsteads across the country to learn, swap notes, and grow together.\n\nThe July speaker and topic will be announced closer to the date, so keep an eye on nlhg.org. Past gatherings have covered everything from preparedness to cheesemaking to getting the most out of a summer garden.\n\nBest part? It's completely free. Members and non-members alike are welcome \u2014 you just join the online community to take part live.\n\nFind your people and save your spot here \ud83d\udc49 https://community.nlhg.org/\n\n#HomesteadingCommunity #GrowYourOwn #SelfSufficiency #BackToBasics #Farm2Table",
+        "x": {
+          "lead": "\ud83d\udcc5 July 7, 2027 \u2014 the National Ladies Homestead Gathering is back online for its monthly virtual meetup. Free to attend. Women from across the country, learning real homestead skills together. Join in \ud83d\udc49 https://community.nlhg.org/",
+          "thread": [
+            "Every first Wednesday, NLHG brings in a special guest speaker to go deep on the skills that keep a homestead running \u2014 gardening, livestock care, preparedness, canning, DIY projects. July's speaker + topic drop closer to the date. Watch nlhg.org \ud83d\udc40",
+            "This is where folks in the movement find their people. Log on from your kitchen or your barn, ask real questions, and swap notes with women who are actually doing the work. Open to members and non-members alike.",
+            "No ticket cost, no catch \u2014 it's free. You just join the online community to take part live on July 7. Save your spot \ud83d\udc49 https://community.nlhg.org/ #HomesteadingCommunity #SelfSufficiency #Farm2Table"
+          ]
+        },
+        "youtube": "Hey friends \u2014 marking your calendars for July 7th? \ud83d\udcc5 The National Ladies Homestead Gathering is hosting its monthly virtual meetup, and it's one of the best spots for women in the homestead world to connect and learn together. Each month there's a special guest speaker digging into real skills \u2014 gardening, canning, livestock care, preparedness, DIY projects. July's topic gets announced closer to the date, so stay tuned. It's totally free, and open to everyone. Jump in here \ud83d\udc49 https://community.nlhg.org/\n\nSo tell us \u2014 what homestead skill are you most hoping to learn this summer? \ud83d\udc47"
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-08-01",
+      "registration_url": "https://community.nlhg.org/",
+      "changes_noted": "Auto-generated from recurring series pattern",
+      "recurrence": "first-wednesday-except-december",
+      "series": "NLHG National Virtual Gathering"
+    },
+    {
+      "id": "nlhg-2027-08",
+      "name": "NLHG National Virtual Gathering \u2014 August",
+      "status": "confirmed",
+      "dates": {
+        "start": "2027-08-04",
+        "end": "2027-08-04",
+        "pre_event": null,
+        "notes": "Monthly virtual gathering \u2014 first Wednesday of each month, except December. Speaker/topic announced closer to the date."
+      },
+      "location": {
+        "venue": "Virtual / Online",
+        "city": "Online",
+        "state": "",
+        "region": "National"
+      },
+      "url": "https://www.nlhg.org/upcoming-events",
+      "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
+      "description": "National Ladies Homestead Gathering's monthly National Virtual Gathering. In this live online event, women from across the country come together to learn, connect, and grow in all things homesteading. Each gathering features a special guest speaker on topics like gardening, livestock care, preparedness, canning, and DIY projects. Held on the first Wednesday of each month (except December). Free to attend \u2014 participation is via NLHG's online forums/community.",
+      "speakers": [],
+      "ticket_price": "Free to attend \u2014 join the online community/forums at nlhg.org to participate live",
+      "highlights": [
+        "monthly virtual gathering",
+        "women's homesteading community",
+        "features a special guest speaker each month",
+        "topics include gardening, livestock care, preparedness, canning, DIY projects",
+        "open to Chapter members and non-members alike",
+        "free to attend",
+        "online event"
+      ],
+      "source": "nlhg.org",
+      "verified": true,
+      "social_posts": {
+        "facebook": "\ud83c\udf3e NLHG National Virtual Gathering \u2014 Wednesday, August 4, 2027\nWhere: Online (free to attend, from anywhere)\nWho: Women from across the country, members and non-members alike\n\nThere's something special about the way the homestead community shows up for each other \u2014 and the National Ladies Homestead Gathering has made it a monthly ritual. On the first Wednesday of every month, women from all corners of the country log on to learn a skill, trade hard-won wisdom, and remember they're not doing this alone.\n\nEach gathering brings a special guest speaker digging into the real work of homesteading \u2014 gardening, livestock care, preparedness, canning, and DIY projects you can actually put your hands to. The August speaker and topic will be announced closer to the date, so keep an eye out.\n\nWhether you've got forty acres or a few raised beds and a dream, there's a seat at this table for you. No fancy setup required \u2014 just curiosity and a willingness to grow.\n\nIt's free. Join the online community at nlhg.org to participate live and get the August details first.\n\n\ud83d\udc49 Sign up here: https://community.nlhg.org/\n\n#Farm2Table #HomesteadLife #HomesteadingCommunity #GrowYourOwn #SelfSufficiency",
+        "x": {
+          "lead": "\ud83c\udf3e First Wednesday = gathering day. The NLHG National Virtual Gathering is back Aug 4, 2027 \u2014 women from across the country coming together online to learn, connect & grow in all things homesteading. Free to join. Thread \ud83d\udc47",
+          "thread": [
+            "Each month brings a special guest speaker digging into the real skills: gardening, livestock care, preparedness, canning, and DIY projects. The August speaker + topic drop closer to the date \u2014 so stay tuned. #HomesteadingCommunity",
+            "Here's the best part: it's open to everyone. Chapter members and non-members, forty acres or a few raised beds. The folks in this movement show up for each other \u2014 and there's always room for one more. #GrowYourOwn #SelfSufficiency",
+            "It's free to attend. Just join the online community and show up live on August 4. Grab your spot here \ud83d\udc49 https://community.nlhg.org/ #Farm2Table #HomesteadLife"
+          ]
+        },
+        "youtube": "Mark your calendar, friends \u2014 the NLHG National Virtual Gathering is back on Wednesday, August 4. If you haven't sat in on one of these, picture women from all over the country logging on to learn a skill, ask real questions, and swap homestead know-how. Every month features a special guest speaker on things like gardening, livestock care, preparedness, canning, and DIY projects. The August topic gets announced closer to the date. It's totally free, and whether you're deep in the movement or just getting started, there's a seat for you. Join in at https://community.nlhg.org/ \u2014 and tell us, what skill are you most hoping to learn this year?"
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-08-01",
+      "registration_url": "https://community.nlhg.org/",
+      "changes_noted": "Auto-generated from recurring series pattern",
+      "recurrence": "first-wednesday-except-december",
+      "series": "NLHG National Virtual Gathering"
+    },
+    {
+      "id": "nlhg-2027-09",
+      "name": "NLHG National Virtual Gathering \u2014 September",
+      "status": "confirmed",
+      "dates": {
+        "start": "2027-09-01",
+        "end": "2027-09-01",
+        "pre_event": null,
+        "notes": "Monthly virtual gathering \u2014 first Wednesday of each month, except December. Speaker/topic announced closer to the date."
+      },
+      "location": {
+        "venue": "Virtual / Online",
+        "city": "Online",
+        "state": "",
+        "region": "National"
+      },
+      "url": "https://www.nlhg.org/upcoming-events",
+      "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
+      "description": "National Ladies Homestead Gathering's monthly National Virtual Gathering. In this live online event, women from across the country come together to learn, connect, and grow in all things homesteading. Each gathering features a special guest speaker on topics like gardening, livestock care, preparedness, canning, and DIY projects. Held on the first Wednesday of each month (except December). Free to attend \u2014 participation is via NLHG's online forums/community.",
+      "speakers": [],
+      "ticket_price": "Free to attend \u2014 join the online community/forums at nlhg.org to participate live",
+      "highlights": [
+        "monthly virtual gathering",
+        "women's homesteading community",
+        "features a special guest speaker each month",
+        "topics include gardening, livestock care, preparedness, canning, DIY projects",
+        "open to Chapter members and non-members alike",
+        "free to attend",
+        "online event"
+      ],
+      "source": "nlhg.org",
+      "verified": true,
+      "social_posts": {
+        "facebook": "\ud83c\udf3f NLHG National Virtual Gathering \u2014 Wednesday, September 1, 2027\n\ud83d\udccd Online (National) | \ud83d\udcb5 Free to attend\n\nFirst Wednesday of the month means the ladies of the National Ladies Homestead Gathering are coming together again \u2014 no matter where home base happens to be.\n\nFor the women in this movement, the homestead can feel like a solo journey. One day it's canning tomatoes, the next it's doctoring a sick goat, then it's figuring out how to keep the pantry full for winter. This gathering is where folks set the chores aside for an evening and learn alongside each other instead.\n\nEach month brings a special guest speaker on the skills that keep a homestead running \u2014 gardening, livestock care, preparedness, canning, and DIY projects. September's speaker and topic will be announced closer to the date, so keep an eye on the community.\n\nThe best part? It's open to chapter members and newcomers alike, and it's completely free. All you need is a seat at the table and a willingness to grow.\n\nJoin the online community to attend live and get the September lineup as soon as it drops:\n\ud83d\udc49 https://community.nlhg.org/\n\n#Farm2Table #HomesteadingCommunity #GrowYourOwn #SelfSufficiency #BackToBasics",
+        "x": {
+          "lead": "\ud83c\udf3f NLHG National Virtual Gathering \u2014 Wed, Sept 1, 2027. Online. Free.\n\nWomen from across the country gather to learn, connect & grow in all things homesteading. First Wednesday of the month, every month.\n\nJoin in \ud83d\udc47",
+          "thread": [
+            "Each month features a special guest speaker on the skills that matter: gardening, livestock care, preparedness, canning, DIY projects. September's speaker + topic drop closer to the date \u2014 so you'll want to be in the community when they do.",
+            "This is the National Ladies Homestead Gathering \u2014 a space where the women in the movement swap knowledge instead of going it alone. Open to chapter members AND newcomers. Everyone's welcome at this table.",
+            "\ud83d\udcc5 September 1, 2027\n\ud83d\udcb5 Free to attend\n\ud83d\udcbb Live online via NLHG's community forums\n\nJoin the community to attend live: https://community.nlhg.org/\n\n#HomesteadingCommunity #GrowYourOwn #FoodFreedom"
+          ]
+        },
+        "youtube": "Hey friends \u2014 the NLHG National Virtual Gathering is back on Wednesday, September 1st, and it's free to join. \ud83c\udf3f\n\nIt's a monthly meetup where women from all over the country come together online to learn and grow in all things homesteading \u2014 gardening, livestock care, canning, preparedness, DIY, you name it. Every gathering brings a special guest speaker, and September's topic will be announced closer to the date.\n\nMembers and newcomers alike are welcome. Hop into the community to attend live and catch the lineup: https://community.nlhg.org/\n\nWhat homestead skill do you most want a speaker to cover this fall? \ud83d\udc47"
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-08-01",
+      "registration_url": "https://community.nlhg.org/",
+      "changes_noted": "Auto-generated from recurring series pattern",
+      "recurrence": "first-wednesday-except-december",
+      "series": "NLHG National Virtual Gathering"
+    },
+    {
+      "id": "nlhg-2027-10",
+      "name": "NLHG National Virtual Gathering \u2014 October",
+      "status": "confirmed",
+      "dates": {
+        "start": "2027-10-06",
+        "end": "2027-10-06",
+        "pre_event": null,
+        "notes": "Monthly virtual gathering \u2014 first Wednesday of each month, except December. Speaker/topic announced closer to the date."
+      },
+      "location": {
+        "venue": "Virtual / Online",
+        "city": "Online",
+        "state": "",
+        "region": "National"
+      },
+      "url": "https://www.nlhg.org/upcoming-events",
+      "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
+      "description": "National Ladies Homestead Gathering's monthly National Virtual Gathering. In this live online event, women from across the country come together to learn, connect, and grow in all things homesteading. Each gathering features a special guest speaker on topics like gardening, livestock care, preparedness, canning, and DIY projects. Held on the first Wednesday of each month (except December). Free to attend \u2014 participation is via NLHG's online forums/community.",
+      "speakers": [],
+      "ticket_price": "Free to attend \u2014 join the online community/forums at nlhg.org to participate live",
+      "highlights": [
+        "monthly virtual gathering",
+        "women's homesteading community",
+        "features a special guest speaker each month",
+        "topics include gardening, livestock care, preparedness, canning, DIY projects",
+        "open to Chapter members and non-members alike",
+        "free to attend",
+        "online event"
+      ],
+      "source": "nlhg.org",
+      "verified": true,
+      "social_posts": {
+        "facebook": "\ud83c\udf3e NLHG National Virtual Gathering \u2014 Wednesday, October 6, 2027\nOnline, from wherever your homestead happens to be. Free to attend.\n\nThe National Ladies Homestead Gathering hosts this one the first Wednesday of nearly every month, and it's become a real anchor for women in the homesteading movement. Each session brings a special guest speaker digging into the skills that keep a homestead running \u2014 think gardening, livestock care, preparedness, canning, and good old-fashioned DIY projects.\n\nWhat makes this one special isn't just the learning. It's the room full of women from every corner of the country showing up to swap hard-won wisdom, ask the questions you can't Google, and remind each other that nobody does this alone. Chapter members and newcomers are equally welcome \u2014 no experience required, just curiosity and a willingness to roll up your sleeves.\n\nThe October speaker and topic get announced closer to the date, so keep an eye on the NLHG community page.\n\nIt's free. It's live. And the folks who show up tend to leave with a new skill and a few new friends.\n\nJoin the online community and save your spot here \ud83d\udc49 https://community.nlhg.org/\n\n#Farm2Table #HomesteadingCommunity #GrowYourOwn #SelfSufficiency #BackToBasics",
+        "x": {
+          "lead": "\ud83c\udf3e NLHG National Virtual Gathering is back Wednesday, Oct 6 \u2014 online & free. Women from across the country coming together to learn a real homesteading skill and find their people. Save your spot \ud83d\udc49 https://community.nlhg.org/ #HomesteadingCommunity",
+          "thread": [
+            "Every month (first Wednesday, except December), the National Ladies Homestead Gathering brings in a special guest speaker. Topics rotate through gardening, livestock care, preparedness, canning, and DIY projects \u2014 the stuff that actually keeps a homestead going.",
+            "This isn't a lecture you half-watch. It's live, it's interactive, and it's full of women swapping the hard-won wisdom you can't find in a search bar. Chapter members and total newcomers are equally welcome. #GrowYourOwn #SelfSufficiency",
+            "The October speaker & topic drop closer to the date. It's 100% free to attend \u2014 just join the online community to participate live. Grab your spot here \ud83d\udc49 https://community.nlhg.org/ #Farm2Table #BackToBasics"
+          ]
+        },
+        "youtube": "Hey friends \u2014 the NLHG National Virtual Gathering is coming up Wednesday, October 6, and it's free to join. \ud83c\udf3e It's a monthly online get-together where women from all over the country show up to learn a homesteading skill and connect with folks who get the lifestyle. Each one features a special guest speaker covering things like gardening, livestock care, canning, preparedness, and DIY projects. The October topic gets announced closer to the date, so stay tuned. Jump into the community to save your spot: https://community.nlhg.org/\n\nWhat skill are you hoping they cover this month \u2014 canning, livestock, or something else? Drop it below \ud83d\udc47"
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-08-01",
+      "registration_url": "https://community.nlhg.org/",
+      "changes_noted": "Auto-generated from recurring series pattern",
+      "recurrence": "first-wednesday-except-december",
+      "series": "NLHG National Virtual Gathering"
     }
   ]
 }

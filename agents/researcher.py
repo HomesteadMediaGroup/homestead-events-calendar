@@ -379,12 +379,58 @@ def event_end(e):
     return d.get("end") or d.get("start")
 
 
+def first_wednesday(year, month):
+    d = datetime.date(year, month, 1)
+    return d + datetime.timedelta(days=(2 - d.weekday()) % 7)
+
+
+def extend_recurring(events_data, months_ahead=12):
+    """Recurring series (event['recurrence'] == 'first-wednesday-except-december', e.g. NLHG
+    National Virtual Gatherings): keep one confirmed record per month, months_ahead into the future."""
+    import copy
+    today = datetime.date.today()
+    series = {}
+    for e in events_data["events"]:
+        if e.get("recurrence") == "first-wednesday-except-december":
+            series.setdefault(e["series"], []).append(e)
+    for name, recs in series.items():
+        have = {r["dates"]["start"][:7] for r in recs}
+        template = max(recs, key=lambda r: r["dates"]["start"])
+        y, m = today.year, today.month
+        for _ in range(months_ahead + 1):
+            if m != 12 and f"{y}-{m:02d}" not in have:
+                d = first_wednesday(y, m)
+                if d >= today:
+                    n = copy.deepcopy(template)
+                    mn = d.strftime("%B")
+                    n["id"] = f"{template['id'].rsplit('-', 2)[0]}-{y}-{m:02d}"
+                    n["name"] = f"{name} — {mn}"
+                    n["status"] = "confirmed"
+                    n["dates"] = {"start": d.isoformat(), "end": d.isoformat(), "pre_event": None,
+                                  "notes": "Monthly virtual gathering — first Wednesday of each month, except December. Speaker/topic announced closer to the date."}
+                    n["speakers"] = []
+                    n["social_posts"] = {"facebook": None, "x": None, "youtube": None}
+                    n["posted"] = {"facebook": False, "x": False, "youtube": False}
+                    n["changes_noted"] = "Auto-generated from recurring series pattern"
+                    events_data["events"].append(n)
+                    log(f"Added recurring: {n['name']} {y} ({d})")
+            m += 1
+            if m > 12:
+                m, y = 1, y + 1
+    return events_data
+
+
 def rollover_past_events(client, events_data):
     """Mark ended events as 'past', then look for next-edition dates.
     Found -> new dates, status confirmed, social posts cleared so fresh drafts generate.
     Not found -> stays 'past' (kept on calendar as awaiting new dates)."""
     today = datetime.date.today().isoformat()
-    for e in events_data["events"]:
+    events_data = extend_recurring(events_data)
+    for e in list(events_data["events"]):
+        if e.get("recurrence"):
+            if event_end(e) and event_end(e) < today:
+                e["status"] = "past"
+            continue
         end = event_end(e)
         if end and end < today and e.get("status") in ("confirmed", "pending", "completed", "past"):
             if e.get("status") != "past":

@@ -238,7 +238,7 @@ def build_html(events_data):
           </div>
         </div>"""
 
-    awaiting = [e for e in events if e.get("status") in ("past", "completed", "archived")]
+    awaiting = [e for e in events if e.get("status") in ("past", "completed", "archived") and not e.get("recurrence")]
     if awaiting:
         chips = "".join(
             f'<button class="chip" style="background:{event_chip_color(e)};opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal(\'{e["id"]}\')">{e["name"]}</button>'

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-16",
+    "last_updated": "2026-11-01",
     "version": "1.0",
-    "total_events": 56
+    "total_events": 59
   },
   "events": [
     {
@@ -1030,7 +1030,7 @@
     {
       "id": "wapf-2026",
       "name": "Wise Traditions Conference (26th Annual) \u2014 Weston A. Price Foundation",
-      "status": "confirmed",
+      "status": "past",
       "dates": {
         "start": "2026-10-16",
         "end": "2026-10-18",
@@ -1655,7 +1655,7 @@
     {
       "id": "sovereign-health-summit-2026",
       "name": "Sovereign Health Summit",
-      "status": "confirmed",
+      "status": "past",
       "dates": {
         "start": "2026-10-27",
         "end": "2026-10-31",
@@ -3331,6 +3331,148 @@
           ]
         },
         "youtube": "Hey friends \u2014 the NLHG National Virtual Gathering is coming up Wednesday, October 6, and it's free to join. \ud83c\udf3e It's a monthly online get-together where women from all over the country show up to learn a homesteading skill and connect with folks who get the lifestyle. Each one features a special guest speaker covering things like gardening, livestock care, canning, preparedness, and DIY projects. The October topic gets announced closer to the date, so stay tuned. Jump into the community to save your spot: https://community.nlhg.org/\n\nWhat skill are you hoping they cover this month \u2014 canning, livestock, or something else? Drop it below \ud83d\udc47"
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-08-01",
+      "registration_url": "https://community.nlhg.org/",
+      "changes_noted": "Auto-generated from recurring series pattern",
+      "recurrence": "first-wednesday-except-december",
+      "series": "NLHG National Virtual Gathering"
+    },
+    {
+      "id": "ladies-homesteading-camp-2027",
+      "name": "2027 Ladies Homesteading Camp \u2014 5-Day Intensive Overnight Skills Camp",
+      "status": "confirmed",
+      "dates": {
+        "start": "2027-05-18",
+        "end": "2027-05-22",
+        "notes": "Monday May 18 through Friday May 22, 2027. Campers may arrive the evening before (Sunday May 17) after 5 PM at no extra charge. Schedule starts at 7 AM or before each day. Held at Ozark Camp & Retreat Center near Neosho, MO."
+      },
+      "location": {
+        "venue": "10355 Eland Rd",
+        "city": "Neosho",
+        "state": "MO",
+        "region": "Midwest"
+      },
+      "url": "https://ozarkshomesteading.com/ladies-camp",
+      "registration_url": "https://ozarkshomesteading.com/ladies-camp",
+      "description": "A 5-day intensive overnight homesteading skills camp for women \u2014 part summer camp, part retreat, part boot camp. Spend five full days immersed in hands-on homesteading skills alongside like-minded women, with overnight stays in cabins or dorms, all meals and snacks, all workshops, gifts, prizes, and evening farm-to-table dinners with faith-based inspiration. All-inclusive: spend nothing once you arrive.",
+      "highlights": [
+        "Bread Making \u2014 milling grains, sourdough, sweet breads, pie crusts, pizza dough and more",
+        "Gardening \u2014 growing, foraging, and making salves, tinctures, and soaps from the harvest",
+        "Food Preservation \u2014 full day of canning (water bath & pressure), fermenting, and more",
+        "Fiber Therapy \u2014 sewing, quilting, knitting, spinning, weaving",
+        "Livestock & Chickens \u2014 hands-on with popular breeds, cheesemaking, and chicken processing",
+        "Inspiration & Fellowship \u2014 evening farm-to-table dinners with faith-based speakers including Sarah of Living Traditions Homestead",
+        "Campfire optional refreshments each evening",
+        "5 full days overnight \u2014 cabins or dorm rooms, all meals and snacks included",
+        "Gifts and door prizes from sponsors \u2014 spend nothing once you arrive",
+        "Tickets very limited for quality hands-on experience \u2014 register early",
+        "Tickets transferable (not refundable)"
+      ],
+      "ticket_price": "Invoice sent within 24 hours of registration with payment link. Multiple payment options available. Spot not held until first payment made. Tickets non-refundable but transferable.",
+      "contact": "ladieshomesteading@gmail.com",
+      "source": "user-submitted",
+      "verified": true,
+      "social_posts": {
+        "facebook": "",
+        "x": "",
+        "youtube": ""
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-10-16"
+    },
+    {
+      "id": "ozarks-expo-2027",
+      "name": "Ozarks Homesteading Expo",
+      "status": "confirmed",
+      "dates": {
+        "start": "2027-09-03",
+        "end": "2027-09-04",
+        "notes": "Friday-Saturday, September 3-4, 2027. Dates confirmed by organizer; official website not yet fully updated. Based on 2026 pattern: gates at 7 AM, sessions at 8 AM each day."
+      },
+      "location": {
+        "venue": "Ellis O. Jackson Park / Webster County Fairgrounds, 614 North Marshall Street",
+        "city": "Marshfield",
+        "state": "MO",
+        "region": "Midwest"
+      },
+      "url": "https://ozarkshomesteading.com",
+      "registration_url": "https://ozarkshomesteading.com",
+      "description": "Annual two-day educational homesteading resource fair running since 2019 at the Webster County Fairgrounds in Marshfield, MO. Features 40+ teaching sessions, demonstrations, workshops, food trucks, and a large homesteading vendor marketplace (160+ vendors). Attendees learn from local, national, and internationally known experts across a wide range of homesteading topics.",
+      "speakers": [],
+      "ticket_price": "TBD \u2014 2027 tickets not yet on sale. 2026 pricing for reference: General Admission  (two-day access); GA with video access ; VIP  (VIP parking, early entry, AC lounge, premium seating, sponsor goodie tote, T-shirt, all video recordings). Kids 11 and under free with ticket.",
+      "highlights": [
+        "40+ teaching sessions and demonstrations",
+        "Natural beekeeping, foraging, and mushrooms",
+        "Livestock raising and processing (hog butchering, chicken processing, meat rabbits)",
+        "Off-grid / solar living",
+        "Blacksmithing, natural building, rocket mass heaters",
+        "Sourdough, fermenting, cheesemaking, soap making",
+        "Kids activities and homeschooling",
+        "160+ vendor marketplace",
+        "Food trucks",
+        "VIP tier with lounge, early entry, and video access"
+      ],
+      "source": "user-submitted",
+      "verified": true,
+      "social_posts": {
+        "facebook": "",
+        "x": "",
+        "youtube": ""
+      },
+      "posted": {
+        "facebook": false,
+        "x": false,
+        "youtube": false
+      },
+      "last_researched": "2026-10-16",
+      "changes_noted": "Sept 3-4, 2027 dates confirmed directly by organizer. Official website not yet fully updated as of 2026-10-16. Venue expected to be Webster County Fairgrounds, Marshfield, MO (same as all prior years). Ticket pricing and speaker lineup TBD."
+    },
+    {
+      "id": "nlhg-2027-11",
+      "name": "NLHG National Virtual Gathering \u2014 November",
+      "status": "confirmed",
+      "dates": {
+        "start": "2027-11-03",
+        "end": "2027-11-03",
+        "pre_event": null,
+        "notes": "Monthly virtual gathering \u2014 first Wednesday of each month, except December. Speaker/topic announced closer to the date."
+      },
+      "location": {
+        "venue": "Virtual / Online",
+        "city": "Online",
+        "state": "",
+        "region": "National"
+      },
+      "url": "https://www.nlhg.org/upcoming-events",
+      "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
+      "description": "National Ladies Homestead Gathering's monthly National Virtual Gathering. In this live online event, women from across the country come together to learn, connect, and grow in all things homesteading. Each gathering features a special guest speaker on topics like gardening, livestock care, preparedness, canning, and DIY projects. Held on the first Wednesday of each month (except December). Free to attend \u2014 participation is via NLHG's online forums/community.",
+      "speakers": [],
+      "ticket_price": "Free to attend \u2014 join the online community/forums at nlhg.org to participate live",
+      "highlights": [
+        "monthly virtual gathering",
+        "women's homesteading community",
+        "features a special guest speaker each month",
+        "topics include gardening, livestock care, preparedness, canning, DIY projects",
+        "open to Chapter members and non-members alike",
+        "free to attend",
+        "online event"
+      ],
+      "source": "nlhg.org",
+      "verified": true,
+      "social_posts": {
+        "facebook": null,
+        "x": null,
+        "youtube": null
       },
       "posted": {
         "facebook": false,

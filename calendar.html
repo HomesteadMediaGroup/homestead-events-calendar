@@ -97,6 +97,47 @@
     letter-spacing: 1px;
   }
 
+  /* ── DOORSTONE PRESS PARTNER LOCKUP ── */
+  .header-partner {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-left: 1px solid #333;
+    padding-left: 16px;
+    margin-left: 4px;
+  }
+  .partner-label {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.6rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #555;
+    display: block;
+    margin-bottom: 4px;
+  }
+  .partner-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    text-decoration: none;
+  }
+  .partner-brand svg { flex-shrink: 0; }
+  .partner-brand-text { line-height: 1.2; }
+  .partner-brand-name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.5px;
+    display: block;
+  }
+  .partner-brand-sub {
+    font-family: sans-serif;
+    font-size: 0.65rem;
+    color: #888;
+    display: block;
+  }
+
   /* ── RED STRIPE ── */
   .stripe {
     background: var(--red);
@@ -114,6 +155,26 @@
     text-transform: uppercase;
     color: white;
   }
+  .stripe-links {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  .stripe-link {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    background: rgba(0,0,0,0.2);
+    padding: 4px 10px;
+    border-radius: 3px;
+    border: 1px solid rgba(255,255,255,0.3);
+    white-space: nowrap;
+    transition: background 0.15s;
+  }
+  .stripe-link:hover { background: rgba(0,0,0,0.4); }
 
   /* ── LEGEND ── */
   .legend {
@@ -408,14 +469,34 @@
       <div class="header-sub">Conferences · Expos · Festivals · Summits across America</div>
     </div>
     <div class="header-right">
-      <strong>29 Events</strong>
-      Updated 2026-10-16
+      <strong>30 Events</strong>
+      Updated 2026-11-01
+    </div>
+    <div class="header-partner">
+      <div>
+        <span class="partner-label">Speaker Roster</span>
+        <a class="partner-brand" href="https://doorstone.press/" target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+            <path d="M3 12 12 4l9 8" stroke="#ef5c44" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M5 11v9h14v-9" stroke="#faf8f3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M10 20v-6h4v6" stroke="#faf8f3" stroke-width="1.6" stroke-linejoin="round"/>
+          </svg>
+          <span class="partner-brand-text">
+            <span class="partner-brand-name">Doorstone Press</span>
+            <span class="partner-brand-sub">Homestead &amp; Self-Reliance Speakers</span>
+          </span>
+        </a>
+      </div>
     </div>
   </div>
 </header>
 
 <div class="stripe">
   <span class="stripe-tagline">Know Where the Community Gathers · Click Any Event for Details & Tickets</span>
+  <div class="stripe-links">
+    <a class="stripe-link" href="mailto:contact@doorstone.press?cc=farm2tabledirect@protonmail.com,3nailsmedia@proton.me&subject=Event%20Submission%20%E2%80%94%20Homestead%20Events%20Calendar&body=Event%20Name%3A%0ADate%3A%0ALocation%3A%0AWebsite%3A%0ADescription%3A">Submit an Event</a>
+    <a class="stripe-link" href="https://doorstone.press/" target="_blank" rel="noopener">Become a Speaker</a>
+  </div>
 </div>
 
 <div class="legend">
@@ -426,55 +507,12 @@
 <main>
 
         <div class="month-block">
-          <h2 class="month-title">October 2026</h2>
-          <div class="cal-grid">
-            <div class="dow">Sun</div><div class="dow">Mon</div><div class="dow">Tue</div>
-            <div class="dow">Wed</div><div class="dow">Thu</div><div class="dow">Fri</div>
-            <div class="dow">Sat</div>
-            <div class="day empty"></div>
-<div class="day empty"></div>
-<div class="day empty"></div>
-<div class="day empty"></div>
-<div class="day"><span class="day-num">1</span></div>
-<div class="day"><span class="day-num">2</span></div>
-<div class="day"><span class="day-num">3</span></div>
-<div class="day"><span class="day-num">4</span></div>
-<div class="day"><span class="day-num">5</span></div>
-<div class="day"><span class="day-num">6</span></div>
-<div class="day"><span class="day-num">7</span></div>
-<div class="day"><span class="day-num">8</span></div>
-<div class="day"><span class="day-num">9</span></div>
-<div class="day"><span class="day-num">10</span></div>
-<div class="day"><span class="day-num">11</span></div>
-<div class="day"><span class="day-num">12</span></div>
-<div class="day"><span class="day-num">13</span></div>
-<div class="day"><span class="day-num">14</span></div>
-<div class="day"><span class="day-num">15</span></div>
-<div class="day today"><span class="day-num">16</span><div class="chip" style="background:#c0392b;" data-id="wapf-2026" onclick="openModal('wapf-2026')">Wise Traditions Conference (…</div></div>
-<div class="day"><span class="day-num">17</span><div class="chip continuation" style="background:#c0392b88;" data-id="wapf-2026"></div></div>
-<div class="day"><span class="day-num">18</span><div class="chip continuation" style="background:#c0392b88;" data-id="wapf-2026"></div></div>
-<div class="day"><span class="day-num">19</span></div>
-<div class="day"><span class="day-num">20</span></div>
-<div class="day"><span class="day-num">21</span></div>
-<div class="day"><span class="day-num">22</span></div>
-<div class="day"><span class="day-num">23</span></div>
-<div class="day"><span class="day-num">24</span></div>
-<div class="day"><span class="day-num">25</span></div>
-<div class="day"><span class="day-num">26</span></div>
-<div class="day"><span class="day-num">27</span><div class="chip" style="background:#c0392b;" data-id="sovereign-health-summit-2026" onclick="openModal('sovereign-health-summit-2026')">Sovereign Health Summit</div></div>
-<div class="day"><span class="day-num">28</span><div class="chip continuation" style="background:#c0392b88;" data-id="sovereign-health-summit-2026"></div></div>
-<div class="day"><span class="day-num">29</span><div class="chip continuation" style="background:#c0392b88;" data-id="sovereign-health-summit-2026"></div></div>
-<div class="day"><span class="day-num">30</span><div class="chip continuation" style="background:#c0392b88;" data-id="sovereign-health-summit-2026"></div></div>
-<div class="day"><span class="day-num">31</span><div class="chip continuation" style="background:#c0392b88;" data-id="sovereign-health-summit-2026"></div></div>
-          </div>
-        </div>
-        <div class="month-block">
           <h2 class="month-title">November 2026</h2>
           <div class="cal-grid">
             <div class="dow">Sun</div><div class="dow">Mon</div><div class="dow">Tue</div>
             <div class="dow">Wed</div><div class="dow">Thu</div><div class="dow">Fri</div>
             <div class="dow">Sat</div>
-            <div class="day"><span class="day-num">1</span></div>
+            <div class="day today"><span class="day-num">1</span></div>
 <div class="day"><span class="day-num">2</span><div class="chip" style="background:#c0392b;" data-id="mountain-readiness-fallout-2026" onclick="openModal('mountain-readiness-fallout-2026')">Mountain Readiness Fall Out</div></div>
 <div class="day"><span class="day-num">3</span><div class="chip continuation" style="background:#c0392b88;" data-id="mountain-readiness-fallout-2026"></div></div>
 <div class="day"><span class="day-num">4</span><div class="chip continuation" style="background:#c0392b88;" data-id="mountain-readiness-fallout-2026"></div><div class="chip" style="background:#546e7a;" data-id="nlhg-2026-11" onclick="openModal('nlhg-2026-11')">NLHG National Virtual Gather…</div></div>
@@ -719,11 +757,11 @@
 <div class="day"><span class="day-num">15</span></div>
 <div class="day"><span class="day-num">16</span></div>
 <div class="day"><span class="day-num">17</span></div>
-<div class="day"><span class="day-num">18</span><div class="chip" style="background:#2980b9;" data-id="homestead-life-conf-2026" onclick="openModal('homestead-life-conf-2026')">Homesteading Life Conference…</div><div class="chip" style="background:#2980b9;" data-id="homestead-life-conf-2027" onclick="openModal('homestead-life-conf-2027')">Homesteading Life Conference…</div></div>
-<div class="day"><span class="day-num">19</span><div class="chip continuation" style="background:#2980b988;" data-id="homestead-life-conf-2026"></div><div class="chip continuation" style="background:#2980b988;" data-id="homestead-life-conf-2027"></div></div>
-<div class="day"><span class="day-num">20</span><div class="chip continuation" style="background:#2980b988;" data-id="homestead-life-conf-2026"></div><div class="chip continuation" style="background:#2980b988;" data-id="homestead-life-conf-2027"></div></div>
-<div class="day"><span class="day-num">21</span><div class="chip continuation" style="background:#2980b988;" data-id="homestead-life-conf-2026"></div><div class="chip continuation" style="background:#2980b988;" data-id="homestead-life-conf-2027"></div></div>
-<div class="day"><span class="day-num">22</span><div class="chip continuation" style="background:#2980b988;" data-id="homestead-life-conf-2026"></div><div class="chip continuation" style="background:#2980b988;" data-id="homestead-life-conf-2027"></div></div>
+<div class="day"><span class="day-num">18</span><div class="chip" style="background:#2980b9;" data-id="homestead-life-conf-2026" onclick="openModal('homestead-life-conf-2026')">Homesteading Life Conference…</div><div class="chip" style="background:#2980b9;" data-id="homestead-life-conf-2027" onclick="openModal('homestead-life-conf-2027')">Homesteading Life Conference…</div><div class="chip" style="background:#2980b9;" data-id="ladies-homesteading-camp-2027" onclick="openModal('ladies-homesteading-camp-2027')">2027 Ladies Homesteading Cam…</div></div>
+<div class="day"><span class="day-num">19</span><div class="chip continuation" style="background:#2980b988;" data-id="homestead-life-conf-2026"></div><div class="chip continuation" style="background:#2980b988;" data-id="homestead-life-conf-2027"></div><div class="chip continuation" style="background:#2980b988;" data-id="ladies-homesteading-camp-2027"></div></div>
+<div class="day"><span class="day-num">20</span><div class="chip continuation" style="background:#2980b988;" data-id="homestead-life-conf-2026"></div><div class="chip continuation" style="background:#2980b988;" data-id="homestead-life-conf-2027"></div><div class="chip continuation" style="background:#2980b988;" data-id="ladies-homesteading-camp-2027"></div></div>
+<div class="day"><span class="day-num">21</span><div class="chip continuation" style="background:#2980b988;" data-id="homestead-life-conf-2026"></div><div class="chip continuation" style="background:#2980b988;" data-id="homestead-life-conf-2027"></div><div class="chip continuation" style="background:#2980b988;" data-id="ladies-homesteading-camp-2027"></div></div>
+<div class="day"><span class="day-num">22</span><div class="chip continuation" style="background:#2980b988;" data-id="homestead-life-conf-2026"></div><div class="chip continuation" style="background:#2980b988;" data-id="homestead-life-conf-2027"></div><div class="chip continuation" style="background:#2980b988;" data-id="ladies-homesteading-camp-2027"></div></div>
 <div class="day"><span class="day-num">23</span></div>
 <div class="day"><span class="day-num">24</span></div>
 <div class="day"><span class="day-num">25</span></div>
@@ -880,8 +918,8 @@
 <div class="day empty"></div>
 <div class="day"><span class="day-num">1</span><div class="chip" style="background:#546e7a;" data-id="nlhg-2027-09" onclick="openModal('nlhg-2027-09')">NLHG National Virtual Gather…</div></div>
 <div class="day"><span class="day-num">2</span></div>
-<div class="day"><span class="day-num">3</span></div>
-<div class="day"><span class="day-num">4</span></div>
+<div class="day"><span class="day-num">3</span><div class="chip" style="background:#2980b9;" data-id="ozarks-expo-2027" onclick="openModal('ozarks-expo-2027')">Ozarks Homesteading Expo</div></div>
+<div class="day"><span class="day-num">4</span><div class="chip continuation" style="background:#2980b988;" data-id="ozarks-expo-2027"></div></div>
 <div class="day"><span class="day-num">5</span></div>
 <div class="day"><span class="day-num">6</span></div>
 <div class="day"><span class="day-num">7</span></div>
@@ -963,9 +1001,52 @@
           </div>
         </div>
         <div class="month-block">
+          <h2 class="month-title">November 2027</h2>
+          <div class="cal-grid">
+            <div class="dow">Sun</div><div class="dow">Mon</div><div class="dow">Tue</div>
+            <div class="dow">Wed</div><div class="dow">Thu</div><div class="dow">Fri</div>
+            <div class="dow">Sat</div>
+            <div class="day empty"></div>
+<div class="day"><span class="day-num">1</span></div>
+<div class="day"><span class="day-num">2</span></div>
+<div class="day"><span class="day-num">3</span><div class="chip" style="background:#546e7a;" data-id="nlhg-2027-11" onclick="openModal('nlhg-2027-11')">NLHG National Virtual Gather…</div></div>
+<div class="day"><span class="day-num">4</span></div>
+<div class="day"><span class="day-num">5</span></div>
+<div class="day"><span class="day-num">6</span></div>
+<div class="day"><span class="day-num">7</span></div>
+<div class="day"><span class="day-num">8</span></div>
+<div class="day"><span class="day-num">9</span></div>
+<div class="day"><span class="day-num">10</span></div>
+<div class="day"><span class="day-num">11</span></div>
+<div class="day"><span class="day-num">12</span></div>
+<div class="day"><span class="day-num">13</span></div>
+<div class="day"><span class="day-num">14</span></div>
+<div class="day"><span class="day-num">15</span></div>
+<div class="day"><span class="day-num">16</span></div>
+<div class="day"><span class="day-num">17</span></div>
+<div class="day"><span class="day-num">18</span></div>
+<div class="day"><span class="day-num">19</span></div>
+<div class="day"><span class="day-num">20</span></div>
+<div class="day"><span class="day-num">21</span></div>
+<div class="day"><span class="day-num">22</span></div>
+<div class="day"><span class="day-num">23</span></div>
+<div class="day"><span class="day-num">24</span></div>
+<div class="day"><span class="day-num">25</span></div>
+<div class="day"><span class="day-num">26</span></div>
+<div class="day"><span class="day-num">27</span></div>
+<div class="day"><span class="day-num">28</span></div>
+<div class="day"><span class="day-num">29</span></div>
+<div class="day"><span class="day-num">30</span></div>
+<div class="day empty"></div>
+<div class="day empty"></div>
+<div class="day empty"></div>
+<div class="day empty"></div>
+          </div>
+        </div>
+        <div class="month-block">
           <h2 class="month-title">Awaiting 2027 Dates</h2>
           <p style="margin:0 0 8px;opacity:.8;">These events have wrapped for 2026. We'll post new dates as soon as they're announced.</p>
-          <div><button class="chip" style="background:#8e44ad;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('clmhe-skagit-2026')">Country Living & Modern Homesteading Expo</button><button class="chip" style="background:#2980b9;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('ozarks-expo-2026')">Ozarks Homesteading Expo</button><button class="chip" style="background:#c0392b;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('afc-south-2026')">American Farmstead Convention (Homesteading Convention of the South)</button><button class="chip" style="background:#c0392b;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('willow-haven-2026')">Willow Haven Farm Homesteading Conference</button><button class="chip" style="background:#8e44ad;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('alaska-expo-2026')">Alaska Homestead Expo & Marketplace (3rd Annual)</button><button class="chip" style="background:#2980b9;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('prairie-roots-2026')">Prairie Roots Homesteading Summit</button><button class="chip" style="background:#e67e22;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('okhr-2026')">Oklahoma Homestead Rendezvous</button><button class="chip" style="background:#c0392b;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('prepper-camp-2026')">Prepper Camp</button><button class="chip" style="background:#c0392b;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('homestead-prep-festival-2026')">Kentucky Sustainable Living Festival (Homesteading & Preparedness)</button><button class="chip" style="background:#c0392b;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('self-reliance-festival-2026')">Self-Reliance Festival</button><button class="chip" style="background:#c0392b;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('wv-offgrid-expo-2026')">West Virginia Off-Grid Living Expo (Thrivalist Fair)</button><button class="chip" style="background:#f39c12;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('colorado-prepper-expo-2026')">Colorado Prepper Expo</button><button class="chip" style="background:#8e44ad;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('mountain-readiness-west-2026')">Mountain Readiness West</button><button class="chip" style="background:#c0392b;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('polyface-rogue-2026')">Polyface 2026 Rogue — Rogue Food Conference</button><button class="chip" style="background:#546e7a;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('american-regeneration-2026')">American Regeneration Conference 2026</button><button class="chip" style="background:#2980b9;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('mpp-topeka-meat-canning-2026')">Topeka MAG — Meat Canning Workshop with Angela Allard of Grumpy Acres Farm</button></div>
+          <div><button class="chip" style="background:#8e44ad;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('clmhe-skagit-2026')">Country Living & Modern Homesteading Expo</button><button class="chip" style="background:#2980b9;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('ozarks-expo-2026')">Ozarks Homesteading Expo</button><button class="chip" style="background:#c0392b;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('afc-south-2026')">American Farmstead Convention (Homesteading Convention of the South)</button><button class="chip" style="background:#c0392b;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('willow-haven-2026')">Willow Haven Farm Homesteading Conference</button><button class="chip" style="background:#8e44ad;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('alaska-expo-2026')">Alaska Homestead Expo & Marketplace (3rd Annual)</button><button class="chip" style="background:#2980b9;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('prairie-roots-2026')">Prairie Roots Homesteading Summit</button><button class="chip" style="background:#e67e22;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('okhr-2026')">Oklahoma Homestead Rendezvous</button><button class="chip" style="background:#c0392b;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('wapf-2026')">Wise Traditions Conference (26th Annual) — Weston A. Price Foundation</button><button class="chip" style="background:#c0392b;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('prepper-camp-2026')">Prepper Camp</button><button class="chip" style="background:#c0392b;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('homestead-prep-festival-2026')">Kentucky Sustainable Living Festival (Homesteading & Preparedness)</button><button class="chip" style="background:#c0392b;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('self-reliance-festival-2026')">Self-Reliance Festival</button><button class="chip" style="background:#c0392b;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('wv-offgrid-expo-2026')">West Virginia Off-Grid Living Expo (Thrivalist Fair)</button><button class="chip" style="background:#f39c12;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('colorado-prepper-expo-2026')">Colorado Prepper Expo</button><button class="chip" style="background:#8e44ad;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('mountain-readiness-west-2026')">Mountain Readiness West</button><button class="chip" style="background:#c0392b;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('sovereign-health-summit-2026')">Sovereign Health Summit</button><button class="chip" style="background:#c0392b;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('polyface-rogue-2026')">Polyface 2026 Rogue — Rogue Food Conference</button><button class="chip" style="background:#546e7a;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('american-regeneration-2026')">American Regeneration Conference 2026</button><button class="chip" style="background:#2980b9;opacity:.7;margin:4px;padding:6px 10px;border:0;color:#fff;cursor:pointer;border-radius:4px;" onclick="openModal('mpp-topeka-meat-canning-2026')">Topeka MAG — Meat Canning Workshop with Angela Allard of Grumpy Acres Farm</button></div>
         </div>
 </main>
 
@@ -1009,6 +1090,18 @@
         <span class="detail-label">Topics</span>
         <div class="detail-value tags" id="modal-tags"></div>
       </div>
+      <div class="detail-row" id="modal-guest-row" style="display:none">
+        <span class="detail-label">This Week's Guest</span>
+        <span class="detail-value" id="modal-guest"></span>
+      </div>
+      <div class="detail-row" id="modal-topic-row" style="display:none">
+        <span class="detail-label">Topic</span>
+        <span class="detail-value" id="modal-topic"></span>
+      </div>
+      <div class="detail-row" id="modal-social-row" style="display:none">
+        <span class="detail-label">Watch Live</span>
+        <span class="detail-value" id="modal-social"></span>
+      </div>
       <div class="modal-actions">
         <a id="modal-btn-tickets" class="btn btn-primary" href="#" target="_blank" rel="noopener">
           🎟 Get Tickets / Register
@@ -1049,7 +1142,9 @@ const EVENTS = [
     "url": "https://homesteadersofamerica.com",
     "ticket_url": "https://homesteadersofamerica.com",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "mhc-2026",
@@ -1084,7 +1179,9 @@ const EVENTS = [
     "url": "https://modernhomesteading.com",
     "ticket_url": "https://modernhomesteading.com",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "thc-ploughshare-2026",
@@ -1118,7 +1215,9 @@ const EVENTS = [
     "url": "https://thehomesteadconference.com/",
     "ticket_url": "https://thehomesteadconference.com/",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "homestead-festival-2026",
@@ -1147,7 +1246,9 @@ const EVENTS = [
     "url": "https://thehomesteadfestival.com",
     "ticket_url": "https://thehomesteadfestival.com",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "wche-2026",
@@ -1178,7 +1279,9 @@ const EVENTS = [
     "url": "https://www.westcoasthomesteadingexpo.com/",
     "ticket_url": "https://www.westcoasthomesteadingexpo.com/",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "clmhe-skagit-2026",
@@ -1207,7 +1310,9 @@ const EVENTS = [
     "url": "https://www.facebook.com/CountryLivingExpo/",
     "ticket_url": "https://www.facebook.com/CountryLivingExpo/",
     "status": "past",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "hoi-midwest-2026",
@@ -1248,7 +1353,9 @@ const EVENTS = [
     "url": "https://homesteadersofiowa.com/",
     "ticket_url": "https://homesteadersofiowa.com/",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "ozarks-expo-2026",
@@ -1276,7 +1383,9 @@ const EVENTS = [
     "url": "https://ozarkshomesteading.com",
     "ticket_url": "https://www.simpletix.com/e/2026-ozarks-homesteading-expo-marshfield-m-tickets-253685",
     "status": "past",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "okie-expo-2026",
@@ -1307,7 +1416,9 @@ const EVENTS = [
     "url": "https://okiehomesteading.com",
     "ticket_url": "https://okiehomesteading.com",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "afc-south-2026",
@@ -1346,7 +1457,9 @@ const EVENTS = [
     "url": "https://americanfarmsteadconvention.com",
     "ticket_url": "https://americanfarmsteadconvention.com",
     "status": "past",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "willow-haven-2026",
@@ -1369,7 +1482,9 @@ const EVENTS = [
     "url": "https://willowhavenfarmpa.com/portfolio/homesteading-conference",
     "ticket_url": "https://www.eventbrite.com/e/homesteading-conference-on-the-farm-2026-tickets-1633143398869",
     "status": "past",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "alaska-expo-2026",
@@ -1395,7 +1510,9 @@ const EVENTS = [
     "url": "https://commongroundalaska.com/event/2026-spring-alaska-homestead-expo/",
     "ticket_url": "https://www.tixtree.com/e/2026-spring-alaska-homestead-expo-ad3e099b48b4",
     "status": "past",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "prairie-roots-2026",
@@ -1431,7 +1548,9 @@ const EVENTS = [
     "url": "https://www.mcagexpo.com/homesteading-summit",
     "ticket_url": "https://tickets.mcagexpo.com/p/tickets",
     "status": "past",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "cahc-2026",
@@ -1455,7 +1574,9 @@ const EVENTS = [
     "url": "https://centralarhomesteading.com",
     "ticket_url": "https://centralarhomesteading.com",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "ewhe-2026",
@@ -1485,7 +1606,9 @@ const EVENTS = [
     "url": "https://sites.google.com/view/ewhomesteadingexpo",
     "ticket_url": "https://www.tixtree.com/e/eastern-washington-homesteading-expo-5349ae077f98",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "okhr-2026",
@@ -1514,13 +1637,15 @@ const EVENTS = [
     "url": "https://oklahomahomesteadrendezvous.org",
     "ticket_url": "https://oklahomahomesteadrendezvous.org",
     "status": "past",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "wapf-2026",
     "name": "Wise Traditions Conference (26th Annual) \u2014 Weston A. Price Foundation",
     "color": "#c0392b",
-    "date": "October 16\u201318, 2026 <span class='date-note'>(Friday\u2013Sunday; confirmed on official wisetraditions.org and westonaprice.org/events. Homepage banner consistently reads 'OCTOBER 16\u201318, 2026 \u00b7 Join us October 16-18 in DC.')</span>",
+    "date": "Next dates coming soon \u2014 last held October 16\u201318, 2026 <span class='date-note'>(Friday\u2013Sunday; confirmed on official wisetraditions.org and westonaprice.org/events. Homepage banner consistently reads 'OCTOBER 16\u201318, 2026 \u00b7 Join us October 16-18 in DC.')</span>",
     "location": "Omni Shoreham Hotel, Washington, DC",
     "description": "The annual Wise Traditions Conference by the Weston A. Price Foundation, held October 16\u201318, 2026 at the Omni Shoreham Hotel in Washington, DC. The event focuses on wise traditions for food, farming and the healing arts, typically attracting around 1,200 attendees, with roughly 45 speakers, about 75 exhibitors, and farm-to-table nutrient-dense meals. The Weston A. Price Foundation is a member-supported organization dedicated to restoring nutrient-dense foods to the table through education.",
     "speakers": [
@@ -1550,8 +1675,10 @@ const EVENTS = [
     "ticket_price": "Conference registration price still not published on the official site as of research date. Per third-party listings, rates include conference meals with one-, two-, or three-day passes plus reductions for ages 20 and younger. See wisetraditions.org.",
     "url": "https://www.wisetraditions.org/",
     "ticket_url": "https://www.wisetraditions.org/",
-    "status": "confirmed",
-    "verified": true
+    "status": "past",
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "prepper-camp-2026",
@@ -1591,7 +1718,9 @@ const EVENTS = [
     "url": "https://preppercamp.com",
     "ticket_url": "https://preppercamp.com",
     "status": "past",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "homestead-prep-festival-2026",
@@ -1615,7 +1744,9 @@ const EVENTS = [
     "url": "https://kentuckysustainableliving.com/pages/festivalmainpage10",
     "ticket_url": "https://kentuckysustainableliving.com/pages/festivalmainpage10",
     "status": "past",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "homestead-life-conf-2026",
@@ -1644,7 +1775,9 @@ const EVENTS = [
     "url": "https://www.homesteadinglifeconference.com/",
     "ticket_url": "https://www.homesteadinglifeconference.com/",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "homestead-prep-summit-2026",
@@ -1669,7 +1802,9 @@ const EVENTS = [
     "url": "https://hapsummit.com/",
     "ticket_url": "https://hapsummit.com/tickets/",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "self-reliance-festival-2026",
@@ -1707,7 +1842,9 @@ const EVENTS = [
     "url": "https://selfreliancefestival.com",
     "ticket_url": "https://selfreliancefestival.com",
     "status": "past",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "wv-offgrid-expo-2026",
@@ -1747,7 +1884,9 @@ const EVENTS = [
     "url": "https://wvoffgridexpo.com",
     "ticket_url": "https://wvoffgridexpo.com",
     "status": "past",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "colorado-prepper-expo-2026",
@@ -1780,7 +1919,9 @@ const EVENTS = [
     "url": "https://www.coprepperexpo.com/",
     "ticket_url": "https://www.coprepperexpo.com/",
     "status": "past",
-    "verified": false
+    "verified": false,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "mountain-readiness-west-2026",
@@ -1813,7 +1954,9 @@ const EVENTS = [
     "url": "https://www.mountainreadiness.com/mountain-readiness-west",
     "ticket_url": "https://www.mountainreadiness.com/mountain-readiness-west",
     "status": "past",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "mountain-readiness-fallout-2026",
@@ -1837,13 +1980,15 @@ const EVENTS = [
     "url": "https://www.mountainreadiness.com/fall-out",
     "ticket_url": "https://www.mountainreadiness.com/fall-out",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "sovereign-health-summit-2026",
     "name": "Sovereign Health Summit",
     "color": "#c0392b",
-    "date": "October 27\u201331, 2026 <span class='date-note'>(Tuesday\u2013Saturday, 5-day event, 9am\u20135pm each day. Confirmed unchanged.)</span>",
+    "date": "Next dates coming soon \u2014 last held October 27\u201331, 2026 <span class='date-note'>(Tuesday\u2013Saturday, 5-day event, 9am\u20135pm each day. Confirmed unchanged.)</span>",
     "location": "VanHoy Farms Family Campground, Harmony, NC",
     "description": "A five-day gathering dedicated to health freedom, resilience, and natural living, hosted by Mountain Readiness (also referenced as Appalachian Readiness in legal/liability text), Perma Pastures Farm, and Rustic Roots Heritage Homestead. Features keynote sessions, hands-on workshops, vendor exhibits, and community connection, focused on natural health, regenerative farming, biohacking, preparedness, and spiritual resilience. Runs 9am\u20135pm each day, rain or shine. Onsite RV/tent camping is limited and booked separately/directly through VanHoy Family Campground (704-539-5493) \u2014 the campground is an independent business not affiliated with the Summit; event tickets do NOT include camping. Parking is included with tickets; food trucks available on site; pets welcome (with restrictions); dump station on site; all ticket sales final.",
     "speakers": [
@@ -1878,8 +2023,10 @@ const EVENTS = [
     "ticket_price": "General Admission Full 5-Day Pass ~$250; Single Day Pass ~$99/day; Couples Pass $450 (two full 5-day GA tickets, 'Save $50', parking + vendor row access included); Vendor Row evening access $20 (6:00\u20138:00pm nightly, vendor row only, parking included); Livestream ticket available (full virtual access to all main stage presentations in real time). Parking included with all tickets. All sales final \u2014 no refunds, exchanges, or transfers.",
     "url": "https://www.sovereignhealthsummit.com",
     "ticket_url": "https://www.sovereignhealthsummit.com",
-    "status": "confirmed",
-    "verified": true
+    "status": "past",
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "mountain-readiness-lone-star-2027",
@@ -1906,7 +2053,9 @@ const EVENTS = [
     "url": "https://www.mountainreadiness.com/mountain-readiness-lone-star",
     "ticket_url": "https://www.mountainreadiness.com/mountain-readiness-lone-star",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "mountain-readiness-expo-2027",
@@ -1938,7 +2087,9 @@ const EVENTS = [
     "url": "https://www.mountainreadiness.com/mountain-readiness-expo",
     "ticket_url": "https://www.mountainreadiness.com/mountain-readiness-expo",
     "status": "confirmed",
-    "verified": false
+    "verified": false,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "homestead-life-conf-2027",
@@ -1969,7 +2120,9 @@ const EVENTS = [
     "url": "https://www.homesteadinglifeconference.com/",
     "ticket_url": "https://events.ticketleap.com/tickets/homesteading-life-conference/2027-homesteading-life-conference",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "homestead-event-tn-2026",
@@ -1991,7 +2144,9 @@ const EVENTS = [
     "url": "https://steveandsandy.com/the-homestead-event-tm",
     "ticket_url": "https://steveandsandy.com/the-homestead-event-tm",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "polyface-rogue-2026",
@@ -2026,7 +2181,9 @@ const EVENTS = [
     "url": "https://roguefoodconference.com/polyface-2026/",
     "ticket_url": "https://roguefoodconference.com/awesomestuff/polyface2026/polyface-rogue-august-14th-15th/",
     "status": "past",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "nlhg-2026-01",
@@ -2051,7 +2208,9 @@ const EVENTS = [
     "url": "https://www.nlhg.org/upcoming-events",
     "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
     "status": "past",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "nlhg-2026-02",
@@ -2074,7 +2233,9 @@ const EVENTS = [
     "url": "https://www.nlhg.org/upcoming-events",
     "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
     "status": "past",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "nlhg-2026-03",
@@ -2097,7 +2258,9 @@ const EVENTS = [
     "url": "https://www.nlhg.org/upcoming-events",
     "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
     "status": "past",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "nlhg-2026-04",
@@ -2121,7 +2284,9 @@ const EVENTS = [
     "url": "https://www.nlhg.org/upcoming-events",
     "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
     "status": "past",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "nlhg-2026-05",
@@ -2145,7 +2310,9 @@ const EVENTS = [
     "url": "https://www.nlhg.org/upcoming-events",
     "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
     "status": "past",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "nlhg-2026-06",
@@ -2171,7 +2338,9 @@ const EVENTS = [
     "url": "https://www.nlhg.org/upcoming-events",
     "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
     "status": "past",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "nlhg-2026-07",
@@ -2194,7 +2363,9 @@ const EVENTS = [
     "url": "https://www.nlhg.org/upcoming-events",
     "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
     "status": "past",
-    "verified": false
+    "verified": false,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "nlhg-2026-08",
@@ -2219,7 +2390,9 @@ const EVENTS = [
     "url": "https://www.nlhg.org/upcoming-events",
     "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
     "status": "past",
-    "verified": false
+    "verified": false,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "nlhg-2026-09",
@@ -2243,7 +2416,9 @@ const EVENTS = [
     "url": "https://www.nlhg.org/upcoming-events",
     "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
     "status": "past",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "nlhg-2026-10",
@@ -2266,7 +2441,9 @@ const EVENTS = [
     "url": "https://www.nlhg.org/upcoming-events",
     "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
     "status": "past",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "nlhg-2026-11",
@@ -2289,7 +2466,9 @@ const EVENTS = [
     "url": "https://www.nlhg.org/upcoming-events",
     "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "okie-expo-2027",
@@ -2310,7 +2489,9 @@ const EVENTS = [
     "url": "https://okiehomesteading.com",
     "ticket_url": "https://okiehomesteading.com",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "american-regeneration-2026",
@@ -2331,7 +2512,9 @@ const EVENTS = [
     "url": "https://events.acresusa.com/american-regeneration",
     "ticket_url": "https://events.acresusa.com/american-regeneration",
     "status": "past",
-    "verified": false
+    "verified": false,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "mpp-topeka-meat-canning-2026",
@@ -2355,7 +2538,9 @@ const EVENTS = [
     "url": "https://midwestpreparednessproject.com/events",
     "ticket_url": "https://midwestpreparednessproject.com/events",
     "status": "past",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "nlhg-2027-01",
@@ -2378,7 +2563,9 @@ const EVENTS = [
     "url": "https://www.nlhg.org/upcoming-events",
     "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "nlhg-2027-02",
@@ -2401,7 +2588,9 @@ const EVENTS = [
     "url": "https://www.nlhg.org/upcoming-events",
     "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "nlhg-2027-03",
@@ -2424,7 +2613,9 @@ const EVENTS = [
     "url": "https://www.nlhg.org/upcoming-events",
     "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "nlhg-2027-04",
@@ -2447,7 +2638,9 @@ const EVENTS = [
     "url": "https://www.nlhg.org/upcoming-events",
     "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "nlhg-2027-05",
@@ -2470,7 +2663,9 @@ const EVENTS = [
     "url": "https://www.nlhg.org/upcoming-events",
     "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "nlhg-2027-06",
@@ -2493,7 +2688,9 @@ const EVENTS = [
     "url": "https://www.nlhg.org/upcoming-events",
     "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "nlhg-2027-07",
@@ -2516,7 +2713,9 @@ const EVENTS = [
     "url": "https://www.nlhg.org/upcoming-events",
     "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "nlhg-2027-08",
@@ -2539,7 +2738,9 @@ const EVENTS = [
     "url": "https://www.nlhg.org/upcoming-events",
     "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "nlhg-2027-09",
@@ -2562,7 +2763,9 @@ const EVENTS = [
     "url": "https://www.nlhg.org/upcoming-events",
     "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   },
   {
     "id": "nlhg-2027-10",
@@ -2585,7 +2788,91 @@ const EVENTS = [
     "url": "https://www.nlhg.org/upcoming-events",
     "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
     "status": "confirmed",
-    "verified": true
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
+  },
+  {
+    "id": "ladies-homesteading-camp-2027",
+    "name": "2027 Ladies Homesteading Camp \u2014 5-Day Intensive Overnight Skills Camp",
+    "color": "#2980b9",
+    "date": "May 18\u201322, 2027 <span class='date-note'>(Monday May 18 through Friday May 22, 2027. Campers may arrive the evening before (Sunday May 17) after 5 PM at no extra charge. Schedule starts at 7 AM or before each day. Held at Ozark Camp & Retreat Center near Neosho, MO.)</span>",
+    "location": "10355 Eland Rd, Neosho, MO",
+    "description": "A 5-day intensive overnight homesteading skills camp for women \u2014 part summer camp, part retreat, part boot camp. Spend five full days immersed in hands-on homesteading skills alongside like-minded women, with overnight stays in cabins or dorms, all meals and snacks, all workshops, gifts, prizes, and evening farm-to-table dinners with faith-based inspiration. All-inclusive: spend nothing once you arrive.",
+    "speakers": [],
+    "highlights": [
+      "Bread Making \u2014 milling grains, sourdough, sweet breads, pie crusts, pizza dough and more",
+      "Gardening \u2014 growing, foraging, and making salves, tinctures, and soaps from the harvest",
+      "Food Preservation \u2014 full day of canning (water bath & pressure), fermenting, and more",
+      "Fiber Therapy \u2014 sewing, quilting, knitting, spinning, weaving",
+      "Livestock & Chickens \u2014 hands-on with popular breeds, cheesemaking, and chicken processing",
+      "Inspiration & Fellowship \u2014 evening farm-to-table dinners with faith-based speakers including Sarah of Living Traditions Homestead",
+      "Campfire optional refreshments each evening",
+      "5 full days overnight \u2014 cabins or dorm rooms, all meals and snacks included",
+      "Gifts and door prizes from sponsors \u2014 spend nothing once you arrive",
+      "Tickets very limited for quality hands-on experience \u2014 register early",
+      "Tickets transferable (not refundable)"
+    ],
+    "ticket_price": "Invoice sent within 24 hours of registration with payment link. Multiple payment options available. Spot not held until first payment made. Tickets non-refundable but transferable.",
+    "url": "https://ozarkshomesteading.com/ladies-camp",
+    "ticket_url": "https://ozarkshomesteading.com/ladies-camp",
+    "status": "confirmed",
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
+  },
+  {
+    "id": "ozarks-expo-2027",
+    "name": "Ozarks Homesteading Expo",
+    "color": "#2980b9",
+    "date": "September 3\u20134, 2027 <span class='date-note'>(Friday-Saturday, September 3-4, 2027. Dates confirmed by organizer; official website not yet fully updated. Based on 2026 pattern: gates at 7 AM, sessions at 8 AM each day.)</span>",
+    "location": "Ellis O. Jackson Park / Webster County Fairgrounds, 614 North Marshall Street, Marshfield, MO",
+    "description": "Annual two-day educational homesteading resource fair running since 2019 at the Webster County Fairgrounds in Marshfield, MO. Features 40+ teaching sessions, demonstrations, workshops, food trucks, and a large homesteading vendor marketplace (160+ vendors). Attendees learn from local, national, and internationally known experts across a wide range of homesteading topics.",
+    "speakers": [],
+    "highlights": [
+      "40+ teaching sessions and demonstrations",
+      "Natural beekeeping, foraging, and mushrooms",
+      "Livestock raising and processing (hog butchering, chicken processing, meat rabbits)",
+      "Off-grid / solar living",
+      "Blacksmithing, natural building, rocket mass heaters",
+      "Sourdough, fermenting, cheesemaking, soap making",
+      "Kids activities and homeschooling",
+      "160+ vendor marketplace",
+      "Food trucks",
+      "VIP tier with lounge, early entry, and video access"
+    ],
+    "ticket_price": "TBD \u2014 2027 tickets not yet on sale. 2026 pricing for reference: General Admission  (two-day access); GA with video access ; VIP  (VIP parking, early entry, AC lounge, premium seating, sponsor goodie tote, T-shirt, all video recordings). Kids 11 and under free with ticket.",
+    "url": "https://ozarkshomesteading.com",
+    "ticket_url": "https://ozarkshomesteading.com",
+    "status": "confirmed",
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
+  },
+  {
+    "id": "nlhg-2027-11",
+    "name": "NLHG National Virtual Gathering \u2014 November",
+    "color": "#546e7a",
+    "date": "November 3, 2027 <span class='date-note'>(Monthly virtual gathering \u2014 first Wednesday of each month, except December. Speaker/topic announced closer to the date.)</span>",
+    "location": "Virtual / Online, Online",
+    "description": "National Ladies Homestead Gathering's monthly National Virtual Gathering. In this live online event, women from across the country come together to learn, connect, and grow in all things homesteading. Each gathering features a special guest speaker on topics like gardening, livestock care, preparedness, canning, and DIY projects. Held on the first Wednesday of each month (except December). Free to attend \u2014 participation is via NLHG's online forums/community.",
+    "speakers": [],
+    "highlights": [
+      "monthly virtual gathering",
+      "women's homesteading community",
+      "features a special guest speaker each month",
+      "topics include gardening, livestock care, preparedness, canning, DIY projects",
+      "open to Chapter members and non-members alike",
+      "free to attend",
+      "online event"
+    ],
+    "ticket_price": "Free to attend \u2014 join the online community/forums at nlhg.org to participate live",
+    "url": "https://www.nlhg.org/upcoming-events",
+    "ticket_url": "https://nlhg.app.neoncrm.com/np/clients/nlhg/eventList.jsp",
+    "status": "confirmed",
+    "verified": true,
+    "social_links": {},
+    "show_episode": null
   }
 ];
 const eventMap = {};
@@ -2630,6 +2917,50 @@ function openModal(id) {
     document.getElementById('modal-tags-row').style.display = '';
   } else {
     document.getElementById('modal-tags-row').style.display = 'none';
+  }
+
+  // Show episode guest / topic
+  const ep = e.show_episode;
+  const guestRow  = document.getElementById('modal-guest-row');
+  const topicRow  = document.getElementById('modal-topic-row');
+  const guestEl   = document.getElementById('modal-guest');
+  const topicEl   = document.getElementById('modal-topic');
+  if (ep && ep.guest) {
+    guestEl.innerHTML = ep.doorstone_url
+      ? `<a href="${ep.doorstone_url}" target="_blank" rel="noopener" style="color:var(--red);">${ep.guest}</a>`
+      : ep.guest;
+    guestRow.style.display = '';
+  } else if (ep) {
+    guestEl.textContent = 'Guest TBD — check back soon';
+    guestRow.style.display = '';
+  } else {
+    guestRow.style.display = 'none';
+  }
+  if (ep && ep.topic) {
+    topicEl.textContent = ep.topic;
+    topicRow.style.display = '';
+  } else {
+    topicRow.style.display = 'none';
+  }
+
+  // Social links (for recurring show entries)
+  const socialEl = document.getElementById('modal-social');
+  const socialRow = document.getElementById('modal-social-row');
+  const sl = e.social_links || {};
+  if (sl.facebook || sl.youtube || sl.x) {
+    const links = [];
+    if (sl.facebook) links.push(`<a href="${sl.facebook}" target="_blank" rel="noopener" style="color:var(--red);text-decoration:none;margin-right:12px;">📘 Facebook</a>`);
+    if (sl.youtube)  links.push(`<a href="${sl.youtube}"  target="_blank" rel="noopener" style="color:var(--red);text-decoration:none;margin-right:12px;">▶ YouTube</a>`);
+    if (sl.x)        links.push(`<a href="${sl.x}"        target="_blank" rel="noopener" style="color:var(--red);text-decoration:none;">𝕏 X</a>`);
+    socialEl.innerHTML = links.join('');
+    socialRow.style.display = '';
+    document.getElementById('modal-btn-tickets').style.display = 'none';
+    document.getElementById('modal-btn-info').href = sl.youtube || sl.facebook || e.url;
+    document.getElementById('modal-btn-info').textContent = '▶ Watch Live';
+  } else {
+    socialRow.style.display = 'none';
+    document.getElementById('modal-btn-tickets').style.display = '';
+    document.getElementById('modal-btn-info').textContent = 'ℹ More Info';
   }
 
   document.getElementById('modal-btn-tickets').href = e.ticket_url || e.url;
